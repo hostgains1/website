@@ -70,14 +70,11 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-display text-[1.75rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.2] sm:leading-tight mb-5 sm:mb-6"
+            className="font-display text-[2rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.15] sm:leading-tight mb-5 sm:mb-6"
           >
-            <span className="block sm:inline">Kurzzeitvermietung</span>
-            <span className="hidden sm:inline"> </span>
-            <span className="block sm:inline">Kärnten:</span>
-            <br className="hidden sm:block" />
-            <span className="block mt-1 sm:mt-0 text-white/90">Deine Ferienwohnung,</span>
-            <span className="inline-block mt-2 sm:mt-0 text-[#314a43] bg-sand px-2 sm:px-3 py-0.5 rounded">
+            <span className="block">Kurzzeitvermietung Kärnten:</span>
+            <span className="block mt-2 sm:mt-1 text-white/90">Deine Ferienwohnung,</span>
+            <span className="inline-block mt-2 sm:mt-1 text-[#314a43] bg-sand px-3 py-1 rounded">
               unser Management.
             </span>
           </motion.h1>

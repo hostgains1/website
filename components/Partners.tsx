@@ -26,9 +26,9 @@ export const Partners: React.FC = () => {
           className="flex flex-col items-center justify-center gap-8"
         >
           {/* Title with accent line */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center justify-center gap-4 text-center">
             <div className="hidden sm:block w-12 h-[2px] bg-gradient-to-r from-transparent to-hostgains/30" />
-            <p className="text-sm sm:text-base text-hostgains font-semibold uppercase tracking-[0.15em]">
+            <p className="text-xs sm:text-sm md:text-base text-hostgains font-semibold uppercase tracking-[0.12em] sm:tracking-[0.15em]">
               Deine Wohnung auf allen Plattformen
             </p>
             <div className="hidden sm:block w-12 h-[2px] bg-gradient-to-l from-transparent to-hostgains/30" />

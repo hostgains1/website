@@ -35,16 +35,16 @@ export const Footer: React.FC = () => {
           <nav aria-label="Kontaktinformationen">
             <h2 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Kontakt</h2>
             <address className="not-italic">
-              <ul className="space-y-2 sm:space-y-3 text-gray-600 text-xs sm:text-sm" role="list">
-                <li className="flex items-start gap-2">
-                  <MapPin size={14} className="mt-0.5 sm:mt-1 shrink-0 text-hostgains sm:w-4 sm:h-4" aria-hidden="true" />
-                  <span>
+              <ul className="space-y-3 sm:space-y-4 text-gray-600 text-xs sm:text-sm" role="list">
+                <li className="flex items-start gap-2.5">
+                  <MapPin size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
+                  <span className="leading-relaxed">
                     Klagenfurt am Wörthersee<br/>
                     Kärnten, Österreich
                   </span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Mail size={14} className="shrink-0 text-hostgains sm:w-4 sm:h-4" aria-hidden="true" />
+                <li className="flex items-center gap-2.5">
+                  <Mail size={16} className="shrink-0 text-hostgains" aria-hidden="true" />
                   <a
                     href="mailto:info@hostgains.at"
                     className="hover:text-hostgains transition-colors"
@@ -53,8 +53,8 @@ export const Footer: React.FC = () => {
                     info@hostgains.at
                   </a>
                 </li>
-                <li className="flex items-center gap-2">
-                  <Phone size={14} className="shrink-0 text-hostgains sm:w-4 sm:h-4" aria-hidden="true" />
+                <li className="flex items-center gap-2.5">
+                  <Phone size={16} className="shrink-0 text-hostgains" aria-hidden="true" />
                   <a
                     href="tel:+4367762180829"
                     className="hover:text-hostgains transition-colors"

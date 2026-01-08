@@ -109,7 +109,7 @@ export const FAQ: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-display text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
+            className="font-display text-[1.5rem] sm:text-2xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
             Häufige Fragen zur <span className="text-hostgains-light">Vermietung</span>
           </motion.h2>

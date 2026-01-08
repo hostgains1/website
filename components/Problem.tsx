@@ -32,7 +32,7 @@ export const Problem: React.FC = () => {
   return (
     <Section
       id="problem"
-      className="relative bg-sand-light py-12 sm:py-20 md:py-32 overflow-hidden scroll-mt-20"
+      className="relative bg-sand-light pt-12 pb-24 sm:pt-20 sm:pb-32 md:pt-32 md:pb-40 overflow-hidden scroll-mt-20"
     >
       {/* Geometric Overlay Pattern */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none" aria-hidden="true">
@@ -62,7 +62,7 @@ export const Problem: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark mb-4 sm:mb-6 leading-tight"
+              className="font-display text-[1.625rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark mb-4 sm:mb-6 leading-tight"
             >
               Warum viele Ferienwohnungen
               <span className="text-hostgains-light"> unter Potenzial</span> bleiben

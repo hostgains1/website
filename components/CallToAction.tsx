@@ -61,7 +61,7 @@ export const CallToAction: React.FC = () => {
           <div className="w-full lg:w-2/5 text-left">
             <h2
               id="cta-heading"
-              className="font-display text-xl sm:text-2xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-5 md:mb-6 leading-tight"
+              className="font-display text-[1.5rem] sm:text-2xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-5 md:mb-6 leading-tight"
             >
               Schluss mit Leerstand. <br/>
               <span className="text-hostgains-light">Starte jetzt durch.</span>

@@ -32,7 +32,7 @@ export const Solution: React.FC = () => {
   return (
     <Section
       id="solution"
-      className="relative bg-hostgains py-12 sm:py-20 md:py-32 overflow-hidden scroll-mt-20"
+      className="relative bg-hostgains pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-44 overflow-hidden scroll-mt-20"
       aria-labelledby="solution-heading"
     >
       {/* Background Dot Pattern */}
@@ -64,7 +64,7 @@ export const Solution: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-display text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6"
+            className="font-display text-[1.5rem] sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6"
           >
             Was ist Kurzzeitvermietung-Management?
           </motion.h2>

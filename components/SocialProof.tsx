@@ -78,7 +78,7 @@ export const SocialProof: React.FC = () => {
         <header className="text-center mb-6 sm:mb-10 md:mb-16">
           <h2
             id="testimonials-heading"
-            className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
+            className="text-[1.5rem] sm:text-2xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
           >
             Das sagen unsere <span className="text-hostgains-light">Kunden</span>
           </h2>
