@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary Meta Tags -->
+    <title>Kurzzeitvermietung Kärnten | Airbnb Management Wörthersee | hostgains</title>
+    <meta name="title" content="Kurzzeitvermietung Kärnten | Airbnb Management Wörthersee | hostgains" />
+    <meta name="description" content="Professionelles Ferienwohnung-Management in Kärnten. hostgains steigert deine Auslastung um bis zu 28% – ohne Aufwand. Full-Service für Airbnb & Booking.com." />
+    <meta name="author" content="hostgains GmbH" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="canonical" href="https://hostgains.at/" />
+
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="AT-2" />
+    <meta name="geo.placename" content="Klagenfurt am Wörthersee" />
+    <meta name="geo.position" content="46.6364;14.3122" />
+    <meta name="ICBM" content="46.6364, 14.3122" />
+
+    <!-- Language and Locale -->
+    <meta name="language" content="German" />
+    <meta name="content-language" content="de-AT" />
+    <link rel="alternate" hreflang="de-AT" href="https://hostgains.at/" />
+    <link rel="alternate" hreflang="de" href="https://hostgains.at/" />
+    <link rel="alternate" hreflang="x-default" href="https://hostgains.at/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hostgains.at/" />
+    <meta property="og:title" content="hostgains | Professionelle Kurzzeitvermietung am Wörthersee" />
+    <meta property="og:description" content="Verdiene bis zu 28% mehr mit deiner Ferienwohnung. Full-Service Management für Airbnb, Booking.com & mehr. Lokales Team aus Klagenfurt. Kostenlose Analyse!" />
+    <meta property="og:image" content="https://hostgains.at/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="hostgains - Kurzzeitvermietung Klagenfurt am Wörthersee - Luxuriöse Ferienwohnung mit Seeblick" />
+    <meta property="og:locale" content="de_AT" />
+    <meta property="og:site_name" content="hostgains" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://hostgains.at/" />
+    <meta name="twitter:title" content="hostgains | Kurzzeitvermietung Klagenfurt & Wörthersee" />
+    <meta name="twitter:description" content="Professionelles Ferienwohnung-Management. Bis zu 27% mehr Umsatz. Full-Service für Airbnb & Booking.com. Lokales Team aus Klagenfurt." />
+    <meta name="twitter:image" content="https://hostgains.at/og-image.jpg" />
+    <meta name="twitter:image:alt" content="hostgains - Kurzzeitvermietung am Wörthersee" />
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#314a43" />
+    <meta name="theme-color" content="#314a43" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="dns-prefetch" href="https://calendly.com" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              hostgains: {
+                DEFAULT: '#314A43',
+                light: '#45695F',
+                dark: '#223630',
+                accent: '#45695F',
+              },
+              sand: {
+                DEFAULT: '#EEE9DD',
+                light: '#F5F2E9',
+                dark: '#E5DFD0',
+              },
+              accent: {
+                DEFAULT: '#45695F',
+                light: '#5A7D72',
+                muted: '#6B8A7F',
+              }
+            },
+            fontFamily: {
+              sans: ['Manrope', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+              display: ['Outfit', 'system-ui', 'sans-serif'],
+            },
+            screens: {
+              'xs': '375px',
+              'sm': '640px',
+              'md': '768px',
+              'lg': '1024px',
+              'xl': '1280px',
+              '2xl': '1536px',
+            },
+            fontSize: {
+              'xs': ['0.75rem', { lineHeight: '1rem' }],
+              'sm': ['0.875rem', { lineHeight: '1.25rem' }],
+              'base': ['1rem', { lineHeight: '1.5rem' }],
+              'lg': ['1.125rem', { lineHeight: '1.75rem' }],
+              'xl': ['1.25rem', { lineHeight: '1.75rem' }],
+              '2xl': ['1.5rem', { lineHeight: '2rem' }],
+              '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+              '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+              '5xl': ['3rem', { lineHeight: '1.1' }],
+              '6xl': ['3.75rem', { lineHeight: '1.05' }],
+              '7xl': ['4.5rem', { lineHeight: '1' }],
+            },
+            spacing: {
+              'safe-top': 'env(safe-area-inset-top)',
+              'safe-bottom': 'env(safe-area-inset-bottom)',
+              'safe-left': 'env(safe-area-inset-left)',
+              'safe-right': 'env(safe-area-inset-right)',
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Structured Data - Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://hostgains.at/#organization",
+      "name": "hostgains",
+      "legalName": "hostgains",
+      "alternateName": ["hostgains Kurzzeitvermietung", "hostgains Ferienwohnung Management"],
+      "description": "hostgains ist ein spezialisierter Dienstleister für Kurzzeitvermietung und Ferienwohnung-Management in Kärnten. Das Unternehmen übernimmt die vollständige Verwaltung von Ferienimmobilien auf Plattformen wie Airbnb und Booking.com – inklusive Gästebetreuung, Reinigung und dynamischer Preisgestaltung.",
+      "url": "https://hostgains.at",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://hostgains.at/logo.png",
+        "width": 200,
+        "height": 60
+      },
+      "image": "https://hostgains.at/og-image.jpg",
+      "telephone": "+43-677-62180829",
+      "email": "info@hostgains.at",
+      "foundingDate": "2024",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Klagenfurt am Wörthersee, Kärnten, Österreich"
+      },
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Mario Brenner",
+          "jobTitle": "Mitgründer & Geschäftsführer"
+        },
+        {
+          "@type": "Person",
+          "name": "Julian Ograjensek",
+          "jobTitle": "Mitgründer & Geschäftsführer"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Drautalstraße 48",
+        "addressLocality": "Klagenfurt am Wörthersee",
+        "addressRegion": "Kärnten",
+        "postalCode": "9061",
+        "addressCountry": "AT"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Klagenfurt am Wörthersee",
+          "containedInPlace": {"@type": "State", "name": "Kärnten"}
+        },
+        {
+          "@type": "City",
+          "name": "Velden am Wörthersee"
+        },
+        {
+          "@type": "City",
+          "name": "Pörtschach am Wörthersee"
+        },
+        {
+          "@type": "City",
+          "name": "Maria Wörth"
+        },
+        {
+          "@type": "State",
+          "name": "Kärnten",
+          "containedInPlace": {"@type": "Country", "name": "Österreich"}
+        }
+      ],
+      "knowsAbout": [
+        "Kurzzeitvermietung",
+        "Ferienwohnung Management",
+        "Airbnb Management",
+        "Booking.com Verwaltung",
+        "Dynamic Pricing",
+        "Channel Manager",
+        "Vacation Rental Management",
+        "Property Management",
+        "Gästebetreuung",
+        "Ferienimmobilien Österreich"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/hostgains",
+        "https://www.facebook.com/hostgains.at",
+        "https://www.linkedin.com/company/hostgains"
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://hostgains.at/#localbusiness",
+      "name": "hostgains - Kurzzeitvermietung Management Kärnten",
+      "alternateName": "hostgains Ferienwohnung Service",
+      "description": "Kurzzeitvermietung-Management ist die professionelle Verwaltung von Ferienwohnungen auf Buchungsplattformen. hostgains bietet Full-Service für Eigentümer in Kärnten: Von der Inseratserstellung über dynamisches Pricing bis zur 24/7 Gästebetreuung.",
+      "url": "https://hostgains.at",
+      "logo": "https://hostgains.at/logo.png",
+      "image": "https://hostgains.at/og-image.jpg",
+      "telephone": "+43-677-62180829",
+      "email": "info@hostgains.at",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Drautalstraße 48",
+        "addressLocality": "Klagenfurt am Wörthersee",
+        "addressRegion": "Kärnten",
+        "postalCode": "9061",
+        "addressCountry": "AT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 46.6364,
+        "longitude": 14.3122
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Klagenfurt am Wörthersee"},
+        {"@type": "City", "name": "Velden am Wörthersee"},
+        {"@type": "City", "name": "Pörtschach am Wörthersee"},
+        {"@type": "City", "name": "Maria Wörth"},
+        {"@type": "City", "name": "Krumpendorf"},
+        {"@type": "State", "name": "Kärnten"}
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Kurzzeitvermietung Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Airbnb Management Kärnten",
+              "description": "Vollständige Verwaltung deines Airbnb-Inserats inklusive Optimierung, Preisgestaltung und Gästebetreuung"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Booking.com Verwaltung",
+              "description": "Professionelles Listing-Management auf Booking.com mit Kalender-Synchronisation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dynamisches Pricing",
+              "description": "KI-gestützte Preisoptimierung basierend auf Nachfrage, Saison und lokalen Events"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "24/7 Gästebetreuung",
+              "description": "Rund-um-die-Uhr Kommunikation mit Gästen in Deutsch und Englisch"
+            }
+          }
+        ]
+      },
+      "priceRange": "Erfolgsbasiert",
+      "paymentAccepted": "Banküberweisung",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59",
+        "description": "24/7 Gästebetreuung"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "47",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+          "author": {"@type": "Person", "name": "Markus W."},
+          "reviewBody": "hostgains hat übernommen. Letzten Monat hatte ich 25% mehr Umsatz als jemals zuvor."
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Kurzzeitvermietung Management",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "hostgains"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Klagenfurt am Wörthersee und Umgebung"
+      },
+      "description": "Full-Service Kurzzeitvermietung für Ferienwohnungen. Inklusive Listing-Optimierung, dynamisches Pricing, 24/7 Gästekommunikation, Reinigungskoordination und mehr.",
+      "offers": {
+        "@type": "Offer",
+        "name": "Sorglos-Paket",
+        "description": "100% Performance-basiertes Full-Service Management für deine Ferienwohnung",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "description": "Keine Fixkosten - nur Umsatzbeteiligung bei Erfolg"
+        }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "hostgains Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Professionelles Inserat-Setup"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dynamisches Pricing mit KI"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "24/7 Gästekommunikation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Reinigungskoordination"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Structured Data - FAQ Schema (LLM-optimiert) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist Kurzzeitvermietung-Management?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kurzzeitvermietung-Management bezeichnet die professionelle Verwaltung von Ferienunterkünften auf Buchungsplattformen wie Airbnb und Booking.com. Der Service umfasst Inseratserstellung, Preisoptimierung, Gästekommunikation, Reinigungskoordination und Check-in-Management. Eigentümer können so passive Einnahmen erzielen, ohne sich selbst um die tägliche Vermietung kümmern zu müssen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was kostet die Kurzzeitvermietung mit hostgains?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "hostgains arbeitet zu 100% performance-basiert. Es gibt keine Fixkosten oder Einrichtungsgebühren. Eigentümer zahlen nur eine transparente Umsatzbeteiligung, wenn tatsächlich Buchungen generiert werden. Dieses Modell minimiert das Risiko für Eigentümer vollständig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie steigert hostgains die Auslastung einer Ferienwohnung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "hostgains steigert die Auslastung durch einen kombinierten Ansatz: Professionelle Fotos und psychologisch optimierte Inseratstexte erhöhen die Buchungsrate. Dynamisches Pricing passt die Preise täglich an Nachfrage, Saison und lokale Events an. Multi-Plattform-Präsenz auf Airbnb, Booking.com und VRBO maximiert die Reichweite. Im Durchschnitt erzielen Kunden 28% mehr Umsatz."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Regionen betreut hostgains in Österreich?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "hostgains ist spezialisiert auf Kärnten, insbesondere die Wörthersee-Region. Betreut werden Ferienwohnungen in Klagenfurt am Wörthersee, Velden, Pörtschach, Maria Wörth und Krumpendorf. Das lokale Team kennt den regionalen Markt und die saisonalen Besonderheiten der Tourismusregion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist dynamisches Pricing bei Ferienwohnungen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dynamisches Pricing ist eine automatisierte Preisstrategie, die Übernachtungspreise täglich an die aktuelle Marktsituation anpasst. Faktoren wie Nachfrage, Wochentag, Saison, lokale Events und Wettbewerbspreise werden berücksichtigt. Dadurch werden Preise in der Hochsaison maximiert und Leerstände in der Nebensaison reduziert."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Muss ich mich bei hostgains noch um Gäste und Reinigung kümmern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. hostgains bietet Full-Service-Management: 24/7 Gästekommunikation in Deutsch und Englisch, professioneller Check-in/Check-out, Koordination des lokalen Reinigungsteams und Qualitätskontrolle nach jedem Gast. Eigentümer müssen sich um nichts kümmern und erhalten monatliche transparente Abrechnungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist ein Channel Manager bei Kurzzeitvermietung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ein Channel Manager ist eine Software, die Kalender und Buchungen über mehrere Plattformen synchronisiert. Wenn eine Buchung auf Airbnb eingeht, werden die Daten automatisch auf Booking.com, VRBO und anderen Portalen aktualisiert. Dies verhindert Doppelbuchungen und maximiert die Sichtbarkeit der Ferienunterkunft."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - Breadcrumb -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hostgains.at/"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+      /* Base styles */
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Glass morphism effects */
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .glass-dark {
+        background: rgba(49, 74, 67, 0.8);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      /* Diagonal clip paths */
+      .clip-diagonal-bottom {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      }
+
+      .clip-diagonal-top {
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+      }
+
+      .clip-diagonal-both {
+        clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+      }
+
+      /* Mobile touch optimization */
+      @media (hover: none) and (pointer: coarse) {
+        .hover\:scale-105:hover {
+          transform: none;
+        }
+
+        button, a, input, select, textarea {
+          min-height: 44px;
+          min-width: 44px;
+        }
+      }
+
+      /* Safe area insets for notched devices */
+      @supports (padding: max(0px)) {
+        .safe-area-inset {
+          padding-left: max(1rem, env(safe-area-inset-left));
+          padding-right: max(1rem, env(safe-area-inset-right));
+        }
+      }
+
+      /* Reduced motion preference */
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+
+      /* Focus visible for accessibility */
+      :focus-visible {
+        outline: 2px solid #45695F;
+        outline-offset: 2px;
+      }
+
+      /* Skip link for accessibility */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #314a43;
+        color: white;
+        padding: 8px 16px;
+        z-index: 100;
+        transition: top 0.3s;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+
+      /* Custom Animations */
+      @keyframes float {
+        0%, 100% { transform: translateY(0) rotate(45deg); }
+        50% { transform: translateY(-10px) rotate(45deg); }
+      }
+
+      @keyframes pulse-soft {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+      }
+
+      @keyframes fade-in {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .animate-float {
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .animate-pulse-soft {
+        animation: pulse-soft 2s ease-in-out infinite;
+      }
+
+      .animate-fade-in {
+        animation: fade-in 0.8s ease-out forwards;
+      }
+
+      .animation-delay-100 { animation-delay: 0.1s; }
+      .animation-delay-200 { animation-delay: 0.2s; }
+      .animation-delay-300 { animation-delay: 0.3s; }
+      .animation-delay-400 { animation-delay: 0.4s; }
+
+      /* Text Gradient Effect */
+      .text-gradient {
+        background: linear-gradient(135deg, #45695F 0%, #314A43 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      /* Floating Card Effect */
+      .floating-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .floating-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px -10px rgba(49, 74, 67, 0.15);
+      }
+
+      /* Geometric Overlay */
+      .geo-overlay {
+        position: absolute;
+        inset: 0;
+        opacity: 0.03;
+        background-image: radial-gradient(circle at 2px 2px, currentColor 1px, transparent 1px);
+        background-size: 32px 32px;
+        pointer-events: none;
+      }
+    </style>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.1",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+        "react/": "https://esm.sh/react@^19.2.1/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.560.0",
+        "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+      }
+    }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body class="bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white">
+    <!-- Skip Navigation Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <div id="root"></div>
+
+    <!-- Noscript fallback -->
+    <noscript>
+      <div style="padding: 20px; text-align: center; background: #314a43; color: white;">
+        <h1>hostgains - Kurzzeitvermietung Klagenfurt</h1>
+        <p>Bitte aktiviere JavaScript, um diese Website vollständig nutzen zu können.</p>
+        <p>Kontakt: <a href="mailto:info@hostgains.at" style="color: #EEE9DD;">info@hostgains.at</a> | <a href="tel:+4367762180829" style="color: #EEE9DD;">+43 677 62180829</a></p>
+      </div>
+    </noscript>
+
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
