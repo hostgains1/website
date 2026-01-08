@@ -90,37 +90,37 @@ export const FAQ: React.FC = () => {
   return (
     <Section
       id="faq"
-      className="bg-sand-light py-16 sm:py-24 md:py-32"
+      className="bg-sand-light py-12 sm:py-20 md:py-32"
       aria-labelledby="faq-heading"
     >
       <article className="container mx-auto px-4 sm:px-6 max-w-3xl">
-        <header className="text-center mb-10 sm:mb-12 md:mb-16">
+        <header className="text-center mb-6 sm:mb-10 md:mb-16">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 bg-hostgains/5 text-hostgains px-4 py-2 rounded-full mb-4"
+            className="inline-flex items-center gap-1.5 sm:gap-2 bg-hostgains/5 text-hostgains px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4"
           >
-            <HelpCircle size={16} aria-hidden="true" />
-            <span className="text-xs sm:text-sm font-semibold">FAQ Kurzzeitvermietung</span>
+            <HelpCircle size={14} className="sm:w-4 sm:h-4" aria-hidden="true" />
+            <span className="text-[10px] sm:text-xs md:text-sm font-semibold">FAQ</span>
           </motion.div>
           <motion.h2
             id="faq-heading"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark"
+            className="font-display text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
-            Häufige Fragen zur <span className="text-hostgains-light">Ferienwohnung-Vermietung</span>
+            Häufige Fragen zur <span className="text-hostgains-light">Vermietung</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="mt-4 text-gray-600 max-w-2xl mx-auto"
+            className="mt-3 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed"
           >
-            Antworten auf die wichtigsten Fragen rund um Kurzzeitvermietung, Airbnb Management und professionelle Ferienwohnungs-Verwaltung in Kärnten.
+            Antworten auf die wichtigsten Fragen rund um Kurzzeitvermietung und Airbnb Management in Kärnten.
           </motion.p>
         </header>
 
@@ -128,7 +128,7 @@ export const FAQ: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-sand-dark"
+          className="bg-white rounded-xl sm:rounded-2xl md:rounded-3xl p-4 sm:p-6 md:p-8 border border-sand-dark"
         >
           {faqs.map((faq, i) => (
             <FAQItem

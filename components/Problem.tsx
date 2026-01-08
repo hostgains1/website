@@ -32,7 +32,7 @@ export const Problem: React.FC = () => {
   return (
     <Section
       id="problem"
-      className="relative bg-sand-light py-24 md:py-32 overflow-hidden scroll-mt-20"
+      className="relative bg-sand-light py-12 sm:py-20 md:py-32 overflow-hidden scroll-mt-20"
     >
       {/* Geometric Overlay Pattern */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none" aria-hidden="true">
@@ -45,24 +45,24 @@ export const Problem: React.FC = () => {
         />
       </div>
 
-      <article className="container relative z-10 mx-auto px-6 md:px-8" aria-labelledby="problem-heading">
+      <article className="container relative z-10 mx-auto px-4 sm:px-6 md:px-8" aria-labelledby="problem-heading">
         <div className="max-w-6xl mx-auto">
           {/* Section Header - SEO & LLM optimiert */}
-          <header className="text-center mb-16">
+          <header className="text-center mb-8 sm:mb-12 md:mb-16">
             <motion.span
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="inline-block px-4 py-1.5 mb-4 text-xs font-display font-semibold uppercase tracking-[0.2em] text-hostgains bg-hostgains/10 rounded-full"
+              className="inline-block px-3 sm:px-4 py-1 sm:py-1.5 mb-3 sm:mb-4 text-[10px] sm:text-xs font-display font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-hostgains bg-hostgains/10 rounded-full"
             >
-              Herausforderungen bei Kurzzeitvermietung
+              Herausforderungen
             </motion.span>
             <motion.h2
               id="problem-heading"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark mb-6"
+              className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark mb-4 sm:mb-6 leading-tight"
             >
               Warum viele Ferienwohnungen
               <span className="text-hostgains-light"> unter Potenzial</span> bleiben
@@ -72,34 +72,34 @@ export const Problem: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-lg text-gray-600 max-w-2xl mx-auto"
+              className="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed"
             >
-              Die Selbstverwaltung einer Ferienimmobilie ist komplex. Ohne professionelles Kurzzeitvermietung-Management verschenken Eigentümer oft erhebliches Einnahmepotenzial.
+              Die Selbstverwaltung einer Ferienimmobilie ist komplex. Ohne professionelles Management verschenken Eigentümer oft erhebliches Einnahmepotenzial.
             </motion.p>
           </header>
 
-          {/* Problem Cards - Offset Layout */}
-          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+          {/* Problem Cards - Single column on mobile */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
             {painPoints.map((item, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className={`group bg-white rounded-2xl p-8 border border-sand-dark/50 shadow-sm hover:shadow-xl hover:border-hostgains/20 transition-all duration-300 ${
-                  i % 2 === 1 ? "md:translate-y-8" : ""
+                transition={{ delay: i * 0.05 }}
+                className={`group bg-white rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 border border-sand-dark/50 shadow-sm hover:shadow-xl hover:border-hostgains/20 transition-all duration-300 ${
+                  i % 2 === 1 ? "md:translate-y-6 lg:translate-y-8" : ""
                 }`}
               >
-                <div className="flex items-start gap-5">
-                  <div className="flex-shrink-0 w-14 h-14 flex items-center justify-center rounded-xl bg-red-50 text-red-500 group-hover:bg-red-500 group-hover:text-white transition-colors duration-300">
-                    <item.icon className="w-7 h-7" strokeWidth={1.5} />
+                <div className="flex items-start gap-3 sm:gap-4 md:gap-5">
+                  <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 flex items-center justify-center rounded-lg sm:rounded-xl bg-red-50 text-red-500 group-hover:bg-red-500 group-hover:text-white transition-colors duration-300">
+                    <item.icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" strokeWidth={1.5} />
                   </div>
-                  <div>
-                    <h3 className="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-hostgains transition-colors">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-base sm:text-lg md:text-xl font-display font-bold text-gray-900 mb-1.5 sm:mb-2 group-hover:text-hostgains transition-colors">
                       {item.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                       {item.desc}
                     </p>
                   </div>
@@ -113,24 +113,24 @@ export const Problem: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mt-16 text-center"
+            className="mt-10 sm:mt-14 md:mt-16 text-center"
           >
-            <p className="text-xl md:text-2xl font-display font-medium text-gray-900 mb-8">
-              <strong>Die gute Nachricht:</strong> Professionelles Kurzzeitvermietung-Management löst diese Probleme.
+            <p className="text-base sm:text-xl md:text-2xl font-display font-medium text-gray-900 mb-5 sm:mb-8 leading-snug">
+              <strong>Die gute Nachricht:</strong> Professionelles Management löst diese Probleme.
             </p>
             <Link
               to="/analyse"
-              className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-bold py-3 px-8 rounded-xl transition-all hover:scale-[1.02]"
+              className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-bold py-3 px-6 sm:py-3.5 sm:px-8 rounded-xl transition-all hover:scale-[1.02] text-sm sm:text-base w-full sm:w-auto"
               title="Erfahre, wie hostgains deine Ferienwohnung professionell verwaltet"
             >
-              Professionelles Management entdecken <ArrowRight className="w-5 h-5" aria-hidden="true" />
+              Professionelles Management entdecken <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
             </Link>
           </motion.div>
         </div>
       </article>
 
       {/* Diagonal Transition to Next Section */}
-      <div className="absolute -bottom-1 left-0 w-full h-24" aria-hidden="true">
+      <div className="absolute -bottom-1 left-0 w-full h-12 sm:h-16 md:h-24" aria-hidden="true">
         <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon fill="#314A43" points="0,100 100,0 100,100" />
         </svg>

@@ -1,13 +1,34 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export const WhatsAppButton: React.FC = () => {
+  const [isVisible, setIsVisible] = useState(false);
   const phoneNumber = '4367762180829';
   const message = encodeURIComponent('Hallo, ich möchte meine Ferienwohnung professionell vermieten lassen. Können Sie mir weiterhelfen?');
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show button after scrolling past hero section (approx 80% of viewport height)
+      const scrollThreshold = window.innerHeight * 0.8;
+      setIsVisible(window.scrollY > scrollThreshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check initial position
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end gap-2">
+    <AnimatePresence>
+      {isVisible && (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.8, y: 20 }}
+      animate={{ opacity: 1, scale: 1, y: 0 }}
+      exit={{ opacity: 0, scale: 0.8, y: 20 }}
+      className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end gap-2"
+    >
       {/* Chat bubble tooltip */}
       <motion.div
         initial={{ opacity: 0, y: 10, scale: 0.9 }}
@@ -59,6 +80,8 @@ export const WhatsAppButton: React.FC = () => {
           </svg>
         </div>
       </motion.a>
-    </div>
+    </motion.div>
+      )}
+    </AnimatePresence>
   );
 };

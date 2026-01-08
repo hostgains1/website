@@ -65,33 +65,33 @@ export const Credentials: React.FC = () => {
 
   return (
     <Section
-      className="bg-sand-light py-16 sm:py-24 md:py-32"
+      className="bg-sand-light py-12 sm:py-20 md:py-32"
       aria-labelledby="credentials-heading"
     >
       <article className="container mx-auto px-4 sm:px-6">
         {/* E-A-T Header: Expertise, Authority, Trust */}
-        <header className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-          <p className="text-[10px] sm:text-xs font-bold tracking-[0.15em] sm:tracking-[0.2em] uppercase text-gray-500 mb-3 sm:mb-4">
-            Lokale Expertise für Kurzzeitvermietung in Kärnten
+        <header className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 md:mb-16">
+          <p className="text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.2em] uppercase text-gray-500 mb-2 sm:mb-4">
+            Lokale Expertise in Kärnten
           </p>
           <h2
             id="credentials-heading"
-            className="font-display text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8 leading-tight"
+            className="font-display text-xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 leading-tight"
           >
             Die einzigen <span className="text-hostgains-light">Profis</span> am Wörthersee
           </h2>
           {/* LLM-zitierfähiger Absatz über hostgains */}
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed mb-4">
-            <strong>hostgains</strong> ist ein spezialisierter Dienstleister für Kurzzeitvermietung in Kärnten, gegründet in Klagenfurt am Wörthersee.
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-2 sm:mb-4">
+            <strong>hostgains</strong> ist ein spezialisierter Dienstleister für Kurzzeitvermietung in Kärnten.
           </p>
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed hidden sm:block">
             Das Team kombiniert lokale Marktkenntnis mit moderner Technologie: Dynamisches Pricing, Multi-Plattform-Vertrieb und 24/7 Gästeservice sorgen für maximale Auslastung bei minimalem Aufwand für Eigentümer.
           </p>
         </header>
 
         {/* Team Section */}
-        <div className="mb-16 sm:mb-20 md:mb-24">
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-12 lg:gap-16">
+        <div className="mb-10 sm:mb-16 md:mb-24">
+          <div className="flex flex-row justify-center items-start gap-4 sm:gap-12 lg:gap-16">
             {team.map((member, i) => (
               <motion.div
                 key={i}
@@ -101,8 +101,8 @@ export const Credentials: React.FC = () => {
                 transition={{ delay: i * 0.15 }}
                 className="text-center group"
               >
-                <div className="relative mb-5 sm:mb-6">
-                  <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 mx-auto rounded-full overflow-hidden border-4 border-white shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
+                <div className="relative mb-5 sm:mb-6 w-fit mx-auto">
+                  <div className="w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-white shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
                     <img
                       src={member.image}
                       alt={`${member.name} - ${member.role} bei hostgains`}
@@ -110,25 +110,23 @@ export const Credentials: React.FC = () => {
                       loading="lazy"
                     />
                   </div>
-                  <div className="absolute -bottom-2 -right-2 sm:-bottom-3 sm:-right-3 w-10 h-10 sm:w-12 sm:h-12 bg-hostgains rounded-full flex items-center justify-center shadow-lg">
-                    <a
-                      href={member.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-white hover:scale-110 transition-transform"
-                      aria-label={`${member.name} auf LinkedIn`}
-                    >
-                      <Linkedin size={18} className="sm:w-5 sm:h-5" />
-                    </a>
-                  </div>
+                  <a
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute bottom-1 right-1 sm:bottom-2 sm:right-2 w-9 h-9 sm:w-12 sm:h-12 bg-hostgains rounded-full flex items-center justify-center shadow-lg text-white hover:scale-110 transition-transform"
+                    aria-label={`${member.name} auf LinkedIn`}
+                  >
+                    <Linkedin size={16} className="sm:w-5 sm:h-5" />
+                  </a>
                 </div>
-                <h3 className="font-display text-xl sm:text-2xl font-bold text-gray-900 mb-1">
+                <h3 className="font-display text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-0.5 sm:mb-1">
                   {member.name}
                 </h3>
-                <p className="text-hostgains font-medium text-sm sm:text-base mb-2">
+                <p className="text-hostgains font-medium text-xs sm:text-sm md:text-base mb-1.5 sm:mb-2">
                   {member.role}
                 </p>
-                <p className="text-gray-600 text-sm sm:text-base max-w-xs mx-auto leading-relaxed">
+                <p className="text-gray-600 text-xs sm:text-sm md:text-base max-w-[280px] sm:max-w-xs mx-auto leading-relaxed hidden sm:block">
                   {member.description}
                 </p>
               </motion.div>
@@ -138,37 +136,37 @@ export const Credentials: React.FC = () => {
 
         <ul
           id="leistungen"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 scroll-mt-24"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-5 md:gap-8 scroll-mt-24"
           role="list"
           aria-label="hostgains Kurzzeitvermietung Services in Klagenfurt"
         >
           {features.map((item, i) => (
             <motion.li
               key={i}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className={`p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl transition-all duration-300 ${
+              transition={{ delay: i * 0.05 }}
+              className={`p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl sm:rounded-2xl md:rounded-3xl transition-all duration-300 ${
                 item.dark
                   ? 'bg-hostgains text-white shadow-xl hover:-translate-y-2'
                   : 'bg-white border border-sand-dark shadow-sm hover:shadow-xl hover:border-hostgains/20'
               }`}
             >
               <div
-                className={`w-12 h-12 sm:w-14 sm:h-14 rounded-lg sm:rounded-xl flex items-center justify-center mb-6 sm:mb-8 ${
+                className={`w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-6 md:mb-8 ${
                   item.dark
                     ? 'bg-white/10 text-white'
                     : 'bg-sand text-hostgains'
                 }`}
                 aria-hidden="true"
               >
-                <item.icon size={24} strokeWidth={item.dark ? 2 : 2.5} className="sm:w-7 sm:h-7" />
+                <item.icon size={20} strokeWidth={item.dark ? 2 : 2.5} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
               </div>
-              <h3 className={`text-lg sm:text-xl md:text-2xl font-bold font-display mb-3 sm:mb-4 ${item.dark ? 'text-white' : 'text-gray-900'}`}>
+              <h3 className={`text-base sm:text-lg md:text-xl lg:text-2xl font-bold font-display mb-2 sm:mb-3 md:mb-4 ${item.dark ? 'text-white' : 'text-gray-900'}`}>
                 {item.title}
               </h3>
-              <p className={`leading-relaxed text-sm sm:text-base md:text-lg ${item.dark ? 'text-gray-300' : 'text-gray-600'}`}>
+              <p className={`leading-relaxed text-sm sm:text-base ${item.dark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {item.desc}
               </p>
             </motion.li>

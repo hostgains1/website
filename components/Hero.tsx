@@ -50,17 +50,17 @@ export const Hero: React.FC = () => {
         />
       </div>
 
-      <div className="container relative z-10 px-6 md:px-8">
+      <div className="container relative z-10 px-5 sm:px-6 md:px-8 pt-20 sm:pt-0">
         <div className="max-w-4xl mx-auto text-center">
           {/* Tagline Badge */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full bg-white/10 backdrop-blur-sm border border-white/20"
+            className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-5 sm:mb-8 rounded-full bg-white/10 backdrop-blur-sm border border-white/20"
           >
-            <span className="w-2 h-2 bg-sand rounded-full animate-pulse" />
-            <span className="text-sm text-white/90 font-medium tracking-wide">
+            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-sand rounded-full animate-pulse" />
+            <span className="text-xs sm:text-sm text-white/90 font-medium tracking-wide">
               Klagenfurt & Umgebung
             </span>
           </motion.div>
@@ -70,17 +70,15 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6"
+            className="font-display text-[1.75rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.2] sm:leading-tight mb-5 sm:mb-6"
           >
-            Kurzzeitvermietung Kärnten:
-            <br />
-            <span className="text-white/90">Deine Ferienwohnung,</span>
-            <br />
-            <span className="relative inline-block text-[#314a43] bg-sand px-3 rounded">
+            <span className="block sm:inline">Kurzzeitvermietung</span>
+            <span className="hidden sm:inline"> </span>
+            <span className="block sm:inline">Kärnten:</span>
+            <br className="hidden sm:block" />
+            <span className="block mt-1 sm:mt-0 text-white/90">Deine Ferienwohnung,</span>
+            <span className="inline-block mt-2 sm:mt-0 text-[#314a43] bg-sand px-2 sm:px-3 py-0.5 rounded">
               unser Management.
-              <svg className="absolute -bottom-2 left-0 w-full h-3 text-[#314a43]" viewBox="0 0 100 10" preserveAspectRatio="none">
-                <path d="M0 8 Q 50 0, 100 8" stroke="currentColor" strokeWidth="3" fill="none" />
-              </svg>
             </span>
           </motion.h1>
 
@@ -89,7 +87,7 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed"
+            className="text-sm sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed px-2"
           >
             <strong>hostgains</strong> ist dein lokaler Partner für professionelles Airbnb- und Booking.com-Management am Wörthersee.
             Wir steigern deine Auslastung um bis zu 28% – du genießt passive Einnahmen ohne Aufwand.
@@ -100,15 +98,15 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8"
+            className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8"
           >
             <Link
               to="/analyse"
-              className="group inline-flex items-center justify-center gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-lg py-4 px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl"
+              className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-base sm:text-lg py-3.5 sm:py-4 px-6 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
               title="Kostenlose Potenzialanalyse für deine Ferienwohnung in Kärnten"
             >
               Kostenlose Potenzialanalyse
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+              <ArrowRight size={18} className="sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
             </Link>
             <a
               href="#how-it-works"
@@ -116,10 +114,10 @@ export const Hero: React.FC = () => {
                 e.preventDefault();
                 document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="inline-flex items-center justify-center gap-2 text-white/90 hover:text-white font-medium py-3 px-6 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/5 transition-all"
+              className="inline-flex items-center justify-center gap-2 text-white/90 hover:text-white font-medium py-3 px-5 sm:px-6 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/5 transition-all text-sm sm:text-base w-full sm:w-auto"
               title="Erfahre, wie Kurzzeitvermietung mit hostgains funktioniert"
             >
-              So funktioniert Kurzzeitvermietung
+              So funktioniert's
             </a>
           </motion.div>
 
@@ -128,21 +126,22 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="flex flex-wrap items-center justify-center gap-6 md:gap-8 mb-12"
+            className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-3 sm:gap-6 md:gap-8 mb-8 sm:mb-12"
           >
             {trustIndicators.map((item, index) => (
               <div key={index} className="flex items-center gap-2 text-white/80">
-                <Check className="w-5 h-5 text-sand" />
-                <span className="text-sm font-medium">{item}</span>
+                <Check className="w-4 h-4 sm:w-5 sm:h-5 text-sand" />
+                <span className="text-xs sm:text-sm font-medium">{item}</span>
               </div>
             ))}
           </motion.div>
 
-          {/* Scroll Indicator - moved higher */}
+          {/* Scroll Indicator - hidden on mobile */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
+            className="hidden sm:block"
           >
             <a
               href="#problem"
@@ -161,7 +160,7 @@ export const Hero: React.FC = () => {
 
       {/* Bottom Diagonal Cut */}
       <div
-        className="absolute bottom-0 left-0 w-full h-24 bg-white"
+        className="absolute bottom-0 left-0 w-full h-12 sm:h-16 md:h-24 bg-white"
         style={{ clipPath: "polygon(0 100%, 100% 0, 100% 100%, 0 100%)" }}
         aria-hidden="true"
       />

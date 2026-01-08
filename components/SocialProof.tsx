@@ -49,7 +49,7 @@ export const SocialProof: React.FC = () => {
 
   return (
     <Section
-      className="bg-sand py-16 sm:py-24 md:py-32 border-y border-sand-dark"
+      className="bg-sand py-12 sm:py-20 md:py-32 border-y border-sand-dark"
       aria-labelledby="testimonials-heading"
     >
       <article className="container mx-auto px-4 sm:px-6">
@@ -58,73 +58,73 @@ export const SocialProof: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid grid-cols-3 gap-4 sm:gap-8 mb-12 sm:mb-16 md:mb-20 max-w-3xl mx-auto"
+          className="grid grid-cols-3 gap-2 sm:gap-6 md:gap-8 mb-8 sm:mb-14 md:mb-20 max-w-3xl mx-auto"
         >
           {stats.map((stat, i) => (
             <div key={i} className="text-center">
-              <div className="inline-flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-hostgains/10 mb-2 sm:mb-3">
-                <stat.icon className="w-5 h-5 sm:w-6 sm:h-6 text-hostgains" />
+              <div className="inline-flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-hostgains/10 mb-1.5 sm:mb-3">
+                <stat.icon className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-hostgains" />
               </div>
-              <p className="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-hostgains-dark">
+              <p className="text-xl sm:text-2xl md:text-4xl font-display font-bold text-hostgains-dark">
                 {stat.value}
               </p>
-              <p className="text-xs sm:text-sm text-gray-500 mt-1">
+              <p className="text-[10px] sm:text-xs md:text-sm text-gray-500 mt-0.5 sm:mt-1 leading-tight">
                 {stat.label}
               </p>
             </div>
           ))}
         </motion.div>
 
-        <header className="text-center mb-10 sm:mb-12 md:mb-16">
+        <header className="text-center mb-6 sm:mb-10 md:mb-16">
           <h2
             id="testimonials-heading"
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
+            className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
           >
             Das sagen unsere <span className="text-hostgains-light">Kunden</span>
           </h2>
-          <p className="mt-4 text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="mt-2 sm:mt-4 text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
             Echte Erfahrungen von Ferienwohnungs-Eigentümern aus Kärnten
           </p>
         </header>
 
         <ul
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-10 sm:mb-12 md:mb-16"
+          className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-10 md:mb-16"
           role="list"
           aria-label="Kundenbewertungen von hostgains Kurzzeitvermietung"
         >
           {testimonials.map((testimonial, index) => (
             <motion.li
               key={index}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-sand-dark shadow-sm hover:shadow-md transition-shadow"
+              transition={{ delay: index * 0.05 }}
+              className="bg-white p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl md:rounded-3xl border border-sand-dark shadow-sm hover:shadow-md transition-shadow"
             >
               <figure>
                 <Quote
-                  className="text-hostgains-light mb-4 sm:mb-6 w-10 h-10 sm:w-12 sm:h-12"
+                  className="text-hostgains-light mb-3 sm:mb-5 md:mb-6 w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
                   fill="currentColor"
                   aria-hidden="true"
                 />
 
-                <blockquote className="text-sm sm:text-base text-gray-600 italic mb-6 sm:mb-8 leading-relaxed">
+                <blockquote className="text-sm sm:text-base text-gray-600 italic mb-4 sm:mb-6 md:mb-8 leading-relaxed">
                   "{testimonial.quote}"
                 </blockquote>
 
-                <figcaption className="flex items-center gap-3 sm:gap-4">
+                <figcaption className="flex items-center gap-3">
                   <img
                     src={testimonial.image}
                     alt={`${testimonial.name} - Zufriedener hostgains Kunde aus ${testimonial.role.split(', ')[1]} mit Ferienwohnung zur Kurzzeitvermietung`}
-                    className="w-12 h-12 sm:w-14 sm:h-14 rounded-full object-cover"
+                    className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full object-cover"
                     loading="lazy"
                     decoding="async"
                     width="56"
                     height="56"
                   />
                   <div>
-                    <cite className="font-bold text-gray-900 text-base sm:text-lg not-italic">{testimonial.name}</cite>
-                    <p className="text-xs sm:text-sm text-gray-500">{testimonial.role}</p>
+                    <cite className="font-bold text-gray-900 text-sm sm:text-base md:text-lg not-italic">{testimonial.name}</cite>
+                    <p className="text-[11px] sm:text-xs md:text-sm text-gray-500">{testimonial.role}</p>
                   </div>
                 </figcaption>
               </figure>

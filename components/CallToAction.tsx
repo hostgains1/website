@@ -51,28 +51,28 @@ export const CallToAction: React.FC = () => {
   return (
     <Section
       id="calendly"
-      className="bg-sand-light py-16 sm:py-20 md:py-24"
+      className="bg-sand-light py-10 sm:py-16 md:py-24"
       aria-labelledby="cta-heading"
     >
       <article className="container mx-auto px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto bg-white rounded-2xl sm:rounded-[2rem] border border-sand-dark p-5 sm:p-8 md:p-12 shadow-xl shadow-sand/50 flex flex-col lg:flex-row gap-8 sm:gap-10 md:gap-12 items-start">
+        <div className="max-w-5xl mx-auto bg-white rounded-xl sm:rounded-2xl md:rounded-[2rem] border border-sand-dark p-4 sm:p-6 md:p-12 shadow-xl shadow-sand/50 flex flex-col lg:flex-row gap-6 sm:gap-8 md:gap-12 items-start">
 
           {/* Text Side */}
           <div className="w-full lg:w-2/5 text-left">
             <h2
               id="cta-heading"
-              className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight"
+              className="font-display text-xl sm:text-2xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-5 md:mb-6 leading-tight"
             >
               Schluss mit Leerstand. <br/>
               <span className="text-hostgains-light">Starte jetzt durch.</span>
             </h2>
-            <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-              Wähle direkt einen Termin für deine kostenlose Erstberatung. Wir lernen deine Ferienwohnung kennen und klären, ob und wie hostgains dich sinnvoll unterstützen kann. Ehrlich, unverbindlich und auf deine Situation abgestimmt.
+            <p className="text-sm text-gray-600 mb-4 sm:mb-6 md:mb-8 leading-relaxed">
+              Wähle direkt einen Termin für deine kostenlose Erstberatung. Wir lernen deine Ferienwohnung kennen und klären, ob hostgains dich unterstützen kann.
             </p>
-            <ul className="space-y-2 sm:space-y-3" role="list" aria-label="Vorteile der kostenlosen Potenzialanalyse">
+            <ul className="space-y-2 sm:space-y-3 hidden sm:block" role="list" aria-label="Vorteile der kostenlosen Potenzialanalyse">
               {benefits.map((benefit, index) => (
-                <li key={index} className="flex items-start sm:items-center gap-2 sm:gap-3">
-                  <CheckCircle className="text-hostgains w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 mt-0.5 sm:mt-0" aria-hidden="true" />
+                <li key={index} className="flex items-center gap-2 sm:gap-3">
+                  <CheckCircle className="text-hostgains w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" aria-hidden="true" />
                   <span className={`text-xs sm:text-sm ${benefit.highlight ? 'text-gray-900 font-medium' : 'text-gray-700'}`}>
                     {benefit.text}
                   </span>
@@ -82,11 +82,11 @@ export const CallToAction: React.FC = () => {
           </div>
 
           {/* Calendly Widget Side */}
-          <div className="w-full lg:w-3/5 bg-sand-light rounded-xl sm:rounded-2xl shadow-sm border border-sand-dark overflow-hidden">
+          <div className="w-full lg:w-3/5 bg-sand-light rounded-lg sm:rounded-xl md:rounded-2xl shadow-sm border border-sand-dark overflow-hidden">
             <div
               className="calendly-inline-widget"
               data-url="https://calendly.com/hostgains/potentialanalyse?hide_gdpr_banner=1&primary_color=314A43"
-              style={{ minWidth: '320px', height: '630px' }}
+              style={{ minWidth: '280px', height: '550px' }}
             />
           </div>
 
