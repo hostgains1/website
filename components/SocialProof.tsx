@@ -53,26 +53,65 @@ export const SocialProof: React.FC = () => {
       aria-labelledby="testimonials-heading"
     >
       <article className="container mx-auto px-4 sm:px-6">
-        {/* Trust Stats */}
+        {/* Trust Stats - Pyramid Layout on Mobile */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="grid grid-cols-3 gap-2 sm:gap-6 md:gap-8 mb-8 sm:mb-14 md:mb-20 max-w-3xl mx-auto"
+          className="mb-10 sm:mb-14 md:mb-20 max-w-3xl mx-auto"
         >
-          {stats.map((stat, i) => (
-            <div key={i} className="text-center">
-              <div className="inline-flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-hostgains/10 mb-1.5 sm:mb-3">
-                <stat.icon className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-hostgains" />
-              </div>
-              <p className="text-3xl sm:text-3xl md:text-4xl font-display font-bold text-hostgains-dark">
-                {stat.value}
-              </p>
-              <p className="text-[10px] sm:text-xs md:text-sm text-gray-500 mt-0.5 sm:mt-1 leading-tight">
-                {stat.label}
-              </p>
+          {/* Mobile: Pyramid layout */}
+          <div className="flex flex-col items-center gap-6 sm:hidden">
+            {/* Top stat (center) */}
+            {(() => {
+              const TopIcon = stats[0].icon;
+              return (
+                <div className="text-center">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-hostgains/10 mb-2">
+                    <TopIcon className="w-7 h-7 text-hostgains" />
+                  </div>
+                  <p className="text-4xl font-display font-bold text-hostgains-dark">
+                    {stats[0].value}
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1 leading-tight">
+                    {stats[0].label}
+                  </p>
+                </div>
+              );
+            })()}
+            {/* Bottom two stats */}
+            <div className="flex justify-center gap-8">
+              {stats.slice(1).map((stat, i) => (
+                <div key={i} className="text-center">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-hostgains/10 mb-2">
+                    <stat.icon className="w-7 h-7 text-hostgains" />
+                  </div>
+                  <p className="text-4xl font-display font-bold text-hostgains-dark">
+                    {stat.value}
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1 leading-tight">
+                    {stat.label}
+                  </p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+          {/* Desktop: Grid layout */}
+          <div className="hidden sm:grid grid-cols-3 gap-6 md:gap-8">
+            {stats.map((stat, i) => (
+              <div key={i} className="text-center">
+                <div className="inline-flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full bg-hostgains/10 mb-3">
+                  <stat.icon className="w-6 h-6 md:w-7 md:h-7 text-hostgains" />
+                </div>
+                <p className="text-3xl md:text-4xl font-display font-bold text-hostgains-dark">
+                  {stat.value}
+                </p>
+                <p className="text-xs md:text-sm text-gray-500 mt-1 leading-tight">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </div>
         </motion.div>
 
         <header className="text-center mb-6 sm:mb-10 md:mb-16">
