@@ -76,7 +76,7 @@ export const Credentials: React.FC = () => {
           </p>
           <h2
             id="credentials-heading"
-            className="font-display text-[1.625rem] sm:text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 leading-tight"
+            className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 leading-tight"
           >
             Die einzigen <span className="text-hostgains-light">Profis</span> am Wörthersee
           </h2>

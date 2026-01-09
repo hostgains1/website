@@ -41,7 +41,7 @@ export const Guarantee: React.FC = () => {
             </div>
             <h2
               id="guarantee-heading"
-              className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6"
+              className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6"
             >
               Unsere Performance-Garantie
             </h2>
@@ -60,13 +60,13 @@ export const Guarantee: React.FC = () => {
             {guarantees.map((item, i) => (
               <div
                 key={i}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl sm:rounded-2xl p-5 sm:p-6 text-center hover:bg-white/10 transition-colors duration-300"
+                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-center hover:bg-white/10 transition-colors duration-300"
               >
-                <div className="inline-flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-sand/20 mb-3 sm:mb-4">
-                  <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-sand" />
+                <div className="inline-flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-sand/20 mb-4 sm:mb-5">
+                  <item.icon className="w-7 h-7 sm:w-8 sm:h-8 text-sand" />
                 </div>
-                <h3 className="text-base sm:text-lg font-bold mb-1">{item.title}</h3>
-                <p className="text-sm text-gray-400">{item.desc}</p>
+                <h3 className="text-lg sm:text-xl font-bold mb-2">{item.title}</h3>
+                <p className="text-sm sm:text-base text-gray-400">{item.desc}</p>
               </div>
             ))}
           </motion.div>
@@ -80,9 +80,9 @@ export const Guarantee: React.FC = () => {
           >
             <Link
               to="/analyse"
-              className="inline-flex items-center justify-center gap-2 bg-white hover:bg-sand text-hostgains-dark font-bold py-3 px-8 sm:py-4 sm:px-10 rounded-xl transition-all min-h-[48px] sm:min-h-[56px] shadow-lg text-sm sm:text-base"
+              className="inline-flex items-center justify-center gap-2 bg-white hover:bg-sand text-hostgains-dark font-semibold py-2.5 px-5 sm:py-3 sm:px-6 rounded-lg sm:rounded-xl transition-all shadow-md text-sm"
             >
-              Risikofrei starten <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
+              Risikofrei starten <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </motion.div>
         </div>

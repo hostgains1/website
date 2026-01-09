@@ -62,7 +62,7 @@ export const Problem: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="font-display text-[1.625rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark mb-4 sm:mb-6 leading-tight"
+              className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark mb-4 sm:mb-6 leading-tight"
             >
               Warum viele Ferienwohnungen
               <span className="text-hostgains-light"> unter Potenzial</span> bleiben
@@ -120,10 +120,10 @@ export const Problem: React.FC = () => {
             </p>
             <Link
               to="/analyse"
-              className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-bold py-3 px-6 sm:py-3.5 sm:px-8 rounded-xl transition-all hover:scale-[1.02] text-sm sm:text-base w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-semibold py-2.5 px-5 sm:py-3 sm:px-6 rounded-lg sm:rounded-xl transition-all hover:scale-[1.02] text-sm"
               title="Erfahre, wie hostgains deine Ferienwohnung professionell verwaltet"
             >
-              Professionelles Management entdecken <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
+              Management entdecken <ArrowRight className="w-4 h-4" aria-hidden="true" />
             </Link>
           </motion.div>
         </div>

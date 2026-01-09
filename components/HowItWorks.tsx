@@ -54,7 +54,7 @@ export const HowItWorks: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-display text-[1.5rem] sm:text-2xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
+            className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
             Wie startet man mit <span className="text-hostgains-light">Kurzzeitvermietung</span>?
           </motion.h2>

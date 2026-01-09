@@ -65,7 +65,7 @@ export const SocialProof: React.FC = () => {
               <div className="inline-flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-hostgains/10 mb-1.5 sm:mb-3">
                 <stat.icon className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-hostgains" />
               </div>
-              <p className="text-xl sm:text-2xl md:text-4xl font-display font-bold text-hostgains-dark">
+              <p className="text-3xl sm:text-3xl md:text-4xl font-display font-bold text-hostgains-dark">
                 {stat.value}
               </p>
               <p className="text-[10px] sm:text-xs md:text-sm text-gray-500 mt-0.5 sm:mt-1 leading-tight">
@@ -78,7 +78,7 @@ export const SocialProof: React.FC = () => {
         <header className="text-center mb-6 sm:mb-10 md:mb-16">
           <h2
             id="testimonials-heading"
-            className="text-[1.5rem] sm:text-2xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
+            className="text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
           >
             Das sagen unsere <span className="text-hostgains-light">Kunden</span>
           </h2>

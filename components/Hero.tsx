@@ -111,7 +111,7 @@ export const Hero: React.FC = () => {
                 e.preventDefault();
                 document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="inline-flex items-center justify-center gap-2 text-white/90 hover:text-white font-medium py-3 px-5 sm:px-6 rounded-xl border border-white/30 hover:border-white/50 hover:bg-white/5 transition-all text-sm sm:text-base w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-1 text-white/80 hover:text-white font-medium py-1.5 px-3 sm:px-4 rounded-md border border-white/20 hover:border-white/40 hover:bg-white/5 transition-all text-[11px] sm:text-xs"
               title="Erfahre, wie Kurzzeitvermietung mit hostgains funktioniert"
             >
               So funktioniert's
