@@ -38,8 +38,8 @@ export const Footer: React.FC = () => {
               <ul className="text-gray-600 text-xs sm:text-sm" role="list">
                 <li className="flex items-start gap-2.5">
                   <MapPin size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
-                  <span className="leading-relaxed">
-                    Klagenfurt am Wörthersee, Österreich
+                  <span className="leading-relaxed whitespace-nowrap">
+                    Klagenfurt, Österreich
                   </span>
                 </li>
                 <li className="flex items-start gap-2.5 mt-3">
