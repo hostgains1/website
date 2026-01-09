@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { HomePage } from './pages/HomePage';
 import { QuizPage } from './pages/QuizPage';
 import { AnalysePage } from './pages/AnalysePage';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/datenschutz" element={<Datenschutz />} />
       </Routes>
       <Analytics />
+      <SpeedInsights />
     </BrowserRouter>
   );
 };
