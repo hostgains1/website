@@ -11,12 +11,8 @@ export const Impressum: React.FC = () => {
       <header className="bg-white border-b border-sand-dark sticky top-0 z-50">
         <div className="container mx-auto px-4 sm:px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link
-              to="/"
-              className="text-xl sm:text-2xl font-display font-bold text-hostgains"
-              aria-label="hostgains - Zurück zur Startseite"
-            >
-              hostgains
+            <Link to="/" className="block">
+              <img src="/logo.png" alt="hostgains" className="h-10 sm:h-12 w-auto" />
             </Link>
             <Link
               to="/"
