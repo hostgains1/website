@@ -53,7 +53,7 @@ export const Footer: React.FC = () => {
                     info@hostgains.at
                   </a>
                 </li>
-                <li className="flex items-start gap-2.5 mt-2.5">
+                <li className="flex items-start gap-2.5 mt-1.5">
                   <Phone size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
                   <a
                     href="tel:+4367762180829"
