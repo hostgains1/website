@@ -35,30 +35,20 @@ export const Footer: React.FC = () => {
           <nav aria-label="Kontaktinformationen">
             <h2 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Kontakt</h2>
             <address className="not-italic">
-              <ul className="text-gray-600 text-xs sm:text-sm" role="list">
-                <li className="flex items-start gap-2.5">
-                  <MapPin size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
-                  <span className="leading-relaxed whitespace-nowrap">
-                    Klagenfurt, Österreich
-                  </span>
+              <ul className="text-gray-600 text-xs sm:text-sm space-y-3" role="list">
+                <li className="flex items-center gap-2.5">
+                  <MapPin size={16} className="shrink-0 text-hostgains" aria-hidden="true" />
+                  <span>Klagenfurt, Österreich</span>
                 </li>
-                <li className="flex items-start gap-2.5 mt-3">
-                  <Mail size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
-                  <a
-                    href="mailto:info@hostgains.at"
-                    className="hover:text-hostgains transition-colors"
-                    aria-label="E-Mail an hostgains senden: info@hostgains.at"
-                  >
+                <li className="flex items-center gap-2.5">
+                  <Mail size={16} className="shrink-0 text-hostgains" aria-hidden="true" />
+                  <a href="mailto:info@hostgains.at" className="hover:text-hostgains transition-colors">
                     info@hostgains.at
                   </a>
                 </li>
-                <li className="flex items-start gap-2.5 mt-3">
-                  <Phone size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
-                  <a
-                    href="tel:+4367762180829"
-                    className="hover:text-hostgains transition-colors"
-                    aria-label="hostgains anrufen: +43 677 62180829"
-                  >
+                <li className="flex items-center gap-2.5">
+                  <Phone size={16} className="shrink-0 text-hostgains" aria-hidden="true" />
+                  <a href="tel:+4367762180829" className="hover:text-hostgains transition-colors">
                     +43 677 62180829
                   </a>
                 </li>
