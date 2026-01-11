@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
       aria-label="hostgains Fußbereich mit Kontaktinformationen"
     >
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 lg:gap-12 mb-10 sm:mb-12 lg:mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-8 mb-10 sm:mb-12 lg:mb-16">
 
           {/* Company Info - E-A-T optimiert */}
           <div className="sm:col-span-2 lg:col-span-1">
@@ -84,6 +84,21 @@ export const Footer: React.FC = () => {
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
                   Datenschutz
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+          {/* Blog Section */}
+          <nav aria-label="Blog">
+            <h2 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Blog</h2>
+            <ul className="space-y-1.5 sm:space-y-2 text-gray-600 text-xs sm:text-sm" role="list">
+              <li>
+                <Link
+                  to="/blog"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Blog
                 </Link>
               </li>
             </ul>

@@ -16,6 +16,7 @@ export const Navbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+  const isBlogPage = location.pathname.startsWith('/blog');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,6 +59,9 @@ export const Navbar: React.FC = () => {
         element.scrollIntoView({ behavior: 'smooth' });
         setIsMobileMenuOpen(false);
       }
+    } else {
+      // For regular links like /blog, just close mobile menu
+      setIsMobileMenuOpen(false);
     }
   };
 
@@ -115,43 +119,67 @@ export const Navbar: React.FC = () => {
               </a>
             </div>
 
-            {/* Desktop Navigation - Centered */}
-            <div className="hidden lg:flex items-center justify-center gap-8">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  onClick={(e) => handleNavClick(e, link.href)}
-                  className={linkClasses}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
+            {/* Desktop Navigation - Centered (hidden on blog pages) */}
+            {!isBlogPage && (
+              <div className="hidden lg:flex items-center justify-center gap-8">
+                {navLinks.map((link) =>
+                  link.href.startsWith('/') ? (
+                    <Link
+                      key={link.href}
+                      to={link.href}
+                      className={linkClasses}
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      onClick={(e) => handleNavClick(e, link.href)}
+                      className={linkClasses}
+                    >
+                      {link.label}
+                    </a>
+                  )
+                )}
+              </div>
+            )}
 
             {/* Desktop CTA - Fixed width for balance */}
-            <div className="hidden lg:flex flex-1 justify-end">
+            <div className={`hidden lg:flex flex-1 justify-end ${isBlogPage ? '' : ''}`}>
               <Link to="/analyse" className={ctaClasses}>
                 Kostenlose Analyse
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className={`lg:hidden relative z-50 p-2 rounded-lg transition-colors ${
-                isMobileMenuOpen
-                  ? 'text-gray-900'
-                  : isScrolled || !isHomePage
-                    ? 'text-gray-900 hover:bg-gray-100'
-                    : 'text-white hover:bg-white/10'
-              }`}
-              aria-label={isMobileMenuOpen ? 'Menü schließen' : 'Menü öffnen'}
-              aria-expanded={isMobileMenuOpen}
-            >
-              {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-            </button>
+            {/* Mobile Menu Button (hidden on blog pages) */}
+            {!isBlogPage && (
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className={`lg:hidden relative z-50 p-2 rounded-lg transition-colors ${
+                  isMobileMenuOpen
+                    ? 'text-gray-900'
+                    : isScrolled || !isHomePage
+                      ? 'text-gray-900 hover:bg-gray-100'
+                      : 'text-white hover:bg-white/10'
+                }`}
+                aria-label={isMobileMenuOpen ? 'Menü schließen' : 'Menü öffnen'}
+                aria-expanded={isMobileMenuOpen}
+              >
+                {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+              </button>
+            )}
+
+            {/* Mobile CTA (shown on blog pages instead of menu button) */}
+            {isBlogPage && (
+              <div className="lg:hidden">
+                <Link to="/analyse" className={ctaClasses}>
+                  Kostenlose Analyse
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            )}
           </div>
         </div>
       </nav>
@@ -191,13 +219,23 @@ export const Navbar: React.FC = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: index * 0.1 }}
                       >
-                        <a
-                          href={link.href}
-                          onClick={(e) => handleNavClick(e, link.href)}
-                          className="block py-4 text-xl font-medium text-gray-900 hover:text-hostgains border-b border-gray-100 transition-colors"
-                        >
-                          {link.label}
-                        </a>
+                        {link.href.startsWith('/') ? (
+                          <Link
+                            to={link.href}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                            className="block py-4 text-xl font-medium text-gray-900 hover:text-hostgains border-b border-gray-100 transition-colors"
+                          >
+                            {link.label}
+                          </Link>
+                        ) : (
+                          <a
+                            href={link.href}
+                            onClick={(e) => handleNavClick(e, link.href)}
+                            className="block py-4 text-xl font-medium text-gray-900 hover:text-hostgains border-b border-gray-100 transition-colors"
+                          >
+                            {link.label}
+                          </a>
+                        )}
                       </motion.li>
                     ))}
                   </ul>
