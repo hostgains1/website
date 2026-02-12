@@ -1,5 +1,9 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ArrowRight } from 'lucide-react';
 
@@ -14,9 +18,9 @@ const navLinks = [
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const location = useLocation();
-  const isHomePage = location.pathname === '/';
-  const isBlogPage = location.pathname.startsWith('/blog');
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
+  const isBlogPage = pathname.startsWith('/blog');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,7 +34,7 @@ export const Navbar: React.FC = () => {
   // Close mobile menu on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
-  }, [location]);
+  }, [pathname]);
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
@@ -96,27 +100,28 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center justify-between">
             {/* Logo - Fixed width for balance */}
             <div className="flex-1 flex justify-start">
-              <a
-                href="#"
-                onClick={(e) => {
-                  e.preventDefault();
-                  if (isHomePage) {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  } else {
-                    window.location.href = '/';
-                  }
-                }}
+              <Link
+                href="/"
                 className="relative z-50 cursor-pointer"
                 aria-label="hostgains - Zum Seitenanfang"
+                onClick={(e) => {
+                  if (isHomePage) {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
+                }}
               >
-                <img
+                <Image
                   src="/logo.png"
                   alt="hostgains"
+                  width={120}
+                  height={48}
                   className={`h-10 sm:h-12 w-auto transition-all duration-300 ${
                     isScrolled || !isHomePage ? '' : 'brightness-0 invert'
                   }`}
+                  priority
                 />
-              </a>
+              </Link>
             </div>
 
             {/* Desktop Navigation - Centered (hidden on blog pages) */}
@@ -126,7 +131,7 @@ export const Navbar: React.FC = () => {
                   link.href.startsWith('/') ? (
                     <Link
                       key={link.href}
-                      to={link.href}
+                      href={link.href}
                       className={linkClasses}
                     >
                       {link.label}
@@ -147,7 +152,7 @@ export const Navbar: React.FC = () => {
 
             {/* Desktop CTA - Fixed width for balance */}
             <div className={`hidden lg:flex flex-1 justify-end ${isBlogPage ? '' : ''}`}>
-              <Link to="/analyse" className={ctaClasses}>
+              <Link href="/analyse" className={ctaClasses}>
                 Kostenlose Analyse
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -174,7 +179,7 @@ export const Navbar: React.FC = () => {
             {/* Mobile CTA (shown on blog pages instead of menu button) */}
             {isBlogPage && (
               <div className="lg:hidden">
-                <Link to="/analyse" className={ctaClasses}>
+                <Link href="/analyse" className={ctaClasses}>
                   Kostenlose Analyse
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -221,7 +226,7 @@ export const Navbar: React.FC = () => {
                       >
                         {link.href.startsWith('/') ? (
                           <Link
-                            to={link.href}
+                            href={link.href}
                             onClick={() => setIsMobileMenuOpen(false)}
                             className="block py-4 text-xl font-medium text-gray-900 hover:text-hostgains border-b border-gray-100 transition-colors"
                           >
@@ -249,7 +254,7 @@ export const Navbar: React.FC = () => {
                   className="pt-6"
                 >
                   <Link
-                    to="/analyse"
+                    href="/analyse"
                     onClick={() => setIsMobileMenuOpen(false)}
                     className="flex items-center justify-center gap-3 w-full bg-hostgains hover:bg-hostgains-dark text-white font-bold text-lg py-4 px-6 rounded-xl shadow-lg transition-all"
                   >

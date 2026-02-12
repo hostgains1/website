@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect } from 'react';
 import { Section } from './Section';
 import { CheckCircle } from 'lucide-react';

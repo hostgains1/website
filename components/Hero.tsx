@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowRight, ChevronDown, Check } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 export const Hero: React.FC = () => {
   const trustIndicators = [
@@ -52,19 +54,6 @@ export const Hero: React.FC = () => {
 
       <div className="container relative z-10 px-5 sm:px-6 md:px-8 pt-20 sm:pt-0">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Tagline Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-5 sm:mb-8 rounded-full bg-white/10 backdrop-blur-sm border border-white/20"
-          >
-            <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-sand rounded-full animate-pulse" />
-            <span className="text-xs sm:text-sm text-white/90 font-medium tracking-wide">
-              Klagenfurt & Umgebung
-            </span>
-          </motion.div>
-
           {/* Main Headline - H1 mit Haupt-Keywords */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -98,7 +87,7 @@ export const Hero: React.FC = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8"
           >
             <Link
-              to="/analyse"
+              href="/analyse"
               className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-base sm:text-lg py-3.5 sm:py-4 px-6 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
               title="Kostenlose Potenzialanalyse für deine Ferienwohnung in Kärnten"
             >

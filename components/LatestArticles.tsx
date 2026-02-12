@@ -1,5 +1,6 @@
+'use client';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Calendar, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { getLatestPosts } from '../data/blogPosts';
@@ -53,7 +54,7 @@ export const LatestArticles: React.FC = () => {
               transition={{ delay: index * 0.1 }}
               className="group bg-sand-light rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300"
             >
-              <Link to={`/blog/${post.slug}`} className="block">
+              <Link href={`/blog/${post.slug}`} className="block">
                 {/* Image */}
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <img
@@ -113,7 +114,7 @@ export const LatestArticles: React.FC = () => {
           className="text-center mt-10"
         >
           <Link
-            to="/blog"
+            href="/blog"
             className="inline-flex items-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-bold px-6 py-3 rounded-xl transition-all hover:scale-[1.02] hover:gap-3"
           >
             Alle Artikel ansehen

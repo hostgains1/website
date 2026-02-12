@@ -1,8 +1,10 @@
 'use client';
+
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, User, Mail, Phone } from 'lucide-react';
-import { Section } from './Section';
+import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, X, User, Mail, Phone } from 'lucide-react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 interface FormData {
   standort: string;
@@ -17,11 +19,12 @@ interface FormData {
 
 const TOTAL_QUESTIONS = 5;
 
-export const AnalyseFormular: React.FC = () => {
+export function AnalyseFormClient() {
   const [currentStep, setCurrentStep] = useState(1);
   const [showContactForm, setShowContactForm] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [datenschutzAccepted, setDatenschutzAccepted] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     standort: '',
     immobilienart: '',
@@ -54,7 +57,8 @@ export const AnalyseFormular: React.FC = () => {
     return (
       formData.name.trim().length > 0 &&
       formData.email.trim().length > 0 &&
-      formData.telefon.trim().length > 0
+      formData.telefon.trim().length > 0 &&
+      datenschutzAccepted
     );
   };
 
@@ -84,7 +88,7 @@ export const AnalyseFormular: React.FC = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...formData,
-          source: 'homepage-analyse-formular',
+          source: 'auslastungsanalyse',
           timestamp: new Date().toISOString(),
         }),
       });
@@ -139,7 +143,7 @@ export const AnalyseFormular: React.FC = () => {
   const inputClasses = "w-full bg-white border-2 border-sand-dark rounded-xl py-4 px-5 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-hostgains focus:border-hostgains transition-all text-lg";
 
   const optionClasses = (isSelected: boolean) => `
-    w-full p-4 sm:p-5 rounded-xl border-2 transition-all cursor-pointer text-left
+    w-full p-5 rounded-xl border-2 transition-all cursor-pointer text-left
     ${isSelected
       ? 'border-hostgains bg-hostgains/5 text-gray-900 ring-2 ring-hostgains/20'
       : 'border-sand-dark bg-white text-gray-700 hover:border-hostgains/50 hover:bg-sand-light'
@@ -152,11 +156,11 @@ export const AnalyseFormular: React.FC = () => {
         return (
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
-                <MapPin className="text-hostgains flex-shrink-0" size={24} />
-                Wo befindet sich Ihre Ferienimmobilie?
-              </h3>
-              <p className="text-gray-500 text-sm sm:text-base">Stadt, Region oder Adresse</p>
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
+                <MapPin className="text-hostgains flex-shrink-0" size={28} />
+                Wo befindet sich deine Ferienimmobilie?
+              </h2>
+              <p className="text-gray-500">Stadt, Region oder Adresse</p>
             </div>
             <input
               type="text"
@@ -174,13 +178,13 @@ export const AnalyseFormular: React.FC = () => {
         return (
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
-                <Home className="text-hostgains flex-shrink-0" size={24} />
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
+                <Home className="text-hostgains flex-shrink-0" size={28} />
                 Um welche Art von Immobilie handelt es sich?
-              </h3>
-              <p className="text-gray-500 text-sm sm:text-base">Wählen Sie die passende Option.</p>
+              </h2>
+              <p className="text-gray-500">Wähle die passende Option.</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {immobilienOptions.map((option) => {
                 const Icon = option.icon;
                 return (
@@ -190,9 +194,9 @@ export const AnalyseFormular: React.FC = () => {
                     onClick={() => updateFormData('immobilienart', option.value)}
                     className={optionClasses(formData.immobilienart === option.value)}
                   >
-                    <div className="flex items-center gap-3 sm:gap-4">
-                      <Icon size={22} className={formData.immobilienart === option.value ? 'text-hostgains' : 'text-gray-400'} />
-                      <span className="font-medium text-sm sm:text-base">{option.label}</span>
+                    <div className="flex items-center gap-4">
+                      <Icon size={24} className={formData.immobilienart === option.value ? 'text-hostgains' : 'text-gray-400'} />
+                      <span className="font-medium">{option.label}</span>
                     </div>
                   </button>
                 );
@@ -205,11 +209,10 @@ export const AnalyseFormular: React.FC = () => {
         return (
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
-                <span className="text-xl sm:text-2xl">📊</span>
-                Wie hoch ist Ihre aktuelle Auslastung?
-              </h3>
-              <p className="text-gray-500 text-sm sm:text-base">Eine grobe Schätzung genügt.</p>
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-2">
+                Wie hoch ist deine aktuelle Auslastung (geschätzt)?
+              </h2>
+              <p className="text-gray-500">Eine grobe Schätzung genügt.</p>
             </div>
             <div className="space-y-3">
               {auslastungOptions.map((option) => (
@@ -219,17 +222,17 @@ export const AnalyseFormular: React.FC = () => {
                   onClick={() => updateFormData('auslastung', option.value)}
                   className={optionClasses(formData.auslastung === option.value)}
                 >
-                  <div className="flex items-center gap-3 sm:gap-4">
-                    <div className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+                  <div className="flex items-center gap-4">
+                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
                       formData.auslastung === option.value
                         ? 'border-hostgains bg-hostgains'
                         : 'border-gray-300'
                     }`}>
                       {formData.auslastung === option.value && (
-                        <CheckCircle2 size={14} className="text-white" />
+                        <CheckCircle2 size={16} className="text-white" />
                       )}
                     </div>
-                    <span className="font-medium text-sm sm:text-base">{option.label}</span>
+                    <span className="font-medium text-lg">{option.label}</span>
                   </div>
                 </button>
               ))}
@@ -241,11 +244,10 @@ export const AnalyseFormular: React.FC = () => {
         return (
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
-                <span className="text-xl sm:text-2xl">⏱️</span>
-                Wie viel Zeit investieren Sie aktuell?
-              </h3>
-              <p className="text-gray-500 text-sm sm:text-base">Wählen Sie die Option, die am besten passt.</p>
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-2">
+                Wie viel Zeit investierst du aktuell selbst in die Vermietung?
+              </h2>
+              <p className="text-gray-500">Wähle die Option, die am besten passt.</p>
             </div>
             <div className="space-y-3">
               {zeitaufwandOptions.map((option) => (
@@ -255,17 +257,17 @@ export const AnalyseFormular: React.FC = () => {
                   onClick={() => updateFormData('zeitaufwand', option.value)}
                   className={optionClasses(formData.zeitaufwand === option.value)}
                 >
-                  <div className="flex items-center gap-3 sm:gap-4">
-                    <div className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+                  <div className="flex items-center gap-4">
+                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
                       formData.zeitaufwand === option.value
                         ? 'border-hostgains bg-hostgains'
                         : 'border-gray-300'
                     }`}>
                       {formData.zeitaufwand === option.value && (
-                        <CheckCircle2 size={14} className="text-white" />
+                        <CheckCircle2 size={16} className="text-white" />
                       )}
                     </div>
-                    <span className="font-medium text-sm sm:text-base">{option.label}</span>
+                    <span className="font-medium text-lg">{option.label}</span>
                   </div>
                 </button>
               ))}
@@ -277,11 +279,10 @@ export const AnalyseFormular: React.FC = () => {
         return (
           <div className="space-y-6">
             <div>
-              <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 flex items-center gap-3">
-                <span className="text-xl sm:text-2xl">🎯</span>
-                Was ist Ihre größte Herausforderung?
-              </h3>
-              <p className="text-gray-500 text-sm sm:text-base">Wählen Sie die wichtigste Option.</p>
+              <h2 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-2">
+                Was ist aktuell deine größte Herausforderung?
+              </h2>
+              <p className="text-gray-500">Wähle die wichtigste Option.</p>
             </div>
             <div className="space-y-3">
               {herausforderungOptions.map((option) => (
@@ -291,17 +292,17 @@ export const AnalyseFormular: React.FC = () => {
                   onClick={() => updateFormData('herausforderung', option.value)}
                   className={optionClasses(formData.herausforderung === option.value)}
                 >
-                  <div className="flex items-center gap-3 sm:gap-4">
-                    <div className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+                  <div className="flex items-center gap-4">
+                    <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
                       formData.herausforderung === option.value
                         ? 'border-hostgains bg-hostgains'
                         : 'border-gray-300'
                     }`}>
                       {formData.herausforderung === option.value && (
-                        <CheckCircle2 size={14} className="text-white" />
+                        <CheckCircle2 size={16} className="text-white" />
                       )}
                     </div>
-                    <span className="font-medium text-sm sm:text-base">{option.label}</span>
+                    <span className="font-medium text-lg">{option.label}</span>
                   </div>
                 </button>
               ))}
@@ -319,31 +320,32 @@ export const AnalyseFormular: React.FC = () => {
 
     return (
       <div className="space-y-6">
-        <div className="text-center mb-6">
-          <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2">
-            Wohin dürfen wir Ihnen die Einschätzung senden?
-          </h3>
+        <div className="text-center mb-8">
+          <h2 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-3">
+            Wohin dürfen wir dir die Einschätzung senden?
+          </h2>
         </div>
 
         <div className="space-y-4">
           <div className="relative">
-            <User className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={22} />
+            <User className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={24} />
             <input
               type="text"
-              placeholder="Vor- und Nachname"
+              placeholder="Dein Name"
               value={formData.name}
               onChange={(e) => updateFormData('name', e.target.value)}
               onKeyDown={handleKeyDown}
               className={contactInputClasses}
+              autoFocus
               autoComplete="name"
             />
           </div>
 
           <div className="relative">
-            <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={22} />
+            <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={24} />
             <input
               type="email"
-              placeholder="E-Mail-Adresse"
+              placeholder="Deine E-Mail"
               value={formData.email}
               onChange={(e) => updateFormData('email', e.target.value)}
               onKeyDown={handleKeyDown}
@@ -353,10 +355,10 @@ export const AnalyseFormular: React.FC = () => {
           </div>
 
           <div className="relative">
-            <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={22} />
+            <Phone className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={24} />
             <input
               type="tel"
-              placeholder="Telefonnummer"
+              placeholder="Deine Telefonnummer"
               value={formData.telefon}
               onChange={(e) => updateFormData('telefon', e.target.value)}
               onKeyDown={handleKeyDown}
@@ -366,9 +368,35 @@ export const AnalyseFormular: React.FC = () => {
           </div>
         </div>
 
-        <p className="text-sm text-gray-500 text-center">
-          Wir senden Ihnen eine kurze Einschätzung per E-Mail. Keine Verpflichtung, kein Verkaufsgespräch.
+        <p className="text-sm text-gray-500 text-center mt-6">
+          Wir senden dir eine kurze Einschätzung per E-Mail. Keine Verpflichtung, kein Verkaufsgespräch.
         </p>
+
+        <label className="flex items-start gap-3 cursor-pointer mt-6">
+          <div className="relative flex-shrink-0 mt-0.5">
+            <input
+              type="checkbox"
+              checked={datenschutzAccepted}
+              onChange={(e) => setDatenschutzAccepted(e.target.checked)}
+              className="sr-only"
+            />
+            <div className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all ${
+              datenschutzAccepted
+                ? 'bg-hostgains border-hostgains'
+                : 'bg-white border-gray-300'
+            }`}>
+              {datenschutzAccepted && (
+                <CheckCircle2 size={14} className="text-white" />
+              )}
+            </div>
+          </div>
+          <span className="text-sm text-gray-600 leading-relaxed">
+            Ich bin damit einverstanden, dass meine Daten zum Zwecke der Bearbeitung der Anfrage gespeichert und weiterverarbeitet werden. Weitere Informationen finden Sie in unserer{' '}
+            <Link href="/datenschutz" className="text-hostgains hover:underline">
+              Datenschutzbestimmung
+            </Link>.
+          </span>
+        </label>
       </div>
     );
   };
@@ -377,57 +405,52 @@ export const AnalyseFormular: React.FC = () => {
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
-      className="text-center py-8 sm:py-12"
+      className="text-center py-12"
     >
-      <div className="w-16 h-16 sm:w-20 sm:h-20 bg-hostgains/10 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
-        <CheckCircle2 size={36} className="text-hostgains" />
+      <div className="w-20 h-20 bg-hostgains/10 rounded-full flex items-center justify-center mx-auto mb-6">
+        <CheckCircle2 size={40} className="text-hostgains" />
       </div>
-      <h3 className="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-3">
+      <h2 className="text-3xl font-display font-bold text-gray-900 mb-3">
         Vielen Dank{formData.name ? `, ${formData.name.split(' ')[0]}` : ''}!
-      </h3>
-      <p className="text-gray-600 text-base sm:text-lg max-w-md mx-auto">
-        Wir haben Ihre Angaben erhalten und senden Ihnen die Einschätzung innerhalb von 24 Stunden per E-Mail.
+      </h2>
+      <p className="text-gray-600 text-lg mb-8 max-w-md mx-auto">
+        Wir haben deine Angaben erhalten und senden dir die Einschätzung innerhalb von 24 Stunden per E-Mail.
       </p>
+      <Link
+        href="/"
+        className="inline-flex items-center gap-2 text-hostgains font-medium hover:underline"
+      >
+        Zurück zur Startseite
+      </Link>
     </motion.div>
   );
 
   return (
-    <Section
-      id="analyse-formular"
-      className="bg-sand-light py-16 sm:py-20 md:py-24"
-      aria-labelledby="analyse-heading"
-    >
-      <article className="container mx-auto px-4 sm:px-6">
-        <div className="max-w-2xl mx-auto">
-          {/* Section Header */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-8 sm:mb-10"
+    <div className="min-h-screen bg-sand-light flex flex-col">
+      <header className="bg-white border-b border-sand-dark">
+        <div className="container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+          <Link href="/" className="block">
+            <Image src="/logo.png" alt="hostgains" width={120} height={48} className="h-10 sm:h-12 w-auto" />
+          </Link>
+          <Link
+            href="/"
+            className="p-2 hover:bg-sand rounded-full transition-colors"
+            aria-label="Schließen"
           >
-            <h2
-              id="analyse-heading"
-              className="font-display text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4"
-            >
-              Kostenlose Auslastungsanalyse
-            </h2>
-            <p className="text-gray-600 text-base sm:text-lg">
-              5 kurze Fragen · 1–2 Minuten · unverbindlich
-            </p>
-          </motion.div>
+            <X size={24} className="text-gray-500" />
+          </Link>
+        </div>
+      </header>
 
-          {/* Form Card */}
+      <main className="flex-1 flex items-center justify-center py-8 px-4">
+        <div className="w-full max-w-xl">
           {!isSubmitted ? (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="bg-white rounded-2xl shadow-xl p-5 sm:p-8 md:p-10"
+              animate={{ opacity: 1, y: 0 }}
+              className="bg-white rounded-2xl shadow-xl p-6 sm:p-10"
             >
-              {/* Progress Header */}
-              <div className="mb-6 sm:mb-8">
+              <div className="mb-8">
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-sm text-gray-500">
                     {showContactForm ? 'Kontaktdaten' : `Frage ${currentStep} von ${TOTAL_QUESTIONS}`}
@@ -446,8 +469,7 @@ export const AnalyseFormular: React.FC = () => {
                 </div>
               </div>
 
-              {/* Form Content */}
-              <div className="min-h-[320px] sm:min-h-[360px]">
+              <div className="min-h-[360px]">
                 <AnimatePresence mode="wait">
                   <motion.div
                     key={showContactForm ? 'contact' : currentStep}
@@ -461,15 +483,14 @@ export const AnalyseFormular: React.FC = () => {
                 </AnimatePresence>
               </div>
 
-              {/* Navigation Buttons */}
-              <div className="flex gap-3 sm:gap-4 mt-6 sm:mt-8">
+              <div className="flex gap-4 mt-8">
                 {(currentStep > 1 || showContactForm) && (
                   <button
                     type="button"
                     onClick={handleBack}
-                    className="flex items-center justify-center gap-2 px-4 sm:px-6 py-3 sm:py-4 rounded-xl border-2 border-sand-dark text-gray-600 hover:bg-sand transition-all font-medium text-sm sm:text-base"
+                    className="flex items-center justify-center gap-2 px-6 py-4 rounded-xl border-2 border-sand-dark text-gray-600 hover:bg-sand transition-all font-medium"
                   >
-                    <ArrowLeft size={18} />
+                    <ArrowLeft size={20} />
                     Zurück
                   </button>
                 )}
@@ -479,21 +500,21 @@ export const AnalyseFormular: React.FC = () => {
                     type="button"
                     onClick={handleNext}
                     disabled={!canProceedQuestion()}
-                    className={`flex-1 flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all ${
+                    className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
                       canProceedQuestion()
                         ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
                         : 'bg-gray-200 text-gray-400 cursor-not-allowed'
                     }`}
                   >
                     Weiter
-                    <ArrowRight size={18} />
+                    <ArrowRight size={20} />
                   </button>
                 ) : (
                   <button
                     type="button"
                     onClick={handleSubmit}
                     disabled={!canSubmitContact() || isSubmitting}
-                    className={`flex-1 flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 rounded-xl font-bold text-base sm:text-lg transition-all ${
+                    className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
                       canSubmitContact() && !isSubmitting
                         ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
                         : 'bg-gray-200 text-gray-400 cursor-not-allowed'
@@ -507,7 +528,7 @@ export const AnalyseFormular: React.FC = () => {
                     ) : (
                       <>
                         Einschätzung anfordern
-                        <Send size={18} />
+                        <Send size={20} />
                       </>
                     )}
                   </button>
@@ -515,18 +536,13 @@ export const AnalyseFormular: React.FC = () => {
               </div>
             </motion.div>
           ) : (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="bg-white rounded-2xl shadow-xl p-5 sm:p-8 md:p-10"
-            >
+            <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-10">
               {renderSuccessMessage()}
-            </motion.div>
+            </div>
           )}
 
-          {/* Trust Indicators */}
           {!isSubmitted && (
-            <div className="mt-6 flex items-center justify-center gap-4 sm:gap-6 text-xs sm:text-sm text-gray-500">
+            <div className="mt-6 flex items-center justify-center gap-6 text-sm text-gray-500">
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-hostgains rounded-full"></span>
                 100% kostenlos
@@ -538,7 +554,7 @@ export const AnalyseFormular: React.FC = () => {
             </div>
           )}
         </div>
-      </article>
-    </Section>
+      </main>
+    </div>
   );
-};
+}

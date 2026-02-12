@@ -1,5 +1,6 @@
+'use client';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
 
 export interface BreadcrumbItem {
@@ -48,7 +49,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, variant = 'ligh
         <ol className={`flex items-center flex-wrap gap-1 text-sm ${isDark ? 'text-white/70' : 'text-gray-500'}`}>
           <li className="flex items-center">
             <Link
-              to="/"
+              href="/"
               className={`flex items-center transition-colors ${isDark ? 'hover:text-white' : 'hover:text-hostgains'}`}
               aria-label="Zur Startseite"
             >
@@ -61,7 +62,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, variant = 'ligh
               <ChevronRight size={14} className={`mx-1 ${isDark ? 'text-white/50' : 'text-gray-400'}`} aria-hidden="true" />
               {item.href && index < items.length - 1 ? (
                 <Link
-                  to={item.href}
+                  href={item.href}
                   className={`transition-colors ${isDark ? 'hover:text-white' : 'hover:text-hostgains'}`}
                 >
                   {item.label}

@@ -1,5 +1,6 @@
+'use client';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import { BlogPost } from '../types/blog';
 import { formatDate } from '../utils/blog';
@@ -13,7 +14,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
   if (featured) {
     return (
       <article className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-        <Link to={`/blog/${post.slug}`} className="block">
+        <Link href={`/blog/${post.slug}`} className="block">
           <div className="grid md:grid-cols-2 gap-0">
             {/* Image */}
             <div className="relative aspect-[16/10] md:aspect-auto overflow-hidden">
@@ -79,7 +80,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
 
   return (
     <article className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col h-full">
-      <Link to={`/blog/${post.slug}`} className="flex flex-col h-full">
+      <Link href={`/blog/${post.slug}`} className="flex flex-col h-full">
         {/* Image */}
         <div className="relative aspect-[16/10] overflow-hidden">
           <img

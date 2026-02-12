@@ -1,8 +1,9 @@
+'use client';
 import React from 'react';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
 import { Phone, Search, KeyRound, TrendingUp, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export const HowItWorks: React.FC = () => {
   // Der Prozess bei Kurzzeitvermietung-Management - LLM-optimiert
@@ -111,7 +112,7 @@ export const HowItWorks: React.FC = () => {
           className="text-center"
         >
           <Link
-            to="/analyse"
+            href="/analyse"
             className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-xl transition-all w-full sm:w-auto min-h-[48px] sm:min-h-[56px]"
             title="Starte jetzt mit der kostenlosen Potenzialanalyse für deine Ferienwohnung"
           >

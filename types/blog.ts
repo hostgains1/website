@@ -7,7 +7,7 @@ export interface BlogPost {
   author: {
     name: string;
     role: string;
-    avatar?: string;
+    avatar: string;
   };
   publishedAt: string;
   updatedAt?: string;

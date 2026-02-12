@@ -1,8 +1,9 @@
+'use client';
 import React from 'react';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
 import { ShieldCheck, Percent, Clock, FileCheck, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export const Guarantee: React.FC = () => {
   const guarantees = [
@@ -79,7 +80,7 @@ export const Guarantee: React.FC = () => {
             className="mt-8 sm:mt-10 text-center"
           >
             <Link
-              to="/analyse"
+              href="/analyse"
               className="inline-flex items-center justify-center gap-2 bg-white hover:bg-sand text-hostgains-dark font-semibold py-2.5 px-5 sm:py-3 sm:px-6 rounded-lg sm:rounded-xl transition-all shadow-md text-sm"
             >
               Risikofrei starten <ArrowRight className="w-4 h-4" aria-hidden="true" />

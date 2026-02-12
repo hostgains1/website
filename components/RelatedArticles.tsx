@@ -1,5 +1,6 @@
+'use client';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { BlogPost } from '../types/blog';
 import { formatDate } from '../utils/blog';
@@ -25,7 +26,7 @@ export const RelatedArticles: React.FC<RelatedArticlesProps> = ({ posts, current
             key={post.slug}
             className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
           >
-            <Link to={`/blog/${post.slug}`}>
+            <Link href={`/blog/${post.slug}`}>
               {/* Image */}
               <div className="relative aspect-[16/10] overflow-hidden">
                 <img
@@ -63,7 +64,7 @@ export const RelatedArticles: React.FC<RelatedArticlesProps> = ({ posts, current
       {/* Link to all articles */}
       <div className="text-center mt-8">
         <Link
-          to="/blog"
+          href="/blog"
           className="inline-flex items-center gap-2 text-hostgains font-semibold hover:gap-3 transition-all"
         >
           Alle Artikel ansehen

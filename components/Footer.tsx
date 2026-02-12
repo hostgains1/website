@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
+import Image from 'next/image';
 import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer: React.FC = () => {
@@ -17,11 +20,11 @@ export const Footer: React.FC = () => {
           {/* Company Info - E-A-T optimiert */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link
-              to="/"
+              href="/"
               className="mb-1 block"
               aria-label="hostgains - Kurzzeitvermietung Kärnten - Startseite"
             >
-              <img src="/logo.png" alt="hostgains" className="h-8 sm:h-10 w-auto -ml-2" />
+              <Image src="/logo.png" alt="hostgains" width={100} height={40} className="h-8 sm:h-10 w-auto -ml-2" />
             </Link>
             <p className="text-gray-500 text-xs sm:text-sm leading-relaxed mb-3">
               <strong>hostgains</strong> ist dein lokaler Partner für professionelle Kurzzeitvermietung in Kärnten.
@@ -72,7 +75,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-1.5 sm:space-y-2 text-gray-600 text-xs sm:text-sm" role="list">
               <li>
                 <Link
-                  to="/impressum"
+                  href="/impressum"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
                   Impressum
@@ -80,7 +83,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  to="/datenschutz"
+                  href="/datenschutz"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
                   Datenschutz
@@ -95,7 +98,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-1.5 sm:space-y-2 text-gray-600 text-xs sm:text-sm" role="list">
               <li>
                 <Link
-                  to="/blog"
+                  href="/blog"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
                   Blog

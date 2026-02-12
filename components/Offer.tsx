@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
+import Link from 'next/link';
 import { Section } from './Section';
 import { CheckCircle2, AlertTriangle } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 export const Offer: React.FC = () => {
   // Full-Service Kurzzeitvermietung - Leistungen im Überblick
@@ -73,7 +75,7 @@ export const Offer: React.FC = () => {
 
             <div className="flex flex-col items-center">
               <Link
-                to="/analyse"
+                href="/analyse"
                 className="inline-flex items-center justify-center bg-white hover:bg-sand text-hostgains-dark font-bold py-3 px-8 sm:py-4 sm:px-12 rounded-xl transition-all mb-4 w-full sm:w-auto min-h-[48px] sm:min-h-[56px] shadow-lg text-sm sm:text-base"
               >
                 Unverbindlich anfragen

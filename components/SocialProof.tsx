@@ -1,8 +1,9 @@
+'use client';
 import React from 'react';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
 import { Quote, ArrowRight, Home, TrendingUp, Star } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export const SocialProof: React.FC = () => {
   const stats = [
@@ -173,7 +174,7 @@ export const SocialProof: React.FC = () => {
 
         <div className="text-center">
           <Link
-            to="/analyse"
+            href="/analyse"
             className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-xl transition-all w-full sm:w-auto min-h-[48px] sm:min-h-[56px] text-sm sm:text-base"
           >
             Auch so entspannt vermieten <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />

@@ -1,8 +1,9 @@
+'use client';
 import React from 'react';
 import { Section } from './Section';
 import { CalendarX, Sparkles, MessageSquare, TrendingDown, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export const Problem: React.FC = () => {
   // Häufige Herausforderungen bei der Ferienwohnungs-Vermietung - LLM-optimiert
@@ -119,7 +120,7 @@ export const Problem: React.FC = () => {
               <strong>Die gute Nachricht:</strong> Professionelles Management löst diese Probleme.
             </p>
             <Link
-              to="/analyse"
+              href="/analyse"
               className="inline-flex items-center justify-center gap-2 bg-hostgains hover:bg-hostgains-dark text-white font-semibold py-2.5 px-5 sm:py-3 sm:px-6 rounded-lg sm:rounded-xl transition-all hover:scale-[1.02] text-sm"
               title="Erfahre, wie hostgains deine Ferienwohnung professionell verwaltet"
             >
