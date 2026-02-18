@@ -3,6 +3,159 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'nebensaison-ferienwohnung-kaernten',
+    title: 'Nebensaison in Kärnten: Warum Preissenkungen das Problem nicht lösen',
+    description: 'Die Nebensaison entscheidet über die Rentabilität einer Ferienwohnung. Eine Analyse zeigt, welche Strategien funktionieren – und welche Geld verbrennen.',
+    excerpt: 'September bis Mai. Neun Monate, in denen die meisten Ferienwohnungen in Kärnten Verluste schreiben. Die üblichen Ratschläge helfen nicht.',
+    content: `
+<p>Die Hochsaison ist einfach. Juli und August füllen sich von selbst. Die Frage ist, was danach passiert.</p>
+
+<p>Am Wörthersee generieren drei Monate fast 60% des Jahresumsatzes. Die restlichen neun Monate teilen sich den Rest.</p>
+
+<p><em>Wer nur die Hochsaison betrachtet, übersieht das eigentliche Problem.</em></p>
+
+<h2 id="die-rechnung">Die Rechnung, die niemand macht</h2>
+
+<p>Eine 65m²-Wohnung in Pörtschach. Kaufpreis 380.000 €. Nebenkosten, Einrichtung, Optimierung: weitere 45.000 €.</p>
+
+<p><strong>Fixkosten pro Monat:</strong></p>
+
+<p>Betriebskosten 280 €. Versicherung 45 €. Rücklagen 150 €. Steuerberatung anteilig 80 €. Internet, Streaming, Kleinigkeiten: 60 €.</p>
+
+<p>Summe: <strong>615 € monatlich</strong> – unabhängig von Buchungen.</p>
+
+<p>Im November liegt der realistische Tagespreis bei 85 €. Nach Plattformgebühren und Reinigung bleiben 55 € Deckungsbeitrag.</p>
+
+<p>Um die Fixkosten zu decken, braucht es 12 belegte Nächte.</p>
+
+<p>Die durchschnittliche Auslastung im November am Wörthersee: <strong>18%</strong>.</p>
+
+<p>Das sind 5,4 Nächte.</p>
+
+<h2 id="der-reflex">Der erste Reflex: Preis senken</h2>
+
+<p>Die Logik scheint zwingend. Weniger Nachfrage, also niedrigerer Preis. Grundkurs Wirtschaft.</p>
+
+<p>Das Problem: Die Nachfrage in der Nebensaison ist nicht preissensitiv – sie existiert schlicht nicht.</p>
+
+<p>Wer im November an den Wörthersee fährt, tut das nicht wegen eines Schnäppchens. Es sind Geschäftsreisende, Handwerker auf Montage, Menschen mit familiären Verpflichtungen in der Region.</p>
+
+<p>Diese Gäste buchen, weil sie müssen. Nicht weil der Preis stimmt.</p>
+
+<p><em>Eine Preissenkung von 85 € auf 55 € ändert nichts an der Nachfrage. Sie reduziert nur den Ertrag der wenigen Buchungen, die ohnehin kommen.</em></p>
+
+<p>Wer sich intensiver mit <a href="/blog/dynamisches-pricing-mythen-realitaet">Preisstrategien für Ferienwohnungen</a> beschäftigt, erkennt dieses Muster.</p>
+
+<h2 id="was-funktioniert">Was tatsächlich funktioniert</h2>
+
+<p>Die Nebensaison erfordert eine andere Denkweise.</p>
+
+<h3 id="mindestaufenthalt">Längere Mindestaufenthalte</h3>
+
+<p>Ein Zwei-Nächte-Aufenthalt im November generiert 110 € Umsatz und 100 € Kosten.</p>
+
+<p>Ein Sieben-Nächte-Aufenthalt generiert 385 € Umsatz und 130 € Kosten.</p>
+
+<p>Der Unterschied: Reinigung und Wäsche fallen nur einmal an.</p>
+
+<p><strong>Ab Oktober:</strong> Mindestaufenthalt auf 5 bis 7 Nächte erhöhen.</p>
+
+<p>Die Buchungsanzahl sinkt. Der Deckungsbeitrag steigt.</p>
+
+<h3 id="zielgruppen">Andere Zielgruppen ansprechen</h3>
+
+<p>Urlauber kommen im Sommer. In der Nebensaison sind andere Segmente relevant.</p>
+
+<p><strong>Remote Worker</strong> – Brauchen WLAN, Arbeitsplatz, Ruhe. Buchen 2 bis 4 Wochen. Zahlen weniger pro Nacht, aber kontinuierlich.</p>
+
+<p><strong>Monteure und Handwerker</strong> – Pragmatische Ansprüche. Parkplatz wichtiger als Seeblick. Buchen über Plattformen wie Monteurzimmer.de.</p>
+
+<p><strong>Übergangsgäste</strong> – Menschen zwischen zwei Wohnungen, Renovierungen, Trennungen. Brauchen funktionale Unterkunft für 4 bis 8 Wochen.</p>
+
+<p>Diese Gruppen suchen nicht auf Airbnb. Sie erfordern andere Kanäle und andere <a href="/blog/airbnb-inserat-amateur-vs-profi">Inseratsgestaltung</a>.</p>
+
+<h3 id="monatsmiete">Monatspauschalen statt Tagespreise</h3>
+
+<p>Ein Monat zu 1.400 € klingt nach wenig. Verglichen mit 30 × 85 € = 2.550 €.</p>
+
+<p>Aber: 2.550 € setzen 100% Auslastung voraus.</p>
+
+<p>Realistisch: 5 bis 8 belegte Nächte im November. Das sind 425 bis 680 €.</p>
+
+<p>1.400 € garantiert sind besser als 2.550 € theoretisch.</p>
+
+<p><em>Und: Ein Monatsgast verursacht eine Reinigung statt acht.</em></p>
+
+<h2 id="die-entscheidung">Die strategische Entscheidung</h2>
+
+<p>Nicht jedes Objekt eignet sich für Nebensaison-Vermietung.</p>
+
+<p>Erste Seereihe, Premium-Segment, aufwändige Ausstattung: Diese Objekte sind für Urlauber konzipiert. Ein Monteur zahlt nicht 180 € pro Nacht für den Whirlpool auf der Terrasse.</p>
+
+<p>Für solche Objekte kann Leerstand die bessere Option sein.</p>
+
+<p>Ein leeres Objekt kostet 615 € im Monat.</p>
+
+<p>Ein Gast, der 55 € zahlt und die Matratze abnutzt, die Handtücher verschleißt, das Parkett zerkratzt – dieser Gast kostet mehr als Leerstand.</p>
+
+<p><em>Strategischer Leerstand ist kein Versagen. Er ist Kalkulation.</em></p>
+
+<h2 id="lokale-faktoren">Der Kärntner Kontext</h2>
+
+<p>Kärnten ist kein ganzjähriges Reiseziel.</p>
+
+<p>Anders als Tirol oder Salzburg fehlt der Wintertourismus. Die Skigebiete sind klein, die Anreise aus Deutschland lang.</p>
+
+<p>Was bleibt: Geschäftsreisende nach Klagenfurt und Villach. Durchreisende Richtung Slowenien und Italien. Vereinzelte Wander- und Kulturtouristen im Herbst.</p>
+
+<p>Diese Nachfrage ist begrenzt und lässt sich nicht künstlich erzeugen.</p>
+
+<p>Wer in Kärnten vermietet, muss mit Saisonalität rechnen – nicht gegen sie arbeiten.</p>
+
+<p>Eigentümer, die den operativen Aufwand der Nebensaison scheuen, können auf <a href="/airbnb-management">professionelles Airbnb Management</a> setzen. Die Koordination von Langzeitgästen, alternativen Kanälen und Monatspauschalen erfordert andere Prozesse als klassische Kurzzeitvermietung.</p>
+
+<h2 id="die-kalkulation">Realistische Erwartungen</h2>
+
+<p>Eine gut optimierte Ferienwohnung am Wörthersee erreicht folgende Verteilung:</p>
+
+<p><strong>Juni–August:</strong> 85% Auslastung, 180 € Durchschnittspreis</p>
+
+<p><strong>Mai, September:</strong> 55% Auslastung, 120 € Durchschnittspreis</p>
+
+<p><strong>April, Oktober:</strong> 30% Auslastung, 95 € Durchschnittspreis</p>
+
+<p><strong>November–März:</strong> 15% Auslastung oder Monatsvermietung</p>
+
+<p>Der Jahresumsatz verteilt sich entsprechend ungleich.</p>
+
+<p>Wer in der Hochsaison zu niedrig preist, kann das in der Nebensaison nicht kompensieren. Die <a href="/blog/kurzzeitvermietung-kaernten-marktanalyse-2025">Marktdaten für Kärnten</a> zeigen das deutlich.</p>
+
+<p><em>Die Hochsaison finanziert die Nebensaison. Nicht umgekehrt.</em></p>
+    `,
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.png',
+    },
+    publishedAt: '2026-02-18',
+    category: 'Strategie',
+    tags: ['Nebensaison', 'Auslastung', 'Kärnten', 'Rentabilität', 'Langzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Winterliche Landschaft am Wörthersee in der Nebensaison',
+    readingTime: 8,
+    tableOfContents: [
+      { id: 'die-rechnung', text: 'Die Rechnung, die niemand macht', level: 2 },
+      { id: 'der-reflex', text: 'Der erste Reflex: Preis senken', level: 2 },
+      { id: 'was-funktioniert', text: 'Was tatsächlich funktioniert', level: 2 },
+      { id: 'mindestaufenthalt', text: 'Längere Mindestaufenthalte', level: 3 },
+      { id: 'zielgruppen', text: 'Andere Zielgruppen ansprechen', level: 3 },
+      { id: 'monatsmiete', text: 'Monatspauschalen statt Tagespreise', level: 3 },
+      { id: 'die-entscheidung', text: 'Die strategische Entscheidung', level: 2 },
+      { id: 'lokale-faktoren', text: 'Der Kärntner Kontext', level: 2 },
+      { id: 'die-kalkulation', text: 'Realistische Erwartungen', level: 2 },
+    ],
+  },
+  {
     slug: 'kurzzeitvermietung-kaernten-marktanalyse-2025',
     title: 'Kurzzeitvermietung in Kärnten: Was die Zahlen wirklich zeigen',
     description: 'Datenbasierte Analyse des Kurzzeitvermietungsmarkts in Kärnten 2025. Auslastungsraten, Durchschnittspreise und saisonale Muster am Wörthersee und Umgebung.',
