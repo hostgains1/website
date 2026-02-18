@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><em>Eine Preissenkung von 85 € auf 55 € ändert nichts an der Nachfrage. Sie reduziert nur den Ertrag der wenigen Buchungen, die ohnehin kommen.</em></p>
 
-<p>Wer sich intensiver mit <a href="/blog/dynamisches-pricing-mythen-realitaet">Preisstrategien für Ferienwohnungen</a> beschäftigt, erkennt dieses Muster.</p>
+<p>Wer sich intensiver mit Preisstrategien beschäftigt, erkennt dieses Muster.</p>
 
 <h2 id="was-funktioniert">Was tatsächlich funktioniert</h2>
 
@@ -72,7 +72,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Übergangsgäste</strong> – Menschen zwischen zwei Wohnungen, Renovierungen, Trennungen. Brauchen funktionale Unterkunft für 4 bis 8 Wochen.</p>
 
-<p>Diese Gruppen suchen nicht auf Airbnb. Sie erfordern andere Kanäle und andere <a href="/blog/airbnb-inserat-amateur-vs-profi">Inseratsgestaltung</a>.</p>
+<p>Diese Gruppen suchen nicht auf Airbnb. Sie erfordern andere Kanäle und andere Inseratsgestaltung.</p>
 
 <h3 id="monatsmiete">Monatspauschalen statt Tagespreise</h3>
 
@@ -128,7 +128,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Der Jahresumsatz verteilt sich entsprechend ungleich.</p>
 
-<p>Wer in der Hochsaison zu niedrig preist, kann das in der Nebensaison nicht kompensieren. Die <a href="/blog/kurzzeitvermietung-kaernten-marktanalyse-2025">Marktdaten für Kärnten</a> zeigen das deutlich.</p>
+<p>Wer in der Hochsaison zu niedrig preist, kann das in der Nebensaison nicht kompensieren.</p>
 
 <p><em>Die Hochsaison finanziert die Nebensaison. Nicht umgekehrt.</em></p>
     `,
