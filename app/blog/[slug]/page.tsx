@@ -124,7 +124,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         {/* Hero Section */}
         <section className="bg-hostgains pt-28 pb-12 sm:pt-36 sm:pb-16">
-          <div className="container mx-auto px-4 sm:px-6 max-w-4xl">
+          <div className="container mx-auto px-4 sm:px-6 max-w-4xl lg:max-w-6xl">
             <nav className="text-sm text-white/60 mb-6" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2">
                 <li><Link href="/" className="hover:text-white">Home</Link></li>
@@ -170,7 +170,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         </section>
 
         {/* Featured Image */}
-        <div className="container mx-auto px-4 sm:px-6 max-w-4xl -mt-8">
+        <div className="container mx-auto px-4 sm:px-6 max-w-4xl lg:max-w-6xl -mt-8">
           <div className="relative h-64 sm:h-80 lg:h-96 rounded-2xl overflow-hidden shadow-xl">
             <Image
               src={post.featuredImage}
@@ -184,7 +184,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
         {/* Article Content */}
         <main id="main-content" className="py-12 sm:py-16">
-          <div className="container mx-auto px-4 sm:px-6 max-w-4xl">
+          <div className="container mx-auto px-4 sm:px-6 max-w-4xl lg:max-w-6xl">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
               {/* Table of Contents - Sidebar */}
               {post.tableOfContents && post.tableOfContents.length > 0 && (

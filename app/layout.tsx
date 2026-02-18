@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: 'Verdiene bis zu 28% mehr mit deiner Ferienwohnung. Full-Service Management für Airbnb, Booking.com & mehr. Lokales Team aus Klagenfurt. Kostenlose Analyse!',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/hero-woerthersee.jpg',
         width: 1200,
         height: 630,
         alt: 'hostgains - Kurzzeitvermietung Klagenfurt am Wörthersee - Luxuriöse Ferienwohnung mit Seeblick',
@@ -57,16 +57,14 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'hostgains | Kurzzeitvermietung Klagenfurt & Wörthersee',
     description: 'Professionelles Ferienwohnung-Management. Bis zu 27% mehr Umsatz. Full-Service für Airbnb & Booking.com. Lokales Team aus Klagenfurt.',
-    images: ['/og-image.jpg'],
+    images: ['/hero-woerthersee.jpg'],
   },
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/logo.png', type: 'image/png' },
     ],
     apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180' },
+      { url: '/logo.png' },
     ],
   },
   manifest: '/site.webmanifest',
@@ -94,7 +92,7 @@ const organizationSchema = {
     width: 200,
     height: 60,
   },
-  image: 'https://hostgains.at/og-image.jpg',
+  image: 'https://hostgains.at/hero-woerthersee.jpg',
   telephone: '+43-677-62180829',
   email: 'info@hostgains.at',
   foundingDate: '2024',
@@ -166,7 +164,7 @@ const localBusinessSchema = {
   description: 'Kurzzeitvermietung-Management ist die professionelle Verwaltung von Ferienwohnungen auf Buchungsplattformen. hostgains bietet Full-Service für Eigentümer in Kärnten: Von der Inseratserstellung über dynamisches Pricing bis zur 24/7 Gästebetreuung.',
   url: 'https://hostgains.at',
   logo: 'https://hostgains.at/logo.png',
-  image: 'https://hostgains.at/og-image.jpg',
+  image: 'https://hostgains.at/hero-woerthersee.jpg',
   telephone: '+43-677-62180829',
   email: 'info@hostgains.at',
   address: {
