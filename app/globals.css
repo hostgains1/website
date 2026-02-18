@@ -341,6 +341,20 @@ footer {
   font-weight: 600;
 }
 
+/* Link styling */
+.blog-content a {
+  color: #314a43;
+  text-decoration: underline;
+  text-decoration-color: #314a4360;
+  text-underline-offset: 3px;
+  transition: all 0.2s ease;
+}
+
+.blog-content a:hover {
+  color: #1a3d2e;
+  text-decoration-color: #1a3d2e;
+}
+
 /* Bold paragraphs as section starters */
 .blog-content p > strong:first-child {
   color: #1a3d2e;
