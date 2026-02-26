@@ -3,6 +3,169 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'reinigung-ferienwohnung-erfolgsfaktor',
+    title: 'Reinigung bei Ferienwohnungen: Der blinde Fleck der meisten Vermieter',
+    description: 'Warum Reinigung über Erfolg oder Misserfolg einer Ferienwohnung entscheidet – und welche Fehler am häufigsten gemacht werden.',
+    excerpt: 'Eine saubere Wohnung ist selbstverständlich. Denken viele. Die Realität: Reinigung ist der häufigste Grund für schlechte Bewertungen.',
+    content: `
+<p>Eine saubere Wohnung ist selbstverständlich. So denken die meisten Vermieter.</p>
+
+<p>Die Daten sagen etwas anderes.</p>
+
+<p><strong>38% aller negativen Bewertungen</strong> bei Ferienwohnungen erwähnen Sauberkeit. Damit ist Reinigung der häufigste Beschwerdegrund – vor WLAN-Problemen, vor Lärm, vor falschen Fotos.</p>
+
+<p><em>Wer die Reinigung unterschätzt, riskiert sein gesamtes Geschäftsmodell.</em></p>
+
+<h2 id="die-kalkulation">Die Rechnung, die niemand aufmacht</h2>
+
+<p>60m²-Wohnung. Zwei Schlafzimmer, ein Bad, offene Küche.</p>
+
+<p>Typische Annahme: 2 Stunden Reinigung, 15 € Stundenlohn. Macht 30 € pro Wechsel.</p>
+
+<p>Die Realität sieht anders aus.</p>
+
+<p><strong>Zeitaufwand bei korrekter Durchführung:</strong></p>
+
+<p>Bettwäsche abziehen und neu beziehen: 25 Minuten. Bad komplett reinigen: 35 Minuten. Küche inklusive Geräte: 30 Minuten. Böden wischen und saugen: 20 Minuten. Staubwischen, Details: 20 Minuten. Wäsche waschen, trocknen, falten: 90 Minuten.</p>
+
+<p>Summe: <strong>3,5 bis 4 Stunden</strong>.</p>
+
+<p>Bei 15 € Stundenlohn: 52 bis 60 €. Plus Reinigungsmittel, Wäscheverschleiß, Anfahrt.</p>
+
+<p>Realistische Kosten pro Wechsel: <strong>70 bis 90 €</strong>.</p>
+
+<h2 id="das-dilemma">Das Dilemma der Kurzzeitvermietung</h2>
+
+<p>Ein Zwei-Nächte-Aufenthalt generiert bei 95 € Nachtpreis etwa 190 € Umsatz.</p>
+
+<p>Nach Plattformgebühren bleiben 165 €.</p>
+
+<p>Minus 80 € Reinigung: <strong>85 € Deckungsbeitrag</strong>.</p>
+
+<p>Ein Sieben-Nächte-Aufenthalt bei gleichem Nachtpreis generiert 665 € Umsatz.</p>
+
+<p>Nach Plattformgebühren: 580 €.</p>
+
+<p>Minus 80 € Reinigung: <strong>500 € Deckungsbeitrag</strong>.</p>
+
+<p><em>Dieselbe Reinigungsleistung. Sechsfacher Deckungsbeitrag.</em></p>
+
+<p>Kurze Aufenthalte sind Reinigungsintensiv. Diese Erkenntnis fehlt in vielen Kalkulationen. Mehr dazu im Artikel über <a href="/blog/nebensaison-ferienwohnung-kaernten">Mindestaufenthalte in der Nebensaison</a>.</p>
+
+<h2 id="personalfrage">Die Personalfrage</h2>
+
+<p>Selbst putzen spart Geld. Auf dem Papier.</p>
+
+<p>In der Praxis bedeutet es: Samstags um 14 Uhr zwischen Check-out und Check-in drei Stunden putzen. Jedes Wochenende. In der Hochsaison auch unter der Woche.</p>
+
+<p>Die meisten Vermieter halten das sechs bis zwölf Monate durch.</p>
+
+<p>Dann suchen sie Personal.</p>
+
+<p>Und stoßen auf das nächste Problem.</p>
+
+<p><strong>Gute Reinigungskräfte sind rar.</strong></p>
+
+<p>Wer zuverlässig, gründlich und flexibel ist, hat bereits genug Aufträge. Die Fluktuation bei Reinigungspersonal im Gastgewerbe liegt bei über 40% pro Jahr.</p>
+
+<p>Drei Szenarien:</p>
+
+<p><strong>Angestellte</strong> – Sozialversicherungspflichtig, arbeitsrechtlich komplex. Lohnt sich erst ab 3 bis 4 Objekten.</p>
+
+<p><strong>Minijobber</strong> – Flexibler, aber 520-€-Grenze schnell erreicht. Bei 80 € pro Reinigung sind das 6 bis 7 Einsätze pro Monat.</p>
+
+<p><strong>Reinigungsfirma</strong> – Professionell, aber 30 bis 50% teurer. Und nicht jede Firma versteht Ferienwohnungen.</p>
+
+<h2 id="qualitaetsstandard">Was "sauber" bedeutet</h2>
+
+<p>Eine Hotel-Reinigung dauert 20 Minuten. Standardisierte Abläufe, minimale Ausstattung, tägliche Routine.</p>
+
+<p>Eine Ferienwohnung ist kein Hotel.</p>
+
+<p>Gäste erwarten Wohnqualität. Sie öffnen Schubladen. Sie schauen hinter die Toilette. Sie prüfen die Kaffeemaschine auf Kalkrückstände.</p>
+
+<p><em>Der Standard ist nicht "optisch sauber". Der Standard ist "wie neu".</em></p>
+
+<p><strong>Kritische Prüfpunkte:</strong></p>
+
+<p>Matratzenschoner – werden nach jedem Gast gewechselt oder nur bei Bedarf?</p>
+
+<p>Kühlschrank – innen ausgewischt oder nur leere Flaschen entfernt?</p>
+
+<p>Fernbedienungen – desinfiziert oder ignoriert?</p>
+
+<p>Lichtschalter und Türgriffe – abgewischt?</p>
+
+<p>Balkontür-Schienen – frei von Staub und Insekten?</p>
+
+<p>Diese Details entscheiden über Fünf-Sterne-Bewertungen.</p>
+
+<h2 id="checklisten">Systeme statt Hoffnung</h2>
+
+<p>Professionelle Reinigung basiert auf Checklisten.</p>
+
+<p>Nicht weil Reinigungskräfte inkompetent sind – sondern weil unter Zeitdruck Details vergessen werden.</p>
+
+<p>Eine Checkliste mit 30 bis 40 Punkten mag übertrieben wirken.</p>
+
+<p>Sie verhindert den einen vergessenen Punkt, der zur Beschwerde führt.</p>
+
+<p><strong>Zusätzlich sinnvoll:</strong></p>
+
+<p>Foto-Dokumentation nach jeder Reinigung. Beweissicherung bei späteren Beschwerden.</p>
+
+<p>Inventory-Check. Zählen, was da sein sollte: Handtücher, Gläser, Besteck.</p>
+
+<p>Qualitätsstichproben. Unangekündigt. Mindestens einmal monatlich.</p>
+
+<h2 id="saisonale-faktoren">Der saisonale Faktor</h2>
+
+<p>Im Juli sind Reinigungskräfte ausgebucht.</p>
+
+<p>Wer keine festen Vereinbarungen hat, steht ohne Personal da. Oder zahlt Aufschläge.</p>
+
+<p>Im November ist Personal verfügbar – aber die wenigen Buchungen rechtfertigen kaum feste Mitarbeiter.</p>
+
+<p>Dieses Mismatch löst sich nicht von selbst.</p>
+
+<p>Es erfordert Planung: Jahresverträge mit Mindestabnahme, Pooling mit anderen Vermietern, oder die Entscheidung, in der Nebensaison selbst zu reinigen.</p>
+
+<h2 id="die-konsequenz">Die strategische Konsequenz</h2>
+
+<p>Reinigung ist kein Kostenfaktor. Sie ist ein kritischer Geschäftsprozess.</p>
+
+<p>Wer hier spart, zahlt an anderer Stelle.</p>
+
+<p>Niedrigere Preise wegen schlechterer Bewertungen. Mehr Aufwand für Beschwerdemanagement. Höhere Fluktuation bei Personal.</p>
+
+<p><em>Die billigste Reinigung ist langfristig die teuerste.</em></p>
+
+<p>Viele Vermieter, die den operativen Aufwand unterschätzen, entscheiden sich irgendwann für <a href="/airbnb-management">professionelles Airbnb Management</a>. Nicht weil sie es nicht selbst könnten – sondern weil die Opportunitätskosten zu hoch werden.</p>
+
+<p>Reinigung ist der Test, ob Kurzzeitvermietung als Geschäft oder als Hobby betrieben wird.</p>
+    `,
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.png',
+    },
+    publishedAt: '2026-02-28',
+    category: 'Betrieb',
+    tags: ['Reinigung', 'Housekeeping', 'Qualität', 'Kosten', 'Personal'],
+    featuredImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Professionelle Reinigung einer modernen Ferienwohnung',
+    readingTime: 7,
+    tableOfContents: [
+      { id: 'die-kalkulation', text: 'Die Rechnung, die niemand aufmacht', level: 2 },
+      { id: 'das-dilemma', text: 'Das Dilemma der Kurzzeitvermietung', level: 2 },
+      { id: 'personalfrage', text: 'Die Personalfrage', level: 2 },
+      { id: 'qualitaetsstandard', text: 'Was "sauber" bedeutet', level: 2 },
+      { id: 'checklisten', text: 'Systeme statt Hoffnung', level: 2 },
+      { id: 'saisonale-faktoren', text: 'Der saisonale Faktor', level: 2 },
+      { id: 'die-konsequenz', text: 'Die strategische Konsequenz', level: 2 },
+    ],
+  },
+  {
     slug: 'nebensaison-ferienwohnung-kaernten',
     title: 'Nebensaison in Kärnten: Warum Preissenkungen das Problem nicht lösen',
     description: 'Die Nebensaison entscheidet über die Rentabilität einer Ferienwohnung. Eine Analyse zeigt, welche Strategien funktionieren – und welche Geld verbrennen.',
