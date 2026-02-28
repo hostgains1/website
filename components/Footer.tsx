@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
           <nav aria-label="Kontaktinformationen">
             <h2 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Kontakt</h2>
             <address className="not-italic">
-              <ul className="text-gray-600 text-xs sm:text-sm" role="list">
+              <ul className="text-gray-600 text-xs sm:text-sm pt-1" role="list">
                 <li className="flex items-start gap-2.5">
                   <MapPin size={16} className="mt-0.5 shrink-0 text-hostgains" aria-hidden="true" />
                   <span className="leading-relaxed whitespace-nowrap">
