@@ -12,13 +12,13 @@ export const HowItWorks: React.FC = () => {
       number: "01",
       icon: Phone,
       title: "Kostenloses Erstgespräch",
-      desc: "In einem 15-minütigen Gespräch analysieren wir deine Ferienimmobilie und prüfen das Potenzial für professionelle Kurzzeitvermietung."
+      desc: "In einem kostenlosen Gespräch, analysieren wir deine Ferienimmobilie und finden heraus, ob wir zueinander passen."
     },
     {
       number: "02",
       icon: Search,
       title: "Markt- & Potenzialanalyse",
-      desc: "Wir analysieren den lokalen Markt am Wörthersee, deine Wettbewerber und erstellen eine realistische Umsatzprognose mit dynamischem Pricing."
+      desc: "Wir schauen uns den lokalen Markt sowie deine Wettbewerber an und entwickeln daraus eine Strategie."
     },
     {
       number: "03",
