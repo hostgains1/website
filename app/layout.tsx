@@ -61,10 +61,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/logo.png', type: 'image/png' },
+      { url: '/Logo echt.png', type: 'image/png' },
     ],
     apple: [
-      { url: '/logo.png' },
+      { url: '/Logo echt.png' },
     ],
   },
   manifest: '/site.webmanifest',
