@@ -79,21 +79,15 @@ export const AnalyseFormular: React.FC = () => {
 
     setIsSubmitting(true);
     try {
-      // Convert values to labels for webhook
-      const immobilienLabel = immobilienOptions.find(o => o.value === formData.immobilienart)?.label || formData.immobilienart;
-      const auslastungLabel = auslastungOptions.find(o => o.value === formData.auslastung)?.label || formData.auslastung;
-      const zeitaufwandLabel = zeitaufwandOptions.find(o => o.value === formData.zeitaufwand)?.label || formData.zeitaufwand;
-      const herausforderungLabel = herausforderungOptions.find(o => o.value === formData.herausforderung)?.label || formData.herausforderung;
-
       await fetch('https://hook.eu1.make.com/qpd0soetmzp6ou3j1kvuqmu0j9ny8o0e', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           standort: formData.standort,
-          immobilienart: immobilienLabel,
-          auslastung: auslastungLabel,
-          zeitaufwand: zeitaufwandLabel,
-          herausforderung: herausforderungLabel,
+          immobilienart: formData.immobilienart,
+          auslastung: formData.auslastung,
+          zeitaufwand: formData.zeitaufwand,
+          herausforderung: formData.herausforderung,
           name: formData.name,
           email: formData.email,
           telefon: formData.telefon,
@@ -129,10 +123,10 @@ export const AnalyseFormular: React.FC = () => {
   ];
 
   const auslastungOptions = [
-    { value: 'unter40', label: 'weniger als 40 %' },
+    { value: 'weniger als 40', label: 'weniger als 40 %' },
     { value: '40-60', label: '40–60 %' },
     { value: '60-80', label: '60–80 %' },
-    { value: 'ueber80', label: 'mehr als 80 %' },
+    { value: 'mehr als 80', label: 'mehr als 80 %' },
   ];
 
   const zeitaufwandOptions = [
