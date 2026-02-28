@@ -83,14 +83,7 @@ export const AnalyseFormular: React.FC = () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          standort: formData.standort,
-          immobilienart: formData.immobilienart,
-          auslastung: formData.auslastung,
-          zeitaufwand: formData.zeitaufwand,
-          herausforderung: formData.herausforderung,
-          name: formData.name,
-          email: formData.email,
-          telefon: formData.telefon,
+          ...formData,
           source: 'homepage-analyse-formular',
           timestamp: new Date().toISOString(),
         }),
@@ -123,10 +116,10 @@ export const AnalyseFormular: React.FC = () => {
   ];
 
   const auslastungOptions = [
-    { value: 'weniger als 40', label: 'weniger als 40 %' },
+    { value: 'unter40', label: 'Unter 40 %' },
     { value: '40-60', label: '40–60 %' },
     { value: '60-80', label: '60–80 %' },
-    { value: 'mehr als 80', label: 'mehr als 80 %' },
+    { value: 'ueber80', label: 'Über 80 %' },
   ];
 
   const zeitaufwandOptions = [
