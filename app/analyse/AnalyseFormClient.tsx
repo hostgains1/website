@@ -120,10 +120,10 @@ export function AnalyseFormClient() {
   ];
 
   const auslastungOptions = [
-    { value: 'unter40', label: 'Unter 40 %' },
+    { value: 'weniger als 40', label: 'Unter 40 %' },
     { value: '40-60', label: '40–60 %' },
     { value: '60-80', label: '60–80 %' },
-    { value: 'ueber80', label: 'Über 80 %' },
+    { value: 'mehr als 80', label: 'Über 80 %' },
   ];
 
   const zeitaufwandOptions = [
