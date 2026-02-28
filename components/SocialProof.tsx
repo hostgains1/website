@@ -29,21 +29,18 @@ export const SocialProof: React.FC = () => {
       quote: "Ich wollte meine Wohnung in Waidmannsdorf schon verkaufen, weil mich die ständige Putzerei genervt hat. hostgains hat übernommen. Letzten Monat hatte ich 25% mehr Umsatz als jemals zuvor – und ich war nicht einmal dort.",
       name: "Markus W.",
       role: "Eigentümer, Klagenfurt",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       rating: 5
     },
     {
       quote: "Endlich eine Firma, die modern denkt. Kein Papierkram, schnelle Überweisungen und das Team ist wirklich auf Zack. Fühlt sich an wie ein Upgrade von der Holzklasse in die Business Class.",
       name: "Sabine K.",
       role: "Investor, Velden am Wörthersee",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
       rating: 5
     },
     {
       quote: "Ich hatte Angst vor versteckten Kosten und komplizierten Verträgen. Bei hostgains ist alles transparent. Ich sehe genau, was reinkommt und was rausgeht. Das schafft Vertrauen.",
       name: "Thomas R.",
       role: "Eigentümer, Pörtschach",
-      image: "/Thomas.png",
       rating: 5
     }
   ];
@@ -152,20 +149,9 @@ export const SocialProof: React.FC = () => {
                   "{testimonial.quote}"
                 </blockquote>
 
-                <figcaption className="flex items-center gap-3">
-                  <img
-                    src={testimonial.image}
-                    alt={`${testimonial.name} - Zufriedener hostgains Kunde aus ${testimonial.role.split(', ')[1]} mit Ferienwohnung zur Kurzzeitvermietung`}
-                    className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full object-cover"
-                    loading="lazy"
-                    decoding="async"
-                    width="56"
-                    height="56"
-                  />
-                  <div>
-                    <cite className="font-bold text-gray-900 text-sm sm:text-base md:text-lg not-italic">{testimonial.name}</cite>
-                    <p className="text-[11px] sm:text-xs md:text-sm text-gray-500">{testimonial.role}</p>
-                  </div>
+                <figcaption>
+                  <cite className="font-bold text-gray-900 text-sm sm:text-base md:text-lg not-italic">{testimonial.name}</cite>
+                  <p className="text-[11px] sm:text-xs md:text-sm text-gray-500">{testimonial.role}</p>
                 </figcaption>
               </figure>
             </motion.li>
