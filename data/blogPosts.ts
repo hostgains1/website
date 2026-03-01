@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Julian Ograjensek',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Julian.png',
+      avatar: '/Julian.webp',
     },
     publishedAt: '2026-02-28',
     category: 'Betrieb',
@@ -298,7 +298,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Mario Brenner',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Mario.png',
+      avatar: '/Mario.webp',
     },
     publishedAt: '2026-02-18',
     category: 'Strategie',
@@ -411,7 +411,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Julian Ograjensek',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Julian.png',
+      avatar: '/Julian.webp',
     },
     publishedAt: '2025-01-08',
     updatedAt: '2025-01-08',
@@ -538,7 +538,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Mario Brenner',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Mario.png',
+      avatar: '/Mario.webp',
     },
     publishedAt: '2025-01-05',
     category: 'Optimierung',
@@ -653,7 +653,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Julian Ograjensek',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Julian.png',
+      avatar: '/Julian.webp',
     },
     publishedAt: '2024-12-28',
     category: 'Preisgestaltung',
@@ -775,7 +775,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Mario Brenner',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Mario.png',
+      avatar: '/Mario.webp',
     },
     publishedAt: '2024-12-20',
     category: 'Gästebetreuung',
@@ -891,7 +891,7 @@ export const blogPosts: BlogPost[] = [
     author: {
       name: 'Julian Ograjensek',
       role: 'Mitgründer & Geschäftsführer',
-      avatar: '/Julian.png',
+      avatar: '/Julian.webp',
     },
     publishedAt: '2024-12-15',
     category: 'Einrichtung',

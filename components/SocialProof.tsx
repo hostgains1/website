@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
 import { Quote, ArrowRight, Home, TrendingUp, Star } from 'lucide-react';
@@ -43,7 +44,7 @@ export const SocialProof: React.FC = () => {
       quote: "Ich hatte Angst vor versteckten Kosten und komplizierten Verträgen. Bei hostgains ist alles transparent. Ich sehe genau, was reinkommt und was rausgeht. Das schafft Vertrauen.",
       name: "Thomas R.",
       role: "Eigentümer, Pörtschach",
-      image: "/Thomas.png",
+      image: "/Thomas.webp",
       rating: 5
     }
   ];
@@ -153,14 +154,12 @@ export const SocialProof: React.FC = () => {
                 </blockquote>
 
                 <figcaption className="flex items-center gap-3">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={`${testimonial.name} - Zufriedener hostgains Kunde aus ${testimonial.role.split(', ')[1]} mit Ferienwohnung zur Kurzzeitvermietung`}
+                    width={56}
+                    height={56}
                     className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full object-cover"
-                    loading="lazy"
-                    decoding="async"
-                    width="56"
-                    height="56"
                   />
                   <div>
                     <cite className="font-bold text-gray-900 text-sm sm:text-base md:text-lg not-italic">{testimonial.name}</cite>

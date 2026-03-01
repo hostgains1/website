@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import { BlogPost } from '../types/blog';
 import { formatDate } from '../utils/blog';
@@ -18,11 +19,12 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
           <div className="grid md:grid-cols-2 gap-0">
             {/* Image */}
             <div className="relative aspect-[16/10] md:aspect-auto overflow-hidden">
-              <img
+              <Image
                 src={post.featuredImage}
                 alt={post.featuredImageAlt}
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute top-4 left-4">
                 <span className="inline-flex items-center gap-1 bg-hostgains text-white text-xs font-medium px-3 py-1.5 rounded-full">
@@ -55,10 +57,12 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
 
               <div className="flex items-center gap-3 mt-auto">
                 {post.author.avatar && (
-                  <img
+                  <Image
                     src={post.author.avatar}
                     alt={post.author.name}
-                    className="w-10 h-10 rounded-full object-cover"
+                    width={40}
+                    height={40}
+                    className="rounded-full object-cover"
                   />
                 )}
                 <div>
@@ -83,11 +87,12 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post, featured = false }) =>
       <Link href={`/blog/${post.slug}`} className="flex flex-col h-full">
         {/* Image */}
         <div className="relative aspect-[16/10] overflow-hidden">
-          <img
+          <Image
             src={post.featuredImage}
             alt={post.featuredImageAlt}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute top-3 left-3">
             <span className="inline-flex items-center gap-1 bg-hostgains/90 backdrop-blur-sm text-white text-xs font-medium px-2.5 py-1 rounded-full">

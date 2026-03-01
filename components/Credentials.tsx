@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
 import { Camera, Tag, Share2, Headset, Sparkles, Search, Linkedin } from 'lucide-react';
@@ -10,7 +11,7 @@ export const Credentials: React.FC = () => {
     {
       name: "Mario Brenner",
       role: "Mitgründer & Geschäftsführer",
-      image: "/Mario.png",
+      image: "/Mario.webp",
       description: "Experte für digitales Marketing und Plattform-Optimierung. Verantwortlich für Listing-SEO und Conversion-Optimierung auf Airbnb und Booking.com.",
       linkedin: "https://www.linkedin.com/in/mariobrenner",
       expertise: "Marketing & Sichtbarkeit"
@@ -18,7 +19,7 @@ export const Credentials: React.FC = () => {
     {
       name: "Julian Ograjensek",
       role: "Mitgründer & Geschäftsführer",
-      image: "/Julian.png",
+      image: "/Julian.webp",
       description: "Spezialist für Prozessoptimierung und Automatisierung. Verantwortlich für Channel Management, dynamisches Pricing und operative Abläufe.",
       linkedin: "https://www.linkedin.com/in/julian-ograjensek-171721287",
       expertise: "Operations & Technologie"
@@ -103,12 +104,13 @@ export const Credentials: React.FC = () => {
                 className="text-center group"
               >
                 <div className="relative mb-5 sm:mb-6 w-fit mx-auto">
-                  <div className="w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-white shadow-xl group-hover:shadow-2xl transition-shadow duration-300">
-                    <img
+                  <div className="w-32 h-32 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-white shadow-xl group-hover:shadow-2xl transition-shadow duration-300 relative">
+                    <Image
                       src={member.image}
                       alt={`${member.name} - ${member.role} bei hostgains`}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      loading="lazy"
+                      fill
+                      sizes="(max-width: 640px) 128px, (max-width: 1024px) 192px, 224px"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <a

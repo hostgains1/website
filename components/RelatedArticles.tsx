@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Calendar } from 'lucide-react';
 import { BlogPost } from '../types/blog';
 import { formatDate } from '../utils/blog';
@@ -29,11 +30,12 @@ export const RelatedArticles: React.FC<RelatedArticlesProps> = ({ posts, current
             <Link href={`/blog/${post.slug}`}>
               {/* Image */}
               <div className="relative aspect-[16/10] overflow-hidden">
-                <img
+                <Image
                   src={post.featuredImage}
                   alt={post.featuredImageAlt}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>

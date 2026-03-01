@@ -1,7 +1,22 @@
 import type { Metadata, Viewport } from 'next';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Manrope, Outfit } from 'next/font/google';
 import './globals.css';
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
+  display: 'swap',
+  variable: '--font-manrope',
+});
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-outfit',
+});
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -253,16 +268,8 @@ export default function RootLayout({
     <html lang="de-AT">
       <head>
         {/* Preconnect for Performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://calendly.com" />
-
-        {/* Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
 
         {/* Structured Data */}
         <script
@@ -274,7 +281,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
-      <body className="bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white">
+      <body className={`${manrope.variable} ${outfit.variable} bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white`}>
         {/* Skip Navigation Link for Accessibility */}
         <a href="#main-content" className="skip-link">
           Zum Hauptinhalt springen

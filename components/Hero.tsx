@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight, ChevronDown, Check } from 'lucide-react';
 
@@ -20,14 +21,16 @@ export const Hero: React.FC = () => {
       aria-label="hostgains - Professionelle Kurzzeitvermietung und Airbnb Management in Kärnten"
     >
       {/* Background Image - Ferienwohnung am Wörthersee */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('/hero-woerthersee.jpg')`
-        }}
-        role="img"
-        aria-label="Panoramablick auf den Wörthersee in Kärnten – ideale Region für Kurzzeitvermietung und Ferienwohnungen"
-      >
+      <div className="absolute inset-0">
+        <Image
+          src="/hero-woerthersee.webp"
+          alt="Panoramablick auf den Wörthersee in Kärnten – ideale Region für Kurzzeitvermietung und Ferienwohnungen"
+          fill
+          priority
+          quality={85}
+          sizes="100vw"
+          className="object-cover object-center"
+        />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-hostgains/85 via-hostgains/75 to-hostgains/90" />
       </div>
