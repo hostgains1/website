@@ -88,7 +88,7 @@ const organizationSchema = {
   url: 'https://hostgains.at',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://hostgains.at/logo.png',
+    url: 'https://hostgains.at/Logo echt.png',
     width: 200,
     height: 60,
   },
@@ -163,7 +163,7 @@ const localBusinessSchema = {
   alternateName: 'hostgains Ferienwohnung Service',
   description: 'Kurzzeitvermietung-Management ist die professionelle Verwaltung von Ferienwohnungen auf Buchungsplattformen. hostgains bietet Full-Service für Eigentümer in Kärnten: Von der Inseratserstellung über dynamisches Pricing bis zur 24/7 Gästebetreuung.',
   url: 'https://hostgains.at',
-  logo: 'https://hostgains.at/logo.png',
+  logo: 'https://hostgains.at/Logo echt.png',
   image: 'https://hostgains.at/hero-woerthersee.jpg',
   telephone: '+43-677-62180829',
   email: 'info@hostgains.at',
