@@ -1,38 +1,26 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { Hero } from '@/components/Hero';
 import { Partners } from '@/components/Partners';
 import { Problem } from '@/components/Problem';
-import { Solution } from '@/components/Solution';
-import { HowItWorks } from '@/components/HowItWorks';
-import { Credentials } from '@/components/Credentials';
-import { Guarantee } from '@/components/Guarantee';
-import { SocialProof } from '@/components/SocialProof';
-import { FAQ } from '@/components/FAQ';
-import { Offer } from '@/components/Offer';
-import { Footer } from '@/components/Footer';
-import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { Navbar } from '@/components/Navbar';
-import { LatestArticles } from '@/components/LatestArticles';
-import { motion, useScroll, useSpring } from 'framer-motion';
+import { Footer } from '@/components/Footer';
+
+// Lazy load below-the-fold components
+const Solution = dynamic(() => import('@/components/Solution').then(mod => ({ default: mod.Solution })), { ssr: true });
+const HowItWorks = dynamic(() => import('@/components/HowItWorks').then(mod => ({ default: mod.HowItWorks })), { ssr: true });
+const Credentials = dynamic(() => import('@/components/Credentials').then(mod => ({ default: mod.Credentials })), { ssr: true });
+const Guarantee = dynamic(() => import('@/components/Guarantee').then(mod => ({ default: mod.Guarantee })), { ssr: true });
+const SocialProof = dynamic(() => import('@/components/SocialProof').then(mod => ({ default: mod.SocialProof })), { ssr: true });
+const FAQ = dynamic(() => import('@/components/FAQ').then(mod => ({ default: mod.FAQ })), { ssr: true });
+const Offer = dynamic(() => import('@/components/Offer').then(mod => ({ default: mod.Offer })), { ssr: true });
+const LatestArticles = dynamic(() => import('@/components/LatestArticles').then(mod => ({ default: mod.LatestArticles })), { ssr: true });
+const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton').then(mod => ({ default: mod.WhatsAppButton })), { ssr: false });
 
 export function HomePageClient() {
-  const { scrollYProgress } = useScroll();
-  const scaleX = useSpring(scrollYProgress, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001,
-  });
-
   return (
     <div className="font-sans text-gray-900 bg-white overflow-x-hidden">
-      {/* Scroll Progress Bar - Accessibility: aria-hidden as decorative */}
-      <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-hostgains z-50 origin-left"
-        style={{ scaleX }}
-        aria-hidden="true"
-        role="presentation"
-      />
 
       <Navbar />
 
