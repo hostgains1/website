@@ -11,6 +11,7 @@ export const Credentials: React.FC = () => {
     {
       name: "Mario Brenner",
       role: "Mitgründer & Geschäftsführer",
+      mobileRole: "Experte für digitales Marketing und Plattform-Optimierung",
       image: "/Mario.webp",
       description: "Experte für digitales Marketing und Plattform-Optimierung. Verantwortlich für Listing-SEO und Conversion-Optimierung auf Airbnb und Booking.com.",
       linkedin: "https://www.linkedin.com/in/mariobrenner",
@@ -19,6 +20,7 @@ export const Credentials: React.FC = () => {
     {
       name: "Julian Ograjensek",
       role: "Mitgründer & Geschäftsführer",
+      mobileRole: "Spezialist für Prozessoptimierung und Automatisierung",
       image: "/Julian.webp",
       description: "Spezialist für Prozessoptimierung und Automatisierung. Verantwortlich für Channel Management, dynamisches Pricing und operative Abläufe.",
       linkedin: "https://www.linkedin.com/in/julian-ograjensek-171721287",
@@ -126,7 +128,10 @@ export const Credentials: React.FC = () => {
                 <h3 className="font-display text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-0.5 sm:mb-1">
                   {member.name}
                 </h3>
-                <p className="text-hostgains font-medium text-xs sm:text-sm md:text-base mb-1.5 sm:mb-2">
+                <p className="text-hostgains font-medium text-xs mb-1.5 sm:hidden">
+                  {member.mobileRole}
+                </p>
+                <p className="text-hostgains font-medium text-sm md:text-base mb-2 hidden sm:block">
                   {member.role}
                 </p>
                 <p className="text-gray-600 text-xs sm:text-sm md:text-base max-w-[280px] sm:max-w-xs mx-auto leading-relaxed hidden sm:block">
