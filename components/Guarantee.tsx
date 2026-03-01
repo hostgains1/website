@@ -14,8 +14,8 @@ export const Guarantee: React.FC = () => {
     },
     {
       icon: Clock,
-      title: "Monatlich kündbar",
-      desc: "Nach 3 Monaten Mindestlaufzeit"
+      title: "24/7 erreichbar",
+      desc: "Rund um die Uhr für dich und deine Gäste da"
     },
     {
       icon: FileCheck,
