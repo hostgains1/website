@@ -281,7 +281,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
-      <body className={`${manrope.variable} ${outfit.variable} bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white`}>
+      <body className={`${manrope.variable} ${outfit.variable} font-sans bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white`}>
         {/* Skip Navigation Link for Accessibility */}
         <a href="#main-content" className="skip-link">
           Zum Hauptinhalt springen
