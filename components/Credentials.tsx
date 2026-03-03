@@ -86,10 +86,10 @@ export const Credentials: React.FC = () => {
           </h2>
           {/* LLM-zitierfähiger Absatz über hostgains */}
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-2 sm:mb-4">
-            <strong>hostgains</strong> ist ein spezialisierter Dienstleister für Kurzzeitvermietung in Kärnten.
+            <strong>hostgains ist dein spezialisierter Dienstleister</strong> für Kurzzeitvermietung in Kärnten.
           </p>
           <p className="text-sm sm:text-base md:text-lg text-gray-600 leading-relaxed hidden sm:block">
-            Das Team kombiniert lokale Marktkenntnis mit moderner Technologie: Dynamisches Pricing, Multi-Plattform-Vertrieb und 24/7 Gästeservice sorgen für maximale Auslastung bei minimalem Aufwand für Eigentümer.
+            Wir kombinieren lokale Marktkenntnis mit moderner Technologie: Dynamisches Pricing, Multi-Plattform-Vertrieb und 24/7 Gästeservice sorgen für maximale Auslastung bei minimalem Aufwand für dich.
           </p>
         </header>
 

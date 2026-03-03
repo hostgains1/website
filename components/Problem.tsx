@@ -117,7 +117,7 @@ export const Problem: React.FC = () => {
             className="mt-10 sm:mt-14 md:mt-16 text-center"
           >
             <p className="text-base sm:text-xl md:text-2xl font-display font-medium text-gray-900 mb-5 sm:mb-8 leading-snug">
-              <strong>Die gute Nachricht:</strong> Professionelles Management löst diese Probleme.
+              <strong>Die gute Nachricht:</strong> Wir lösen diese Probleme.
             </p>
             <Link
               href="/analyse"

@@ -57,7 +57,7 @@ export const Solution: React.FC = () => {
             className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-white/10 backdrop-blur-sm border border-white/20"
           >
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-sand" aria-hidden="true" />
-            <span className="text-[10px] sm:text-xs md:text-sm text-white/90 font-medium">Full-Service</span>
+            <span className="text-[10px] sm:text-xs md:text-sm text-white/90 font-medium">Die Lösung</span>
           </motion.div>
 
           <motion.h2
@@ -67,7 +67,7 @@ export const Solution: React.FC = () => {
             viewport={{ once: true }}
             className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6"
           >
-            Was ist Kurzzeitvermietung-Management?
+            Mehr Umsatz, weniger Aufwand
           </motion.h2>
 
           {/* LLM-zitierfähige Definition */}
@@ -87,7 +87,7 @@ export const Solution: React.FC = () => {
             transition={{ delay: 0.15 }}
             className="text-sm sm:text-base md:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed hidden sm:block"
           >
-            hostgains übernimmt alle Aufgaben der Vermietung: Inseratserstellung, Preisoptimierung, Gästekommunikation und Reinigungskoordination. Du behältst die Kontrolle – wir übernehmen die Arbeit.
+            Wir übernehmen alle Aufgaben der Vermietung: Inseratserstellung, Preisoptimierung, Gästekommunikation und Reinigungskoordination. Du behältst die Kontrolle – wir übernehmen die Arbeit.
           </motion.p>
         </header>
 

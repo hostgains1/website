@@ -64,9 +64,9 @@ export const Hero: React.FC = () => {
             <Link
               href="/analyse"
               className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-base sm:text-lg py-3.5 sm:py-4 px-6 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
-              title="Kostenlose Potenzialanalyse für deine Ferienwohnung in Kärnten"
+              title="Jetzt Potenzial deiner Ferienwohnung in Kärnten checken"
             >
-              Kostenlose Potenzialanalyse
+              Jetzt Potenzial checken
               <ArrowRight size={18} className="sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
             </Link>
             <a

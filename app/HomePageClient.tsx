@@ -11,10 +11,8 @@ import { Footer } from '@/components/Footer';
 const Solution = dynamic(() => import('@/components/Solution').then(mod => ({ default: mod.Solution })), { ssr: true });
 const HowItWorks = dynamic(() => import('@/components/HowItWorks').then(mod => ({ default: mod.HowItWorks })), { ssr: true });
 const Credentials = dynamic(() => import('@/components/Credentials').then(mod => ({ default: mod.Credentials })), { ssr: true });
-const Guarantee = dynamic(() => import('@/components/Guarantee').then(mod => ({ default: mod.Guarantee })), { ssr: true });
 const SocialProof = dynamic(() => import('@/components/SocialProof').then(mod => ({ default: mod.SocialProof })), { ssr: true });
 const FAQ = dynamic(() => import('@/components/FAQ').then(mod => ({ default: mod.FAQ })), { ssr: true });
-const Offer = dynamic(() => import('@/components/Offer').then(mod => ({ default: mod.Offer })), { ssr: true });
 const LatestArticles = dynamic(() => import('@/components/LatestArticles').then(mod => ({ default: mod.LatestArticles })), { ssr: true });
 const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton').then(mod => ({ default: mod.WhatsAppButton })), { ssr: false });
 
@@ -44,10 +42,7 @@ export function HomePageClient() {
         {/* Credentials Section - Services and expertise */}
         <Credentials />
 
-        {/* Guarantee Section - Risk reversal */}
-        <Guarantee />
-
-        {/* Social Proof Section - Testimonials */}
+        {/* Case Studies Section */}
         <SocialProof />
 
         {/* FAQ Section - Common questions */}
@@ -55,9 +50,6 @@ export function HomePageClient() {
 
         {/* Latest Articles Section */}
         <LatestArticles />
-
-        {/* Offer Section - Service package */}
-        <Offer />
       </main>
 
       {/* Footer with contact and legal info */}

@@ -152,7 +152,7 @@ export const Navbar: React.FC = () => {
             {/* Desktop CTA - Fixed width for balance */}
             <div className={`hidden lg:flex flex-1 justify-end ${isBlogPage ? '' : ''}`}>
               <Link href="/analyse" className={ctaClasses}>
-                Kostenlose Analyse
+                Jetzt Potenzial checken
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
@@ -179,7 +179,7 @@ export const Navbar: React.FC = () => {
             {isBlogPage && (
               <div className="lg:hidden">
                 <Link href="/analyse" className={ctaClasses}>
-                  Kostenlose Analyse
+                  Jetzt Potenzial checken
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>
@@ -234,7 +234,7 @@ export const Navbar: React.FC = () => {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-center gap-3 w-full bg-hostgains hover:bg-hostgains-dark text-white font-bold text-lg py-4 px-6 rounded-xl shadow-lg transition-all"
                 >
-                  Kostenlose Analyse
+                  Jetzt Potenzial checken
                   <ArrowRight size={20} />
                 </Link>
               </div>
