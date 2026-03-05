@@ -71,8 +71,8 @@ export const Navbar: React.FC = () => {
   const navbarClasses = `
     fixed left-3 right-3 sm:left-12 sm:right-12 lg:left-24 lg:right-24 xl:left-36 xl:right-36 2xl:left-48 2xl:right-48 z-40 transition-all duration-300 rounded-xl sm:rounded-2xl border border-white/20
     ${isScrolled || !isHomePage
-      ? 'top-2 sm:top-3 bg-white/90 backdrop-blur-lg shadow-lg py-2 sm:py-3'
-      : 'top-[52px] sm:top-[60px] bg-white/20 backdrop-blur-lg shadow-lg py-2 sm:py-3'
+      ? 'top-2 sm:top-3 bg-white/90 backdrop-blur-lg shadow-lg py-1.5 sm:py-3'
+      : 'top-[56px] sm:top-[60px] bg-white/20 backdrop-blur-lg shadow-lg py-1.5 sm:py-3'
     }
   `;
 
@@ -115,7 +115,7 @@ export const Navbar: React.FC = () => {
                   alt="hostgains"
                   width={120}
                   height={48}
-                  className={`h-8 sm:h-12 w-auto transition-all duration-300 ${
+                  className={`h-7 sm:h-12 w-auto transition-all duration-300 ${
                     isScrolled || !isHomePage ? '' : 'brightness-0 invert'
                   }`}
                   priority
@@ -188,64 +188,89 @@ export const Navbar: React.FC = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu Overlay - Glasmorphism Style */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-40 lg:hidden animate-fade-in">
+        <div className="fixed inset-0 z-50 lg:hidden">
           {/* Backdrop */}
           <div
-            className="absolute inset-0 bg-black/20 backdrop-blur-sm"
+            className="absolute inset-0 bg-hostgains/40 backdrop-blur-md"
             onClick={() => setIsMobileMenuOpen(false)}
           />
 
-          {/* Menu Panel */}
-          <div className="absolute right-0 top-0 h-full w-full max-w-sm bg-white shadow-2xl animate-slide-in-right">
-            <div className="flex flex-col h-full pt-24 pb-8 px-6">
-              {/* Navigation Links */}
-              <nav className="flex-1">
-                <ul className="space-y-2">
-                  {navLinks.map((link) => (
-                    <li key={link.href}>
-                      {link.href.startsWith('/') ? (
-                        <Link
-                          href={link.href}
-                          onClick={() => setIsMobileMenuOpen(false)}
-                          className="block py-4 text-xl font-medium text-gray-900 hover:text-hostgains border-b border-gray-100 transition-colors"
-                        >
-                          {link.label}
-                        </Link>
-                      ) : (
-                        <a
-                          href={link.href}
-                          onClick={(e) => handleNavClick(e, link.href)}
-                          className="block py-4 text-xl font-medium text-gray-900 hover:text-hostgains border-b border-gray-100 transition-colors"
-                        >
-                          {link.label}
-                        </a>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              </nav>
+          {/* Menu Panel - Extended Navbar Style */}
+          <div className="absolute left-3 right-3 top-[56px] bg-white/20 backdrop-blur-lg border border-white/20 rounded-xl shadow-2xl animate-fade-in">
+            {/* Header with Logo and Close */}
+            <div className="flex items-center justify-between px-4 py-3 border-b border-white/10">
+              <Link
+                href="/"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsMobileMenuOpen(false);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+                className="cursor-pointer"
+              >
+                <Image
+                  src="/logo.png"
+                  alt="hostgains"
+                  width={100}
+                  height={40}
+                  className="h-7 w-auto brightness-0 invert"
+                />
+              </Link>
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-2 text-white hover:bg-white/10 rounded-lg transition-colors"
+                aria-label="Menü schließen"
+              >
+                <X size={24} />
+              </button>
+            </div>
 
-              {/* Mobile CTA */}
-              <div className="pt-6">
-                <Link
-                  href="/analyse"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="flex items-center justify-center gap-3 w-full bg-hostgains hover:bg-hostgains-dark text-white font-bold text-lg py-4 px-6 rounded-xl shadow-lg transition-all"
-                >
-                  Jetzt Potenzial checken
-                  <ArrowRight size={20} />
-                </Link>
-              </div>
+            {/* Navigation Links - Centered */}
+            <nav className="py-4">
+              <ul className="space-y-1">
+                {navLinks.map((link) => (
+                  <li key={link.href}>
+                    {link.href.startsWith('/') ? (
+                      <Link
+                        href={link.href}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="block py-3 text-center text-base font-medium text-white hover:bg-white/10 transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a
+                        href={link.href}
+                        onClick={(e) => handleNavClick(e, link.href)}
+                        className="block py-3 text-center text-base font-medium text-white hover:bg-white/10 transition-colors"
+                      >
+                        {link.label}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </nav>
 
-              {/* Contact Info */}
-              <div className="pt-8 text-center text-sm text-gray-500">
-                <p>Fragen? Ruf uns an:</p>
-                <a href="tel:+4367762180829" className="text-hostgains font-medium">
-                  +43 677 62180829
-                </a>
-              </div>
+            {/* Mobile CTA */}
+            <div className="px-4 pb-3">
+              <Link
+                href="/analyse"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="flex items-center justify-center gap-2 w-full bg-sand hover:bg-sand-light text-hostgains font-bold text-sm py-3 px-4 rounded-xl shadow-lg transition-all"
+              >
+                Jetzt Potenzial checken
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            {/* Contact Info */}
+            <div className="px-4 pb-4 text-center">
+              <a href="tel:+4367762180829" className="text-white/80 hover:text-white text-sm font-medium transition-colors">
+                +43 677 62180829
+              </a>
             </div>
           </div>
         </div>

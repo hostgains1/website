@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
       <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-24 sm:pt-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
-          <h1 className="font-display text-[1.75rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.15] sm:leading-tight mb-4 sm:mb-6 animate-fade-in">
+          <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.1] sm:leading-tight mb-4 sm:mb-6 animate-fade-in">
             <span className="hidden sm:block">Kurzzeitvermietung Kärnten:</span>
             <span className="block sm:mt-1 text-white/90">Deine Ferienwohnung,</span>
             <span className="inline-block mt-1 sm:mt-1 text-[#314a43] bg-sand px-3 py-1 rounded">
@@ -55,27 +55,42 @@ export const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8 animate-fade-in animation-delay-200">
             <Link
               href="/analyse"
-              className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-base sm:text-lg py-3.5 sm:py-4 px-6 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
+              className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-sm sm:text-lg py-3 sm:py-4 px-5 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
               title="Jetzt Potenzial deiner Ferienwohnung in Kärnten checken"
             >
               Jetzt Potenzial checken
-              <ArrowRight size={18} className="sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+              <ArrowRight size={16} className="sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
             </Link>
             <a
               href="#how-it-works"
-              className="inline-flex items-center justify-center gap-2 text-white font-semibold py-2.5 sm:py-3 px-5 sm:px-6 rounded-xl border-2 border-white/40 hover:border-white/70 hover:bg-white/10 transition-all text-sm sm:text-base backdrop-blur-sm"
+              className="inline-flex items-center justify-center gap-2 text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-xl border-2 border-white/40 hover:border-white/70 hover:bg-white/10 transition-all text-xs sm:text-base backdrop-blur-sm"
               title="Erfahre, wie Kurzzeitvermietung mit hostgains funktioniert"
             >
               So funktioniert's
             </a>
           </div>
 
-          {/* Trust Indicators - horizontal scrollable on mobile */}
-          <div className="flex flex-row flex-nowrap sm:flex-wrap items-center justify-start sm:justify-center gap-2 sm:gap-6 md:gap-8 mb-6 sm:mb-12 overflow-x-auto pb-2 sm:pb-0 -mx-5 px-5 sm:mx-0 sm:px-0 animate-fade-in animation-delay-300 scrollbar-hide">
+          {/* Trust Indicators - Pyramid layout on mobile, horizontal on desktop */}
+          <div className="sm:hidden flex flex-col items-center gap-2 mb-6 animate-fade-in animation-delay-300">
+            <div className="flex items-center justify-center gap-2">
+              {trustIndicators.slice(0, 2).map((item, index) => (
+                <div key={index} className="flex items-center gap-1.5 text-white/90 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 whitespace-nowrap">
+                  <Check className="w-3.5 h-3.5 text-sand" />
+                  <span className="text-xs font-medium">{item}</span>
+                </div>
+              ))}
+            </div>
+            <div className="flex items-center gap-1.5 text-white/90 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 whitespace-nowrap">
+              <Check className="w-3.5 h-3.5 text-sand" />
+              <span className="text-xs font-medium">{trustIndicators[2]}</span>
+            </div>
+          </div>
+          {/* Desktop Trust Indicators */}
+          <div className="hidden sm:flex flex-row flex-wrap items-center justify-center gap-6 md:gap-8 mb-12 animate-fade-in animation-delay-300">
             {trustIndicators.map((item, index) => (
-              <div key={index} className="flex items-center gap-1.5 sm:gap-2 text-white/90 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 whitespace-nowrap shrink-0">
-                <Check className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sand" />
-                <span className="text-xs sm:text-sm font-medium">{item}</span>
+              <div key={index} className="flex items-center gap-2 text-white/90 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 whitespace-nowrap">
+                <Check className="w-4 h-4 text-sand" />
+                <span className="text-sm font-medium">{item}</span>
               </div>
             ))}
           </div>
