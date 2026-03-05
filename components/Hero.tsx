@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
       <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-24 sm:pt-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
-          <h1 className="font-display text-[2.5rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.1] sm:leading-tight mb-4 sm:mb-6 animate-fade-in">
+          <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.1] sm:leading-tight mb-4 sm:mb-6 animate-fade-in">
             <span className="hidden sm:block">Kurzzeitvermietung Kärnten:</span>
             <span className="block sm:mt-1 text-white/90">Deine Ferienwohnung,</span>
             {/* Mobile: einzelne Wörter mit Highlight, Desktop: ein Block */}
@@ -46,8 +46,8 @@ export const Hero: React.FC = () => {
               unser Management.
             </span>
             <span className="sm:hidden inline-flex flex-wrap justify-center mt-1">
-              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-l-md">unser</span>
-              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-r-md">Management.</span>
+              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">unser</span>
+              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">Management.</span>
             </span>
           </h1>
 
