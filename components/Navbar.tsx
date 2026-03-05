@@ -69,10 +69,10 @@ export const Navbar: React.FC = () => {
   };
 
   const navbarClasses = `
-    fixed top-0 left-0 right-0 z-40 transition-all duration-300
+    fixed left-6 right-6 sm:left-12 sm:right-12 lg:left-24 lg:right-24 xl:left-36 xl:right-36 2xl:left-48 2xl:right-48 z-40 transition-all duration-300 rounded-2xl border border-white/20
     ${isScrolled || !isHomePage
-      ? 'bg-white shadow-md py-3'
-      : 'bg-transparent py-4 sm:py-6'
+      ? 'top-3 bg-white/90 backdrop-blur-lg shadow-lg py-3'
+      : 'top-[60px] bg-white/20 backdrop-blur-lg shadow-lg py-3'
     }
   `;
 
@@ -80,7 +80,7 @@ export const Navbar: React.FC = () => {
     font-medium transition-colors
     ${isScrolled || !isHomePage
       ? 'text-gray-700 hover:text-hostgains'
-      : 'text-white/90 hover:text-white'
+      : 'text-white hover:text-white/80'
     }
   `;
 
@@ -88,14 +88,14 @@ export const Navbar: React.FC = () => {
     group inline-flex items-center justify-center gap-2 font-bold text-sm sm:text-base py-2.5 px-5 sm:py-3 sm:px-6 rounded-xl transition-all hover:scale-[1.02]
     ${isScrolled || !isHomePage
       ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
-      : 'bg-sand hover:bg-sand-light text-[#314a43]'
+      : 'bg-sand hover:bg-sand-light text-hostgains'
     }
   `;
 
   return (
     <>
       <nav className={navbarClasses} role="navigation" aria-label="Hauptnavigation">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-10 xl:px-16 2xl:px-24 max-w-[1920px]">
+        <div className="w-full mx-auto px-6 sm:px-8 lg:px-10">
           <div className="flex items-center justify-between">
             {/* Logo - Fixed width for balance */}
             <div className="flex-1 flex justify-start">

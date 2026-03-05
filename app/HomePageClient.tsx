@@ -6,6 +6,7 @@ import { Partners } from '@/components/Partners';
 import { Problem } from '@/components/Problem';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { TrustMarquee } from '@/components/TrustMarquee';
 
 // Lazy load below-the-fold components
 const Solution = dynamic(() => import('@/components/Solution').then(mod => ({ default: mod.Solution })), { ssr: true });
@@ -20,6 +21,7 @@ export function HomePageClient() {
   return (
     <div className="font-sans text-gray-900 bg-white overflow-x-hidden">
 
+      <TrustMarquee />
       <Navbar />
 
       {/* Main Content Area with semantic HTML */}

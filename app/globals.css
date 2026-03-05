@@ -160,6 +160,16 @@ body {
 .animation-delay-300 { animation-delay: 0.3s; }
 .animation-delay-400 { animation-delay: 0.4s; }
 
+/* Trust Marquee Animation - Seamless infinite loop */
+@keyframes marquee-infinite {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee-infinite {
+  animation: marquee-infinite 25s linear infinite;
+}
+
 /* Text Gradient Effect */
 .text-gradient {
   background: linear-gradient(135deg, #45695F 0%, #314A43 100%);

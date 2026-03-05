@@ -17,32 +17,24 @@ export const Hero: React.FC = () => {
       role="banner"
       aria-label="hostgains - Professionelle Kurzzeitvermietung und Airbnb Management in Kärnten"
     >
-      {/* Background Image - Ferienwohnung am Wörthersee */}
-      <div className="absolute inset-0">
-        <Image
-          src="/hero-woerthersee.webp"
-          alt="Panoramablick auf den Wörthersee in Kärnten – ideale Region für Kurzzeitvermietung und Ferienwohnungen"
-          fill
-          priority
-          quality={85}
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-hostgains/85 via-hostgains/75 to-hostgains/90" />
+      {/* Background Video - Drohnenflug über den Wörthersee */}
+      <div className="absolute inset-0 overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/hero-woerthersee.webp"
+        >
+          <source src="/wörthersee loop.mp4" type="video/mp4" />
+        </video>
+        {/* Gradient Overlay - abgeschwächt für mehr Bild-Wirkung */}
+        <div className="absolute inset-0 bg-gradient-to-b from-hostgains/70 via-hostgains/50 to-hostgains/80" />
       </div>
 
-      {/* Geometric Accent Lines - CSS only */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
-        <svg className="absolute top-0 right-0 w-1/2 h-full opacity-10" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <line x1="0" y1="100" x2="100" y2="0" stroke="currentColor" strokeWidth="0.5" className="text-white" />
-          <line x1="20" y1="100" x2="100" y2="20" stroke="currentColor" strokeWidth="0.3" className="text-white" />
-        </svg>
-        <div className="absolute top-20 right-20 w-64 h-64 border border-white/10 hidden lg:block rotate-45 animate-fade-in animation-delay-300" />
-        <div className="absolute bottom-40 left-10 w-32 h-32 border border-white/5 hidden lg:block rotate-45 animate-fade-in animation-delay-400" />
-      </div>
 
-      <div className="container relative z-10 px-5 sm:px-6 md:px-8 pt-20 sm:pt-0">
+      <div className="container relative z-10 px-5 sm:px-6 md:px-8 pt-28 sm:pt-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
           <h1 className="font-display text-[2rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.15] sm:leading-tight mb-5 sm:mb-6 animate-fade-in">
@@ -53,10 +45,9 @@ export const Hero: React.FC = () => {
             </span>
           </h1>
 
-          {/* Subheadline - LLM-optimiert, zitierfähig */}
-          <p className="text-sm sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed px-2 animate-fade-in animation-delay-100">
-            <strong>hostgains</strong> ist dein lokaler Partner für professionelles Airbnb- und Booking.com-Management am Wörthersee.
-            Wir steigern deine Auslastung um bis zu 28% – du genießt passive Einnahmen ohne Aufwand.
+          {/* Subheadline - Kompakt mit Highlight */}
+          <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed px-2 animate-fade-in animation-delay-100">
+            Bis zu <strong className="text-sand">28% mehr Auslastung</strong> – <strong>ohne Aufwand</strong>. Wir managen deine <strong>Ferienwohnung am Wörthersee</strong> komplett – von <strong>Inserat</strong> bis <strong>Gästekommunikation</strong>.
           </p>
 
           {/* CTA Buttons - mit beschreibenden Anchor-Texten */}
