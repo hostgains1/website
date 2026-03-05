@@ -69,10 +69,10 @@ export const Navbar: React.FC = () => {
   };
 
   const navbarClasses = `
-    fixed left-6 right-6 sm:left-12 sm:right-12 lg:left-24 lg:right-24 xl:left-36 xl:right-36 2xl:left-48 2xl:right-48 z-40 transition-all duration-300 rounded-2xl border border-white/20
+    fixed left-3 right-3 sm:left-12 sm:right-12 lg:left-24 lg:right-24 xl:left-36 xl:right-36 2xl:left-48 2xl:right-48 z-40 transition-all duration-300 rounded-xl sm:rounded-2xl border border-white/20
     ${isScrolled || !isHomePage
-      ? 'top-3 bg-white/90 backdrop-blur-lg shadow-lg py-3'
-      : 'top-[60px] bg-white/20 backdrop-blur-lg shadow-lg py-3'
+      ? 'top-2 sm:top-3 bg-white/90 backdrop-blur-lg shadow-lg py-2 sm:py-3'
+      : 'top-[52px] sm:top-[60px] bg-white/20 backdrop-blur-lg shadow-lg py-2 sm:py-3'
     }
   `;
 
@@ -95,7 +95,7 @@ export const Navbar: React.FC = () => {
   return (
     <>
       <nav className={navbarClasses} role="navigation" aria-label="Hauptnavigation">
-        <div className="w-full mx-auto px-6 sm:px-8 lg:px-10">
+        <div className="w-full mx-auto px-3 sm:px-8 lg:px-10">
           <div className="flex items-center justify-between">
             {/* Logo - Fixed width for balance */}
             <div className="flex-1 flex justify-start">
@@ -115,7 +115,7 @@ export const Navbar: React.FC = () => {
                   alt="hostgains"
                   width={120}
                   height={48}
-                  className={`h-10 sm:h-12 w-auto transition-all duration-300 ${
+                  className={`h-8 sm:h-12 w-auto transition-all duration-300 ${
                     isScrolled || !isHomePage ? '' : 'brightness-0 invert'
                   }`}
                   priority
