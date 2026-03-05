@@ -35,13 +35,13 @@ export const Hero: React.FC = () => {
       </div>
 
 
-      <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-24 sm:pt-10">
+      <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-16 sm:pt-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
           <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.1] sm:leading-tight mb-4 sm:mb-6 animate-fade-in">
             <span className="hidden sm:block">Kurzzeitvermietung Kärnten:</span>
             <span className="block sm:mt-1 text-white/90">Deine Ferienwohnung,</span>
-            <span className="inline-block mt-1 sm:mt-1 text-[#314a43] bg-sand px-3 py-1 rounded">
+            <span className="inline-block mt-1 sm:mt-1 text-[#314a43] bg-sand px-2 py-0.5 sm:px-3 sm:py-1 rounded">
               unser Management.
             </span>
           </h1>
@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8 animate-fade-in animation-delay-200">
             <Link
               href="/analyse"
-              className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-sm sm:text-lg py-3 sm:py-4 px-5 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
+              className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-sm sm:text-lg py-3 sm:py-4 px-4 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-auto sm:w-auto"
               title="Jetzt Potenzial deiner Ferienwohnung in Kärnten checken"
             >
               Jetzt Potenzial checken

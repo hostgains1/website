@@ -95,7 +95,7 @@ export const Navbar: React.FC = () => {
   return (
     <>
       <nav className={navbarClasses} role="navigation" aria-label="Hauptnavigation">
-        <div className="w-full mx-auto px-3 sm:px-8 lg:px-10">
+        <div className="w-full mx-auto px-3 sm:px-8 lg:px-10 flex items-center">
           <div className="flex items-center justify-between">
             {/* Logo - Fixed width for balance */}
             <div className="flex-1 flex justify-start">
@@ -115,7 +115,7 @@ export const Navbar: React.FC = () => {
                   alt="hostgains"
                   width={120}
                   height={48}
-                  className={`h-7 sm:h-12 w-auto transition-all duration-300 ${
+                  className={`h-9 sm:h-12 w-auto transition-all duration-300 ${
                     isScrolled || !isHomePage ? '' : 'brightness-0 invert'
                   }`}
                   priority

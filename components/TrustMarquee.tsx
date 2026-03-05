@@ -38,7 +38,7 @@ export const TrustMarquee: React.FC = () => {
               {trustItems.map((item, index) => (
                 <div
                   key={`${setIndex}-${index}`}
-                  className="flex items-center gap-3 px-12 py-3 text-base whitespace-nowrap"
+                  className="flex items-center gap-2 sm:gap-3 px-4 sm:px-12 py-2 sm:py-3 text-sm sm:text-base whitespace-nowrap"
                 >
                   <item.icon className="w-4 h-4 text-sand" />
                   <span>{item.text}</span>
@@ -54,7 +54,7 @@ export const TrustMarquee: React.FC = () => {
               {trustItems.map((item, index) => (
                 <div
                   key={`${setIndex}-${index}`}
-                  className="flex items-center gap-3 px-12 py-3 text-base whitespace-nowrap"
+                  className="flex items-center gap-2 sm:gap-3 px-4 sm:px-12 py-2 sm:py-3 text-sm sm:text-base whitespace-nowrap"
                 >
                   <item.icon className="w-4 h-4 text-sand" />
                   <span>{item.text}</span>
