@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
 
           {/* Subheadline - Kompakt mit Highlight */}
           <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed px-2 animate-fade-in animation-delay-100">
-            Bis zu <strong className="text-sand">28% mehr Auslastung</strong> – <strong>ohne Aufwand</strong>. Wir managen deine <strong>Ferienwohnung am Wörthersee</strong> komplett – von <strong>Inserat</strong> bis <strong>Gästekommunikation</strong>.
+            Bis zu <strong className="text-sand">28% mehr Auslastung</strong> – <strong>ohne Aufwand</strong>. Wir managen deine <strong>Ferienwohnung</strong> komplett – von <strong>Inserat</strong> bis <strong>Gästekommunikation</strong>.
           </p>
 
           {/* CTA Buttons - mit beschreibenden Anchor-Texten */}
