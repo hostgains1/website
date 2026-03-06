@@ -72,15 +72,15 @@ export const Navbar: React.FC = () => {
     fixed left-0 right-0 z-40 transition-all duration-300 px-3 sm:px-6 lg:px-12
     ${isScrolled || !isHomePage
       ? 'top-2 sm:top-3'
-      : 'top-[36px] sm:top-[50px]'
+      : 'top-[42px] sm:top-[50px]'
     }
   `;
 
   const navbarInnerClasses = `
     max-w-[1350px] mx-auto rounded-xl sm:rounded-2xl border border-white/20 transition-all duration-300
     ${isScrolled || !isHomePage
-      ? 'bg-white/90 backdrop-blur-lg shadow-lg py-1.5 sm:py-3'
-      : 'bg-white/20 backdrop-blur-lg shadow-lg py-1.5 sm:py-3'
+      ? 'bg-white/90 backdrop-blur-lg shadow-lg py-1 sm:py-3'
+      : 'bg-white/20 backdrop-blur-lg shadow-lg py-1 sm:py-3'
     }
   `;
 
