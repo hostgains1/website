@@ -35,29 +35,29 @@ export const Hero: React.FC = () => {
       </div>
 
 
-      <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-24 sm:pt-10">
+      <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-20 sm:pt-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
-          <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.1] sm:leading-tight mb-4 sm:mb-6 animate-fade-in">
+          <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1] sm:leading-tight mb-3 sm:mb-6 animate-fade-in">
             <span className="hidden sm:block">Kurzzeitvermietung Kärnten:</span>
             <span className="block sm:mt-1 text-white/90">Deine Ferienwohnung,</span>
             {/* Mobile: einzelne Wörter mit Highlight, Desktop: ein Block */}
             <span className="hidden sm:inline-block mt-1 text-[#314a43] bg-sand px-3 py-1 rounded">
               unser Management.
             </span>
-            <span className="sm:hidden inline-flex flex-wrap justify-center mt-1">
+            <span className="sm:hidden inline-flex flex-wrap justify-center mt-0.5">
               <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">unser</span>
               <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">Management.</span>
             </span>
           </h1>
 
           {/* Subheadline - Kompakt mit Highlight */}
-          <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed px-2 animate-fade-in animation-delay-100">
+          <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-4 sm:mb-10 leading-snug sm:leading-relaxed px-2 animate-fade-in animation-delay-100">
             Bis zu <strong className="text-sand">28% mehr Auslastung</strong> – <strong>ohne Aufwand</strong>. Wir managen deine <strong>Ferienwohnung</strong> komplett – von <strong>Inserat</strong> bis <strong>Gästekommunikation</strong>.
           </p>
 
           {/* CTA Buttons - mit beschreibenden Anchor-Texten */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8 animate-fade-in animation-delay-200">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-8 animate-fade-in animation-delay-200">
             <Link
               href="/analyse"
               className="group inline-flex items-center justify-center gap-2 sm:gap-3 bg-sand hover:bg-sand-light text-[#314a43] font-bold text-sm sm:text-lg py-3 sm:py-4 px-6 sm:px-8 rounded-xl shadow-lg shadow-black/20 transition-all hover:scale-[1.02] hover:shadow-xl w-full sm:w-auto"
@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* Trust Indicators - Pyramid layout on mobile, horizontal on desktop */}
-          <div className="sm:hidden flex flex-col items-center gap-2 mb-6 animate-fade-in animation-delay-300">
+          <div className="sm:hidden flex flex-col items-center gap-1.5 mb-4 animate-fade-in animation-delay-300">
             <div className="flex items-center justify-center gap-2">
               {trustIndicators.slice(0, 2).map((item, index) => (
                 <div key={index} className="flex items-center gap-1.5 text-white/90 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 whitespace-nowrap">

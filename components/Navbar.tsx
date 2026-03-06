@@ -69,10 +69,18 @@ export const Navbar: React.FC = () => {
   };
 
   const navbarClasses = `
-    fixed left-3 right-3 sm:left-12 sm:right-12 lg:left-24 lg:right-24 xl:left-36 xl:right-36 2xl:left-48 2xl:right-48 z-40 transition-all duration-300 rounded-xl sm:rounded-2xl border border-white/20
+    fixed left-0 right-0 z-40 transition-all duration-300 px-3 sm:px-6 lg:px-12
     ${isScrolled || !isHomePage
-      ? 'top-2 sm:top-3 bg-white/90 backdrop-blur-lg shadow-lg py-2 sm:py-3'
-      : 'top-[52px] sm:top-[60px] bg-white/20 backdrop-blur-lg shadow-lg py-2 sm:py-3'
+      ? 'top-2 sm:top-3'
+      : 'top-[36px] sm:top-[50px]'
+    }
+  `;
+
+  const navbarInnerClasses = `
+    max-w-[1350px] mx-auto rounded-xl sm:rounded-2xl border border-white/20 transition-all duration-300
+    ${isScrolled || !isHomePage
+      ? 'bg-white/90 backdrop-blur-lg shadow-lg py-1.5 sm:py-3'
+      : 'bg-white/20 backdrop-blur-lg shadow-lg py-1.5 sm:py-3'
     }
   `;
 
@@ -95,8 +103,8 @@ export const Navbar: React.FC = () => {
   return (
     <>
       <nav className={navbarClasses} role="navigation" aria-label="Hauptnavigation">
-        <div className="w-full mx-auto px-3 sm:px-8 lg:px-10">
-          <div className="flex items-center justify-between">
+        <div className={navbarInnerClasses}>
+          <div className="flex items-center justify-between px-3 sm:px-8 lg:pl-10 lg:pr-6">
             {/* Logo - Fixed width for balance */}
             <div className="flex-1 flex justify-start">
               <Link
@@ -198,7 +206,7 @@ export const Navbar: React.FC = () => {
           />
 
           {/* Menu Panel - Extended Navbar Style */}
-          <div className="absolute left-3 right-3 top-[56px] bg-white/20 backdrop-blur-lg border border-white/20 rounded-xl shadow-2xl animate-fade-in">
+          <div className="absolute left-3 right-3 top-[44px] sm:top-[56px] bg-white/20 backdrop-blur-lg border border-white/20 rounded-xl shadow-2xl animate-fade-in">
             {/* Header with Logo and Close */}
             <div className="flex items-center justify-between px-4 py-3 border-b border-white/10">
               <Link
