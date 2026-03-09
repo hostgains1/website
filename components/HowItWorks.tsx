@@ -58,7 +58,7 @@ export const HowItWorks: React.FC = () => {
             viewport={{ once: true }}
             className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
-            In 4 Schritten zur <span className="text-hostgains-light">Eierlegenden Wollmilchsau</span>
+            So übernehmen wir deine <span className="text-hostgains-light">Ferienwohnung</span> in 4 Schritten
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 15 }}

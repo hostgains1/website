@@ -26,7 +26,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hostgains.at'),
+  metadataBase: new URL('https://www.hostgains.at'),
   title: {
     default: 'Kurzzeitvermietung Kärnten | Airbnb Management Wörthersee | hostgains',
     template: '%s | hostgains',
@@ -45,17 +45,17 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://hostgains.at',
+    canonical: 'https://www.hostgains.at',
     languages: {
-      'de-AT': 'https://hostgains.at',
-      'de': 'https://hostgains.at',
-      'x-default': 'https://hostgains.at',
+      'de-AT': 'https://www.hostgains.at',
+      'de': 'https://www.hostgains.at',
+      'x-default': 'https://www.hostgains.at',
     },
   },
   openGraph: {
     type: 'website',
     locale: 'de_AT',
-    url: 'https://hostgains.at',
+    url: 'https://www.hostgains.at',
     siteName: 'hostgains',
     title: 'hostgains | Professionelle Kurzzeitvermietung am Wörthersee',
     description: 'Verdiene bis zu 28% mehr mit deiner Ferienwohnung. Full-Service Management für Airbnb, Booking.com & mehr. Lokales Team aus Klagenfurt. Kostenlose Analyse!',
@@ -76,10 +76,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/Logo echt.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', type: 'image/png', sizes: '16x16' },
+      { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
     ],
     apple: [
-      { url: '/Logo echt.png' },
+      { url: '/apple-touch-icon.png', sizes: '180x180' },
     ],
   },
   manifest: '/site.webmanifest',
@@ -95,19 +97,19 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  '@id': 'https://hostgains.at/#organization',
+  '@id': 'https://www.hostgains.at/#organization',
   name: 'hostgains',
   legalName: 'hostgains',
   alternateName: ['hostgains Kurzzeitvermietung', 'hostgains Ferienwohnung Management'],
   description: 'hostgains ist ein spezialisierter Dienstleister für Kurzzeitvermietung und Ferienwohnung-Management in Kärnten. Das Unternehmen übernimmt die vollständige Verwaltung von Ferienimmobilien auf Plattformen wie Airbnb und Booking.com – inklusive Gästebetreuung, Reinigung und dynamischer Preisgestaltung.',
-  url: 'https://hostgains.at',
+  url: 'https://www.hostgains.at',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://hostgains.at/Logo echt.png',
+    url: 'https://www.hostgains.at/Logo echt.png',
     width: 200,
     height: 60,
   },
-  image: 'https://hostgains.at/hero-woerthersee.jpg',
+  image: 'https://www.hostgains.at/hero-woerthersee.jpg',
   telephone: '+43-677-62180829',
   email: 'info@hostgains.at',
   foundingDate: '2024',
@@ -173,13 +175,13 @@ const organizationSchema = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://hostgains.at/#localbusiness',
+  '@id': 'https://www.hostgains.at/#localbusiness',
   name: 'hostgains - Kurzzeitvermietung Management Kärnten',
   alternateName: 'hostgains Ferienwohnung Service',
   description: 'Kurzzeitvermietung-Management ist die professionelle Verwaltung von Ferienwohnungen auf Buchungsplattformen. hostgains bietet Full-Service für Eigentümer in Kärnten: Von der Inseratserstellung über dynamisches Pricing bis zur 24/7 Gästebetreuung.',
-  url: 'https://hostgains.at',
-  logo: 'https://hostgains.at/Logo echt.png',
-  image: 'https://hostgains.at/hero-woerthersee.jpg',
+  url: 'https://www.hostgains.at',
+  logo: 'https://www.hostgains.at/Logo echt.png',
+  image: 'https://www.hostgains.at/hero-woerthersee.jpg',
   telephone: '+43-677-62180829',
   email: 'info@hostgains.at',
   address: {

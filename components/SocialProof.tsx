@@ -14,13 +14,13 @@ export const SocialProof: React.FC = () => {
       image: "/Seeblick.jpg",
       type: "2-Zimmer Apartment, 65m²",
       before: {
-        occupancy: "42%",
+        occupancy: "63%",
         revenue: "1.850€",
         rating: "4.2"
       },
       after: {
-        occupancy: "78%",
-        revenue: "3.420€",
+        occupancy: "82%",
+        revenue: "2.400€",
         rating: "4.9"
       }
     },
@@ -30,13 +30,13 @@ export const SocialProof: React.FC = () => {
       image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&h=500&fit=crop",
       type: "3-Zimmer Wohnung, 85m²",
       before: {
-        occupancy: "35%",
+        occupancy: "43%",
         revenue: "2.100€",
         rating: "4.0"
       },
       after: {
-        occupancy: "71%",
-        revenue: "4.180€",
+        occupancy: "61%",
+        revenue: "2.980€",
         rating: "4.8"
       }
     }
@@ -111,7 +111,7 @@ export const SocialProof: React.FC = () => {
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-1.5">
                           <Euro className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gray-400" />
-                          <span className="text-[11px] sm:text-xs text-gray-500">Umsatz/Monat</span>
+                          <span className="text-[11px] sm:text-xs text-gray-500"><span className="sm:hidden">Umsatz</span><span className="hidden sm:inline">Umsatz/Monat</span></span>
                         </div>
                         <span className="text-sm sm:text-base font-bold text-gray-600">{study.before.revenue}</span>
                       </div>
@@ -139,7 +139,7 @@ export const SocialProof: React.FC = () => {
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-1.5">
                           <Euro className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-hostgains" />
-                          <span className="text-[11px] sm:text-xs text-gray-600">Umsatz/Monat</span>
+                          <span className="text-[11px] sm:text-xs text-gray-600"><span className="sm:hidden">Umsatz</span><span className="hidden sm:inline">Umsatz/Monat</span></span>
                         </div>
                         <span className="text-sm sm:text-base font-bold text-hostgains">{study.after.revenue}</span>
                       </div>
