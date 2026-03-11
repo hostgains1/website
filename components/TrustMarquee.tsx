@@ -23,10 +23,10 @@ export const TrustMarquee: React.FC = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 left-0 right-0 z-50 bg-hostgains text-white overflow-hidden transition-all duration-300 ${
+    <div className={`fixed top-0 left-0 right-0 z-50 bg-hostgains text-white overflow-hidden transition-all duration-300 h-10 ${
       isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
     }`}>
-      <div className="relative flex">
+      <div className="relative flex h-full items-center">
         {/* Gradient overlays */}
         <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-hostgains to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-hostgains to-transparent z-10" />
@@ -38,7 +38,7 @@ export const TrustMarquee: React.FC = () => {
               {trustItems.map((item, index) => (
                 <div
                   key={`${setIndex}-${index}`}
-                  className="flex items-center gap-2 sm:gap-3 px-4 sm:px-12 py-2 sm:py-3 text-sm sm:text-base whitespace-nowrap"
+                  className="flex items-center gap-2 sm:gap-3 px-4 sm:px-12 text-sm sm:text-base whitespace-nowrap"
                 >
                   <item.icon className="w-4 h-4 text-sand" />
                   <span>{item.text}</span>
@@ -54,7 +54,7 @@ export const TrustMarquee: React.FC = () => {
               {trustItems.map((item, index) => (
                 <div
                   key={`${setIndex}-${index}`}
-                  className="flex items-center gap-2 sm:gap-3 px-4 sm:px-12 py-2 sm:py-3 text-sm sm:text-base whitespace-nowrap"
+                  className="flex items-center gap-2 sm:gap-3 px-4 sm:px-12 text-sm sm:text-base whitespace-nowrap"
                 >
                   <item.icon className="w-4 h-4 text-sand" />
                   <span>{item.text}</span>

@@ -2,10 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ========================================
+   Layout Architecture: CSS Variables
+   ======================================== */
+:root {
+  /* TrustMarquee height */
+  --marquee-height: 2.5rem; /* 40px */
+
+  /* Navbar dimensions - mobile */
+  --navbar-height: 3.5rem; /* 56px */
+  --navbar-top-unscrolled: 3rem; /* 48px - positioned below marquee with 8px gap */
+  --navbar-top-scrolled: 0.5rem; /* 8px */
+
+  /* Total header height calculation (unscrolled state) */
+  /* = marquee + gap + navbar-height + spacing */
+  --header-total-height: calc(var(--marquee-height) + var(--navbar-height) + 2rem);
+
+  /* Hero safe area - space to clear fixed header */
+  --hero-offset: calc(var(--marquee-height) + var(--navbar-height) + 2rem);
+}
+
+/* Desktop navbar is taller */
+@media (min-width: 1024px) {
+  :root {
+    --navbar-height: 4rem; /* 64px */
+    --header-total-height: calc(var(--marquee-height) + var(--navbar-height) + 2rem);
+    --hero-offset: calc(var(--marquee-height) + var(--navbar-height) + 2.5rem);
+  }
+}
+
 /* Base styles */
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  /* Offset for anchor links to account for fixed header */
+  scroll-padding-top: var(--header-total-height);
 }
 
 body {
@@ -167,7 +198,7 @@ body {
 }
 
 .animate-marquee-infinite {
-  animation: marquee-infinite 25s linear infinite;
+  animation: marquee-infinite 35s linear infinite;
 }
 
 /* Hide scrollbar but allow scrolling */

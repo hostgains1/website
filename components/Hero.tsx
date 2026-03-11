@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
   return (
     <header
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-svh flex flex-col overflow-hidden"
       role="banner"
       aria-label="hostgains - Professionelle Kurzzeitvermietung und Airbnb Management in Kärnten"
     >
@@ -34,8 +34,17 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-hostgains/70 via-hostgains/50 to-hostgains/80" />
       </div>
 
+      {/* Spacer to account for fixed header (marquee + navbar)
+          Uses CSS variable --hero-offset defined in globals.css
+          This prevents content from being hidden behind the fixed header */}
+      <div
+        className="shrink-0 relative z-10"
+        style={{ height: 'var(--hero-offset)' }}
+        aria-hidden="true"
+      />
 
-      <div className="container relative z-10 px-4 sm:px-6 md:px-8 pt-20 sm:pt-10">
+      {/* Main hero content - flexes to fill remaining space and centers content */}
+      <div className="flex-1 flex items-center justify-center relative z-10 px-4 sm:px-6 md:px-8 pb-16 sm:pb-20">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
           <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1] sm:leading-tight mb-3 sm:mb-6 animate-fade-in">

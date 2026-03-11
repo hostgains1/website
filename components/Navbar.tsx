@@ -68,32 +68,41 @@ export const Navbar: React.FC = () => {
     }
   };
 
+  // Navbar outer wrapper: fixed position, full width, centered container
+  // top-12 (48px) when unscrolled = marquee height (40px) + 8px gap
   const navbarClasses = `
-    fixed left-0 right-0 z-40 transition-all duration-300 px-3 sm:px-6 lg:px-12
+    fixed left-0 right-0 z-40 transition-all duration-300 px-3 sm:px-4 md:px-6 lg:px-8 xl:px-12
     ${isScrolled || !isHomePage
-      ? 'top-2 sm:top-3'
-      : 'top-[42px] sm:top-[50px]'
+      ? 'top-2'
+      : 'top-12'
     }
   `;
 
+  // Inner container: max-width constraint, auto margins for centering
+  // Height uses CSS variables for consistency
   const navbarInnerClasses = `
     max-w-[1350px] mx-auto rounded-xl sm:rounded-2xl border border-white/20 transition-all duration-300
+    h-14 lg:h-16
     ${isScrolled || !isHomePage
-      ? 'bg-white/90 backdrop-blur-lg shadow-lg py-1 sm:py-3'
-      : 'bg-white/20 backdrop-blur-lg shadow-lg py-1 sm:py-3'
+      ? 'bg-white/90 backdrop-blur-lg shadow-lg'
+      : 'bg-white/20 backdrop-blur-lg shadow-lg'
     }
   `;
 
+  // Navigation links: fixed text sizes, no shrinking
   const linkClasses = `
-    font-medium transition-colors
+    font-medium transition-colors whitespace-nowrap shrink-0
+    text-sm lg:text-base
     ${isScrolled || !isHomePage
       ? 'text-gray-700 hover:text-hostgains'
       : 'text-white hover:text-white/80'
     }
   `;
 
+  // CTA button: fixed sizes across breakpoints, no scaling down
   const ctaClasses = `
-    group inline-flex items-center justify-center gap-2 font-bold text-sm sm:text-base py-2.5 px-5 sm:py-3 sm:px-6 rounded-xl transition-all hover:scale-[1.02]
+    group inline-flex items-center justify-center gap-2 font-bold rounded-xl transition-all hover:scale-[1.02] shrink-0 whitespace-nowrap
+    text-sm py-2.5 px-4 md:px-5 lg:py-3 lg:px-6 lg:text-base
     ${isScrolled || !isHomePage
       ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
       : 'bg-sand hover:bg-sand-light text-hostgains'
@@ -104,12 +113,17 @@ export const Navbar: React.FC = () => {
     <>
       <nav className={navbarClasses} role="navigation" aria-label="Hauptnavigation">
         <div className={navbarInnerClasses}>
-          <div className="flex items-center justify-between px-3 sm:px-8 lg:pl-10 lg:pr-6">
-            {/* Logo - Fixed width for balance */}
-            <div className="flex-1 flex justify-start">
+          {/* Main flex container: 3-column layout for true centering
+              - Left column (flex-1): Logo, left-aligned
+              - Center column (shrink-0): Navigation, truly centered
+              - Right column (flex-1): CTA, right-aligned
+              The flex-1 columns ensure equal space on both sides */}
+          <div className="flex items-center justify-between h-full px-3 sm:px-4 md:px-5 lg:px-8">
+            {/* Left column - Logo container (flex-1 for equal spacing) */}
+            <div className="flex-1 flex items-center justify-start min-w-0">
               <Link
                 href="/"
-                className="relative z-50 cursor-pointer"
+                className="relative z-50 cursor-pointer shrink-0"
                 aria-label="hostgains - Zum Seitenanfang"
                 onClick={(e) => {
                   if (isHomePage) {
@@ -123,7 +137,7 @@ export const Navbar: React.FC = () => {
                   alt="hostgains"
                   width={120}
                   height={48}
-                  className={`h-9 sm:h-12 w-auto transition-all duration-300 ${
+                  className={`h-9 md:h-10 lg:h-12 w-auto transition-all duration-300 ${
                     isScrolled || !isHomePage ? '' : 'brightness-0 invert'
                   }`}
                   priority
@@ -131,9 +145,9 @@ export const Navbar: React.FC = () => {
               </Link>
             </div>
 
-            {/* Desktop Navigation - Centered (hidden on blog pages) */}
+            {/* Center column - Navigation (shrink-0 to stay fixed size, truly centered) */}
             {!isBlogPage && (
-              <div className="hidden lg:flex items-center justify-center gap-8">
+              <nav className="hidden md:flex items-center justify-center gap-3 lg:gap-5 xl:gap-8 shrink-0">
                 {navLinks.map((link) =>
                   link.href.startsWith('/') ? (
                     <Link
@@ -154,22 +168,23 @@ export const Navbar: React.FC = () => {
                     </a>
                   )
                 )}
-              </div>
+              </nav>
             )}
 
-            {/* Desktop CTA - Fixed width for balance */}
-            <div className={`hidden lg:flex flex-1 justify-end ${isBlogPage ? '' : ''}`}>
+            {/* Right column - CTA container (flex-1 for equal spacing, content right-aligned) */}
+            <div className={`flex-1 hidden md:flex items-center justify-end min-w-0 ${isBlogPage ? '' : ''}`}>
               <Link href="/analyse" className={ctaClasses}>
-                Jetzt Potenzial checken
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                <span className="hidden lg:inline">Jetzt Potenzial checken</span>
+                <span className="lg:hidden">Potenzial checken</span>
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform shrink-0" />
               </Link>
             </div>
 
-            {/* Mobile Menu Button (hidden on blog pages) */}
+            {/* Mobile Menu Button - visible below md breakpoint (hidden on blog pages) */}
             {!isBlogPage && (
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className={`lg:hidden relative z-50 p-2 rounded-lg transition-colors ${
+                className={`md:hidden relative z-50 p-2 rounded-lg transition-colors shrink-0 ${
                   isMobileMenuOpen
                     ? 'text-gray-900'
                     : isScrolled || !isHomePage
@@ -183,12 +198,13 @@ export const Navbar: React.FC = () => {
               </button>
             )}
 
-            {/* Mobile CTA (shown on blog pages instead of menu button) */}
+            {/* Mobile CTA (shown on blog pages below md breakpoint) */}
             {isBlogPage && (
-              <div className="lg:hidden">
+              <div className="md:hidden shrink-0">
                 <Link href="/analyse" className={ctaClasses}>
-                  Jetzt Potenzial checken
-                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  <span className="hidden sm:inline">Jetzt Potenzial checken</span>
+                  <span className="sm:hidden">Analyse</span>
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform shrink-0" />
                 </Link>
               </div>
             )}
@@ -196,9 +212,9 @@ export const Navbar: React.FC = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu Overlay - Glasmorphism Style */}
+      {/* Mobile Menu Overlay - Glasmorphism Style (visible below md) */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-50 lg:hidden">
+        <div className="fixed inset-0 z-50 md:hidden">
           {/* Backdrop */}
           <div
             className="absolute inset-0 bg-hostgains/40 backdrop-blur-md"

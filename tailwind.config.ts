@@ -56,6 +56,16 @@ const config: Config = {
         'safe-left': 'env(safe-area-inset-left)',
         'safe-right': 'env(safe-area-inset-right)',
       },
+      minHeight: {
+        'svh': '100svh',
+        'lvh': '100lvh',
+        'dvh': '100dvh',
+      },
+      height: {
+        'svh': '100svh',
+        'lvh': '100lvh',
+        'dvh': '100dvh',
+      },
     },
   },
   plugins: [],
