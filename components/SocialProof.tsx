@@ -9,9 +9,9 @@ import Link from 'next/link';
 export const SocialProof: React.FC = () => {
   const caseStudies = [
     {
-      title: "Seeblick-Apartment Velden",
+      title: "Seeblick Apartment am Wörthersee",
       location: "Velden am Wörthersee",
-      image: "/Seeblick.jpg",
+      image: "/Seeblick Apartment am Wörthersee.jpeg",
       type: "2-Zimmer Apartment, 65m²",
       before: {
         occupancy: "63%",
@@ -27,7 +27,7 @@ export const SocialProof: React.FC = () => {
     {
       title: "City-Apartment Klagenfurt",
       location: "Klagenfurt Zentrum",
-      image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&h=500&fit=crop",
+      image: "/city aprtment klagenfurt.jpg",
       type: "3-Zimmer Wohnung, 85m²",
       before: {
         occupancy: "43%",
@@ -49,14 +49,17 @@ export const SocialProof: React.FC = () => {
     >
       <article className="container mx-auto px-4 sm:px-6">
         <header className="text-center mb-6 sm:mb-10 md:mb-16">
+          <p className="text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.2em] uppercase text-gray-500 mb-2 sm:mb-4">
+            Case Studies aus Kärnten
+          </p>
           <h2
             id="case-studies-heading"
             className="text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
           >
-            Keine leeren <span className="text-hostgains-light">Versprechen</span>
+            Messbare <span className="text-hostgains-light">Ergebnisse</span>
           </h2>
           <p className="mt-2 sm:mt-4 text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Während andere reden, liefern wir echte Ergebnisse. Zwei Beispiele aus dem Portfolio – mit konkreten Zahlen vor und nach der Übernahme.
+            So entwickeln sich Ferienwohnungen in Kärnten unter unserem Management. Zwei Objekte, konkrete Zahlen – Auslastung, Umsatz und Bewertungen im direkten Vergleich.
           </p>
         </header>
 
