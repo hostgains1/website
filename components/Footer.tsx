@@ -89,6 +89,14 @@ export const Footer: React.FC = () => {
                   Datenschutz
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/agb"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  AGB
+                </Link>
+              </li>
             </ul>
           </nav>
 
