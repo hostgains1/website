@@ -3,6 +3,152 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'lohnt-sich-airbnb-kaernten-2026',
+    title: 'Lohnt sich Airbnb in Kärnten 2026?',
+    description: 'Eine datenbasierte Analyse: Renditeerwartungen, saisonale Faktoren und was Vermieter in Kärnten 2026 wirklich erwartet. Mit konkreten Zahlen und Handlungsempfehlungen.',
+    excerpt: 'Kärnten 2026: Lohnt sich der Einstieg in die Kurzzeitvermietung noch? Eine Analyse zeigt, wann Airbnb funktioniert – und wann nicht.',
+    content: `
+<p>Die Frage taucht in jeder Beratung auf: <em>Lohnt sich das überhaupt noch?</em></p>
+
+<p>Die ehrliche Antwort: Es kommt darauf an. Auf das Objekt, die Lage, die Erwartungen – und auf die Bereitschaft, professionell zu arbeiten.</p>
+
+<p>Eine Analyse der Kärntner Marktdaten zeigt, wo die Chancen liegen und wo die Risiken lauern.</p>
+
+<h2 id="marktlage">Die Marktlage 2026</h2>
+
+<p>Kärnten verzeichnet 2026 voraussichtlich <strong>8,6 Millionen Übernachtungen</strong>. Der Anteil der Kurzzeitvermietung liegt bei etwa 14% – Tendenz steigend.</p>
+
+<p>Am Wörthersee sind aktuell <strong>1.340 aktive Inserate</strong> auf Airbnb und Booking.com gelistet. Vor drei Jahren waren es 820.</p>
+
+<p>Mehr Angebot, aber auch mehr Nachfrage? Nicht ganz.</p>
+
+<p>Die Gesamtnachfrage ist seit 2023 um etwa 8% gestiegen. Das Angebot um 63%.</p>
+
+<p><em>Der durchschnittliche Jahresumsatz pro Objekt ist um 18% gesunken.</em></p>
+
+<p>Das bedeutet nicht, dass sich Airbnb nicht lohnt. Es bedeutet, dass Mittelmaß nicht mehr reicht.</p>
+
+<h2 id="rendite">Die Rendite-Rechnung</h2>
+
+<p>Eine konkrete Beispielrechnung für eine 65m²-Wohnung in Velden:</p>
+
+<p><strong>Kaufpreis:</strong> 420.000 €</p>
+<p><strong>Nebenkosten & Einrichtung:</strong> 55.000 €</p>
+<p><strong>Gesamtinvestition:</strong> 475.000 €</p>
+
+<p><strong>Erwartbare Jahresumsätze bei professioneller Bewirtschaftung:</strong></p>
+
+<p>Hochsaison (Juni–August): 92 Nächte × 195 € = 17.940 €</p>
+<p>Zwischensaison (Mai, September, Oktober): 55 Nächte × 125 € = 6.875 €</p>
+<p>Nebensaison (November–April): 35 Nächte × 85 € = 2.975 €</p>
+
+<p><strong>Bruttoumsatz:</strong> 27.790 €</p>
+
+<p>Nach Plattformgebühren (15%), Reinigung, Wäsche, Betriebskosten und Instandhaltung bleiben etwa <strong>14.500 € Nettoertrag</strong>.</p>
+
+<p>Das entspricht einer <strong>Bruttorendite von 3,1%</strong>.</p>
+
+<p>Zum Vergleich: Langzeitvermietung derselben Wohnung würde etwa 12.000 € Jahresmiete bringen – bei deutlich weniger Aufwand.</p>
+
+<p><em>Die Rendite allein rechtfertigt den Mehraufwand nicht immer.</em></p>
+
+<h2 id="saisonanalyse">Die Saison entscheidet</h2>
+
+<p>Kärnten ist ein Sommerdestination. Das prägt alles.</p>
+
+<p><strong>Juli und August</strong> generieren 48% des Jahresumsatzes. In diesen 62 Tagen verdient ein gut positioniertes Objekt mehr als in den restlichen 303 Tagen zusammen.</p>
+
+<p>Die Konsequenz: Wer in der Hochsaison nicht optimal aufgestellt ist, kann das Defizit nicht kompensieren.</p>
+
+<p>Mehr dazu im Artikel über <a href="/blog/nebensaison-ferienwohnung-kaernten">Nebensaison-Strategien in Kärnten</a>.</p>
+
+<p><strong>Saisonale Auslastungsraten 2026 (Wörthersee):</strong></p>
+
+<p>Juni–August: 78%</p>
+<p>Mai, September: 52%</p>
+<p>April, Oktober: 28%</p>
+<p>November–März: 12%</p>
+
+<p>Diese Zahlen gelten für optimierte Objekte. Der Durchschnitt liegt 15–20 Prozentpunkte darunter.</p>
+
+<h2 id="chancen">Wo sich Airbnb 2026 lohnt</h2>
+
+<p><strong>1. Premium-Lagen mit Alleinstellungsmerkmal</strong></p>
+
+<p>Erste Seereihe, unverbaubarer Bergblick, historische Substanz. Diese Objekte sind gegen Marktschwankungen weitgehend immun. Die Nachfrage übersteigt das Angebot.</p>
+
+<p><strong>2. Nischen-Positionierung</strong></p>
+
+<p>Hundefreundlich, barrierefrei, ausgestattet für Remote Work. Spezialisierung reduziert die Konkurrenz und ermöglicht Preispremiums von 20–35%.</p>
+
+<p><strong>3. Professionelle Bewirtschaftung</strong></p>
+
+<p>Objekte mit <a href="/airbnb-management">professionellem Airbnb Management</a> erzielen im Schnitt 40% höhere Umsätze als vergleichbare selbstverwaltete Objekte. Die Gründe: besseres Pricing, schnellere Reaktionszeiten, optimierte Inserate.</p>
+
+<p><strong>4. Kombinierte Nutzung</strong></p>
+
+<p>Eigennutzung in der Nebensaison, Vermietung in der Hochsaison. Dieses Modell rechnet sich oft besser als reine Kapitalanlage – vorausgesetzt, die steuerliche Behandlung ist geklärt.</p>
+
+<h2 id="risiken">Wo Vorsicht geboten ist</h2>
+
+<p><strong>1. Übersättigte Mikrolagen</strong></p>
+
+<p>In manchen Straßenzügen in Pörtschach oder Velden stehen mittlerweile mehr Airbnbs als Dauerwohnungen. Die Preise sind dort bereits unter Druck.</p>
+
+<p><strong>2. Objekte ohne Differenzierung</strong></p>
+
+<p>Eine durchschnittliche 2-Zimmer-Wohnung ohne besondere Merkmale konkurriert mit 200 ähnlichen Inseraten. Der Preiswettbewerb ist brutal.</p>
+
+<p><strong>3. Unterschätzter Aufwand</strong></p>
+
+<p>Gästekommunikation, Reinigungskoordination, Wartung, Beschwerdemanagement – der operative Aufwand wird systematisch unterschätzt. Viele Vermieter geben nach 12–18 Monaten auf.</p>
+
+<p>Wer den Aufwand scheut, sollte die <a href="/leistungen">professionellen Leistungen eines Management-Partners</a> prüfen.</p>
+
+<p><strong>4. Regulatorische Unsicherheit</strong></p>
+
+<p>Einige Kärntner Gemeinden diskutieren Einschränkungen für Kurzzeitvermietung. Konkrete Verbote gibt es bisher nicht – aber die politische Debatte ist in Gang.</p>
+
+<h2 id="fazit">Die Entscheidungskriterien</h2>
+
+<p>Airbnb in Kärnten lohnt sich 2026, wenn:</p>
+
+<p>✓ Das Objekt ein klares Alleinstellungsmerkmal hat</p>
+<p>✓ Die Lage stimmt (See, Berg, Stadt – aber nicht durchschnittlich)</p>
+<p>✓ Professionelle Bewirtschaftung gewährleistet ist</p>
+<p>✓ Die Erwartungen realistisch sind (3–5% Rendite, nicht 8%)</p>
+<p>✓ Der Zeithorizont langfristig ist (mindestens 7–10 Jahre)</p>
+
+<p>Airbnb lohnt sich nicht, wenn:</p>
+
+<p>✗ Die Entscheidung rein auf Renditeerwartungen basiert</p>
+<p>✗ Das Objekt keine besonderen Merkmale aufweist</p>
+<p>✗ Weder Zeit noch Budget für professionelle Vermarktung vorhanden sind</p>
+<p>✗ Kurzfristige Liquidität im Vordergrund steht</p>
+
+<p><em>Der Markt belohnt Qualität und bestraft Mittelmaß. Das war schon immer so – aber 2026 gilt es mehr denn je.</em></p>
+    `,
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-03-12',
+    category: 'Marktanalyse',
+    tags: ['Airbnb', 'Kärnten', 'Rendite', 'Investition', '2026'],
+    featuredImage: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Moderne Ferienwohnung mit Blick auf die Kärntner Berglandschaft',
+    readingTime: 8,
+    tableOfContents: [
+      { id: 'marktlage', text: 'Die Marktlage 2026', level: 2 },
+      { id: 'rendite', text: 'Die Rendite-Rechnung', level: 2 },
+      { id: 'saisonanalyse', text: 'Die Saison entscheidet', level: 2 },
+      { id: 'chancen', text: 'Wo sich Airbnb 2026 lohnt', level: 2 },
+      { id: 'risiken', text: 'Wo Vorsicht geboten ist', level: 2 },
+      { id: 'fazit', text: 'Die Entscheidungskriterien', level: 2 },
+    ],
+  },
+  {
     slug: 'reinigung-ferienwohnung-erfolgsfaktor',
     title: 'Reinigung bei Ferienwohnungen: Der blinde Fleck der meisten Vermieter',
     description: 'Warum Reinigung über Erfolg oder Misserfolg einer Ferienwohnung entscheidet – und welche Fehler am häufigsten gemacht werden.',
