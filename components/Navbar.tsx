@@ -147,7 +147,7 @@ export const Navbar: React.FC = () => {
 
             {/* Center column - Navigation (shrink-0 to stay fixed size, truly centered) */}
             {!isBlogPage && (
-              <nav className="hidden lg:flex items-center justify-center gap-3 xl:gap-5 2xl:gap-8 shrink-0">
+              <nav className="hidden lg:flex h-full items-center justify-center gap-3 xl:gap-5 2xl:gap-8 shrink-0">
                 {navLinks.map((link) =>
                   link.href.startsWith('/') ? (
                     <Link
@@ -237,9 +237,9 @@ export const Navbar: React.FC = () => {
                 <Image
                   src="/logo.png"
                   alt="hostgains"
-                  width={100}
-                  height={40}
-                  className="h-7 w-auto brightness-0 invert"
+                  width={120}
+                  height={48}
+                  className="h-9 w-auto brightness-0 invert"
                 />
               </Link>
               <button

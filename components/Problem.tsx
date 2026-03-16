@@ -33,7 +33,7 @@ export const Problem: React.FC = () => {
   return (
     <Section
       id="problem"
-      className="relative bg-sand-light pt-12 pb-24 sm:pt-20 sm:pb-32 md:pt-32 md:pb-40 overflow-hidden scroll-mt-20"
+      className="relative bg-sand-light pt-12 pb-24 sm:pt-20 sm:pb-32 md:pt-32 md:pb-40 overflow-hidden -scroll-mt-20"
     >
       {/* Geometric Overlay Pattern */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none" aria-hidden="true">

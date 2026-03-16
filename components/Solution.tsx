@@ -33,7 +33,7 @@ export const Solution: React.FC = () => {
   return (
     <Section
       id="solution"
-      className="relative bg-hostgains pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-44 overflow-hidden scroll-mt-20"
+      className="relative bg-hostgains pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-44 overflow-hidden -scroll-mt-20"
       aria-labelledby="solution-heading"
     >
       {/* Background Dot Pattern */}
