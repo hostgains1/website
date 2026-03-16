@@ -55,8 +55,8 @@ export const Hero: React.FC = () => {
               unser Management.
             </span>
             <span className="sm:hidden flex flex-col items-center mt-0.5">
-              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-t-md">unser</span>
-              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-b-md">Management.</span>
+              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">unser</span>
+              <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">Management.</span>
             </span>
           </h1>
 

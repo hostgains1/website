@@ -93,6 +93,7 @@ export const Navbar: React.FC = () => {
   const linkClasses = `
     font-medium transition-colors whitespace-nowrap shrink-0
     text-sm xl:text-base
+    flex items-center h-14 lg:h-16
     ${isScrolled || !isHomePage
       ? 'text-gray-700 hover:text-hostgains'
       : 'text-white hover:text-white/80'
@@ -147,7 +148,7 @@ export const Navbar: React.FC = () => {
 
             {/* Center column - Navigation (shrink-0 to stay fixed size, truly centered) */}
             {!isBlogPage && (
-              <nav className="hidden lg:flex h-full items-center justify-center gap-3 xl:gap-5 2xl:gap-8 shrink-0">
+              <nav className="hidden lg:flex items-center justify-center gap-3 xl:gap-5 2xl:gap-8 shrink-0">
                 {navLinks.map((link) =>
                   link.href.startsWith('/') ? (
                     <Link
