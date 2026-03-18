@@ -3,6 +3,164 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-inserat-optimieren-7-hebel',
+    title: 'Airbnb Inserat optimieren – 7 strategische Hebel',
+    description: 'Warum manche Inserate 80% Auslastung erreichen und andere bei 35% stagnieren. Eine systematische Analyse der Faktoren, die über Buchungserfolg entscheiden.',
+    excerpt: 'Die Unterschiede zwischen erfolgreichen und erfolglosen Inseraten sind messbar. Sieben Hebel entscheiden über Sichtbarkeit, Klickrate und Buchungswahrscheinlichkeit.',
+    content: `
+<p>Ein Inserat ist kein Schaufenster. Es ist ein Verkaufsprozess in mehreren Stufen.</p>
+
+<p>Jede Stufe hat eigene Regeln. Wer sie versteht, optimiert gezielt. Wer sie ignoriert, verschenkt Buchungen.</p>
+
+<h2 id="sichtbarkeit">Der erste Hebel: Sichtbarkeit im Algorithmus</h2>
+
+<p>Bevor ein Gast ein Inserat sieht, muss der Algorithmus es zeigen. Airbnb und Booking.com ranken nach unterschiedlichen Kriterien – aber einige Faktoren wirken überall.</p>
+
+<p><strong>Antwortzeit</strong> ist der stärkste Hebel.</p>
+
+<p>Inserate mit durchschnittlicher Antwortzeit unter 60 Minuten erhalten <strong>40% mehr Impressionen</strong> als solche mit Antwortzeiten über 12 Stunden.</p>
+
+<p>Der Grund: Plattformen optimieren auf Buchungswahrscheinlichkeit. Schnelle Antworten korrelieren mit höherer Conversion.</p>
+
+<p><em>Wer tagsüber arbeitet und abends antwortet, verliert systematisch Sichtbarkeit.</em></p>
+
+<h2 id="titelbild">Der zweite Hebel: Das Titelbild</h2>
+
+<p>In der Listenansicht entscheiden 0,3 Sekunden über Klick oder Scroll.</p>
+
+<p>Das Titelbild trägt 70% dieser Entscheidung.</p>
+
+<p>Die häufigsten Fehler:</p>
+
+<p><strong>Weitwinkel-Aufnahmen</strong> – zeigen viel, wirken aber distanziert und austauschbar.</p>
+
+<p><strong>Innenaufnahmen ohne Kontext</strong> – ein Wohnzimmer sieht aus wie jedes andere Wohnzimmer.</p>
+
+<p><strong>Schlechtes Licht</strong> – Kunstlicht am Abend macht jede Wohnung unattraktiv.</p>
+
+<p>Was funktioniert:</p>
+
+<p>Ein Bild, das den stärksten Vorteil zeigt. Balkon mit Seeblick. Terrasse im Morgenlicht. Ein architektonisches Detail, das Charakter vermittelt.</p>
+
+<p><em>Das Titelbild verkauft nicht die Wohnung. Es verkauft den Klick.</em></p>
+
+<h2 id="preiswahrnehmung">Der dritte Hebel: Preiswahrnehmung</h2>
+
+<p>Der angezeigte Preis in der Suche ist nicht der Endpreis. Gäste wissen das.</p>
+
+<p>Was sie nicht wissen: wie hoch die Differenz sein wird.</p>
+
+<p>Inserate mit hohen Reinigungsgebühren und Servicegebühren wirken in der Listenansicht günstig – und enttäuschen beim Checkout.</p>
+
+<p>Die Conversion-Daten zeigen: <strong>Transparente Preismodelle</strong> mit moderaten Zusatzkosten performen besser als scheinbar günstige Angebote mit versteckten Aufschlägen.</p>
+
+<p>Ein Nachtpreis von 120 € mit 40 € Reinigung konvertiert schlechter als 135 € mit 25 € Reinigung.</p>
+
+<p>Die Psychologie dahinter ist simpel: Enttäuschung wiegt schwerer als anfängliche Attraktion.</p>
+
+<h2 id="beschreibung">Der vierte Hebel: Die Beschreibung</h2>
+
+<p>Die meisten Beschreibungen listen Ausstattung auf.</p>
+
+<p>Küche. Bad. WLAN. Parkplatz.</p>
+
+<p>Diese Informationen sind notwendig – aber nicht ausreichend.</p>
+
+<p>Eine wirksame Beschreibung folgt einer anderen Logik:</p>
+
+<p><strong>Eröffnung:</strong> Was macht dieses Objekt besonders? Nicht was es hat, sondern was es ermöglicht.</p>
+
+<p><strong>Kontext:</strong> Für wen ist es ideal? Paare, Familien, Remote Worker?</p>
+
+<p><strong>Umgebung:</strong> Was lässt sich erleben? Nicht Entfernungen, sondern Erlebnisse.</p>
+
+<p><strong>Praktisches:</strong> Schlafmöglichkeiten, Check-in, Parken – kompakt am Ende.</p>
+
+<p>Die Reihenfolge ist entscheidend. Emotionen zuerst, Details danach.</p>
+
+<h2 id="bewertungen">Der fünfte Hebel: Bewertungsdynamik</h2>
+
+<p>Objekte mit <strong>mehr als 20 Bewertungen</strong> und einem Schnitt über 4,7 erzielen bis zu 45% höhere Preise als vergleichbare Objekte mit weniger oder schlechteren Bewertungen.</p>
+
+<p>Die Mathematik dahinter:</p>
+
+<p>Eine 4,9-Bewertung mit 5 Reviews signalisiert weniger als eine 4,7-Bewertung mit 50 Reviews.</p>
+
+<p>Volumen schlägt Perfektion.</p>
+
+<p>Der strategische Ansatz: In den ersten Monaten Auslastung vor Preis priorisieren. Bewertungen akkumulieren. Dann Preise anheben.</p>
+
+<p><em>Wer sofort maximale Preise verlangt, sammelt keine Bewertungen und bleibt unsichtbar.</em></p>
+
+<h2 id="kalender">Der sechste Hebel: Kalenderpflege</h2>
+
+<p>Ein lückenhafter Kalender signalisiert dem Algorithmus: geringes Engagement.</p>
+
+<p>Was die Plattform sieht:</p>
+
+<p>Blockierte Tage ohne Buchung. Lange Zeiträume ohne Preisanpassung. Sporadische Verfügbarkeit.</p>
+
+<p>Die Konsequenz: niedrigeres Ranking, weniger Impressionen, weniger Buchungen.</p>
+
+<p>Ein gepflegter Kalender bedeutet:</p>
+
+<p>Preise sind für die nächsten 6–12 Monate hinterlegt. Verfügbarkeit ist aktuell. Mindestaufenthalte sind saisonal angepasst.</p>
+
+<p>Wer professionelles <a href="/airbnb-management">Airbnb Management</a> nutzt, automatisiert diese Prozesse. Wer selbst verwaltet, muss die Zeit investieren.</p>
+
+<h2 id="fotografie">Der siebte Hebel: Fotostrategie</h2>
+
+<p>Die Anzahl der Fotos korreliert mit der Buchungsrate – aber nur bis zu einem Punkt.</p>
+
+<p><strong>15–25 Bilder</strong> performen optimal.</p>
+
+<p>Weniger wirkt unvollständig. Mehr wirkt beliebig.</p>
+
+<p>Die Reihenfolge folgt einer Dramaturgie:</p>
+
+<p>Titelbild (stärkster Vorteil) → Wohnbereich → Schlafzimmer → Küche → Bad → Außenbereich → Umgebung → Details.</p>
+
+<p>Jedes Bild muss eine Frage beantworten, die potenzielle Gäste haben. Wie groß ist das Bett? Gibt es eine Dusche oder nur eine Badewanne? Wie sieht die Aussicht tatsächlich aus?</p>
+
+<p>Bilder, die keine Fragen beantworten, sind Füllmaterial. Sie schaden mehr als sie nützen.</p>
+
+<h2 id="zusammenspiel">Das Zusammenspiel</h2>
+
+<p>Keiner dieser Hebel wirkt isoliert.</p>
+
+<p>Ein perfektes Titelbild bringt Klicks – aber keine Buchungen, wenn die Beschreibung enttäuscht.</p>
+
+<p>Exzellente Bewertungen bringen nichts, wenn das Inserat nicht gefunden wird.</p>
+
+<p>Optimierung bedeutet: alle Hebel gleichzeitig bedienen.</p>
+
+<p>Die <a href="/leistungen">professionelle Inseratsoptimierung</a> adressiert jeden dieser Faktoren systematisch. Das erklärt, warum professionell geführte Objekte im Schnitt 40–60% höhere Buchungsraten erzielen.</p>
+
+<p>Der Unterschied ist nicht Glück. Er ist Methodik.</p>
+    `,
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-03-18',
+    category: 'Optimierung',
+    tags: ['Airbnb', 'Inserat', 'Optimierung', 'Sichtbarkeit', 'Buchungen', 'Fotografie'],
+    featuredImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Moderne Ferienwohnung mit optimierter Einrichtung und natürlichem Licht',
+    readingTime: 7,
+    tableOfContents: [
+      { id: 'sichtbarkeit', text: 'Der erste Hebel: Sichtbarkeit im Algorithmus', level: 2 },
+      { id: 'titelbild', text: 'Der zweite Hebel: Das Titelbild', level: 2 },
+      { id: 'preiswahrnehmung', text: 'Der dritte Hebel: Preiswahrnehmung', level: 2 },
+      { id: 'beschreibung', text: 'Der vierte Hebel: Die Beschreibung', level: 2 },
+      { id: 'bewertungen', text: 'Der fünfte Hebel: Bewertungsdynamik', level: 2 },
+      { id: 'kalender', text: 'Der sechste Hebel: Kalenderpflege', level: 2 },
+      { id: 'fotografie', text: 'Der siebte Hebel: Fotostrategie', level: 2 },
+      { id: 'zusammenspiel', text: 'Das Zusammenspiel', level: 2 },
+    ],
+  },
+  {
     slug: 'lohnt-sich-airbnb-kaernten-2026',
     title: 'Lohnt sich Airbnb in Kärnten 2026?',
     description: 'Eine datenbasierte Analyse: Renditeerwartungen, saisonale Faktoren und was Vermieter in Kärnten 2026 wirklich erwartet. Mit konkreten Zahlen und Handlungsempfehlungen.',
