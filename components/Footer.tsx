@@ -83,10 +83,10 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
-                  href="/datenschutz"
+                  href="/datenschutzrichtlinien"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
-                  Datenschutz
+                  Datenschutzrichtlinien
                 </Link>
               </li>
               <li>
