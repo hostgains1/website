@@ -100,10 +100,42 @@ export const Footer: React.FC = () => {
             </ul>
           </nav>
 
-          {/* Blog Section */}
-          <nav aria-label="Blog">
-            <h2 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Blog</h2>
+          {/* Seiten Section */}
+          <nav aria-label="Seiten">
+            <h2 className="font-bold text-gray-900 mb-3 sm:mb-4 text-sm sm:text-base">Seiten</h2>
             <ul className="space-y-1.5 sm:space-y-2 text-gray-600 text-xs sm:text-sm" role="list">
+              <li>
+                <Link
+                  href="/leistungen"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Leistungen
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/airbnb-management"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Airbnb Management
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/airbnb-management-kaernten"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Management Kärnten
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/analyse"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Analyse
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/blog"
