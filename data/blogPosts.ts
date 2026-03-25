@@ -146,8 +146,8 @@ export const blogPosts: BlogPost[] = [
     publishedAt: '2026-03-25',
     category: 'Marktanalyse',
     tags: ['Kärnten', 'Wörthersee', 'Villach', 'Klagenfurt', 'Standortanalyse', 'Strategie'],
-    featuredImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80',
-    featuredImageAlt: 'Panoramablick auf die Kärntner Seenlandschaft mit Bergen im Hintergrund',
+    featuredImage: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Alpensee mit Bergpanorama in Österreich',
     readingTime: 8,
     tableOfContents: [
       { id: 'woerthersee', text: 'Der Wörthersee: Premium mit Einschränkungen', level: 2 },
