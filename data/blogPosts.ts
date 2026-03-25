@@ -3,6 +3,162 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'woerthersee-villach-klagenfurt-drei-maerkte',
+    title: 'Wörthersee, Villach, Klagenfurt: Drei Märkte, drei Strategien',
+    description: 'Kärnten ist kein einheitlicher Markt. Eine Analyse zeigt die Unterschiede zwischen Wörthersee, Villach und Klagenfurt – und welche Strategie wo funktioniert.',
+    excerpt: 'Dieselbe Wohnung, unterschiedliche Standorte, völlig andere Ergebnisse. Wer Kärnten als homogenen Markt betrachtet, optimiert an der Realität vorbei.',
+    content: `
+<p>Kärnten wird oft als ein Markt behandelt. Ein Fehler, der Geld kostet.</p>
+
+<p>Die Unterschiede zwischen Wörthersee, Villach und Klagenfurt sind größer als die Gemeinsamkeiten. Zielgruppen, Saisonalität, Preiskorridore – alles folgt eigenen Regeln.</p>
+
+<h2 id="woerthersee">Der Wörthersee: Premium mit Einschränkungen</h2>
+
+<p>Der Wörthersee ist Kärntens bekannteste Adresse. <strong>Velden, Pörtschach, Maria Wörth</strong> – Namen, die verkaufen.</p>
+
+<p>Die Durchschnittspreise liegen 40 bis 60 Prozent über dem Kärntner Schnitt. Eine gut positionierte Wohnung erzielt im Juli 180 bis 280 Euro pro Nacht.</p>
+
+<p>Aber der Wörthersee ist auch der volatilste Markt.</p>
+
+<p><em>Drei Monate tragen 60 Prozent des Jahresumsatzes. Die restlichen neun Monate sind Kampf.</em></p>
+
+<p>November bis März: Auslastungsraten unter 15 Prozent. Die wenigen Gäste sind Geschäftsreisende auf der Durchreise, keine Urlauber.</p>
+
+<p>Das Publikum im Sommer ist anspruchsvoll. Deutsche Familien mit klaren Erwartungen. Österreichische Wochenendtouristen, die Perfektion gewohnt sind.</p>
+
+<p><strong>Kritische Erfolgsfaktoren am Wörthersee:</strong></p>
+
+<p>Seezugang oder zumindest Seeblick. Ohne dieses Merkmal fehlt der Grund, warum jemand 200 Euro zahlen sollte.</p>
+
+<p>Premium-Ausstattung. Kapselmaschine statt Filterkaffee. Hochwertige Bettwäsche. Klimaanlage – im Juli unverzichtbar.</p>
+
+<p>Event-Pricing. GTI-Treffen, Ironman, Starnacht – wer diese Termine verpasst, verschenkt vier- bis fünfstellige Beträge.</p>
+
+<h2 id="villach">Villach: Der unterschätzte Allrounder</h2>
+
+<p>Villach hat kein Glamour-Image. Genau das ist der Vorteil.</p>
+
+<p>Kärntens zweitgrößte Stadt bedient multiple Zielgruppen gleichzeitig:</p>
+
+<p><strong>Thermentouristen</strong> ganzjährig. Die Kärnten Therme zieht ein Publikum, das nicht saisonabhängig ist.</p>
+
+<p><strong>Durchreisende</strong> Richtung Italien und Slowenien. Villach liegt an der Kreuzung wichtiger Transitrouten.</p>
+
+<p><strong>Geschäftsreisende</strong> unter der Woche. Infineon, die Fachhochschule, regionale Unternehmen generieren konstante Nachfrage.</p>
+
+<p><strong>Städtereisende</strong> am Wochenende. Altstadtzauber, Kirchtag, das kulinarische Angebot.</p>
+
+<p>Die Preise sind niedriger: 85 bis 130 Euro pro Nacht im Schnitt. Aber die Auslastung ist stabiler.</p>
+
+<p><em>Jahresauslastung in Villach: 52 Prozent. Am Wörthersee: 48 Prozent.</em></p>
+
+<p>Der Unterschied klingt gering. In der Jahresrechnung sind es tausende Euro.</p>
+
+<p><strong>Was in Villach funktioniert:</strong></p>
+
+<p>Pragmatische Ausstattung. Ein guter Arbeitsplatz ist wichtiger als der Designerstuhl. Parkplatz schlägt Seeblick.</p>
+
+<p>Flexible Buchungsbedingungen. Geschäftsreisende buchen kurzfristig und bleiben unterschiedlich lang.</p>
+
+<p>Ganzjahres-Pricing. Die Unterschiede zwischen Sommer und Winter sind geringer als am Wörthersee. Die Strategie muss das reflektieren.</p>
+
+<h2 id="klagenfurt">Klagenfurt: Die Hybridlösung</h2>
+
+<p>Die Landeshauptstadt vereint Elemente beider Welten.</p>
+
+<p>Städtische Infrastruktur mit Seezugang. Geschäftsleben unter der Woche, Tourismus am Wochenende.</p>
+
+<p>Die Nähe zum Flughafen ist ein Alleinstellungsmerkmal. Kein anderer Kärntner Standort bietet diese Anbindung.</p>
+
+<p><strong>Typische Buchungsmuster in Klagenfurt:</strong></p>
+
+<p>Montag bis Donnerstag: Geschäftsreisende. 70 bis 100 Euro pro Nacht, kurze Aufenthalte, praktische Ansprüche.</p>
+
+<p>Freitag bis Sonntag: Städtetouristen. 90 bis 140 Euro pro Nacht, kulturell interessiert, Restaurants und Altstadt.</p>
+
+<p>Juli und August: Badeurlauber. 120 bis 180 Euro pro Nacht, Seezugang relevant, längere Aufenthalte.</p>
+
+<p><em>Drei Zielgruppen, drei Preiskategorien, ein Objekt.</em></p>
+
+<p>Die Herausforderung: Jede Zielgruppe erwartet andere Kommunikation, andere Beschreibungen, andere Fotos.</p>
+
+<p><strong>Was in Klagenfurt funktioniert:</strong></p>
+
+<p>Lage in der Innenstadt oder nah am See – nicht dazwischen. Das Niemandsland zwischen Zentrum und Wasser bedient keine Zielgruppe optimal.</p>
+
+<p>Multi-Plattform-Strategie. Booking.com für Geschäftsreisende, Airbnb für Urlauber. Unterschiedliche Inserate, unterschiedliche Ansprache.</p>
+
+<p>Wochen-Rhythmus im Pricing. Dynamische Anpassung nicht nur saisonal, sondern wöchentlich.</p>
+
+<h2 id="vergleich">Die Zahlen im Vergleich</h2>
+
+<p>Ein hypothetisches Szenario: dieselbe 60-Quadratmeter-Wohnung an drei Standorten.</p>
+
+<p><strong>Wörthersee (Pörtschach)</strong></p>
+
+<p>Investition: 380.000 Euro. Hochsaison-Preis: 195 Euro. Jahresauslastung: 48%. Jahresumsatz brutto: 29.500 Euro.</p>
+
+<p><strong>Villach (Innenstadt)</strong></p>
+
+<p>Investition: 240.000 Euro. Ganzjahres-Schnitt: 105 Euro. Jahresauslastung: 52%. Jahresumsatz brutto: 19.900 Euro.</p>
+
+<p><strong>Klagenfurt (Zentrumsnah)</strong></p>
+
+<p>Investition: 295.000 Euro. Gewichteter Schnitt: 115 Euro. Jahresauslastung: 50%. Jahresumsatz brutto: 21.000 Euro.</p>
+
+<p>Der Wörthersee liefert den höchsten absoluten Umsatz. Aber auch die höchste Volatilität und die höchsten Kosten.</p>
+
+<p><em>Rendite auf das eingesetzte Kapital: Villach führt.</em></p>
+
+<h2 id="strategie">Die richtige Frage</h2>
+
+<p>Nicht: Wo verdiene ich am meisten?</p>
+
+<p>Sondern: Was passt zu meiner Situation?</p>
+
+<p>Kapitalanleger mit geringer Risikotoleranz: Villach oder Klagenfurt. Stabilere Erträge, weniger Management-Aufwand.</p>
+
+<p>Eigennutzer, die selbst im Sommer kommen wollen: Wörthersee. Die Hochsaison entfällt dann ohnehin.</p>
+
+<p>Investoren mit mehreren Objekten: Portfolio-Strategie. Ein Premium-Objekt am See, zwei solide Performer in den Städten.</p>
+
+<p>Wer sich mit <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> beschäftigt, muss diese regionalen Unterschiede verstehen. Eine Strategie, die am Wörthersee funktioniert, scheitert in Villach – und umgekehrt.</p>
+
+<h2 id="lokale-eigenheiten">Was Außenstehende übersehen</h2>
+
+<p>Der Faaker See. Technisch nicht Wörthersee, aber ähnliche Saisonalität. Starke Motorrad-Community. Andere Zielgruppe, anderes Marketing.</p>
+
+<p>Das Drautal. Oft übersehen, aber Potenzial für Outdoor-Tourismus. Radfahrer, Wanderer, Naturliebhaber. Niedriges Preisniveau, aber auch niedrige Konkurrenz.</p>
+
+<p>Die Winterfrage. Kärnten ist keine Ski-Destination. Wer auf Wintertourismus hofft, wird enttäuscht. Die Skigebiete sind zu klein, die Anbindung zu schlecht.</p>
+
+<p><em>Wer in Kärnten investiert, investiert in Sommertourismus.</em></p>
+
+<p>Diese Klarheit hilft bei Entscheidungen.</p>
+
+<p>Mehr zur regionalen Marktdynamik und den Besonderheiten der Kärntner Saisonalität findet sich im <a href="/blog/nebensaison-ferienwohnung-kaernten">Artikel zur Nebensaison-Strategie</a>.</p>
+    `,
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-03-25',
+    category: 'Marktanalyse',
+    tags: ['Kärnten', 'Wörthersee', 'Villach', 'Klagenfurt', 'Standortanalyse', 'Strategie'],
+    featuredImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Panoramablick auf die Kärntner Seenlandschaft mit Bergen im Hintergrund',
+    readingTime: 8,
+    tableOfContents: [
+      { id: 'woerthersee', text: 'Der Wörthersee: Premium mit Einschränkungen', level: 2 },
+      { id: 'villach', text: 'Villach: Der unterschätzte Allrounder', level: 2 },
+      { id: 'klagenfurt', text: 'Klagenfurt: Die Hybridlösung', level: 2 },
+      { id: 'vergleich', text: 'Die Zahlen im Vergleich', level: 2 },
+      { id: 'strategie', text: 'Die richtige Frage', level: 2 },
+      { id: 'lokale-eigenheiten', text: 'Was Außenstehende übersehen', level: 2 },
+    ],
+  },
+  {
     slug: 'airbnb-inserat-optimieren-7-hebel',
     title: 'Airbnb Inserat optimieren – 7 strategische Hebel',
     description: 'Warum manche Inserate 80% Auslastung erreichen und andere bei 35% stagnieren. Eine systematische Analyse der Faktoren, die über Buchungserfolg entscheiden.',
