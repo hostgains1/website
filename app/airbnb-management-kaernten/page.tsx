@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
+import { MiniSocialProof } from '@/components/MiniSocialProof';
+import { UnterseitenFAQ, airbnbManagementKaerntenFAQs } from '@/components/UnterseitenFAQ';
 import {
   ArrowRight,
   MapPin,
@@ -150,20 +153,24 @@ export default function AirbnbManagementKaerntenPage() {
         <Navbar />
 
         {/* Hero Section */}
-        <section className="bg-hostgains pt-28 pb-20 sm:pt-36 sm:pb-28 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-5">
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: 'radial-gradient(circle at 2px 2px, currentColor 1px, transparent 1px)',
-                backgroundSize: '32px 32px',
-              }}
+        <section className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/ferienwohnung vermieten Kärnten.jpg"
+              alt="Ferienwohnung vermieten in Kärnten"
+              fill
+              className="object-cover"
+              priority
             />
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-b from-hostgains/90 via-hostgains/80 to-hostgains/90" />
           </div>
 
-          <div className="container mx-auto px-4 sm:px-6 relative z-10">
-            <nav className="text-sm text-white/60 mb-8" aria-label="Breadcrumb">
-              <ol className="flex items-center gap-2 flex-wrap">
+          {/* Content */}
+          <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center py-24 sm:py-32">
+            <nav className="text-sm text-white/60 mb-6 flex justify-center" aria-label="Breadcrumb">
+              <ol className="flex items-center gap-2 flex-wrap justify-center">
                 <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                 <li>/</li>
                 <li><Link href="/airbnb-management" className="hover:text-white transition-colors">Airbnb Management</Link></li>
@@ -172,34 +179,31 @@ export default function AirbnbManagementKaerntenPage() {
               </ol>
             </nav>
 
-            <div className="max-w-4xl">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 font-display leading-[1.1]">
-                Airbnb Management in Kärnten
-              </h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 font-display">
+              Kurzzeitvermietung in Kärnten
+            </h1>
+            <p className="text-xl sm:text-2xl text-sand font-medium mb-6">
+              Wörthersee · Villach · Klagenfurt
+            </p>
 
-              <p className="text-lg sm:text-xl text-white/80 max-w-2xl mb-6 leading-relaxed">
-                Kärnten ist kein einheitlicher Markt. Die Nachfrage am Wörthersee unterscheidet sich fundamental von Villach oder dem Drautal. Wir kennen diese Unterschiede – weil wir hier leben und arbeiten.
-              </p>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">
+              Lokale Expertise für deinen Erfolg. Wir kennen den Markt, die Saisons und die Events – weil wir hier leben und arbeiten.
+            </p>
 
-              <p className="text-white/70 max-w-2xl mb-10 leading-relaxed">
-                hostgains ist in Klagenfurt am Wörthersee ansässig. Wir betreuen Ferienwohnungen in der gesamten Region und wissen, was vor Ort funktioniert.
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/analyse"
-                  className="inline-flex items-center justify-center gap-2 bg-sand hover:bg-white text-hostgains font-bold px-8 py-4 rounded-xl transition-all hover:scale-[1.02] shadow-lg"
-                >
-                  Kostenlose Potenzialanalyse
-                  <ArrowRight size={20} />
-                </Link>
-                <a
-                  href="#destinations"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-xl transition-all"
-                >
-                  Regionen entdecken
-                </a>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/analyse"
+                className="inline-flex items-center justify-center gap-2 bg-sand hover:bg-white text-hostgains font-bold px-8 py-4 rounded-xl transition-all hover:scale-[1.02] shadow-lg"
+              >
+                Kostenlose Potenzialanalyse
+                <ArrowRight size={20} />
+              </Link>
+              <a
+                href="#destinations"
+                className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-xl transition-all"
+              >
+                Regionen entdecken
+              </a>
             </div>
           </div>
         </section>
@@ -403,6 +407,56 @@ export default function AirbnbManagementKaerntenPage() {
                   <p className="text-gray-700 leading-relaxed">
                     Kärnten lebt vom Tourismus. Die Region zählt zu den Top-5-Destinationen Österreichs und zieht besonders deutsche Gäste an. Für Kurzzeitvermietung bedeutet das: ein stabiler Quellmarkt mit klaren Präferenzen. Deutsche Gäste buchen früh, bleiben länger und erwarten hohe Standards. Wer diese Erwartungen erfüllt, kann mit treuen Stammgästen rechnen.
                   </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Mini Social Proof */}
+          <MiniSocialProof
+            title="Ergebnisse aus Kärnten"
+            subtitle="So entwickeln sich Ferienwohnungen unter unserem Management"
+            region="kaernten"
+            className="bg-white"
+          />
+
+          {/* FAQ Section */}
+          <UnterseitenFAQ
+            title="Häufige Fragen zu Kärnten"
+            subtitle="Was Eigentümer über den regionalen Markt wissen möchten"
+            faqs={airbnbManagementKaerntenFAQs}
+            className="bg-sand-light"
+          />
+
+          {/* Blog Teaser */}
+          <section className="py-16 sm:py-20 bg-white">
+            <div className="container mx-auto px-4 sm:px-6">
+              <div className="max-w-4xl mx-auto text-center">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 font-display">
+                  Mehr zum Thema Kurzzeitvermietung in Kärnten
+                </h2>
+                <p className="text-gray-600 mb-8">
+                  Im Blog teilen wir regionale Insights und Strategien für erfolgreiche Vermietung in Kärnten.
+                </p>
+                <div className="flex flex-wrap justify-center gap-4">
+                  <Link
+                    href="/blog/lohnt-sich-airbnb-kaernten-2026"
+                    className="bg-sand-light px-5 py-3 rounded-xl text-sm font-medium text-gray-700 hover:text-hostgains hover:shadow-md transition-all"
+                  >
+                    Lohnt sich Airbnb in Kärnten 2026?
+                  </Link>
+                  <Link
+                    href="/blog/nebensaison-ferienwohnung-kaernten"
+                    className="bg-sand-light px-5 py-3 rounded-xl text-sm font-medium text-gray-700 hover:text-hostgains hover:shadow-md transition-all"
+                  >
+                    Nebensaison-Strategien
+                  </Link>
+                  <Link
+                    href="/blog"
+                    className="bg-hostgains px-5 py-3 rounded-xl text-sm font-medium text-white hover:bg-hostgains-light transition-all"
+                  >
+                    Alle Blogartikel
+                  </Link>
                 </div>
               </div>
             </div>

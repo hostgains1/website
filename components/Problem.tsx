@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { Section } from './Section';
-import { CalendarX, Sparkles, MessageSquare, TrendingDown, ArrowRight } from 'lucide-react';
+import { CalendarX, Sparkles, MessageSquare, TrendingDown, ArrowRight, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
@@ -16,7 +16,7 @@ export const Problem: React.FC = () => {
     {
       icon: Sparkles,
       title: "Zeitaufwändige Selbstverwaltung",
-      desc: "Gästekommunikation, Schlüsselübergabe und Reinigungskoordination kosten Eigentümer durchschnittlich 10-15 Stunden pro Woche."
+      desc: "Gästekommunikation, Schlüsselübergabe und Reinigungskoordination kosten Eigentümer durchschnittlich 10-15 Stunden pro Woche. Professionelles Management löst das."
     },
     {
       icon: MessageSquare,
@@ -50,14 +50,15 @@ export const Problem: React.FC = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header - SEO & LLM optimiert */}
           <header className="text-center mb-8 sm:mb-12 md:mb-16">
-            <motion.span
+            <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="inline-block px-3 sm:px-4 py-1 sm:py-1.5 mb-3 sm:mb-4 text-[10px] sm:text-xs font-display font-semibold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-hostgains bg-hostgains/10 rounded-full"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20"
             >
-              Herausforderungen
-            </motion.span>
+              <AlertCircle className="w-3 h-3 sm:w-4 sm:h-4 text-hostgains" aria-hidden="true" />
+              <span className="text-[10px] sm:text-xs md:text-sm text-hostgains font-medium">Herausforderungen</span>
+            </motion.div>
             <motion.h2
               id="problem-heading"
               initial={{ opacity: 0, y: 20 }}

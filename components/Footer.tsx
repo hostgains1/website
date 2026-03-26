@@ -117,7 +117,7 @@ export const Footer: React.FC = () => {
                   href="/airbnb-management"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
-                  Airbnb Management
+                  Wieso professionelles Management?
                 </Link>
               </li>
               <li>
@@ -125,7 +125,7 @@ export const Footer: React.FC = () => {
                   href="/airbnb-management-kaernten"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
-                  Management Kärnten
+                  Kurzzeitvermietung in Kärnten
                 </Link>
               </li>
               <li>
@@ -142,6 +142,14 @@ export const Footer: React.FC = () => {
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >
                   Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/kontakt"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Kontakt
                 </Link>
               </li>
             </ul>

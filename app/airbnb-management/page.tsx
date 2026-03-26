@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
+import { MiniSocialProof } from '@/components/MiniSocialProof';
 import {
   ArrowRight,
   ChevronDown,
@@ -26,14 +27,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Airbnb Management in Kärnten | Hostgains',
-  description: 'Professionelles Airbnb Management in Kärnten. Wir optimieren Preis, Auslastung und Gästekommunikation für Eigentümer.',
+  title: 'Wieso professionelles Management? | Hostgains',
+  description: 'Warum sich professionelles Kurzzeitvermietung-Management lohnt. Mehr Umsatz, weniger Aufwand, bessere Bewertungen. Full-Service für Ferienwohnungen.',
   alternates: {
     canonical: 'https://hostgains.at/airbnb-management',
   },
   openGraph: {
-    title: 'Airbnb Management Kärnten | Hostgains',
-    description: 'Strategisches Kurzzeitvermietungs-Management für Eigentümer in Kärnten.',
+    title: 'Wieso professionelles Management? | Hostgains',
+    description: 'Erfahre, warum sich professionelles Management für deine Ferienwohnung lohnt. Mehr Umsatz bei weniger Aufwand.',
     url: 'https://hostgains.at/airbnb-management',
     type: 'website',
   },
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'Airbnb Management Kärnten',
+  name: 'Professionelles Kurzzeitvermietung Management',
   serviceType: 'Kurzzeitvermietung Management',
   provider: {
     '@type': 'LocalBusiness',
@@ -56,14 +57,11 @@ const serviceSchema = {
       addressCountry: 'AT',
     },
   },
-  areaServed: [
-    { '@type': 'City', name: 'Klagenfurt am Wörthersee' },
-    { '@type': 'City', name: 'Velden am Wörthersee' },
-    { '@type': 'City', name: 'Pörtschach am Wörthersee' },
-    { '@type': 'City', name: 'Villach' },
-    { '@type': 'State', name: 'Kärnten' },
-  ],
-  description: 'Professionelles Airbnb Management für Ferienwohnungen in Kärnten. Inseratsoptimierung, dynamisches Pricing, 24/7 Gästebetreuung und Reinigungskoordination.',
+  areaServed: {
+    '@type': 'Country',
+    name: 'Österreich',
+  },
+  description: 'Professionelles Management für Ferienwohnungen. Inseratsoptimierung, dynamisches Pricing, 24/7 Gästebetreuung und Reinigungskoordination.',
 };
 
 const breadcrumbSchema = {
@@ -71,13 +69,13 @@ const breadcrumbSchema = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://hostgains.at/' },
-    { '@type': 'ListItem', position: 2, name: 'Airbnb Management', item: 'https://hostgains.at/airbnb-management' },
+    { '@type': 'ListItem', position: 2, name: 'Professionelles Management', item: 'https://hostgains.at/airbnb-management' },
   ],
 };
 
 const faqItems = [
   {
-    question: 'Was kostet Airbnb Management in Kärnten?',
+    question: 'Was kostet professionelles Management?',
     answer: 'hostgains arbeitet performance-basiert. Die Provision liegt bei 18% des Nettoumsatzes. Es gibt keine Fixkosten, keine Einrichtungsgebühren und keine versteckten Kosten. Du zahlst nur, wenn du verdienst.',
   },
   {
@@ -85,8 +83,8 @@ const faqItems = [
     answer: 'Die meisten Eigentümer investieren 8 bis 15 Stunden pro Woche in ihre Ferienwohnung: Anfragen beantworten, Preise anpassen, Reinigung koordinieren, Probleme lösen. Mit professionellem Management sinkt dieser Aufwand auf unter eine Stunde pro Monat.',
   },
   {
-    question: 'Lohnt sich Airbnb in Kärnten noch?',
-    answer: 'Ja, aber der Markt hat sich verändert. Die Anzahl der Inserate am Wörthersee ist seit 2021 um 67% gestiegen. Gleichzeitig sind die durchschnittlichen Umsätze pro Objekt um 23% gesunken. Professionell geführte Objekte performen überdurchschnittlich, weil sie bei Pricing, Fotografie und Kommunikation optimiert sind.',
+    question: 'Lohnt sich Kurzzeitvermietung noch?',
+    answer: 'Ja, aber der Markt hat sich verändert. Die Anzahl der Inserate ist in vielen Regionen stark gestiegen, während die durchschnittlichen Umsätze pro Objekt gesunken sind. Professionell geführte Objekte performen überdurchschnittlich, weil sie bei Pricing, Fotografie und Kommunikation optimiert sind.',
   },
   {
     question: 'Gibt es Mindestlaufzeiten oder Kündigungsfristen?',
@@ -236,54 +234,56 @@ export default function AirbnbManagementPage() {
         <Navbar />
 
         {/* Hero Section */}
-        <section className="bg-hostgains pt-28 pb-20 sm:pt-36 sm:pb-28 relative overflow-hidden">
-          {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-5">
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: 'radial-gradient(circle at 2px 2px, currentColor 1px, transparent 1px)',
-                backgroundSize: '32px 32px',
-              }}
+        <section className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/airbnb manegement kärnten.jpg"
+              alt="Professionelles Kurzzeitvermietung Management"
+              fill
+              className="object-cover"
+              priority
             />
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-b from-hostgains/90 via-hostgains/80 to-hostgains/90" />
           </div>
 
-          <div className="container mx-auto px-4 sm:px-6 relative z-10">
-            <nav className="text-sm text-white/60 mb-8" aria-label="Breadcrumb">
+          {/* Content */}
+          <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center py-24 sm:py-32">
+            <nav className="text-sm text-white/60 mb-6 flex justify-center" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2">
                 <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                 <li>/</li>
-                <li className="text-white">Airbnb Management</li>
+                <li className="text-white">Professionelles Management</li>
               </ol>
             </nav>
 
-            <div className="max-w-4xl">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 font-display leading-[1.1]">
-                Airbnb Management in Kärnten
-                <span className="block text-sand mt-2">Professionelle Betreuung für Eigentümer</span>
-              </h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 font-display">
+              Wieso professionelles Management?
+            </h1>
+            <p className="text-xl sm:text-2xl text-sand font-medium mb-6">
+              Mehr Umsatz. Weniger Aufwand. Null Stress.
+            </p>
 
-              <p className="text-lg sm:text-xl text-white/80 max-w-2xl mb-10 leading-relaxed">
-                Eine Ferienwohnung zu vermieten klingt nach passivem Einkommen. Die Realität:
-                Preise täglich anpassen, Anfragen um Mitternacht beantworten, Reinigungsteams
-                koordinieren, Gästebeschwerden lösen.
-              </p>
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">
+              Die Vermietung einer Ferienwohnung klingt nach passivem Einkommen –
+              bis man merkt, wie viel Arbeit wirklich dahintersteckt.
+            </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  href="/analyse"
-                  className="inline-flex items-center justify-center gap-2 bg-sand hover:bg-white text-hostgains font-bold px-8 py-4 rounded-xl transition-all hover:scale-[1.02] shadow-lg"
-                >
-                  Kostenlose Potenzialanalyse
-                  <ArrowRight size={20} />
-                </Link>
-                <a
-                  href="#services"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-xl transition-all"
-                >
-                  Mehr erfahren
-                </a>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/analyse"
+                className="inline-flex items-center justify-center gap-2 bg-sand hover:bg-white text-hostgains font-bold px-8 py-4 rounded-xl transition-all hover:scale-[1.02] shadow-lg"
+              >
+                Kostenlose Potenzialanalyse
+                <ArrowRight size={20} />
+              </Link>
+              <a
+                href="#services"
+                className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-xl transition-all"
+              >
+                Leistungen entdecken
+              </a>
             </div>
           </div>
         </section>
@@ -391,48 +391,45 @@ export default function AirbnbManagementPage() {
             </div>
           </section>
 
-          {/* Kärnten Section */}
+          {/* Why Professional Management Section */}
           <section className="py-16 sm:py-20 bg-hostgains text-white">
             <div className="container mx-auto px-4 sm:px-6">
               <div className="max-w-4xl mx-auto">
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-8 font-display">
-                  Airbnb Management in Kärnten
-                  <span className="block text-sand text-xl sm:text-2xl mt-2 font-normal">Der lokale Vorteil</span>
+                  Was viele Eigentümer unterschätzen
+                  <span className="block text-sand text-xl sm:text-2xl mt-2 font-normal">Die versteckten Kosten der Selbstvermietung</span>
                 </h2>
 
                 <div className="space-y-6 text-white/90 text-lg leading-relaxed">
                   <p>
-                    Kärnten ist kein einheitlicher Markt. Die Nachfrage am Wörthersee
-                    unterscheidet sich fundamental von Villach oder dem Drautal.
-                    Saisonale Schwankungen sind extremer als in den meisten anderen
-                    Regionen Österreichs.
+                    Die meisten Eigentümer rechnen mit 2-3 Stunden Aufwand pro Woche.
+                    Die Realität: 8 bis 15 Stunden. Anfragen beantworten, Preise anpassen,
+                    Kalender synchronisieren, Reinigung koordinieren, Check-ins managen,
+                    Probleme lösen – und das oft zu unmöglichen Zeiten.
                   </p>
 
                   <p>
-                    Die Sommermonate Juni bis August generieren fast 60 Prozent des
-                    Jahresumsatzes. Die Wintersaison trägt unter 10 Prozent bei –
-                    anders als in Tirol oder Salzburg gibt es keinen klassischen
-                    Skitourismus, der die kalten Monate trägt.
+                    Der finanzielle Verlust ist noch größer. Ohne dynamisches Pricing
+                    verschenken Eigentümer 20 bis 40 Prozent ihres möglichen Umsatzes.
+                    Zu niedrige Preise in der Hochsaison, zu hohe in der Nebensaison,
+                    verpasste Events – Geld, das auf dem Tisch liegen bleibt.
                   </p>
 
                   <p>
-                    Diese Saisonalität erfordert eine angepasste Strategie. Maximale
-                    Preise im Sommer, gezielte Aktionen in der Nebensaison, spezielle
-                    Angebote für Langzeitgäste im Winter. Wer den Kärntner Markt nicht
-                    kennt, optimiert an der Realität vorbei.
+                    Dazu kommen mittelmäßige Bewertungen, weil die Kommunikation nicht
+                    stimmt. Langsame Antwortzeiten, fehlende Informationen, ungelöste
+                    Probleme – alles Faktoren, die Rankings und Buchungsraten drücken.
                   </p>
 
                   <p className="text-white font-medium">
-                    hostgains ist in Klagenfurt am Wörthersee ansässig. Wir kennen die
-                    lokalen Events – vom GTI-Treffen bis zum Ironman – und wissen, wann
-                    die Preise verdreifacht werden können. Wir kennen die Reinigungsteams,
-                    die zuverlässig arbeiten. Wir kennen die Handwerker, die schnell
-                    reagieren, wenn etwas kaputtgeht.
+                    Professionelles Management löst diese Probleme systematisch.
+                    Automatisierte Prozesse, erprobte Systeme, spezialisiertes Know-how.
+                    Du behältst die Kontrolle über dein Objekt – wir liefern die Ergebnisse.
                   </p>
 
                   <p className="text-sand italic">
-                    Dieser lokale Vorteil lässt sich nicht durch Algorithmen ersetzen.
-                    Er entsteht durch Präsenz, Erfahrung und Beziehungen vor Ort.
+                    Der wahre Luxus ist nicht die Immobilie selbst, sondern die Zeit,
+                    die du zurückgewinnst.
                   </p>
                 </div>
               </div>
@@ -479,7 +476,7 @@ export default function AirbnbManagementPage() {
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900">Höhere Auslastung</strong> –
                     Professionell geführte Objekte erreichen 60 bis 75 Prozent
-                    Jahresauslastung. Der Durchschnitt in Kärnten liegt bei unter 50 Prozent.
+                    Jahresauslastung. Der Durchschnitt liegt bei unter 50 Prozent.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     <strong className="text-gray-900">Bessere Bewertungen</strong> –
@@ -503,6 +500,13 @@ export default function AirbnbManagementPage() {
               </div>
             </div>
           </section>
+
+          {/* Mini Social Proof */}
+          <MiniSocialProof
+            title="Echte Ergebnisse"
+            subtitle="So entwickeln sich Ferienwohnungen unter professionellem Management"
+            className="bg-sand-light"
+          />
 
           {/* Target Groups */}
           <section className="py-16 sm:py-20 bg-sand-light">
@@ -565,6 +569,41 @@ export default function AirbnbManagementPage() {
                       </div>
                     </details>
                   ))}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Blog Teaser */}
+          <section className="py-16 sm:py-20 bg-sand-light">
+            <div className="container mx-auto px-4 sm:px-6">
+              <div className="max-w-4xl mx-auto text-center">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 font-display">
+                  Mehr zum Thema Kurzzeitvermietung
+                </h2>
+                <p className="text-gray-600 mb-8">
+                  Im Blog teilen wir Expertenwissen zu Marktentwicklungen, Pricing-Strategien und Best Practices
+                  für erfolgreiche Kurzzeitvermietung.
+                </p>
+                <div className="flex flex-wrap justify-center gap-4">
+                  <Link
+                    href="/blog/dynamisches-pricing-mythen-realitaet"
+                    className="bg-white px-5 py-3 rounded-xl text-sm font-medium text-gray-700 hover:text-hostgains hover:shadow-md transition-all"
+                  >
+                    Dynamisches Pricing erklärt
+                  </Link>
+                  <Link
+                    href="/blog/gaestekommunikation-denkfehler"
+                    className="bg-white px-5 py-3 rounded-xl text-sm font-medium text-gray-700 hover:text-hostgains hover:shadow-md transition-all"
+                  >
+                    Gästekommunikation
+                  </Link>
+                  <Link
+                    href="/blog"
+                    className="bg-hostgains px-5 py-3 rounded-xl text-sm font-medium text-white hover:bg-hostgains-light transition-all"
+                  >
+                    Alle Blogartikel
+                  </Link>
                 </div>
               </div>
             </div>

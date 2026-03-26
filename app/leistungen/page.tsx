@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
+import { MiniSocialProof } from '@/components/MiniSocialProof';
+import { UnterseitenFAQ, leistungenFAQs } from '@/components/UnterseitenFAQ';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ArrowRight,
   Camera,
@@ -120,6 +123,7 @@ const breadcrumbSchema = {
 
 const services = [
   {
+    id: 'listing',
     icon: Camera,
     title: 'Listing-Optimierung',
     description: 'Der erste Eindruck entscheidet. Ein optimiertes Inserat erzielt 40 bis 60 Prozent mehr Buchungen als ein durchschnittliches. Wir erstellen professionelle Fotos, die deine Ferienwohnung im besten Licht zeigen, und schreiben Texte, die verkaufen statt beschreiben.',
@@ -133,6 +137,7 @@ const services = [
     blogText: 'Mehr über Inseratsoptimierung',
   },
   {
+    id: 'pricing',
     icon: TrendingUp,
     title: 'Dynamisches Pricing',
     description: 'Der richtige Preis ändert sich täglich. Dieselbe Nacht kann 75 Euro oder 220 Euro wert sein – abhängig von Wochentag, Saison, lokalen Events und Mitbewerberverhalten. Wir passen die Preise deiner Ferienwohnung täglich an, um den maximalen Umsatz zu erzielen.',
@@ -146,6 +151,7 @@ const services = [
     blogText: 'Mehr über dynamisches Pricing',
   },
   {
+    id: 'gaeste',
     icon: MessageCircle,
     title: '24/7 Gästekommunikation',
     description: 'Schnelle Antworten erhöhen die Buchungswahrscheinlichkeit um 40 Prozent. Wir beantworten Anfragen rund um die Uhr – auch nachts um 3 Uhr – in Deutsch und Englisch. Aber es geht nicht nur um Geschwindigkeit: Professionelle Kommunikation antizipiert Fragen, bevor sie gestellt werden.',
@@ -159,6 +165,7 @@ const services = [
     blogText: 'Mehr über Gästekommunikation',
   },
   {
+    id: 'reinigung',
     icon: Sparkles,
     title: 'Reinigung & Qualitätskontrolle',
     description: '38 Prozent aller negativen Bewertungen erwähnen Sauberkeit. Reinigung ist kein Kostenfaktor – sie ist ein kritischer Geschäftsprozess. Wir koordinieren zuverlässige Reinigungsteams und führen Qualitätskontrollen nach jedem Gast durch, damit deine Wohnung auch nach 100 Gästen wie neu aussieht.',
@@ -172,6 +179,7 @@ const services = [
     blogText: 'Mehr über Reinigungsmanagement',
   },
   {
+    id: 'multichannel',
     icon: Share2,
     title: 'Multi-Plattform-Vertrieb',
     description: 'Airbnb allein reicht nicht. Wir platzieren deine Ferienwohnung synchronisiert auf allen relevanten Plattformen: Airbnb, Booking.com, VRBO und spezialisierten Nischenportalen. Ein zentraler Kalender verhindert Doppelbuchungen und maximiert die Sichtbarkeit.',
@@ -183,6 +191,7 @@ const services = [
     ],
   },
   {
+    id: 'seo',
     icon: Search,
     title: 'Plattform-SEO',
     description: 'Die meisten Buchungen gehen an Inserate auf der ersten Seite. Wir wissen, wie der Airbnb- und Booking.com-Algorithmus funktioniert, und optimieren dein Inserat gezielt für bessere Rankings. Gezielte Keywords, optimale Antwortzeiten und strategische Preisgestaltung sorgen dafür, dass deine Ferienwohnung gesehen wird.',
@@ -194,6 +203,7 @@ const services = [
     ],
   },
   {
+    id: 'bewertungen',
     icon: Star,
     title: 'Bewertungsmanagement',
     description: 'Objekte über 4,7 Sternen erzielen bis zu 45 Prozent höhere Preise. Wir arbeiten systematisch an der Bewertungsstrategie: proaktive Problemlösung verhindert negative Bewertungen, freundliche Nachverfolgung ermutigt zufriedene Gäste zur Rezension.',
@@ -205,6 +215,7 @@ const services = [
     ],
   },
   {
+    id: 'reporting',
     icon: FileText,
     title: 'Reporting & Transparenz',
     description: 'Du weißt jederzeit, wie deine Ferienwohnung performt. Monatliche Berichte zeigen alle relevanten Kennzahlen: Umsatz, Auslastung, Durchschnittspreis, Bewertungsentwicklung. Volle Transparenz über jeden Aspekt der Vermietung.',
@@ -233,46 +244,54 @@ export default function LeistungenPage() {
         <Navbar />
 
         {/* Hero Section */}
-        <section className="bg-hostgains pt-28 pb-16 sm:pt-36 sm:pb-24 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-5">
-            <div
-              className="absolute inset-0"
-              style={{
-                backgroundImage: 'radial-gradient(circle at 2px 2px, currentColor 1px, transparent 1px)',
-                backgroundSize: '32px 32px',
-              }}
+        <section className="relative min-h-[60vh] sm:min-h-[70vh] flex items-center justify-center overflow-hidden">
+          {/* Background Image */}
+          <div className="absolute inset-0">
+            <Image
+              src="/hero-woerthersee.webp"
+              alt="Ferienwohnung am Wörthersee"
+              fill
+              className="object-cover"
+              priority
             />
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-b from-hostgains/90 via-hostgains/80 to-hostgains/90" />
           </div>
 
-          <div className="container mx-auto px-4 sm:px-6 relative z-10">
-            <nav className="text-sm text-white/60 mb-6" aria-label="Breadcrumb">
+          {/* Content */}
+          <div className="container mx-auto px-4 sm:px-6 relative z-10 text-center py-24 sm:py-32">
+            <nav className="text-sm text-white/60 mb-6 flex justify-center" aria-label="Breadcrumb">
               <ol className="flex items-center gap-2">
                 <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
                 <li>/</li>
                 <li className="text-white">Leistungen</li>
               </ol>
             </nav>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 font-display">
+
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 font-display">
               Unsere <span className="text-sand">Leistungen</span>
             </h1>
-            <p className="text-xl text-white/80 max-w-3xl mb-4">
+
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">
               Full-Service Kurzzeitvermietung für Ferienwohnungen in Kärnten.
-              Von der Inseratserstellung bis zur Reinigung – wir übernehmen alles, du genießt die Einnahmen.
+              Von der Inseratserstellung bis zur Reinigung – wir übernehmen alles.
             </p>
-            <p className="text-lg text-white/70 max-w-3xl mb-8">
-              Professionelles{' '}
-              <Link href="/airbnb-management" className="text-sand hover:underline">
-                Airbnb Management
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href="/analyse"
+                className="inline-flex items-center justify-center gap-2 bg-sand hover:bg-white text-hostgains font-bold px-8 py-4 rounded-xl transition-all hover:scale-[1.02] shadow-lg"
+              >
+                Kostenlose Analyse anfordern
+                <ArrowRight size={20} />
               </Link>
-              {' '}bedeutet: maximale Auslastung bei minimalem Aufwand. Performance-basiert, ohne Fixkosten.
-            </p>
-            <Link
-              href="/analyse"
-              className="inline-flex items-center gap-2 bg-sand hover:bg-white text-hostgains font-bold px-8 py-4 rounded-xl transition-all hover:scale-[1.02] shadow-lg"
-            >
-              Kostenlose Analyse anfordern
-              <ArrowRight size={20} />
-            </Link>
+              <Link
+                href="/airbnb-management"
+                className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-xl transition-all"
+              >
+                Mehr über unser Management
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -317,7 +336,8 @@ export default function LeistungenPage() {
                   {services.map((service, index) => (
                     <div
                       key={index}
-                      className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-lg transition-shadow border border-gray-100"
+                      id={service.id}
+                      className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-lg transition-shadow border border-gray-100 scroll-mt-32"
                     >
                       <div className="flex flex-col lg:flex-row gap-6">
                         <div className="flex-shrink-0">
@@ -408,6 +428,13 @@ export default function LeistungenPage() {
             </div>
           </section>
 
+          {/* Mini Social Proof */}
+          <MiniSocialProof
+            title="Das erreichen wir gemeinsam"
+            subtitle="Echte Ergebnisse aus Kärnten"
+            className="bg-sand-light"
+          />
+
           {/* Pricing Section */}
           <section className="py-16 sm:py-20 bg-hostgains text-white">
             <div className="container mx-auto px-4 sm:px-6">
@@ -473,6 +500,14 @@ export default function LeistungenPage() {
               </div>
             </div>
           </section>
+
+          {/* FAQ Section */}
+          <UnterseitenFAQ
+            title="Häufige Fragen zu unseren Leistungen"
+            subtitle="Was Eigentümer wissen möchten"
+            faqs={leistungenFAQs}
+            className="bg-white"
+          />
         </main>
 
         <Footer />

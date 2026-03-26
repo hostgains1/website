@@ -3,7 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
-import { Camera, Tag, Share2, Headset, Sparkles, Search, Linkedin } from 'lucide-react';
+import { Camera, Tag, Share2, Headset, Sparkles, Search, Linkedin, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export const Credentials: React.FC = () => {
   // Team mit E-A-T-optimierten Beschreibungen
@@ -31,38 +32,39 @@ export const Credentials: React.FC = () => {
   const features = [
     {
       icon: Camera,
-      title: "Listing-Optimierung",
-      desc: "Wir schreiben keine Inserate, wir schreiben Verkaufsbriefe. Psychologisch optimierte Texte und High-End Fotos für Airbnb und Booking.com, die \"Buchen\" unwiderstehlich machen.",
+      title: "Inserat Optimierung",
+      desc: "Wir erstellen professionelle Fotos und überzeugende Texte für Airbnb und Booking.com — damit dein Inserat mehr Buchungen bekommt.",
       dark: false
     },
     {
       icon: Tag,
       title: "Dynamisches Pricing",
-      desc: "Konstante Preise sind Geldverbrennung. Unsere Algorithmen passen den Preis deiner Ferienwohnung täglich an Nachfrage, Events am Wörthersee und Wetter an.",
-      dark: true
+      desc: "Wir passen den Preis deiner Ferienwohnung täglich an Nachfrage, Events am Wörthersee und Saison an — so verdienst du mehr.",
+      dark: true,
+      blogLink: "/blog/dynamisches-pricing-mythen-realitaet"
     },
     {
       icon: Share2,
-      title: "Omnipräsenz",
-      desc: "Airbnb ist nicht genug. Wir platzieren deine Immobilie synchronisiert auf Booking.com, VRBO und spezialisierten Nischenportalen für maximale Reichweite.",
+      title: "Auf allen Plattformen",
+      desc: "Deine Wohnung ist auf Airbnb, Booking.com, VRBO und weiteren Portalen sichtbar — alles synchronisiert, keine Doppelbuchungen.",
       dark: false
     },
     {
       icon: Headset,
-      title: "24/7 Gäste-Support",
-      desc: "Wir antworten nachts um 3 Uhr, damit du schlafen kannst. Kommunikation, Check-in, Problemlösung für deine Kurzzeitvermietung – alles wir.",
+      title: "24/7 Gästebetreuung",
+      desc: "Wir beantworten Anfragen rund um die Uhr, kümmern uns um Check-in und lösen Probleme — auch nachts um 3 Uhr.",
       dark: false
     },
     {
       icon: Sparkles,
-      title: "Reinigung & Pflege",
-      desc: "Koordination von Reinigungsteams und Instandhaltung in Klagenfurt. Wir sorgen dafür, dass deine Wohnung auch nach 100 Gästen wie neu aussieht.",
+      title: "Reinigung & Wäscheservice",
+      desc: "Wir koordinieren Reinigung und Wäsche nach jedem Gast. Regelmäßige Check-ups stellen sicher, dass alles in Ordnung ist.",
       dark: false
     },
     {
       icon: Search,
-      title: "SEO Dominanz",
-      desc: "Wir wissen, wie man auf Seite 1 bei Airbnb und Booking.com landet. Durch gezielte Keywords und Optimierung wird deine Ferienwohnung am Wörthersee gesehen – und gebucht.",
+      title: "Bessere Platzierung",
+      desc: "Wir optimieren dein Inserat so, dass es weiter oben in den Suchergebnissen erscheint — mehr Sichtbarkeit, mehr Buchungen.",
       dark: false
     }
   ];
@@ -144,7 +146,7 @@ export const Credentials: React.FC = () => {
 
         <ul
           id="leistungen"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-5 md:gap-8 scroll-mt-24"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-5 md:gap-8 scroll-mt-24 lg:grid-rows-2 lg:auto-rows-fr"
           role="list"
           aria-label="hostgains Kurzzeitvermietung Services in Klagenfurt"
         >
@@ -155,7 +157,7 @@ export const Credentials: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.05 }}
-              className={`p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl sm:rounded-2xl md:rounded-3xl transition-all duration-300 ${
+              className={`p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl sm:rounded-2xl md:rounded-3xl transition-all duration-300 h-full flex flex-col ${
                 item.dark
                   ? 'bg-hostgains text-white shadow-xl hover:-translate-y-2'
                   : 'bg-white border border-sand-dark shadow-sm hover:shadow-xl hover:border-hostgains/20'
@@ -174,12 +176,32 @@ export const Credentials: React.FC = () => {
               <h3 className={`text-base sm:text-lg md:text-xl lg:text-2xl font-bold font-display mb-2 sm:mb-3 md:mb-4 ${item.dark ? 'text-white' : 'text-gray-900'}`}>
                 {item.title}
               </h3>
-              <p className={`leading-relaxed text-sm sm:text-base ${item.dark ? 'text-gray-300' : 'text-gray-600'}`}>
+              <p className={`leading-relaxed text-sm sm:text-base flex-grow ${item.dark ? 'text-gray-300' : 'text-gray-600'}`}>
                 {item.desc}
               </p>
+              {item.blogLink && (
+                <Link
+                  href={item.blogLink}
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-sand hover:text-white mt-4 group"
+                >
+                  Mehr erfahren
+                  <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+                </Link>
+              )}
             </motion.li>
           ))}
         </ul>
+
+        {/* Link zu allen Leistungen */}
+        <div className="text-center mt-8 sm:mt-12">
+          <Link
+            href="/leistungen"
+            className="inline-flex items-center gap-2 text-hostgains hover:text-hostgains-light font-medium group"
+          >
+            Alle Leistungen im Detail
+            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+          </Link>
+        </div>
       </article>
     </Section>
   );

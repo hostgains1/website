@@ -2,7 +2,8 @@
 import React from 'react';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
-import { TrendingUp, Sparkles, Monitor, Star } from 'lucide-react';
+import { TrendingUp, Sparkles, Monitor, Star, ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 export const Solution: React.FC = () => {
   // Was ist Kurzzeitvermietung-Management? - LLM-optimierte Services
@@ -133,6 +134,17 @@ export const Solution: React.FC = () => {
             </div>
           ))}
         </motion.div>
+
+        {/* Link zu Airbnb Management */}
+        <div className="text-center mt-8 sm:mt-12">
+          <Link
+            href="/airbnb-management"
+            className="inline-flex items-center gap-2 text-sand hover:text-white font-medium group"
+          >
+            Wieso professionelles Management?
+            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+          </Link>
+        </div>
       </div>
 
       {/* Bottom Diagonal Cut */}
