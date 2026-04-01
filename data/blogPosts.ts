@@ -164,8 +164,8 @@ export const blogPosts: BlogPost[] = [
     publishedAt: '2026-04-01',
     category: 'Preisgestaltung',
     tags: ['Pricing', 'Airbnb', 'Kärnten', 'Dynamisches Pricing', 'Revenue Management', 'Strategie'],
-    featuredImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
-    featuredImageAlt: 'Statistiken und Diagramme zur Preisanalyse',
+    featuredImage: 'https://images.unsplash.com/photo-1730789701634-5386e7271462?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Taschenrechner auf Geldscheinen - Symbol für Preiskalkulation',
     readingTime: 9,
     tableOfContents: [
       { id: 'fixe-preise', text: 'Warum fixe Preise schlecht sind', level: 2 },
