@@ -3,6 +3,180 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-preise-richtig-setzen',
+    title: 'Airbnb Preise richtig setzen – So maximieren Sie Ihre Einnahmen',
+    description: 'Dynamisches Pricing statt Fixpreise: Wie Sie durch intelligente Preisgestaltung bei Airbnb und Booking.com Ihre Einnahmen in Kärnten deutlich steigern.',
+    excerpt: 'Viele Vermieter setzen ihre Preise einmal fest und lassen sie unverändert. Genau hier liegt enormes Potenzial: Dynamisches Pricing kann die Einnahmen deutlich steigern.',
+    content: `
+<p>Viele Vermieter setzen ihre Preise einmal fest und lassen sie unverändert. Ein Fehler, der über das Jahr gerechnet tausende Euro kostet.</p>
+
+<p>Dynamisches Pricing ist keine Raketenwissenschaft. Es ist das Verständnis, dass Angebot und Nachfrage täglich schwanken – und die Preise diesem Rhythmus folgen sollten.</p>
+
+<h2 id="fixe-preise">Warum fixe Preise schlecht sind</h2>
+
+<p>Ein fixer Preis ist ein Kompromiss. Zu hoch für die Nebensaison, zu niedrig für die Hochsaison.</p>
+
+<p>Das Ergebnis: <strong>In der Nebensaison bleiben Nächte leer.</strong> In der Hochsaison verschenken Sie Geld.</p>
+
+<p>Ein Beispiel aus der Praxis:</p>
+
+<p>Wohnung am Wörthersee. Fixpreis: 120 Euro pro Nacht.</p>
+
+<p><em>Im November standen 22 Nächte leer – bei einem Preis, den niemand zahlen wollte.</em></p>
+
+<p><em>Im Juli war jede Nacht gebucht – obwohl der Markt 200 Euro hergegeben hätte.</em></p>
+
+<p>Verlust durch den Fixpreis: Rund 4.800 Euro pro Jahr. Allein durch diese eine Wohnung.</p>
+
+<p>Fixpreise ignorieren die Realität. Die Nachfrage ist nicht konstant. Warum sollte der Preis es sein?</p>
+
+<h2 id="saisonalitaet">Saisonabhängigkeit in Kärnten</h2>
+
+<p>Kärnten ist ein Sommermarkt. Das klingt simpel, hat aber weitreichende Konsequenzen für die Preisgestaltung.</p>
+
+<p><strong>Die Hochsaison:</strong> Juni bis August. 70% des Jahresumsatzes entstehen in diesen drei Monaten.</p>
+
+<p><strong>Die Nebensaison:</strong> September bis Mai. Neun Monate, die um die restlichen 30% kämpfen.</p>
+
+<p>Diese Verteilung ist in Österreich extremer als in vielen anderen Märkten. Wer aus Deutschland oder der Schweiz kommt, unterschätzt sie regelmäßig.</p>
+
+<p>Konkrete Preiskorridore für eine durchschnittliche 2-Zimmer-Wohnung:</p>
+
+<p><strong>Juli/August:</strong> 150–220 Euro pro Nacht. Die Nachfrage ist hoch, die Preissensibilität gering.</p>
+
+<p><strong>Juni/September:</strong> 110–160 Euro. Schultersaison mit solider Auslastung.</p>
+
+<p><strong>Mai/Oktober:</strong> 80–120 Euro. Wochenenden funktionieren, unter der Woche wird es schwieriger.</p>
+
+<p><strong>November bis April:</strong> 60–90 Euro. Jede Buchung zählt. Flexibilität bei Mindestaufenthalt ist Pflicht.</p>
+
+<p><em>Wer im November den gleichen Preis verlangt wie im Juli, versteht den Markt nicht.</em></p>
+
+<h2 id="events">Events & Nachfrage</h2>
+
+<p>Saisonalität ist der Rahmen. Events sind die Ausnahmen, die diesen Rahmen sprengen.</p>
+
+<p>Kärntens wichtigste Events für Vermieter:</p>
+
+<p><strong>GTI-Treffen am Wörthersee</strong> (Mai): Preise verdreifachen sich. Mindestens. Drei Nächte Minimum. Frühbucher sichern sich die besten Objekte Monate vorher.</p>
+
+<p><strong>Ironman Austria</strong> (Juni): Klagenfurt ist ausgebucht. Jede Unterkunft im Umkreis von 30 Kilometern profitiert.</p>
+
+<p><strong>Starnacht am Wörthersee</strong> (Juli): Ein Wochenende mit Premium-Nachfrage.</p>
+
+<p><strong>Villacher Kirchtag</strong> (August): Die größte Brauchtumsveranstaltung Österreichs. Eine Woche lang erhöhte Nachfrage.</p>
+
+<p><strong>Altstadtzauber Klagenfurt</strong> (August): Innenstadtlagen sind ausgebucht.</p>
+
+<p>Wer diese Termine nicht im Kalender hat, verschenkt die lukrativsten Nächte des Jahres.</p>
+
+<p><em>Ein Vermieter ohne Event-Kalender ist wie ein Händler ohne Weihnachtsgeschäft.</em></p>
+
+<p>Aber Events bedeuten nicht nur höhere Preise. Sie bedeuten auch angepasste Bedingungen:</p>
+
+<p>Längere Mindestaufenthalte. Striktere Stornobedingungen. Vorauszahlung.</p>
+
+<p>Wer zum Ironman für zwei Nächte buchen lässt, blockiert Anfragen für fünf Nächte. Ein teurer Fehler.</p>
+
+<h2 id="tools">Tools & Strategien</h2>
+
+<p>Dynamisches Pricing manuell umzusetzen ist möglich. Bei einem Objekt. Bei fünf wird es zum Vollzeitjob.</p>
+
+<p><strong>Die Basis: Der Airbnb-eigene Preisassistent</strong></p>
+
+<p>Kostenlos, aber begrenzt. Er reagiert auf Nachfrage, versteht aber keine lokalen Events. Als Startpunkt nutzbar, nicht als Lösung.</p>
+
+<p><strong>PriceLabs</strong></p>
+
+<p>Der Marktführer für dynamisches Pricing. Verbindet sich mit Airbnb, Booking.com und anderen Plattformen. Setzt Preise automatisch basierend auf Algorithmen.</p>
+
+<p>Kosten: Ab 20 Euro pro Monat und Objekt. Bei richtiger Nutzung: ROI innerhalb des ersten Monats.</p>
+
+<p><strong>Wheelhouse</strong></p>
+
+<p>Alternative zu PriceLabs. Andere Preislogik, ähnliches Ergebnis. Manche Objekte performen besser mit dem einen, manche mit dem anderen Tool.</p>
+
+<p><strong>Beyond Pricing</strong></p>
+
+<p>Prozentbasiertes Modell. Keine Fixkosten, aber 1% des Umsatzes. Bei hochpreisigen Objekten teurer als PriceLabs.</p>
+
+<p>Die Wahl des Tools ist weniger wichtig als die konsequente Nutzung. Ein durchschnittlich konfiguriertes PriceLabs schlägt eine manuelle Strategie, die nie aktualisiert wird.</p>
+
+<p><em>Die beste Strategie ist die, die tatsächlich umgesetzt wird.</em></p>
+
+<p><strong>Unsere Empfehlung:</strong></p>
+
+<p>PriceLabs als Basis. Manuelle Überschreibungen für Events. Wöchentliche Kontrolle der Auslastungsprognose.</p>
+
+<h2 id="praxisbeispiele">Praxisbeispiele</h2>
+
+<p>Theorie ist nützlich. Zahlen überzeugen.</p>
+
+<p><strong>Beispiel 1: Die Klagenfurt-Wohnung</strong></p>
+
+<p>60 Quadratmeter, Innenstadtlage. Vor der Optimierung: Fixpreis 95 Euro, Jahresauslastung 42%, Jahresumsatz 14.500 Euro.</p>
+
+<p>Nach Einführung von dynamischem Pricing:</p>
+
+<p>Nebensaison-Basis: 69 Euro. Hochsaison-Spitze: 149 Euro. Ironman-Wochenende: 289 Euro (3 Nächte Minimum).</p>
+
+<p>Ergebnis: Jahresauslastung 58%, Jahresumsatz 22.300 Euro. <strong>Plus 54% bei gleichem Objekt.</strong></p>
+
+<p><strong>Beispiel 2: Das Villach-Apartment</strong></p>
+
+<p>45 Quadratmeter, nahe Therme. Ausgangssituation: Fixpreis 79 Euro, Jahresauslastung 38%.</p>
+
+<p>Strategie: Aggressive Preissenkung in der Nebensaison (ab 49 Euro), Premium für Therme-Wochenenden und Kirchtag.</p>
+
+<p>Ergebnis: Auslastung auf 61% gestiegen. Durchschnittlicher Nachtpreis sogar leicht gestiegen auf 82 Euro. Jahresumsatz von 11.000 auf 18.200 Euro.</p>
+
+<p><strong>Beispiel 3: Die Wörthersee-Ferienwohnung</strong></p>
+
+<p>85 Quadratmeter, Seeblick. Ausgangssituation: Fixpreis 180 Euro, Hochsaison ausgebucht, November bis März fast leer.</p>
+
+<p>Strategie: Hochsaison auf 240 Euro erhöht (Markt trug es). Nebensaison auf 89 Euro gesenkt, um Geschäftsreisende und Wochenend-Besucher anzusprechen.</p>
+
+<p>Ergebnis: 34 zusätzliche gebuchte Nächte in der Nebensaison. Hochsaison-Einnahmen um 15% gestiegen. Gesamtplus: 8.900 Euro pro Jahr.</p>
+
+<p><em>In jedem Beispiel: keine Renovierung, keine zusätzlichen Amenities. Nur intelligentere Preise.</em></p>
+
+<h2 id="fazit">Fazit: Preise sind ein Hebel</h2>
+
+<p>Die meisten Vermieter denken über Preise wie über Fixkosten: einmal festlegen, dann vergessen.</p>
+
+<p>Professionelle Vermieter verstehen Preise als Stellschraube. Eine, die täglich justiert werden kann.</p>
+
+<p>Der Aufwand ist gering. Die Wirkung ist erheblich.</p>
+
+<p>Dynamisches Pricing bedeutet nicht, jeden Tag manuell Preise anzupassen. Es bedeutet, ein System zu etablieren, das dies automatisch tut – mit gelegentlicher Kontrolle und eventbezogenen Anpassungen.</p>
+
+<p><strong>Der erste Schritt:</strong> Analysieren Sie Ihre aktuellen Preise. Vergleichen Sie sie mit der Konkurrenz. Fragen Sie sich: Verlange ich im Juli genug? Bin ich im November konkurrenzfähig?</p>
+
+<p>Wenn die Antwort zweimal Nein ist, liegt Geld auf dem Tisch.</p>
+
+<p>Wir bei <a href="/">hostgains</a> setzen dynamisches Pricing für alle unsere verwalteten Objekte ein. Die Ergebnisse sprechen für sich. Wenn Sie wissen möchten, wie viel Potenzial in Ihrer Unterkunft steckt, <a href="/kontakt">sprechen Sie mit uns</a>.</p>
+    `,
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-04-01',
+    category: 'Preisgestaltung',
+    tags: ['Pricing', 'Airbnb', 'Kärnten', 'Dynamisches Pricing', 'Revenue Management', 'Strategie'],
+    featuredImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Statistiken und Diagramme zur Preisanalyse',
+    readingTime: 9,
+    tableOfContents: [
+      { id: 'fixe-preise', text: 'Warum fixe Preise schlecht sind', level: 2 },
+      { id: 'saisonalitaet', text: 'Saisonabhängigkeit in Kärnten', level: 2 },
+      { id: 'events', text: 'Events & Nachfrage', level: 2 },
+      { id: 'tools', text: 'Tools & Strategien', level: 2 },
+      { id: 'praxisbeispiele', text: 'Praxisbeispiele', level: 2 },
+      { id: 'fazit', text: 'Fazit: Preise sind ein Hebel', level: 2 },
+    ],
+  },
+  {
     slug: 'woerthersee-villach-klagenfurt-drei-maerkte',
     title: 'Wörthersee, Villach, Klagenfurt: Drei Märkte, drei Strategien',
     description: 'Kärnten ist kein einheitlicher Markt. Eine Analyse zeigt die Unterschiede zwischen Wörthersee, Villach und Klagenfurt – und welche Strategie wo funktioniert.',
