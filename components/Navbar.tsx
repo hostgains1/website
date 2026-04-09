@@ -69,13 +69,8 @@ export const Navbar: React.FC = () => {
   };
 
   // Navbar outer wrapper: fixed position, full width, centered container
-  // top-12 (48px) when unscrolled = marquee height (40px) + 8px gap
   const navbarClasses = `
-    fixed left-0 right-0 z-40 transition-all duration-300 px-3 sm:px-4 md:px-6 lg:px-8 xl:px-12
-    ${isScrolled || !isHomePage
-      ? 'top-2'
-      : 'top-12'
-    }
+    fixed left-0 right-0 z-40 transition-all duration-300 px-3 sm:px-4 md:px-6 lg:px-8 xl:px-12 top-2
   `;
 
   // Inner container: max-width constraint, auto margins for centering

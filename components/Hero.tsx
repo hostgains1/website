@@ -1,9 +1,18 @@
-import React from 'react';
+'use client';
+import React, { useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, ChevronDown, Check } from 'lucide-react';
 
 export const Hero: React.FC = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5;
+    }
+  }, []);
+
   const trustIndicators = [
     "Keine Fixkosten",
     "24/7 Gästebetreuung",
@@ -20,6 +29,7 @@ export const Hero: React.FC = () => {
       {/* Background Video - Drohnenflug über den Wörthersee */}
       <div className="absolute inset-0 overflow-hidden">
         <video
+          ref={videoRef}
           autoPlay
           muted
           loop

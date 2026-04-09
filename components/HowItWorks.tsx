@@ -43,14 +43,16 @@ export const HowItWorks: React.FC = () => {
     >
       <article className="container mx-auto px-4 sm:px-6">
         <header className="text-center mb-8 sm:mb-12 md:mb-20">
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-hostgains text-[10px] sm:text-xs md:text-sm font-bold tracking-[0.12em] sm:tracking-[0.15em] uppercase mb-2 sm:mb-4"
+            className="inline-flex items-center gap-2 bg-hostgains/5 border border-hostgains/20 rounded-full px-4 py-1.5 mb-4 sm:mb-6"
           >
-            Von der Anfrage zur Einnahmequelle
-          </motion.p>
+            <span className="text-hostgains text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.15em] uppercase">
+              So funktioniert's
+            </span>
+          </motion.div>
           <motion.h2
             id="how-it-works-heading"
             initial={{ opacity: 0, y: 20 }}
@@ -58,7 +60,8 @@ export const HowItWorks: React.FC = () => {
             viewport={{ once: true }}
             className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
-            So übernehmen wir deine <span className="text-hostgains-light">Ferienwohnung</span> in 4 Schritten
+            So übernehmen wir deine{' '}
+            <span className="text-hostgains-light">Ferienwohnung</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 15 }}
@@ -71,37 +74,51 @@ export const HowItWorks: React.FC = () => {
           </motion.p>
         </header>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 md:mb-16">
+        {/* Timeline Layout */}
+        <div className="relative max-w-4xl mx-auto mb-8 sm:mb-12 md:mb-16">
+          {/* Vertical Timeline Line */}
+          <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-hostgains/50 via-hostgains/30 to-hostgains/10 sm:-translate-x-px" aria-hidden="true" />
+
           {steps.map((step, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.05 }}
-              className="relative"
+              transition={{ delay: i * 0.1 }}
+              className={`relative flex items-start gap-4 sm:gap-8 mb-8 sm:mb-12 last:mb-0 ${
+                i % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
+              }`}
             >
-              {/* Connection line for desktop */}
-              {i < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-12 left-[60%] w-[80%] h-[2px] bg-gradient-to-r from-hostgains/30 to-transparent" aria-hidden="true" />
-              )}
-
-              <div className="bg-white rounded-xl sm:rounded-2xl md:rounded-3xl p-4 sm:p-6 md:p-8 h-full border border-sand-dark hover:border-hostgains/30 hover:shadow-lg transition-all duration-300">
-                <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-5 md:mb-6">
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-full bg-hostgains text-white flex items-center justify-center flex-shrink-0">
-                    <step.icon size={18} strokeWidth={2} className="sm:w-5 sm:h-5 md:w-6 md:h-6" />
-                  </div>
-                  <span className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-hostgains/20">
-                    {step.number}
-                  </span>
+              {/* Timeline Dot */}
+              <div className="absolute left-4 sm:left-1/2 sm:-translate-x-1/2 z-10">
+                <div className="w-8 h-8 sm:w-12 sm:h-12 rounded-full bg-hostgains border-4 border-sand-light flex items-center justify-center shadow-lg shadow-hostgains/20">
+                  <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-sand" />
                 </div>
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1.5 sm:mb-2 md:mb-3 font-display">
-                  {step.title}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed">
-                  {step.desc}
-                </p>
               </div>
+
+              {/* Content Card */}
+              <div className={`ml-16 sm:ml-0 sm:w-[calc(50%-2rem)] ${i % 2 === 0 ? 'sm:pr-8 sm:text-right' : 'sm:pl-8 sm:text-left'}`}>
+                <div className="bg-white border border-sand-dark rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 hover:border-hostgains/30 hover:shadow-lg transition-all duration-300">
+                  <div className={`flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4 ${i % 2 === 0 ? 'sm:flex-row-reverse' : ''}`}>
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-sand text-hostgains flex items-center justify-center flex-shrink-0">
+                      <step.icon size={22} strokeWidth={1.5} className="sm:w-6 sm:h-6" />
+                    </div>
+                    <span className="text-4xl sm:text-5xl font-display font-bold text-hostgains/10">
+                      {step.number}
+                    </span>
+                  </div>
+                  <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 font-display">
+                    {step.title}
+                  </h3>
+                  <p className="text-gray-500 text-sm leading-relaxed">
+                    {step.desc}
+                  </p>
+                </div>
+              </div>
+
+              {/* Spacer for opposite side */}
+              <div className="hidden sm:block sm:w-[calc(50%-2rem)]" />
             </motion.div>
           ))}
         </div>
