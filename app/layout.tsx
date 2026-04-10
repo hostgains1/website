@@ -1,21 +1,13 @@
 import type { Metadata, Viewport } from 'next';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import { Manrope, Outfit } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import './globals.css';
 
-const manrope = Manrope({
+const inter = Inter({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700', '800'],
   display: 'swap',
-  variable: '--font-manrope',
-});
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-  variable: '--font-outfit',
+  variable: '--font-inter',
 });
 
 export const viewport: Viewport = {
@@ -283,7 +275,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
-      <body className={`${manrope.variable} ${outfit.variable} font-sans bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white`}>
+      <body className={`${inter.variable} font-sans bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white`}>
         {/* Skip Navigation Link for Accessibility */}
         <a href="#main-content" className="skip-link">
           Zum Hauptinhalt springen

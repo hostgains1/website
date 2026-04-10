@@ -104,7 +104,7 @@ export const HowItWorks: React.FC = () => {
                     <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-sand text-hostgains flex items-center justify-center flex-shrink-0">
                       <step.icon size={22} strokeWidth={1.5} className="sm:w-6 sm:h-6" />
                     </div>
-                    <span className="text-4xl sm:text-5xl font-display font-bold text-hostgains/10">
+                    <span className="text-4xl sm:text-5xl font-display font-bold text-hostgains">
                       {step.number}
                     </span>
                   </div>
