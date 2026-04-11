@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   title: 'Unsere Leistungen | Kurzzeitvermietung Full-Service Kärnten',
   description: 'Full-Service Kurzzeitvermietung in Kärnten: Listing-Optimierung, dynamisches Pricing, 24/7 Gästebetreuung, Reinigungskoordination, Multi-Plattform-Vertrieb. Performance-basiert ohne Fixkosten.',
   alternates: {
-    canonical: 'https://hostgains.at/leistungen',
+    canonical: 'https://www.hostgains.at/leistungen',
   },
   openGraph: {
     title: 'Unsere Leistungen | hostgains Kurzzeitvermietung',
     description: 'Full-Service Ferienwohnung-Management: Von der Inseratserstellung bis zur Reinigung. Alles aus einer Hand, 100% performance-basiert.',
-    url: 'https://hostgains.at/leistungen',
+    url: 'https://www.hostgains.at/leistungen',
     type: 'website',
   },
 };
@@ -110,13 +110,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://hostgains.at/',
+      item: 'https://www.hostgains.at/',
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Leistungen',
-      item: 'https://hostgains.at/leistungen',
+      item: 'https://www.hostgains.at/leistungen',
     },
   ],
 };

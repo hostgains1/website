@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   title: 'Airbnb Management in Kärnten | Wörthersee, Villach & Region',
   description: 'Lokales Airbnb Management in Kärnten: Wörthersee, Villach, Klagenfurt. Wir kennen den Markt, die Saisons und die Events. Professionelle Kurzzeitvermietung vor Ort.',
   alternates: {
-    canonical: 'https://hostgains.at/airbnb-management-kaernten',
+    canonical: 'https://www.hostgains.at/airbnb-management-kaernten',
   },
   openGraph: {
     title: 'Airbnb Management Kärnten | hostgains',
     description: 'Professionelle Kurzzeitvermietung in Kärnten. Lokale Expertise für Wörthersee, Villach und die Region.',
-    url: 'https://hostgains.at/airbnb-management-kaernten',
+    url: 'https://www.hostgains.at/airbnb-management-kaernten',
     type: 'website',
   },
 };
@@ -67,9 +67,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://hostgains.at/' },
-    { '@type': 'ListItem', position: 2, name: 'Airbnb Management', item: 'https://hostgains.at/airbnb-management' },
-    { '@type': 'ListItem', position: 3, name: 'Kärnten', item: 'https://hostgains.at/airbnb-management-kaernten' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.hostgains.at/' },
+    { '@type': 'ListItem', position: 2, name: 'Airbnb Management', item: 'https://www.hostgains.at/airbnb-management' },
+    { '@type': 'ListItem', position: 3, name: 'Kärnten', item: 'https://www.hostgains.at/airbnb-management-kaernten' },
   ],
 };
 

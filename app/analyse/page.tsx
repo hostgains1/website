@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Kostenlose Potenzialanalyse | Ferienwohnung Kärnten',
   description: 'Erhalte eine kostenlose Einschätzung für deine Ferienwohnung in Kärnten. Finde heraus, wie viel mehr Umsatz du mit professionellem Management erzielen kannst.',
   alternates: {
-    canonical: 'https://hostgains.at/analyse',
+    canonical: 'https://www.hostgains.at/analyse',
   },
   robots: {
     index: true,
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Kostenlose Potenzialanalyse | hostgains',
     description: 'Finde heraus, wie viel mehr Umsatz du mit deiner Ferienwohnung in Kärnten erzielen kannst. Kostenlos & unverbindlich.',
-    url: 'https://hostgains.at/analyse',
+    url: 'https://www.hostgains.at/analyse',
     type: 'website',
   },
 };

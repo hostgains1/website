@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: 'Datenschutzrichtlinien',
   description: 'Datenschutzrichtlinien von hostgains - Informationen zum Umgang mit Ihren personenbezogenen Daten gemäß DSGVO und österreichischem Datenschutzrecht.',
   alternates: {
-    canonical: 'https://hostgains.at/datenschutzrichtlinien',
+    canonical: 'https://www.hostgains.at/datenschutzrichtlinien',
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

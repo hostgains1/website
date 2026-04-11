@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   title: 'Blog | Kurzzeitvermietung Tipps & Insights',
   description: 'Expertenwissen für Ferienwohnungs-Eigentümer: Marktanalysen, Pricing-Strategien, Optimierungstipps und Best Practices für erfolgreiche Kurzzeitvermietung in Kärnten.',
   alternates: {
-    canonical: 'https://hostgains.at/blog',
+    canonical: 'https://www.hostgains.at/blog',
   },
   openGraph: {
     title: 'Blog | hostgains Kurzzeitvermietung',
     description: 'Expertenwissen für Ferienwohnungs-Eigentümer in Kärnten.',
-    url: 'https://hostgains.at/blog',
+    url: 'https://www.hostgains.at/blog',
     type: 'website',
   },
 };
@@ -30,13 +30,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://hostgains.at/',
+      item: 'https://www.hostgains.at/',
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Blog',
-      item: 'https://hostgains.at/blog',
+      item: 'https://www.hostgains.at/blog',
     },
   ],
 };

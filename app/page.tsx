@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: 'Kurzzeitvermietung Kärnten | Airbnb Management Wörthersee | hostgains',
   description: 'Professionelles Ferienwohnung-Management in Kärnten. hostgains steigert deine Auslastung um bis zu 28% – ohne Aufwand. Full-Service für Airbnb & Booking.com.',
   alternates: {
-    canonical: 'https://hostgains.at/',
+    canonical: 'https://www.hostgains.at/',
   },
   openGraph: {
     title: 'hostgains | Professionelle Kurzzeitvermietung am Wörthersee',
     description: 'Verdiene bis zu 28% mehr mit deiner Ferienwohnung. Full-Service Management für Airbnb, Booking.com & mehr. Lokales Team aus Klagenfurt.',
-    url: 'https://hostgains.at/',
+    url: 'https://www.hostgains.at/',
     type: 'website',
   },
 };

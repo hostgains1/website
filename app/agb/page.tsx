@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: 'AGB',
   description: 'Allgemeine Geschäftsbedingungen (AGB) der hostgains Airbnb Management & Marketing Agentur.',
   alternates: {
-    canonical: 'https://hostgains.at/agb',
+    canonical: 'https://www.hostgains.at/agb',
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };

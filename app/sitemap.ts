@@ -2,9 +2,14 @@ import { MetadataRoute } from 'next';
 import { getAllPosts } from '@/data/blogPosts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://hostgains.at';
+  // WICHTIG: www.hostgains.at ist die kanonische Domain (konsistent mit metadataBase in layout.tsx)
+  const baseUrl = 'https://www.hostgains.at';
 
-  // Static pages (excluding /impressum & /datenschutz per SEO requirements)
+  // Static pages - Prioritäten für optimale Sitelinks:
+  // 1.0 = Homepage
+  // 0.9 = Hauptseiten (Leistungen, Airbnb Management)
+  // 0.8 = Wichtige Seiten (Blog, Kontakt, Analyse)
+  // Ausgeschlossen: /impressum, /datenschutzrichtlinien, /agb (noindex)
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
@@ -28,6 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/kontakt`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
       priority: 0.8,
     },
     {

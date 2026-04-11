@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title: 'Kontakt | hostgains Kurzzeitvermietung Kärnten',
   description: 'Kontaktiere das hostgains Team. Wir sind für dich da — per E-Mail, Telefon oder WhatsApp. Für eine Potenzialanalyse deiner Ferienwohnung nutze unser Analyseformular.',
   alternates: {
-    canonical: 'https://hostgains.at/kontakt',
+    canonical: 'https://www.hostgains.at/kontakt',
   },
   openGraph: {
     title: 'Kontakt | hostgains',
     description: 'Kontaktiere das hostgains Team für Fragen rund um Kurzzeitvermietung in Kärnten.',
-    url: 'https://hostgains.at/kontakt',
+    url: 'https://www.hostgains.at/kontakt',
     type: 'website',
   },
 };
@@ -28,13 +28,13 @@ const breadcrumbSchema = {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: 'https://hostgains.at/',
+      item: 'https://www.hostgains.at/',
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Kontakt',
-      item: 'https://hostgains.at/kontakt',
+      item: 'https://www.hostgains.at/kontakt',
     },
   ],
 };

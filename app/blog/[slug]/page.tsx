@@ -34,12 +34,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: post.title,
     description: post.description,
     alternates: {
-      canonical: `https://hostgains.at/blog/${post.slug}`,
+      canonical: `https://www.hostgains.at/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: `https://hostgains.at/blog/${post.slug}`,
+      url: `https://www.hostgains.at/blog/${post.slug}`,
       type: 'article',
       publishedTime: formatDateISO(post.publishedAt),
       modifiedTime: post.updatedAt ? formatDateISO(post.updatedAt) : undefined,
@@ -89,12 +89,12 @@ export default async function BlogPostPage({ params }: PageProps) {
       name: 'hostgains',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://hostgains.at/logo.png',
+        url: 'https://www.hostgains.at/logo.png',
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://hostgains.at/blog/${post.slug}`,
+      '@id': `https://www.hostgains.at/blog/${post.slug}`,
     },
   };
 
@@ -102,9 +102,9 @@ export default async function BlogPostPage({ params }: PageProps) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://hostgains.at/' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://hostgains.at/blog' },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `https://hostgains.at/blog/${post.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.hostgains.at/' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.hostgains.at/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.hostgains.at/blog/${post.slug}` },
     ],
   };
 

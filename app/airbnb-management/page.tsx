@@ -30,12 +30,12 @@ export const metadata: Metadata = {
   title: 'Wieso professionelles Management? | Hostgains',
   description: 'Warum sich professionelles Kurzzeitvermietung-Management lohnt. Mehr Umsatz, weniger Aufwand, bessere Bewertungen. Full-Service für Ferienwohnungen.',
   alternates: {
-    canonical: 'https://hostgains.at/airbnb-management',
+    canonical: 'https://www.hostgains.at/airbnb-management',
   },
   openGraph: {
     title: 'Wieso professionelles Management? | Hostgains',
     description: 'Erfahre, warum sich professionelles Management für deine Ferienwohnung lohnt. Mehr Umsatz bei weniger Aufwand.',
-    url: 'https://hostgains.at/airbnb-management',
+    url: 'https://www.hostgains.at/airbnb-management',
     type: 'website',
   },
 };
@@ -68,8 +68,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://hostgains.at/' },
-    { '@type': 'ListItem', position: 2, name: 'Professionelles Management', item: 'https://hostgains.at/airbnb-management' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.hostgains.at/' },
+    { '@type': 'ListItem', position: 2, name: 'Professionelles Management', item: 'https://www.hostgains.at/airbnb-management' },
   ],
 };
 

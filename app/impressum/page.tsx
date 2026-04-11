@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: 'Impressum',
   description: 'Impressum und rechtliche Informationen zu hostgains - Kurzzeitvermietung Management in Kärnten.',
   alternates: {
-    canonical: 'https://hostgains.at/impressum',
+    canonical: 'https://www.hostgains.at/impressum',
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };
