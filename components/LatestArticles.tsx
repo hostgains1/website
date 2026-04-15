@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Calendar, Clock } from 'lucide-react';
+import { ArrowRight, Calendar, Clock, Lightbulb } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { getLatestPosts } from '../data/blogPosts';
 import { formatDate } from '../utils/blog';
@@ -15,14 +15,15 @@ export const LatestArticles: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <motion.span
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block text-hostgains font-semibold text-sm tracking-wider uppercase mb-4"
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20"
           >
-            Wissen & Tipps
-          </motion.span>
+            <Lightbulb className="w-3 h-3 sm:w-4 sm:h-4 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] sm:text-xs md:text-sm text-hostgains font-medium">Wissen & Tipps</span>
+          </motion.div>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

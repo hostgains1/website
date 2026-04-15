@@ -3,6 +3,321 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'beste-airbnb-lagen-woerthersee-ranking-2026',
+    title: 'Die besten Airbnb Lagen am Wörthersee – Ranking 2026',
+    description: 'Welche Orte am Wörthersee funktionieren für Kurzzeitvermietung am besten? Eine datenbasierte Analyse der Top-Standorte mit Auslastung, Preisen und Marktpotenzial.',
+    excerpt: 'Nicht jeder Ort am Wörthersee performt gleich. Ein nüchterner Blick auf die Standorte, die wirklich funktionieren.',
+    content: `
+<p>Der Wörthersee gilt als Premium-Standort für Kurzzeitvermietung in Österreich. <strong>Die Realität ist differenzierter.</strong></p>
+
+<p>Wer die Zahlen kennt, sieht: Die Differenz zwischen den besten und schwächsten Standorten beträgt bis zu 40% bei der Auslastung.</p>
+
+<p>Ein Ranking – basierend auf Buchungsdaten, Preisdurchsetzung und Saisonverlängerung.</p>
+
+<h2 id="ranking-kriterien">Die Bewertungskriterien</h2>
+
+<p>Vier Faktoren bestimmen die Standortqualität:</p>
+
+<p><strong>Durchschnittliche Auslastung</strong> – Wie viele Nächte pro Jahr sind tatsächlich gebucht?</p>
+
+<p><strong>Preisdurchsetzung</strong> – Welchen Durchschnittspreis erzielt der Standort im Verhältnis zum Seeschnitt?</p>
+
+<p><strong>Nebensaison-Performance</strong> – Funktioniert der Standort auch außerhalb von Juni bis August?</p>
+
+<p><strong>Marktentwicklung</strong> – Wächst das Angebot schneller als die Nachfrage?</p>
+
+<p><em>Alle Daten beziehen sich auf das Kalenderjahr 2025 und Q1 2026.</em></p>
+
+<h2 id="platz-1-velden">Platz 1: Velden am Wörthersee</h2>
+
+<p>Der bekannteste Ort am See ist auch der leistungsstärkste.</p>
+
+<p><strong>Durchschnittliche Auslastung:</strong> 71%</p>
+
+<p><strong>Preisdurchsetzung:</strong> 118% des Seeschnitts</p>
+
+<p><strong>Nebensaison:</strong> Stark – Events, Gastronomie und Casino sorgen für ganzjährige Nachfrage</p>
+
+<p>Velden profitiert vom Luxus-Image. Das Publikum ist weniger preissensibel. Die Dichte an Restaurants und Bars macht den Ort auch für Kurztrips attraktiv.</p>
+
+<p>Der Nachteil: Das Angebot wächst. <strong>Seit 2023 sind über 60 neue Inserate hinzugekommen.</strong> Die Konkurrenz verschärft sich.</p>
+
+<p>Wer hier vermietet, braucht Qualität. Mittelmäßige Objekte werden abgestraft.</p>
+
+<h2 id="platz-2-poertschach">Platz 2: Pörtschach am Wörthersee</h2>
+
+<p>Die ruhigere Alternative zu Velden – mit stabiler Performance.</p>
+
+<p><strong>Durchschnittliche Auslastung:</strong> 68%</p>
+
+<p><strong>Preisdurchsetzung:</strong> 112% des Seeschnitts</p>
+
+<p><strong>Nebensaison:</strong> Solide – Kongresse und Seminare füllen die Lücken</p>
+
+<p>Pörtschach spricht Familien und älteres Publikum an. Die Blumeninsel, der Promenadenstrand und die direkten Bademöglichkeiten sind Verkaufsargumente.</p>
+
+<p>Interessant: <strong>Die Nachfrage nach größeren Wohnungen (3+ Zimmer) übersteigt das Angebot.</strong></p>
+
+<p>Wer ein Familienobjekt anbieten kann, findet hier gute Bedingungen.</p>
+
+<h2 id="platz-3-maria-woerth">Platz 3: Maria Wörth</h2>
+
+<p>Unterschätzt – aber mit starker Performance in einer spezifischen Nische.</p>
+
+<p><strong>Durchschnittliche Auslastung:</strong> 64%</p>
+
+<p><strong>Preisdurchsetzung:</strong> 105% des Seeschnitts</p>
+
+<p><strong>Nebensaison:</strong> Schwächer als Velden und Pörtschach</p>
+
+<p>Maria Wörth ist der romantische Ort am See. Die Kirche auf der Halbinsel zieht Hochzeitspaare und Fotografen an.</p>
+
+<p>Das Publikum: Paare, Ruhesuchende, Kulturinteressierte.</p>
+
+<p>Der Markt ist kleiner, aber weniger umkämpft. <strong>Nur 23 aktive Airbnb-Inserate</strong> im Vergleich zu über 140 in Velden.</p>
+
+<h2 id="platz-4-krumpendorf">Platz 4: Krumpendorf am Wörthersee</h2>
+
+<p>Die Nähe zu Klagenfurt macht Krumpendorf interessant – bringt aber auch Nachteile.</p>
+
+<p><strong>Durchschnittliche Auslastung:</strong> 61%</p>
+
+<p><strong>Preisdurchsetzung:</strong> 95% des Seeschnitts</p>
+
+<p><strong>Nebensaison:</strong> Mäßig – abhängig von Klagenfurter Geschäftsreisenden</p>
+
+<p>Krumpendorf ist kein klassischer Urlaubsort. Es ist eine Wohngemeinde mit Seezugang.</p>
+
+<p>Das wirkt sich auf die Preise aus. Gäste erwarten günstigere Alternativen zu Velden – und finden sie hier.</p>
+
+<p>Für Vermieter mit Objekten unter 100€/Nacht kann das funktionieren. Premium-Objekte kämpfen.</p>
+
+<h2 id="platz-5-reifnitz">Platz 5: Reifnitz</h2>
+
+<p>Der Ort für Aktivurlauber – mit saisonaler Abhängigkeit.</p>
+
+<p><strong>Durchschnittliche Auslastung:</strong> 58%</p>
+
+<p><strong>Preisdurchsetzung:</strong> 92% des Seeschnitts</p>
+
+<p><strong>Nebensaison:</strong> Schwach – nahezu ausschließlich Sommerbetrieb</p>
+
+<p>Reifnitz lebt vom Pyramidenkogel und von Wassersport. <strong>Der Juli und August sind stark.</strong> Der Rest des Jahres ist Nebensache.</p>
+
+<p>Wer hier vermietet, muss die Hochsaison maximieren. Dynamisches Pricing ist Pflicht – nicht Option.</p>
+
+<p>Mehr dazu, wie <a href="/leistungen">professionelles Airbnb Management</a> die Saisonalität abfedert.</p>
+
+<h2 id="aussenseiter">Die Außenseiter: Techelsberg und Moosburg</h2>
+
+<p>Beide Gemeinden liegen am See – aber abseits der touristischen Zentren.</p>
+
+<p><strong>Auslastung:</strong> 48–52%</p>
+
+<p><strong>Preisdurchsetzung:</strong> 80–85% des Seeschnitts</p>
+
+<p>Diese Standorte funktionieren für Eigentümer, die auch selbst nutzen wollen. Als reine Renditeobjekte sind sie herausfordernd.</p>
+
+<p>Die Konkurrenz in den A-Lagen ist groß. Aber wer aus der C-Lage nach Velden wechseln kann, macht einen Fehler: Das Objekt selbst entscheidet.</p>
+
+<h2 id="was-wichtiger-ist">Was wichtiger ist als die Lage</h2>
+
+<p>Standortrankings sind nützlich. Aber sie erklären nur einen Teil des Erfolgs.</p>
+
+<p><strong>Ein mittelmäßiges Objekt in Velden performt schlechter als ein herausragendes in Maria Wörth.</strong></p>
+
+<p>Die Faktoren, die innerhalb einer Lage entscheiden:</p>
+
+<p>Seezugang oder Seeblick. Parkplatz. Ausstattungsqualität. Professionelle Fotos. Inserat-Optimierung. Reaktionsgeschwindigkeit.</p>
+
+<p>Wer diese Faktoren kontrolliert, kann auch in B-Lagen überdurchschnittliche Ergebnisse erzielen.</p>
+
+<p>Mehr zur Standortentscheidung in Kärnten: <a href="/blog/airbnb-boom-villach-chance-oder-risiko">Airbnb Boom in Villach – Chance oder Risiko?</a></p>
+
+<h2 id="fazit">Die Marktentwicklung 2026</h2>
+
+<p>Der Wörthersee-Markt wächst weiter. Aber das Wachstum verteilt sich ungleich.</p>
+
+<p><strong>Velden:</strong> Sättigungstendenzen. Neue Inserate verdrängen schwächere.</p>
+
+<p><strong>Pörtschach:</strong> Stabiles Wachstum. Noch Platz für qualitative Angebote.</p>
+
+<p><strong>Maria Wörth:</strong> Unterschätztes Potenzial für Nischenanbieter.</p>
+
+<p><strong>Krumpendorf/Reifnitz:</strong> Preiskampf im mittleren Segment.</p>
+
+<p>Die Lage bestimmt das Potenzial. Der Betrieb bestimmt das Ergebnis.</p>
+
+<p><em>Wer am Wörthersee langfristig erfolgreich vermieten will, braucht beides: den richtigen Standort – und die richtige Strategie.</em></p>
+`,
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-04-15',
+    category: 'Standortanalyse',
+    tags: ['Wörthersee', 'Airbnb', 'Standortanalyse', 'Kärnten', 'Velden', 'Pörtschach', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1640430550402-2d35d2e53d1e?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Boot am Wörthersee in Kärnten, Österreich - Beste Lagen für Airbnb Vermietung',
+    readingTime: 7,
+    tableOfContents: [
+      { id: 'ranking-kriterien', text: 'Die Bewertungskriterien', level: 2 },
+      { id: 'platz-1-velden', text: 'Platz 1: Velden am Wörthersee', level: 2 },
+      { id: 'platz-2-poertschach', text: 'Platz 2: Pörtschach am Wörthersee', level: 2 },
+      { id: 'platz-3-maria-woerth', text: 'Platz 3: Maria Wörth', level: 2 },
+      { id: 'platz-4-krumpendorf', text: 'Platz 4: Krumpendorf am Wörthersee', level: 2 },
+      { id: 'platz-5-reifnitz', text: 'Platz 5: Reifnitz', level: 2 },
+      { id: 'aussenseiter', text: 'Die Außenseiter: Techelsberg und Moosburg', level: 2 },
+      { id: 'was-wichtiger-ist', text: 'Was wichtiger ist als die Lage', level: 2 },
+      { id: 'fazit', text: 'Die Marktentwicklung 2026', level: 2 },
+    ],
+  },
+  {
+    slug: 'airbnb-boom-villach-chance-oder-risiko',
+    title: 'Airbnb Boom in Villach – Chance oder Risiko?',
+    description: 'Der Kurzzeitvermietungsmarkt in Villach wächst rasant. Eine Analyse der Marktdynamik, typischer Fehler und was den Unterschied zwischen Erfolg und Misserfolg ausmacht.',
+    excerpt: 'Der Markt wächst – aber viele machen denselben Fehler. Eine nüchterne Betrachtung des Villacher Airbnb-Marktes.',
+    content: `
+<p>Villach verändert sich. Wer durch die Altstadt geht, sieht die Schilder: „Ferienwohnung", „Apartment zu vermieten", „Short-term rental".</p>
+
+<p>Die Zahlen bestätigen den Eindruck. <strong>Die Anzahl aktiver Airbnb-Inserate in Villach hat sich seit 2022 mehr als verdoppelt.</strong></p>
+
+<p>Für Eigentümer klingt das nach Chance. Für manche wurde es zum Problem.</p>
+
+<h2 id="marktentwicklung">Was die Zahlen zeigen</h2>
+
+<p>Villach ist nicht Klagenfurt. Und Villach ist nicht der Wörthersee.</p>
+
+<p>Das klingt banal, wird aber regelmäßig ignoriert. Die Nachfragestruktur unterscheidet sich fundamental.</p>
+
+<p><strong>Klagenfurt:</strong> Geschäftsreisende, Messe, Universität. Ganzjährig relativ stabile Nachfrage.</p>
+
+<p><strong>Wörthersee:</strong> Sommer-Tourismus. Drei Monate Hochsaison, neun Monate Kampf um Buchungen.</p>
+
+<p><strong>Villach:</strong> Eine Mischung aus beidem – aber mit eigener Dynamik.</p>
+
+<p>Die Therme zieht ganzjährig Gäste. Der Faaker See und Ossiacher See sind in Reichweite. Der Kirchtag bringt im August Rekordnachfrage.</p>
+
+<p><em>Wer Villach wie den Wörthersee behandelt, versteht den Markt nicht.</em></p>
+
+<h2 id="der-fehler">Der Fehler, den die meisten machen</h2>
+
+<p>Neue Vermieter folgen einem Muster:</p>
+
+<p>Wohnung kaufen oder umwidmen. Inserat online stellen. Preis am Wettbewerb orientieren. Warten.</p>
+
+<p>Das Problem: <strong>Der Preis ist nicht das Problem. Die Positionierung ist es.</strong></p>
+
+<p>In einem wachsenden Markt konkurrieren plötzlich 200 Wohnungen um dieselbe Zielgruppe: Touristen im Sommer, die eine günstige Basis für Ausflüge suchen.</p>
+
+<p>Was fehlt: Differenzierung.</p>
+
+<p>Eine Wohnung, die für Therme-Besucher optimiert ist, spricht eine andere Zielgruppe an als eine, die sich an Mountainbiker richtet. Beide können in Villach funktionieren – aber nicht mit demselben Inserat.</p>
+
+<h3>Drei Fragen, die selten gestellt werden</h3>
+
+<p><strong>1. Warum sollte jemand genau diese Wohnung buchen?</strong></p>
+
+<p>Nicht „weil sie gut ist". Sondern: Was macht sie für eine spezifische Zielgruppe zur besten Wahl?</p>
+
+<p><strong>2. Wer bucht außerhalb der Hochsaison?</strong></p>
+
+<p>Geschäftsreisende? Therme-Gäste? Durchreisende? Jede Gruppe hat andere Erwartungen – und andere Preissensibilität.</p>
+
+<p><strong>3. Was passiert, wenn der Markt sättigt?</strong></p>
+
+<p>Die Zahl der Inserate steigt schneller als die Nachfrage. Wer heute 70% Auslastung hat, kann in zwei Jahren bei 45% landen – ohne dass sich am Objekt etwas geändert hat.</p>
+
+<h2 id="gewinner-verlierer">Wer gewinnt, wer verliert</h2>
+
+<p>Der Markt polarisiert sich. In Villach wie überall.</p>
+
+<p><strong>Die Gewinner:</strong></p>
+
+<p>Objekte mit klarer Positionierung. Professionelle Fotos. Optimierte Inserate. Dynamisches Pricing. Schnelle Reaktionszeiten. Wer diese <a href="/leistungen">Leistungen für Kurzzeitvermietung</a> nicht selbst erbringen kann, lagert sie aus.</p>
+
+<p>Sie erreichen 65–75% Auslastung, auch außerhalb der Hochsaison.</p>
+
+<p><strong>Die Verlierer:</strong></p>
+
+<p>Generische Inserate. Smartphone-Fotos. Fixpreise. Antwortzeiten von 24 Stunden oder länger.</p>
+
+<p>Sie kämpfen um 35–45% Auslastung und senken die Preise, bis die Marge verschwindet.</p>
+
+<p><em>Der Unterschied liegt nicht im Objekt. Er liegt in der Professionalität des Betriebs.</em></p>
+
+<h2 id="therme-faktor">Der Therme-Faktor</h2>
+
+<p>Die Kärnten Therme ist Villachs größter Vorteil gegenüber anderen Standorten.</p>
+
+<p>Sie generiert ganzjährig Nachfrage. Familien im Winter. Wellness-Gäste im Herbst. Kurzurlauber an Regentagen im Sommer.</p>
+
+<p>Aber: <strong>Therme-Nähe allein reicht nicht.</strong></p>
+
+<p>Was Therme-Gäste erwarten:</p>
+
+<p>Kurze Wege. Parkplatz. Entspannte Atmosphäre. Möglichkeit, spät anzureisen und früh abzureisen.</p>
+
+<p>Ein Apartment in der Innenstadt, 20 Minuten von der Therme entfernt, profitiert wenig vom Therme-Tourismus – egal was im Inserat steht.</p>
+
+<h2 id="regulierung">Regulierung: Was kommt</h2>
+
+<p>Villach ist (noch) vergleichsweise liberal, was Kurzzeitvermietung angeht.</p>
+
+<p>Das wird sich ändern. Die Frage ist nicht ob, sondern wann.</p>
+
+<p>Wien hat strenge Regeln eingeführt. Salzburg ebenfalls. Graz arbeitet daran.</p>
+
+<p>Kärnten wird folgen. Die politische Diskussion läuft bereits.</p>
+
+<p><strong>Mögliche Szenarien:</strong></p>
+
+<p>Registrierungspflicht für alle Kurzzeitvermietungen. Begrenzung der Vermietungstage pro Jahr. Höhere Abgaben auf touristische Nutzung.</p>
+
+<p>Wer heute investiert, sollte diese Entwicklung einpreisen.</p>
+
+<h2 id="einordnung">Chance oder Risiko – eine Einordnung</h2>
+
+<p>Die Antwort ist unbefriedigend, aber ehrlich: Es kommt darauf an.</p>
+
+<p><strong>Chance:</strong> Für Eigentümer, die professionell agieren, den Markt verstehen und bereit sind, kontinuierlich zu optimieren.</p>
+
+<p><strong>Risiko:</strong> Für alle, die glauben, eine Wohnung online zu stellen sei bereits ein Geschäftsmodell.</p>
+
+<p>Der Boom macht den Einstieg leicht. Er macht den Erfolg nicht leicht.</p>
+
+<p>Wer langfristig denkt, wer die Nebensaison ernst nimmt und wer die eigene Zielgruppe kennt, kann in Villach überdurchschnittliche Renditen erzielen.</p>
+
+<p>Wer auf den schnellen Erfolg hofft, wird Teil der Statistik – der Inserate, die nach 18 Monaten wieder verschwinden.</p>
+
+<p><em>Der Markt wächst. Die Frage ist, ob man mitwächst – oder darin untergeht.</em></p>
+
+<p>Wer den Aufwand unterschätzt, sollte über <a href="/leistungen">professionelle Unterstützung bei der Vermietung</a> nachdenken. Die Rendite entsteht nicht durch Besitz, sondern durch Betrieb.</p>
+
+<p>Mehr zur Preisgestaltung in einem wachsenden Markt: <a href="/blog/airbnb-preise-richtig-setzen">Airbnb Preise richtig setzen</a>.</p>
+`,
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-04-10',
+    category: 'Marktanalyse',
+    tags: ['Villach', 'Airbnb', 'Kurzzeitvermietung', 'Marktanalyse', 'Kärnten', 'Investition'],
+    featuredImage: 'https://images.unsplash.com/photo-1708725730595-aab542e95ef9?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Stadtansicht von Villach mit der Drau - Kurzzeitvermietungsmarkt in Kärnten',
+    readingTime: 6,
+    tableOfContents: [
+      { id: 'marktentwicklung', text: 'Was die Zahlen zeigen', level: 2 },
+      { id: 'der-fehler', text: 'Der Fehler, den die meisten machen', level: 2 },
+      { id: 'gewinner-verlierer', text: 'Wer gewinnt, wer verliert', level: 2 },
+      { id: 'therme-faktor', text: 'Der Therme-Faktor', level: 2 },
+      { id: 'regulierung', text: 'Regulierung: Was kommt', level: 2 },
+      { id: 'einordnung', text: 'Chance oder Risiko – eine Einordnung', level: 2 },
+    ],
+  },
+  {
     slug: 'airbnb-preise-richtig-setzen',
     title: 'Airbnb Preise richtig setzen – So maximieren Sie Ihre Einnahmen',
     description: 'Dynamisches Pricing statt Fixpreise: Wie Sie durch intelligente Preisgestaltung bei Airbnb und Booking.com Ihre Einnahmen in Kärnten deutlich steigern.',

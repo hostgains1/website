@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
-import { ArrowRight, Star, MapPin, Calendar, Euro } from 'lucide-react';
+import { ArrowRight, Star, MapPin, Calendar, Euro, BarChart3 } from 'lucide-react';
 import Link from 'next/link';
 
 export const SocialProof: React.FC = () => {
@@ -49,9 +49,15 @@ export const SocialProof: React.FC = () => {
     >
       <article className="container mx-auto px-4 sm:px-6">
         <header className="text-center mb-6 sm:mb-10 md:mb-16">
-          <p className="text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.2em] uppercase text-gray-500 mb-2 sm:mb-4">
-            Case Studies aus Kärnten
-          </p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20"
+          >
+            <BarChart3 className="w-3 h-3 sm:w-4 sm:h-4 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] sm:text-xs md:text-sm text-hostgains font-medium">Case Studies aus Kärnten</span>
+          </motion.div>
           <h2
             id="case-studies-heading"
             className="text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-hostgains-dark"
