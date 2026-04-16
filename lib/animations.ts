@@ -3,7 +3,7 @@
 
 export const smoothTransition = {
   duration: 0.9,
-  ease: [0.22, 1, 0.36, 1], // Custom cubic-bezier for ultra-smooth feel
+  ease: [0.22, 1, 0.36, 1] as const, // Custom cubic-bezier for ultra-smooth feel
 };
 
 export const smoothSpring = {
@@ -27,7 +27,7 @@ export const fadeInUp = {
   },
   transition: {
     duration: 1,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -46,7 +46,7 @@ export const fadeInUpView = {
   viewport: { once: true, margin: "-50px" },
   transition: {
     duration: 0.9,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -65,7 +65,7 @@ export const fadeInSubtle = {
   viewport: { once: true },
   transition: {
     duration: 0.8,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -84,7 +84,7 @@ export const scaleFadeIn = {
   viewport: { once: true },
   transition: {
     duration: 0.85,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -112,7 +112,7 @@ export const staggerItem = {
   },
   transition: {
     duration: 0.8,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -124,7 +124,7 @@ export const getStaggerDelay = (index: number, baseDelay = 0.1) => ({
 // Smooth transition preset for motion components
 export const smoothViewTransition = {
   duration: 0.9,
-  ease: [0.22, 1, 0.36, 1],
+  ease: [0.22, 1, 0.36, 1] as const,
 };
 
 // For elements that slide from sides
@@ -175,7 +175,7 @@ export const badgeFadeIn = {
   viewport: { once: true },
   transition: {
     duration: 0.7,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -194,7 +194,7 @@ export const headingFadeIn = {
   viewport: { once: true },
   transition: {
     duration: 1,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -213,7 +213,7 @@ export const textFadeIn = {
   viewport: { once: true },
   transition: {
     duration: 0.85,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
     delay: 0.15,
   },
 };
@@ -233,7 +233,7 @@ export const cardAnimation = {
   viewport: { once: true },
   transition: {
     duration: 0.9,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
 
@@ -252,6 +252,6 @@ export const imageReveal = {
   viewport: { once: true },
   transition: {
     duration: 1.1,
-    ease: [0.22, 1, 0.36, 1],
+    ease: [0.22, 1, 0.36, 1] as const,
   },
 };
