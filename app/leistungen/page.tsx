@@ -11,7 +11,7 @@ import {
   Camera,
   TrendingUp,
   MessageCircle,
-  Sparkles,
+  SprayCan,
   Share2,
   Search,
   Star,
@@ -166,7 +166,7 @@ const services = [
   },
   {
     id: 'reinigung',
-    icon: Sparkles,
+    icon: SprayCan,
     title: 'Reinigung & Qualitätskontrolle',
     description: '38 Prozent aller negativen Bewertungen erwähnen Sauberkeit. Reinigung ist kein Kostenfaktor – sie ist ein kritischer Geschäftsprozess. Wir koordinieren zuverlässige Reinigungsteams und führen Qualitätskontrollen nach jedem Gast durch, damit deine Wohnung auch nach 100 Gästen wie neu aussieht.',
     details: [

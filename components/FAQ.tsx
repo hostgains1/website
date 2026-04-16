@@ -24,7 +24,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, isOpen, onClick }) 
         </span>
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
-          transition={{ duration: 0.2 }}
+          transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
           className="flex-shrink-0 w-6 h-6 rounded-full bg-sand flex items-center justify-center"
         >
           <ChevronDown size={16} className="text-gray-500" />
@@ -33,10 +33,10 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, isOpen, onClick }) 
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.2 }}
+            initial={{ height: 0, opacity: 0, filter: "blur(4px)" }}
+            animate={{ height: "auto", opacity: 1, filter: "blur(0px)" }}
+            exit={{ height: 0, opacity: 0, filter: "blur(4px)" }}
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="overflow-hidden"
           >
             <p className="pb-5 sm:pb-6 text-gray-600 text-sm sm:text-base leading-relaxed pr-10">
@@ -97,9 +97,10 @@ export const FAQ: React.FC = () => {
       <article className="container mx-auto px-4 sm:px-6 max-w-3xl">
         <header className="text-center mb-6 sm:mb-10 md:mb-16">
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="inline-flex items-center gap-1.5 sm:gap-2 bg-hostgains/5 text-hostgains px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4"
           >
             <HelpCircle size={14} className="sm:w-4 sm:h-4" aria-hidden="true" />
@@ -107,18 +108,19 @@ export const FAQ: React.FC = () => {
           </motion.div>
           <motion.h2
             id="faq-heading"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50, filter: "blur(12px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
             className="font-display text-[1.5rem] sm:text-2xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
             Häufige Fragen zur <span className="text-hostgains-light">Vermietung</span>
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
             className="mt-3 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed"
           >
             Antworten auf die wichtigsten Fragen rund um Kurzzeitvermietung und Airbnb Management in Kärnten.
@@ -126,9 +128,10 @@ export const FAQ: React.FC = () => {
         </header>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true }}
+          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="bg-white rounded-xl sm:rounded-2xl md:rounded-3xl p-4 sm:p-6 md:p-8 border border-sand-dark"
         >
           {faqs.map((faq, i) => (
@@ -143,9 +146,10 @@ export const FAQ: React.FC = () => {
         </motion.div>
 
         <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true }}
+          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="text-center mt-8 text-gray-500 text-sm sm:text-base"
         >
           Noch Fragen? {' '}

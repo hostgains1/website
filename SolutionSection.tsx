@@ -1,5 +1,7 @@
+'use client';
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Camera, TrendingUp, Brush, Globe, Headphones, CheckCircle } from "lucide-react";
+import { motion } from "framer-motion";
+import { ArrowRight, Sparkles, Camera, TrendingUp, Globe, Headphones, CheckCircle, SprayCan } from "lucide-react";
 
 const services = [
   {
@@ -13,7 +15,7 @@ const services = [
     description: "Preisoptimierung & Wettbewerbsanalyse in Echtzeit"
   },
   {
-    icon: Brush,
+    icon: SprayCan,
     title: "Reinigung & Instandhaltung",
     description: "Koordination & Qualitätssicherung nach höchsten Standards"
   },
@@ -50,30 +52,56 @@ const SolutionSection = () => {
       <div className="container relative z-10 px-6 md:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20">
+          <motion.div
+            initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20"
+          >
             <Sparkles className="w-4 h-4 text-accent" />
             <span className="text-sm text-primary-foreground/90 font-medium">Unsere Lösung</span>
-          </div>
+          </motion.div>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-primary-foreground leading-tight mb-6">
+          <motion.h2
+            initial={{ opacity: 0, y: 50, filter: "blur(12px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
+            className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-primary-foreground leading-tight mb-6"
+          >
             Lehnen Sie sich zurück –
             <span className="text-accent"> wir kümmern uns um alles.</span>
-          </h2>
+          </motion.h2>
 
-          <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto font-body">
-            Hostgains übernimmt das komplette Management Ihrer Ferienwohnung. 
+          <motion.p
+            initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+            className="text-lg text-primary-foreground/80 max-w-2xl mx-auto font-body"
+          >
+            Hostgains übernimmt das komplette Management Ihrer Ferienwohnung.
             Sie behalten die Kontrolle – wir übernehmen die Arbeit.
-          </p>
+          </motion.p>
         </div>
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto mb-16">
           {services.map((service, index) => (
-            <div 
+            <motion.div
               key={index}
-              className="group p-6 rounded-2xl bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-300"
+              initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              viewport={{ once: true }}
+              transition={{
+                duration: 0.9,
+                ease: [0.22, 1, 0.36, 1],
+                delay: index * 0.1
+              }}
+              className="group p-6 rounded-2xl bg-primary-foreground/5 border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500"
             >
-              <div className="w-12 h-12 rounded-xl bg-accent/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <div className="w-12 h-12 rounded-xl bg-accent/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
                 <service.icon className="w-6 h-6 text-accent" />
               </div>
               <h3 className="text-lg font-display font-semibold text-primary-foreground mb-2">
@@ -82,11 +110,21 @@ const SolutionSection = () => {
               <p className="text-sm text-primary-foreground/70 font-body">
                 {service.description}
               </p>
-            </div>
+            </motion.div>
           ))}
-          
+
           {/* Highlight Card */}
-          <div className="p-6 rounded-2xl bg-accent/20 border border-accent/30 flex flex-col justify-center">
+          <motion.div
+            initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+            viewport={{ once: true }}
+            transition={{
+              duration: 0.9,
+              ease: [0.22, 1, 0.36, 1],
+              delay: 0.5
+            }}
+            className="p-6 rounded-2xl bg-accent/20 border border-accent/30 flex flex-col justify-center"
+          >
             <h3 className="text-lg font-display font-semibold text-primary-foreground mb-4">
               Ihre Vorteile:
             </h3>
@@ -98,11 +136,17 @@ const SolutionSection = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto mb-12">
+        <motion.div
+          initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+          className="grid grid-cols-3 gap-8 max-w-2xl mx-auto mb-12"
+        >
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-display font-bold text-accent mb-2">24/7</div>
             <div className="text-sm text-primary-foreground/60 font-medium">Gästebetreuung</div>
@@ -115,17 +159,23 @@ const SolutionSection = () => {
             <div className="text-4xl md:text-5xl font-display font-bold text-accent mb-2">0€</div>
             <div className="text-sm text-primary-foreground/60 font-medium">Fixkosten</div>
           </div>
-        </div>
+        </motion.div>
 
         {/* CTA */}
-        <div className="text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30, filter: "blur(6px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+          className="text-center"
+        >
           <Button variant="hero" size="xl" asChild>
             <a href="#kontakt">
               Kostenlose Beratung starten
               <ArrowRight className="w-5 h-5" />
             </a>
           </Button>
-        </div>
+        </motion.div>
       </div>
 
       {/* Bottom Diagonal Cut */}

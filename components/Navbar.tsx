@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, ArrowRight } from 'lucide-react';
 
 const navLinks = [
-  { label: 'Das Problem', href: '#problem' },
+  { label: 'Das Problem', href: '#market-stats' },
   { label: 'Die Lösung', href: '#solution' },
   { label: 'So funktioniert\'s', href: '#how-it-works' },
   { label: 'Leistungen', href: '#leistungen' },

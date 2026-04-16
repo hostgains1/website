@@ -3,7 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
-import { Camera, Tag, Share2, Headset, Sparkles, Search, Linkedin, ArrowRight } from 'lucide-react';
+import { Camera, Tag, Share2, Headset, Search, Linkedin, ArrowRight, MapPin, LucideIcon, SprayCan } from 'lucide-react';
+import { badgeFadeIn, headingFadeIn, textFadeIn, cardAnimation, smoothViewTransition } from '@/lib/animations';
 import Link from 'next/link';
 
 export const Credentials: React.FC = () => {
@@ -40,7 +41,7 @@ export const Credentials: React.FC = () => {
       icon: Tag,
       title: "Dynamisches Pricing",
       desc: "Wir passen den Preis deiner Ferienwohnung täglich an Nachfrage, Events am Wörthersee und Saison an — so verdienst du mehr.",
-      dark: true,
+      dark: false,
       blogLink: "/blog/dynamisches-pricing-mythen-realitaet"
     },
     {
@@ -56,7 +57,7 @@ export const Credentials: React.FC = () => {
       dark: false
     },
     {
-      icon: Sparkles,
+      icon: SprayCan,
       title: "Reinigung & Wäscheservice",
       desc: "Wir koordinieren Reinigung und Wäsche nach jedem Gast. Regelmäßige Check-ups stellen sicher, dass alles in Ordnung ist.",
       dark: false
@@ -77,15 +78,20 @@ export const Credentials: React.FC = () => {
       <article className="container mx-auto px-4 sm:px-6">
         {/* E-A-T Header: Expertise, Authority, Trust */}
         <header className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 md:mb-16">
-          <p className="text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.2em] uppercase text-gray-500 mb-2 sm:mb-4">
-            Lokale Expertise in Kärnten
-          </p>
-          <h2
+          <motion.div
+            {...badgeFadeIn}
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20"
+          >
+            <MapPin className="w-3 h-3 sm:w-4 sm:h-4 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] sm:text-xs md:text-sm text-hostgains font-medium">Lokale Expertise in Kärnten</span>
+          </motion.div>
+          <motion.h2
+            {...headingFadeIn}
             id="credentials-heading"
             className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 leading-tight"
           >
             Die einzigen <span className="text-hostgains-light">Profis</span> am Wörthersee
-          </h2>
+          </motion.h2>
           {/* LLM-zitierfähiger Absatz über hostgains */}
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mb-2 sm:mb-4">
             <strong>hostgains ist dein spezialisierter Dienstleister</strong> für Kurzzeitvermietung in Kärnten.
@@ -101,10 +107,14 @@ export const Credentials: React.FC = () => {
             {team.map((member, i) => (
               <motion.div
                 key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+                whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.15 }}
+                transition={{
+                  duration: 0.9,
+                  ease: [0.22, 1, 0.36, 1],
+                  delay: i * 0.2
+                }}
                 className="text-center group"
               >
                 <div className="relative mb-5 sm:mb-6 w-fit mx-auto">
@@ -153,10 +163,14 @@ export const Credentials: React.FC = () => {
           {features.map((item, i) => (
             <motion.li
               key={i}
-              initial={{ opacity: 0, y: 15 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.05 }}
+              transition={{
+                duration: 0.9,
+                ease: [0.22, 1, 0.36, 1],
+                delay: i * 0.1
+              }}
               className={`p-4 sm:p-6 md:p-8 lg:p-10 rounded-xl sm:rounded-2xl md:rounded-3xl transition-all duration-300 h-full flex flex-col ${
                 item.dark
                   ? 'bg-hostgains text-white shadow-xl hover:-translate-y-2'
@@ -182,7 +196,11 @@ export const Credentials: React.FC = () => {
               {item.blogLink && (
                 <Link
                   href={item.blogLink}
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-sand hover:text-white mt-4 group"
+                  className={`inline-flex items-center gap-1.5 text-sm font-medium mt-4 group ${
+                    item.dark
+                      ? 'text-sand hover:text-white'
+                      : 'text-hostgains hover:text-hostgains-dark'
+                  }`}
                 >
                   Mehr erfahren
                   <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />

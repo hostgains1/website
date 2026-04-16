@@ -44,9 +44,10 @@ export const HowItWorks: React.FC = () => {
       <article className="container mx-auto px-4 sm:px-6">
         <header className="text-center mb-8 sm:mb-12 md:mb-20">
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="inline-flex items-center gap-2 bg-hostgains/5 border border-hostgains/20 rounded-full px-4 py-1.5 mb-4 sm:mb-6"
           >
             <span className="text-hostgains text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.15em] uppercase">
@@ -55,19 +56,20 @@ export const HowItWorks: React.FC = () => {
           </motion.div>
           <motion.h2
             id="how-it-works-heading"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50, filter: "blur(12px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
             className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-hostgains-dark leading-tight"
           >
             So übernehmen wir deine{' '}
             <span className="text-hostgains-light">Ferienwohnung</span>
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
             className="mt-3 sm:mt-4 text-sm sm:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed"
           >
             Maximale Auslastung, optimierte Preise, zufriedene Gäste und null Stress für dich – so einfach geht's.
@@ -82,10 +84,14 @@ export const HowItWorks: React.FC = () => {
           {steps.map((step, i) => (
             <motion.div
               key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
+              transition={{
+                duration: 0.9,
+                ease: [0.22, 1, 0.36, 1],
+                delay: i * 0.15
+              }}
               className={`relative flex items-start gap-4 sm:gap-8 mb-8 sm:mb-12 last:mb-0 ${
                 i % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'
               }`}

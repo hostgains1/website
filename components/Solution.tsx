@@ -52,9 +52,10 @@ export const Solution: React.FC = () => {
         {/* Section Header - LLM-optimiert mit Definition */}
         <header className="max-w-3xl mx-auto text-center mb-8 sm:mb-12 md:mb-16">
           <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-white/10 backdrop-blur-sm border border-white/20"
           >
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-sand" aria-hidden="true" />
@@ -63,9 +64,10 @@ export const Solution: React.FC = () => {
 
           <motion.h2
             id="solution-heading"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50, filter: "blur(12px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
             className="font-display text-[2rem] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 sm:mb-6"
           >
             Mehr Umsatz, weniger Aufwand
@@ -73,19 +75,19 @@ export const Solution: React.FC = () => {
 
           {/* LLM-zitierfähige Definition */}
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
             className="text-sm sm:text-base md:text-lg text-white/90 max-w-2xl mx-auto mb-3 sm:mb-4 leading-relaxed"
           >
             <strong>Kurzzeitvermietung-Management</strong> ist die professionelle Verwaltung von Ferienunterkünften auf Plattformen wie Airbnb und Booking.com.
           </motion.p>
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 35, filter: "blur(6px)" }}
+            whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
-            transition={{ delay: 0.15 }}
+            transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
             className="text-sm sm:text-base md:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed hidden sm:block"
           >
             Wir übernehmen alle Aufgaben der Vermietung: Inseratserstellung, Preisoptimierung, Gästekommunikation und Reinigungskoordination. Du behältst die Kontrolle – wir übernehmen die Arbeit.
@@ -97,11 +99,15 @@ export const Solution: React.FC = () => {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.05 }}
-              className="group p-4 sm:p-5 md:p-6 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-300"
+              transition={{
+                duration: 0.9,
+                ease: [0.22, 1, 0.36, 1],
+                delay: index * 0.12
+              }}
+              className="group p-4 sm:p-5 md:p-6 rounded-xl sm:rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-500"
             >
               <div className="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 rounded-lg sm:rounded-xl bg-sand/20 flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
                 <service.icon className="w-5 h-5 sm:w-5 sm:h-5 md:w-6 md:h-6 text-sand" />
@@ -118,9 +124,10 @@ export const Solution: React.FC = () => {
 
         {/* Stats Row */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 40, filter: "blur(8px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           viewport={{ once: true }}
+          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           className="grid grid-cols-3 gap-3 sm:gap-6 md:gap-8 max-w-2xl mx-auto"
         >
           {stats.map((stat, index) => (

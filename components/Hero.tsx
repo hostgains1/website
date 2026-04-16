@@ -1,17 +1,10 @@
 'use client';
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, ChevronDown, Check } from 'lucide-react';
 
 export const Hero: React.FC = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 1.0;
-    }
-  }, []);
 
   const trustIndicators = [
     "Keine Fixkosten",
@@ -26,22 +19,18 @@ export const Hero: React.FC = () => {
       role="banner"
       aria-label="hostgains - Professionelle Kurzzeitvermietung und Airbnb Management in Kärnten"
     >
-      {/* Background Video - Drohnenflug über den Wörthersee */}
+      {/* Background Image - Ferienvermietung Kärnten */}
       <div className="absolute inset-0 overflow-hidden">
-        <video
-          ref={videoRef}
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover will-change-transform"
-          poster="/hero-woerthersee.webp"
-          style={{ transform: 'translateZ(0)', backfaceVisibility: 'hidden' }}
-        >
-          <source src="/wörthersee loop.mp4" type="video/mp4" />
-        </video>
-        {/* Gradient Overlay - abgeschwächt für mehr Bild-Wirkung */}
-        <div className="absolute inset-0 bg-gradient-to-b from-hostgains/70 via-hostgains/50 to-hostgains/80" />
+        <Image
+          src="/Ferienvermietung Kärnten.png"
+          alt="Ferienvermietung in Kärnten - Blick auf die Kärntner Landschaft"
+          fill
+          priority
+          className="object-cover saturate-[1.1] brightness-[1.05]"
+          sizes="100vw"
+        />
+        {/* Gradient Overlay - für bessere Lesbarkeit */}
+        <div className="absolute inset-0 bg-gradient-to-b from-hostgains/75 via-hostgains/55 to-hostgains/85" />
       </div>
 
       {/* Spacer to account for fixed header (marquee + navbar)
@@ -122,7 +111,7 @@ export const Hero: React.FC = () => {
           {/* Scroll Indicator - jetzt auch auf Mobile */}
           <div className="animate-fade-in animation-delay-400">
             <a
-              href="#problem"
+              href="#market-stats"
               className="inline-flex flex-col items-center gap-1 sm:gap-2 text-white/60 hover:text-white/80 transition-colors"
             >
               <span className="text-[10px] sm:text-xs uppercase tracking-widest">Mehr erfahren</span>

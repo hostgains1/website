@@ -3,12 +3,11 @@
 import dynamic from 'next/dynamic';
 import { Hero } from '@/components/Hero';
 import { Partners } from '@/components/Partners';
-import { Problem } from '@/components/Problem';
+import { MarketStats } from '@/components/MarketStats';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 
 // Lazy load below-the-fold components
-const Solution = dynamic(() => import('@/components/Solution').then(mod => ({ default: mod.Solution })), { ssr: true });
 const HowItWorks = dynamic(() => import('@/components/HowItWorks').then(mod => ({ default: mod.HowItWorks })), { ssr: true });
 const Credentials = dynamic(() => import('@/components/Credentials').then(mod => ({ default: mod.Credentials })), { ssr: true });
 const SocialProof = dynamic(() => import('@/components/SocialProof').then(mod => ({ default: mod.SocialProof })), { ssr: true });
@@ -30,11 +29,8 @@ export function HomePageClient() {
         {/* Partners Section - Platform logos */}
         <Partners />
 
-        {/* Problem Section - Pain points identification */}
-        <Problem />
-
-        {/* Solution Section - Value proposition */}
-        <Solution />
+        {/* Market Stats, Challenges & Solution Section - Kärnten statistics, pain points and our services */}
+        <MarketStats />
 
         {/* How It Works Section - Process steps */}
         <HowItWorks />
