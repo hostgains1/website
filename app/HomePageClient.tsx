@@ -12,6 +12,7 @@ const HowItWorks = dynamic(() => import('@/components/HowItWorks').then(mod => (
 const Credentials = dynamic(() => import('@/components/Credentials').then(mod => ({ default: mod.Credentials })), { ssr: true });
 const SocialProof = dynamic(() => import('@/components/SocialProof').then(mod => ({ default: mod.SocialProof })), { ssr: true });
 const FAQ = dynamic(() => import('@/components/FAQ').then(mod => ({ default: mod.FAQ })), { ssr: true });
+const ContactSection = dynamic(() => import('@/components/ContactSection').then(mod => ({ default: mod.ContactSection })), { ssr: true });
 const LatestArticles = dynamic(() => import('@/components/LatestArticles').then(mod => ({ default: mod.LatestArticles })), { ssr: true });
 const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton').then(mod => ({ default: mod.WhatsAppButton })), { ssr: false });
 
@@ -43,6 +44,9 @@ export function HomePageClient() {
 
         {/* FAQ Section - Common questions */}
         <FAQ />
+
+        {/* Contact Section */}
+        <ContactSection />
 
         {/* Latest Articles Section */}
         <LatestArticles />
