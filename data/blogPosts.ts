@@ -186,8 +186,8 @@ Steuer (geschätzt): 4.000 €</p>
     publishedAt: '2026-04-26',
     category: 'Investment',
     tags: ['Ferienwohnung', 'Kärnten', 'Investment', 'Kosten', 'Rendite', 'Wörthersee', 'Kurzzeitvermietung'],
-    featuredImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
-    featuredImageAlt: 'Taschenrechner und Dokumente zur Kalkulation von Immobilienkosten',
+    featuredImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Stift auf Finanzdokumenten – Kalkulation von Immobilienkosten',
     readingTime: 8,
   },
   {
