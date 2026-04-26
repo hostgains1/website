@@ -18,8 +18,9 @@ export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-  const isHomePage = pathname === '/';
-  const isBlogPage = pathname.startsWith('/blog');
+  // pathname can be null before the router hydrates on the client — default to true to prevent logo flash
+  const isHomePage = pathname == null ? true : pathname === '/';
+  const isBlogPage = pathname?.startsWith('/blog') ?? false;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -133,7 +134,7 @@ export const Navbar: React.FC = () => {
                   alt="hostgains"
                   width={120}
                   height={48}
-                  className={`h-9 md:h-10 lg:h-12 w-auto transition-all duration-300 ${
+                  className={`h-9 md:h-10 lg:h-12 w-auto transition-[filter] duration-300 ${
                     isScrolled || !isHomePage ? '' : 'brightness-0 invert'
                   }`}
                   priority
