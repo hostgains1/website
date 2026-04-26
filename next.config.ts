@@ -4,6 +4,15 @@ const nextConfig: NextConfig = {
   // Consistent URL structure - no trailing slashes
   trailingSlash: false,
 
+  async headers() {
+    return [
+      {
+        source: '/julian.jpg',
+        headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }],
+      },
+    ];
+  },
+
   images: {
     remotePatterns: [
       {
