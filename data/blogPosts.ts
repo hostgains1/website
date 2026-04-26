@@ -3,6 +3,194 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ferienwohnung-kaernten-kosten-ehrliche-rechnung-2026',
+    title: 'Was eine Ferienwohnung in Kärnten wirklich kostet – Die ehrliche Rechnung 2026',
+    description: 'Die wahren Kosten einer Ferienwohnung in Kärnten: Kaufpreis, laufende Ausgaben, versteckte Posten und was am Ende wirklich übrig bleibt. Mit konkreten Zahlen aus der Praxis.',
+    excerpt: 'Jeder kennt den Kaufpreis. Aber die laufenden Kosten? Die Rücklagen? Die Opportunitätskosten? Eine ehrliche Kalkulation für Kärnten 2026.',
+    content: `
+<p>Eine Ferienwohnung am Wörthersee. Am Faaker See. In Villach. <strong>Der Traum klingt gut.</strong></p>
+
+<p>Was in Exposés und Renditeversprechen oft fehlt: die vollständige Rechnung.</p>
+
+<p>Nicht der Kaufpreis entscheidet über den Erfolg. Sondern alles, was danach kommt.</p>
+
+<h2 id="der-kaufpreis">Der Kaufpreis – nur der Anfang</h2>
+
+<p>In Kärnten liegen die Quadratmeterpreise für Ferienwohnungen aktuell zwischen <strong>3.500 € und 7.500 €</strong> – je nach Lage, Zustand und Seezugang.</p>
+
+<p>Eine 60m²-Wohnung am Wörthersee: 280.000 € bis 450.000 €.</p>
+
+<p>In Villach oder am Faaker See: 180.000 € bis 320.000 €.</p>
+
+<p>Aber der Kaufpreis ist nur die erste Zeile der Kalkulation.</p>
+
+<h2 id="kaufnebenkosten">Die Kaufnebenkosten – oft unterschätzt</h2>
+
+<p>Zum Kaufpreis kommen in Österreich:</p>
+
+<p><strong>Grunderwerbsteuer:</strong> 3,5% des Kaufpreises</p>
+
+<p><strong>Grundbucheintragung:</strong> 1,1%</p>
+
+<p><strong>Notarkosten:</strong> ca. 1–2%</p>
+
+<p><strong>Maklergebühr:</strong> bis zu 3,6% (wenn Makler involviert)</p>
+
+<p>Bei einer Wohnung um 300.000 € sind das schnell <strong>25.000 € bis 35.000 € zusätzlich</strong>.</p>
+
+<p>Geld, das nie als Rendite zurückkommt.</p>
+
+<h2 id="laufende-kosten">Die laufenden Kosten – monatlich, jährlich, immer</h2>
+
+<p>Hier wird es konkret. Eine durchschnittliche Ferienwohnung in Kärnten verursacht:</p>
+
+<p><strong>Betriebskosten:</strong> 150–300 €/Monat</p>
+
+<p><strong>Versicherung:</strong> 200–400 €/Jahr</p>
+
+<p><strong>Grundsteuer:</strong> 100–250 €/Jahr</p>
+
+<p><strong>Internet & Streaming:</strong> 40–60 €/Monat</p>
+
+<p><strong>Wartung & Reparaturen:</strong> 1–2% des Immobilienwerts pro Jahr</p>
+
+<p>Bei einer 300.000 €-Wohnung: <strong>3.000 € bis 6.000 € jährlich</strong> – nur für Erhalt.</p>
+
+<h2 id="vermietungskosten">Die Vermietungskosten – was Airbnb wirklich kostet</h2>
+
+<p>Kurzzeitvermietung ist kein Selbstläufer.</p>
+
+<p><strong>Plattformgebühren:</strong> 3–5% pro Buchung (Airbnb, Booking.com)</p>
+
+<p><strong>Reinigung:</strong> 50–100 € pro Gästewechsel</p>
+
+<p><strong>Wäsche & Verbrauchsmaterial:</strong> 10–20 € pro Gast</p>
+
+<p><strong>Schlüsselübergabe:</strong> 20–40 € pro Check-in (wenn extern)</p>
+
+<p>Bei 80 Vermietungsnächten pro Jahr mit durchschnittlich 25 Gästewechseln:</p>
+
+<p><strong>Reinigung allein: 1.250 € bis 2.500 €/Jahr</strong></p>
+
+<p>Wer seine Ferienwohnung <a href="/leistungen">professionell verwalten</a> lässt, zahlt zusätzlich 15–25% des Umsatzes. Dafür entfällt der eigene Aufwand.</p>
+
+<h2 id="zeitaufwand">Der Zeitaufwand – die unsichtbare Währung</h2>
+
+<p>Selbstverwaltung klingt nach Kostenersparnis. Die Rechnung geht oft nicht auf.</p>
+
+<p><strong>Pro Buchung:</strong> Kommunikation, Abstimmung, Probleme lösen – 30 bis 60 Minuten</p>
+
+<p><strong>Pro Gästewechsel:</strong> Check-in, Check-out, Kontrolle – 1 bis 2 Stunden</p>
+
+<p><strong>Monatlich:</strong> Buchhaltung, Preisanpassungen, Inserat-Pflege – 3 bis 5 Stunden</p>
+
+<p>Bei aktiver Vermietung: <strong>10 bis 20 Stunden pro Monat</strong>.</p>
+
+<p>Was ist eine Stunde der eigenen Zeit wert?</p>
+
+<h2 id="steuerliche-realitaet">Die steuerliche Realität</h2>
+
+<p>Einnahmen aus Kurzzeitvermietung sind steuerpflichtig. In Österreich bedeutet das:</p>
+
+<p><strong>Einkommensteuer:</strong> je nach Gesamteinkommen 20–50%</p>
+
+<p><strong>Umsatzsteuer:</strong> bei Überschreitung der Kleinunternehmergrenze 10% auf Vermietung</p>
+
+<p><strong>Ortstaxe:</strong> 0,50–2,50 € pro Nacht und Gast (je nach Gemeinde)</p>
+
+<p>Von 20.000 € Jahreseinnahmen bleiben nach Steuern oft nur <strong>12.000 € bis 15.000 €</strong>.</p>
+
+<h2 id="die-ehrliche-rechnung">Die ehrliche Rechnung – ein Beispiel</h2>
+
+<p>Eine 60m²-Wohnung am Wörthersee:</p>
+
+<p><strong>Kaufpreis:</strong> 320.000 €</p>
+
+<p><strong>Nebenkosten:</strong> 30.000 €</p>
+
+<p><strong>Einrichtung:</strong> 15.000 €</p>
+
+<p><strong>Gesamtinvestition:</strong> 365.000 €</p>
+
+<p>Jahreseinnahmen bei guter Auslastung (150 Nächte × 140 €):</p>
+
+<p><strong>Brutto-Einnahmen:</strong> 21.000 €</p>
+
+<p>Abzüge:</p>
+
+<p>Betriebskosten: 3.000 €<br/>
+Reinigung & Wäsche: 2.000 €<br/>
+Plattformgebühren: 800 €<br/>
+Instandhaltung: 3.500 €<br/>
+Steuer (geschätzt): 4.000 €</p>
+
+<p><strong>Netto-Ertrag:</strong> ca. 7.700 €</p>
+
+<p><strong>Rendite auf Gesamtinvestition:</strong> 2,1%</p>
+
+<p>Ohne Eigennutzung. Ohne Wertsteigerung eingerechnet. Ohne Zeitaufwand.</p>
+
+<h2 id="wann-es-sich-rechnet">Wann es sich trotzdem rechnet</h2>
+
+<p>Eine Ferienwohnung in Kärnten ist selten ein reines Renditeobjekt.</p>
+
+<p>Sie rechnet sich, wenn:</p>
+
+<p><strong>Eigennutzung eingeplant ist</strong> – 4 bis 8 Wochen pro Jahr für Familie und Freunde</p>
+
+<p><strong>Wertsteigerung realistisch eingeschätzt wird</strong> – am Wörthersee historisch 3–5% pro Jahr</p>
+
+<p><strong>Der emotionale Wert zählt</strong> – ein Rückzugsort, kein reines Investment</p>
+
+<p><strong>Die Vermietung professionell läuft</strong> – weil amateurhafte Verwaltung die Rendite frisst</p>
+
+<p>Wer alle <a href="/leistungen">Leistungen einer professionellen Verwaltung</a> nutzt, kann die Auslastung um 20–40% steigern. Dann verändert sich die Rechnung.</p>
+
+<h2 id="was-selten-genannt-wird">Was selten genannt wird: die Opportunitätskosten</h2>
+
+<p>365.000 € in ETFs bei historisch 7% Rendite: <strong>25.550 € pro Jahr</strong>.</p>
+
+<p>Ohne Arbeit. Ohne Risiko von Leerstand. Ohne Reparaturen.</p>
+
+<p>Eine Ferienwohnung muss diese Differenz rechtfertigen – durch Wertsteigerung, Eigennutzung oder persönliche Erfüllung.</p>
+
+<p>Wer nur Rendite sucht, findet sie woanders leichter.</p>
+
+<h2 id="fazit">Die Frage, die bleibt</h2>
+
+<p>Lohnt sich eine Ferienwohnung in Kärnten 2026?</p>
+
+<p>Die Antwort hängt nicht vom Kaufpreis ab. Sondern von der ehrlichen Rechnung.</p>
+
+<p>Wer die laufenden Kosten kennt, den Zeitaufwand einkalkuliert und die Opportunitätskosten versteht, trifft bessere Entscheidungen.</p>
+
+<p><em>Nicht jede Investition muss sich in Prozenten messen. Aber jede sollte ehrlich kalkuliert sein.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'der-kaufpreis', text: 'Der Kaufpreis – nur der Anfang', level: 2 },
+      { id: 'kaufnebenkosten', text: 'Die Kaufnebenkosten', level: 2 },
+      { id: 'laufende-kosten', text: 'Die laufenden Kosten', level: 2 },
+      { id: 'vermietungskosten', text: 'Die Vermietungskosten', level: 2 },
+      { id: 'zeitaufwand', text: 'Der Zeitaufwand', level: 2 },
+      { id: 'steuerliche-realitaet', text: 'Die steuerliche Realität', level: 2 },
+      { id: 'die-ehrliche-rechnung', text: 'Die ehrliche Rechnung – ein Beispiel', level: 2 },
+      { id: 'wann-es-sich-rechnet', text: 'Wann es sich trotzdem rechnet', level: 2 },
+      { id: 'was-selten-genannt-wird', text: 'Die Opportunitätskosten', level: 2 },
+      { id: 'fazit', text: 'Die Frage, die bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-04-26',
+    category: 'Investment',
+    tags: ['Ferienwohnung', 'Kärnten', 'Investment', 'Kosten', 'Rendite', 'Wörthersee', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Taschenrechner und Dokumente zur Kalkulation von Immobilienkosten',
+    readingTime: 8,
+  },
+  {
     slug: 'beste-airbnb-lagen-woerthersee-ranking-2026',
     title: 'Die besten Airbnb Lagen am Wörthersee – Ranking 2026',
     description: 'Welche Orte am Wörthersee funktionieren für Kurzzeitvermietung am besten? Eine datenbasierte Analyse der Top-Standorte mit Auslastung, Preisen und Marktpotenzial.',
