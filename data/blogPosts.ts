@@ -3,6 +3,174 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-steuer-oesterreich-2026',
+    title: 'Airbnb Steuern in Österreich 2026 – Was Kurzzeitvermieter wirklich zahlen',
+    description: 'Welche Steuern fallen bei Kurzzeitvermietung in Österreich wirklich an? Einkommensteuer, Umsatzsteuer, Ortstaxe und Meldepflichten – eine nüchterne Analyse der steuerlichen Realität für Airbnb-Hosts 2026.',
+    excerpt: 'Steuerpflicht beginnt nicht erst bei hohen Einnahmen. Was Airbnb-Hosts in Österreich tatsächlich abführen müssen – und was den Gewinn wirklich drückt.',
+    content: `
+<p>Der erste Irrtum kommt früh. <strong>Wer seine Wohnung nur wenige Wochen im Jahr vermietet, glaubt oft: zu wenig für das Finanzamt.</strong></p>
+
+<p>Das Steuerrecht sieht das anders.</p>
+
+<p>In Österreich sind Einnahmen aus Kurzzeitvermietung grundsätzlich steuerpflichtig – unabhängig von Dauer, Plattform oder Betrag. Die Frage ist nicht ob, sondern wie.</p>
+
+<p>Was genau anfällt, wie es berechnet wird und wo die entscheidenden Weichen gestellt werden – das zeigt die folgende Analyse.</p>
+
+<h2 id="drei-steuerarten">Drei Steuerarten, eine Immobilie</h2>
+
+<p>Kurzzeitvermietung in Österreich berührt drei verschiedene Steuerarten. Sie gelten unabhängig voneinander und greifen kumulativ.</p>
+
+<h3 id="einkommensteuer">Einkommensteuer</h3>
+
+<p>Einnahmen aus Ferienwohnungen zählen – je nach Ausgestaltung – als Einkünfte aus Vermietung und Verpachtung oder als gewerbliche Einkünfte.</p>
+
+<p>Die Abgrenzung ist relevant: Gewerbliche Vermietung entsteht, wenn hoteltypische Nebenleistungen hinzukommen – Reinigung durch den Vermieter, persönliche Betreuung, täglicher Wäschewechsel. Reine Raumüberlassung gilt als private Vermietung.</p>
+
+<p>Der Steuersatz richtet sich nach dem Gesamteinkommen:</p>
+
+<p><strong>Bis 12.816 €:</strong> 0%</p>
+
+<p><strong>12.816 – 20.818 €:</strong> 20%</p>
+
+<p><strong>20.818 – 34.513 €:</strong> 30%</p>
+
+<p><strong>Über 60.000 €:</strong> 48%</p>
+
+<p>Wer hauptberuflich angestellt ist und zusätzlich Mieteinnahmen erzielt, addiert das Vermietungseinkommen zum Gesamteinkommen. Der Grenzsteuersatz liegt dann oft bei <strong>40–48%</strong>.</p>
+
+<p><em>Das ist der Punkt, den viele nicht im Blick haben – und der die Renditerechnung deutlich verändert.</em></p>
+
+<h3 id="umsatzsteuer">Umsatzsteuer</h3>
+
+<p>Kleinunternehmer in Österreich sind von der Umsatzsteuer befreit – bis zur gesetzlichen Jahresumsatzgrenze. Wer diese überschreitet, schuldet <strong>10% Umsatzsteuer</strong> auf Vermietungseinnahmen.</p>
+
+<p>Die Grenze gilt auf Jahresbasis und umfasst alle unternehmerischen Tätigkeiten zusammen – nicht nur die Vermietung. Wer freiberuflich tätig ist und zusätzlich vermietet, rechnet beide Einnahmequellen zur Prüfung der Grenze zusammen.</p>
+
+<h3 id="ortstaxe">Ortstaxe</h3>
+
+<p>Jede Gemeinde in Österreich erhebt eine Tourismusabgabe auf entgeltliche Beherbergung.</p>
+
+<p><strong>0,50 € bis 2,50 €</strong> pro Nacht und Gast – je nach Gemeinde</p>
+
+<p>In Kärnten liegt die Ortstaxe je nach Ort zwischen 1,00 € und 2,20 €. Sie ist vom Vermieter einzuheben und an die Gemeinde abzuführen. Airbnb übernimmt die Abwicklung in ausgewählten Gemeinden automatisch – in anderen nicht.</p>
+
+<h2 id="gewerblich-oder-privat">Gewerblich oder privat – die Weichenstellung</h2>
+
+<p>Die steuerliche Einordnung hat weitreichende Konsequenzen.</p>
+
+<p><strong>Private Vermietung</strong> liegt vor, wenn nur die Überlassung der Räumlichkeiten stattfindet – keine Zusatzleistungen, kein aktives Management vor Ort.</p>
+
+<p><strong>Gewerbliche Vermietung</strong> entsteht, wenn regelmäßige Dienstleistungen hinzukommen: Endreinigung durch den Vermieter, persönliche Schlüsselübergabe, Gästebetreuung vor Ort.</p>
+
+<p>Die Grenze ist fließend. Die Finanzbehörden beurteilen das Gesamtbild – nicht einzelne Merkmale.</p>
+
+<p><em>Wer viel selbst übernimmt, läuft Gefahr, unbeabsichtigt als Gewerbetreibender eingestuft zu werden – mit Konsequenzen für Sozialversicherung und Steuerlast.</em></p>
+
+<h2 id="kleinunternehmer">Die Kleinunternehmerregelung – und ihr blinder Fleck</h2>
+
+<p>Wer unter der Umsatzgrenze bleibt, zahlt keine Umsatzsteuer.</p>
+
+<p>Aber: <strong>Die Einkommensteuer gilt trotzdem.</strong></p>
+
+<p>Das ist der häufigste Denkfehler. Die Kleinunternehmerregelung schützt vor der Umsatzsteuer – nicht vor der Einkommensteuer auf den Gewinn.</p>
+
+<p>Auch wer 18.000 € im Jahr einnimmt und sauber unter der Grenze bleibt, muss den Gewinn erklären und versteuern.</p>
+
+<p>Gewinn = Einnahmen minus absetzbare Ausgaben. Und damit kommen wir zum Punkt, der die größte steuerliche Wirkung entfaltet.</p>
+
+<h2 id="absetzbar">Was den Gewinn wirklich drückt</h2>
+
+<p>Betriebsausgaben reduzieren den steuerpflichtigen Gewinn erheblich – wenn sie korrekt dokumentiert sind.</p>
+
+<p><strong>Abschreibung (AfA):</strong> 1,5% des Gebäudeanteils jährlich – über Jahrzehnte</p>
+
+<p><strong>Kreditzinsen:</strong> Bei kreditfinanziertem Kauf vollständig absetzbar</p>
+
+<p><strong>Betriebskosten:</strong> Anteilig nach Vermietungsanteil des Jahres</p>
+
+<p><strong>Reinigung & Instandhaltung:</strong> Vollständig absetzbar</p>
+
+<p><strong>Plattformgebühren (Airbnb, Booking.com):</strong> Vollständig absetzbar</p>
+
+<p><strong>Steuerberatung:</strong> Vollständig absetzbar</p>
+
+<p><strong>Möbel & Ausstattung:</strong> Geringwertige Wirtschaftsgüter (bis 1.000 € netto) sofort, größere Anschaffungen verteilt über Nutzungsdauer</p>
+
+<p>Wer von Beginn an Belege sammelt und Ausgaben strukturiert, reduziert die Steuerlast messbar. Wie sich das im Gesamtbild auswirkt, zeigt die <a href="/blog/ferienwohnung-kaernten-kosten-ehrliche-rechnung-2026">ehrliche Kostenrechnung für Ferienwohnungen in Kärnten</a> – dort wo Kaufpreis, Betriebskosten und Rendite zusammenkommen.</p>
+
+<h2 id="meldepflichten">Meldepflichten – bevor die erste Buchung kommt</h2>
+
+<p>Kurzzeitvermietung in Österreich ist nicht nur steuerpflichtig, sondern auch anmeldepflichtig.</p>
+
+<p><strong>Finanzamt:</strong> Einnahmen jährlich erklären – via Einnahmen-Ausgaben-Rechnung</p>
+
+<p><strong>Ortstaxe:</strong> Registrierung bei der Gemeindeverwaltung vor Aufnahme der Vermietung</p>
+
+<p><strong>Gästemeldung:</strong> In vielen Gemeinden Pflicht – analog zu Hotelbetrieben</p>
+
+<p><strong>Gewerberegister:</strong> Bei gewerblicher Einordnung verpflichtend</p>
+
+<p>Wer nach der ersten Buchung beginnt, diese Punkte zu klären, riskiert Nachzahlungen und Säumniszuschläge.</p>
+
+<h2 id="rechenbeispiel">Ein konkretes Rechenbeispiel</h2>
+
+<p>Ferienwohnung in Kärnten. 150 vermietete Nächte, 130 € Durchschnittspreis.</p>
+
+<p><strong>Brutto-Einnahmen:</strong> 19.500 €</p>
+
+<p>Absetzbare Ausgaben:</p>
+
+<p>Betriebskosten: 2.400 €<br/>
+Reinigung: 1.800 €<br/>
+Plattformgebühren: 750 €<br/>
+AfA: 2.000 €<br/>
+Sonstiges: 800 €</p>
+
+<p><strong>Steuerpflichtiger Gewinn:</strong> 11.750 €</p>
+
+<p>Bei einem Grenzsteuersatz von 35%: <strong>ca. 4.110 € Einkommensteuer</strong></p>
+
+<p>Ortstaxe bei 150 Nächten: ca. 225 €</p>
+
+<p><strong>Netto nach Steuern: ca. 7.365 €</strong></p>
+
+<p>Die Differenz zu einer unkritisch gerechneten Renditeerwartung ist erheblich. Und das vor eigenem Zeitaufwand.</p>
+
+<h2 id="einordnung">Wissen als Kalkulationsgrundlage</h2>
+
+<p>Steueroptimierung bei Kurzzeitvermietung ist keine Frage von Tricks.</p>
+
+<p>Es ist eine Frage von Struktur: Welche Ausgaben fallen an? Wie werden sie dokumentiert? Wann ist ein Steuerberater sinnvoll?</p>
+
+<p>Wer das operative Management auslagert, profitiert doppelt: Die Verwaltungskosten sind vollständig absetzbar, und die Auslastung steigt in der Regel merklich. Wie strukturiertes <a href="/airbnb-management">Airbnb Management in Kärnten</a> konkret aussieht und was es bewirkt – das zeigt die Praxis.</p>
+
+<p><em>Die beste Steuerstrategie beginnt mit einer ehrlichen Kalkulation – nicht erst beim Steuerberater.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'drei-steuerarten', text: 'Drei Steuerarten, eine Immobilie', level: 2 },
+      { id: 'einkommensteuer', text: 'Einkommensteuer', level: 3 },
+      { id: 'umsatzsteuer', text: 'Umsatzsteuer', level: 3 },
+      { id: 'ortstaxe', text: 'Ortstaxe', level: 3 },
+      { id: 'gewerblich-oder-privat', text: 'Gewerblich oder privat – die Weichenstellung', level: 2 },
+      { id: 'kleinunternehmer', text: 'Die Kleinunternehmerregelung', level: 2 },
+      { id: 'absetzbar', text: 'Was den Gewinn wirklich drückt', level: 2 },
+      { id: 'meldepflichten', text: 'Meldepflichten', level: 2 },
+      { id: 'rechenbeispiel', text: 'Ein konkretes Rechenbeispiel', level: 2 },
+      { id: 'einordnung', text: 'Wissen als Kalkulationsgrundlage', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-04-30',
+    category: 'Recht & Steuern',
+    tags: ['Steuer', 'Österreich', 'Airbnb', 'Einkommensteuer', 'Umsatzsteuer', 'Ortstaxe', 'Kurzzeitvermietung', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Taschenrechner und Finanzdokumente – Steuerplanung für Kurzzeitvermietung',
+    readingTime: 7,
+  },
+  {
     slug: 'ferienwohnung-kaernten-kosten-ehrliche-rechnung-2026',
     title: 'Was eine Ferienwohnung in Kärnten wirklich kostet – Die ehrliche Rechnung 2026',
     description: 'Die wahren Kosten einer Ferienwohnung in Kärnten: Kaufpreis, laufende Ausgaben, versteckte Posten und was am Ende wirklich übrig bleibt. Mit konkreten Zahlen aus der Praxis.',
