@@ -167,6 +167,7 @@ const services = [
   {
     id: 'reinigung',
     icon: SprayCan,
+    image: '/reinigung.png',
     title: 'Reinigung & Qualitätskontrolle',
     description: '38 Prozent aller negativen Bewertungen erwähnen Sauberkeit. Reinigung ist kein Kostenfaktor – sie ist ein kritischer Geschäftsprozess. Wir koordinieren zuverlässige Reinigungsteams und führen Qualitätskontrollen nach jedem Gast durch, damit deine Wohnung auch nach 100 Gästen wie neu aussieht.',
     details: [
@@ -341,8 +342,12 @@ export default function LeistungenPage() {
                     >
                       <div className="flex flex-col lg:flex-row gap-6">
                         <div className="flex-shrink-0">
-                          <div className="w-14 h-14 rounded-xl bg-hostgains/10 flex items-center justify-center">
-                            <service.icon className="w-7 h-7 text-hostgains" />
+                          <div className="w-14 h-14 rounded-xl bg-hostgains/10 flex items-center justify-center overflow-hidden">
+                            {service.image ? (
+                              <Image src={service.image} alt={service.title} width={56} height={56} className="w-full h-full object-cover" />
+                            ) : (
+                              <service.icon className="w-7 h-7 text-hostgains" />
+                            )}
                           </div>
                         </div>
                         <div className="flex-1">

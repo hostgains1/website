@@ -136,6 +136,7 @@ const services = [
   },
   {
     icon: Sparkles,
+    image: '/reinigung.png',
     title: 'Reinigung & Koordination',
     description: 'Zuverlässige Reinigungsteams, Qualitätskontrollen nach jedem Gast, Wäscheservice und Nachfüllen von Verbrauchsmaterialien.',
   },
@@ -334,8 +335,12 @@ export default function AirbnbManagementPage() {
                       key={index}
                       className="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
                     >
-                      <div className="w-12 h-12 rounded-xl bg-hostgains/10 flex items-center justify-center mb-4">
-                        <service.icon className="w-6 h-6 text-hostgains" />
+                      <div className="w-12 h-12 rounded-xl bg-hostgains/10 flex items-center justify-center mb-4 overflow-hidden">
+                        {service.image ? (
+                          <Image src={service.image} alt={service.title} width={48} height={48} className="w-full h-full object-cover" />
+                        ) : (
+                          <service.icon className="w-6 h-6 text-hostgains" />
+                        )}
                       </div>
                       <h3 className="font-bold text-gray-900 mb-2 text-lg">{service.title}</h3>
                       <p className="text-gray-600 text-sm leading-relaxed">{service.description}</p>
