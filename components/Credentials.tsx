@@ -58,7 +58,6 @@ export const Credentials: React.FC = () => {
     },
     {
       icon: SprayCan,
-      image: '/reinigung.png',
       title: "Reinigung & Wäscheservice",
       desc: "Wir koordinieren Reinigung und Wäsche nach jedem Gast. Regelmäßige Check-ups stellen sicher, dass alles in Ordnung ist.",
       dark: false
@@ -179,18 +178,14 @@ export const Credentials: React.FC = () => {
               }`}
             >
               <div
-                className={`w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-6 md:mb-8 overflow-hidden ${
+                className={`w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-lg sm:rounded-xl flex items-center justify-center mb-4 sm:mb-6 md:mb-8 ${
                   item.dark
                     ? 'bg-white/10 text-white'
                     : 'bg-sand text-hostgains'
                 }`}
                 aria-hidden="true"
               >
-                {item.image ? (
-                  <Image src={item.image} alt={item.title} width={56} height={56} className="w-full h-full object-cover" />
-                ) : (
-                  <item.icon size={20} strokeWidth={item.dark ? 2 : 2.5} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
-                )}
+                <item.icon size={20} strokeWidth={item.dark ? 2 : 2.5} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
               </div>
               <h3 className={`text-base sm:text-lg md:text-xl lg:text-2xl font-bold font-display mb-2 sm:mb-3 md:mb-4 ${item.dark ? 'text-white' : 'text-gray-900'}`}>
                 {item.title}
