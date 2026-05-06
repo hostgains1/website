@@ -320,7 +320,7 @@ export default function FerienvermietungKaerntenPage() {
                 </div>
 
                 <div className="mt-8 bg-sand-light rounded-2xl p-6 sm:p-8">
-                  <h3 className="font-bold text-gray-900 mb-3 text-lg">Wann lohnt Ferienvermietung in Kärnten?</h3>
+                  <h3 className="font-bold text-gray-900 mb-3 text-lg">Wann lohnt sich Ferienvermietung in Kärnten?</h3>
                   <p className="text-gray-600 leading-relaxed">
                     In der Wörthersee-Region übersteigen die Einnahmen aus professionell geführter Ferienvermietung die Langzeitmietrendite bei guter Auslastung um <strong className="text-gray-800">40–80 Prozent</strong>. Das gilt besonders für Objekte mit Seenähe oder besonderer Lage. In Lagen mit schwacher Tourismus-Nachfrage kann Langzeitmiete die risikoärmere Wahl sein.
                   </p>
