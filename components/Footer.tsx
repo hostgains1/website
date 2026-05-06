@@ -130,6 +130,14 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
+                  href="/ferienvermietung-kaernten"
+                  className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
+                >
+                  Ferienvermietung Kärnten
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/analyse"
                   className="hover:text-hostgains transition-colors inline-block py-1 min-h-[44px] flex items-center"
                 >

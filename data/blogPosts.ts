@@ -3,6 +3,144 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ferienvermietung-kaernten-leitfaden',
+    title: 'Ferienvermietung Kärnten: Was Eigentümer wirklich wissen müssen',
+    description: 'Ferienvermietung in Kärnten – ein ehrlicher Leitfaden für Eigentümer. Plattformen, realistische Einnahmen, rechtliche Grundlagen und die Frage: selbst verwalten oder Management auslagern?',
+    excerpt: 'Kärnten ist beliebt, der Markt wächst, der Aufwand wird unterschätzt. Was Ferienvermietung in Kärnten wirklich bedeutet – und was Eigentümer vor der ersten Buchung wissen sollten.',
+    content: `
+<p>Ferienvermietung in Kärnten klingt nach passivem Einkommen. <strong>Die Realität ist komplizierter – und gleichzeitig lukrativer, wenn man es richtig angeht.</strong></p>
+
+<p>Dieser Leitfaden richtet sich an Eigentümer, die eine Wohnung oder ein Haus in Kärnten haben und überlegen, ob und wie sie vermieten wollen. Keine Versprechen, keine Hochglanzrechnung. Nur das, was tatsächlich relevant ist.</p>
+
+<h2 id="warum-kaernten">Warum Kärnten für Ferienvermietung attraktiv ist</h2>
+
+<p>Kärnten ist keine Nischenregion. <strong>13,5 Millionen Nächtigungen pro Jahr</strong>, der wärmste Badesee Österreichs, Villach als Alpen-Adria-Knotenpunkt, Klagenfurt als Landeshauptstadt mit Flughafen.</p>
+
+<p>Die Nachfrage kommt hauptsächlich aus Deutschland – 67 Prozent der Gäste reisen aus dem deutschsprachigen Raum an. Das bedeutet: kurze Anfahrt, hohe Buchungsbereitschaft, vorhersehbare Saisons.</p>
+
+<p>Für Eigentümer sind das gute Rahmenbedingungen. Aber der Markt hat sich verändert.</p>
+
+<p>Die Anzahl der Ferienvermietungsinserate am Wörthersee ist seit 2021 um 67 Prozent gestiegen. Wer heute vermietet, konkurriert nicht mehr gegen zehn Objekte, sondern gegen hunderte. <strong>Das macht Positionierung, Preisgestaltung und Qualität entscheidend.</strong></p>
+
+<h2 id="plattformen">Plattformen: Wo man in Kärnten präsent sein sollte</h2>
+
+<p>Die meisten Eigentümer beginnen mit Airbnb. Das ist nachvollziehbar – die Plattform ist bekannt, der Einstieg einfach, die Reichweite groß.</p>
+
+<p>Aber nur auf Airbnb zu vermieten verschenkt Potenzial.</p>
+
+<p><strong>Airbnb:</strong> Stark bei Freizeitreisenden, ideal für Wochenendtrips und Kurzbuchungen. Hohe Sichtbarkeit, aber auch hohe Konkurrenz. Provision liegt bei 3 Prozent für Hosts.</p>
+
+<p><strong>Booking.com:</strong> Größeres Volumen, besonders bei Gästen aus Deutschland und den Niederlanden. Stärkere Position in der Nebensaison. Provision zwischen 15 und 17 Prozent.</p>
+
+<p><strong>VRBO / Fewo-direkt:</strong> Zielgruppe sind Familien mit längeren Aufenthalten. Weniger Volumen, dafür bessere Gästequalität und weniger Servicedruck.</p>
+
+<p>Wer auf allen drei Plattformen gleichzeitig präsent ist, erhöht die Auslastung messbar – vorausgesetzt, die Kalender werden synchronisiert. Ohne Synchronisation entstehen Doppelbuchungen, und die sind für alle Beteiligten problematisch.</p>
+
+<h2 id="einnahmen">Was Eigentümer realistisch verdienen können</h2>
+
+<p>Die ehrliche Antwort: es kommt auf Lage, Objekt und Management an.</p>
+
+<p>Eine 60-Quadratmeter-Wohnung am Wörthersee, gut ausgestattet und professionell verwaltet:</p>
+
+<p><strong>Hochsaison (Juli/August):</strong> 150–220 € pro Nacht<br/>
+<strong>Nebensaison (Mai, Juni, September):</strong> 90–130 € pro Nacht<br/>
+<strong>Winter:</strong> 60–90 € oder Langzeitmiete</p>
+
+<p>Bei 130–150 vermieteten Nächten pro Jahr ergibt das <strong>Bruttoeinnahmen von 15.000 bis 22.000 €</strong>. Davon gehen Plattformgebühren, Reinigungskosten, Betriebskosten und Steuern ab.</p>
+
+<p>Was am Ende übrig bleibt, ist stark von der Auslastung in der Nebensaison abhängig. Wer nur im Sommer vermietet, erzielt 60 Prozent des möglichen Jahresumsatzes. Wer das ganzjährig optimiert, kommt deutlich höher.</p>
+
+<p>Die <a href="/blog/ferienwohnung-kaernten-kosten-ehrliche-rechnung-2026">ehrliche Kostenrechnung für Ferienwohnungen in Kärnten</a> zeigt, wie sich die Zahlen im Detail zusammensetzen.</p>
+
+<h2 id="aufwand">Was Ferienvermietung wirklich bedeutet</h2>
+
+<p>Das wird am häufigsten unterschätzt.</p>
+
+<p>Ferienvermietung ist kein passives Geschäft – zumindest nicht, wenn man es selbst betreibt.</p>
+
+<p><strong>Gästekommunikation:</strong> Buchungsanfragen, Anreiseinformationen, Fragen vor Ort, Bewertungen beantworten. Bei guter Auslastung täglich. Auf Englisch und Deutsch. Auch am Wochenende und in der Nacht.</p>
+
+<p><strong>Check-in und Check-out:</strong> Schlüsselübergabe oder Keybox, persönlicher Empfang wenn erwünscht, Kontrolle des Zustands nach jedem Gast.</p>
+
+<p><strong>Reinigung:</strong> Nach jeder Buchung. Professionell oder selbst – in jedem Fall zeitintensiv und mit klaren Qualitätsanforderungen.</p>
+
+<p><strong>Inserat-Pflege:</strong> Fotos, Texte, Preise – alles muss regelmäßig aktualisiert werden, damit die Plattformsichtbarkeit erhalten bleibt.</p>
+
+<p><strong>Problemlösung:</strong> Defekte Heizung, verlorener Schlüssel, Gäste die nicht zufrieden sind. Das gehört dazu – und verlangt schnelle Reaktion.</p>
+
+<p>Wer diese Arbeit einkalkuliert, trifft eine bewusstere Entscheidung. Wer sie ignoriert, wundert sich nach der dritten Saison.</p>
+
+<h2 id="selbst-oder-management">Selbst verwalten oder Management auslagern?</h2>
+
+<p>Die Frage ist keine Philosophie, sondern eine Kalkulation.</p>
+
+<p><strong>Selbstverwaltung lohnt sich wenn:</strong> Man vor Ort wohnt, die Wohnung nur selten vermietet, und die eigene Zeit keine hohen Opportunitätskosten hat.</p>
+
+<p><strong>Professionelles Management lohnt sich wenn:</strong> Man nicht in Kärnten lebt, mehrere Objekte hat, maximale Auslastung anstrebt, oder die Zeit für anderes braucht.</p>
+
+<p>Ein professioneller Anbieter übernimmt das Komplettpaket – Inserat, Preise, Gästekommunikation, Reinigung, Check-in. Dafür fällt eine Provision an, die sich aber durch höhere Auslastung und besseres Pricing oft selbst finanziert.</p>
+
+<p>Entscheidend ist: <strong>Nicht jeder Anbieter ist gleich.</strong> Lokales Team, Marktkenntnis, transparente Abrechnung und echte Ergebnisse sind die Kriterien, die zählen.</p>
+
+<p>Wie das in der Praxis aussieht, zeigt die <a href="/analyse">kostenlose Potenzialanalyse für deine Wohnung in Kärnten</a> – dort erfährst du mit konkreten Zahlen, was dein Objekt realistisch erzielen kann.</p>
+
+<h2 id="recht">Rechtliche Grundlagen für Ferienvermietung in Kärnten</h2>
+
+<p>Ferienvermietung in Österreich ist nicht ungeregelt. Eigentümer müssen einige Punkte kennen, bevor sie die erste Buchung annehmen.</p>
+
+<p><strong>Ortstaxe:</strong> In fast allen Kärntner Gemeinden fällt eine Tourismusabgabe pro Nacht und Gast an. Sie liegt zwischen 1,00 € und 2,20 €. Airbnb wickelt sie in einigen Gemeinden automatisch ab – in anderen liegt die Pflicht beim Vermieter.</p>
+
+<p><strong>Gästemeldung:</strong> In vielen Gemeinden ist eine Meldepflicht analog zu Hotelbetrieben vorgeschrieben. Das bedeutet: Gästedaten erfassen und an die Meldebehörde übermitteln.</p>
+
+<p><strong>Steuer:</strong> Einnahmen aus Ferienvermietung sind steuerpflichtig. Ob Einkommensteuer, Umsatzsteuer oder beides – das hängt vom Gesamteinkommen und der Art der Vermietung ab. Mehr dazu im Artikel über <a href="/blog/airbnb-steuer-oesterreich-2026">Airbnb Steuern in Österreich 2026</a>.</p>
+
+<p><strong>Eigentümergemeinschaft:</strong> Wer eine Wohnung in einer Wohnungseigentumsanlage besitzt, muss prüfen, ob die Hausordnung oder der Wohnungseigentumsvertrag Ferienvermietung einschränkt oder verbietet. Das wird häufig übersehen.</p>
+
+<h2 id="regionen">Regionen in Kärnten im Vergleich</h2>
+
+<p>Nicht jeder Standort funktioniert gleich.</p>
+
+<p><strong>Wörthersee (Velden, Pörtschach, Maria Wörth):</strong> Premium-Segment. Höchste Nachtpreise in Kärnten, ausgeprägter Sommertourismus, Events wie GTI-Treffen und Ironman sorgen für Spitzenauslastung. Winter schwach.</p>
+
+<p><strong>Villach:</strong> Ganzjährigere Nachfrage durch Thermentourismus, Städtereisen und Durchreisende. Weniger saisonal als der Wörthersee, dafür auch niedrigere Spitzenpreise.</p>
+
+<p><strong>Klagenfurt:</strong> Kombination aus Business-Reisenden und Freizeittourismus. Flughafennähe und Stadtleben als Argument. Weniger Seeflair, dafür konstantere Auslastung über das Jahr.</p>
+
+<p>Eine detaillierte Analyse der Märkte liefert der Artikel <a href="/blog/woerthersee-villach-klagenfurt-drei-maerkte">Wörthersee, Villach, Klagenfurt: Drei Märkte, drei Strategien</a>.</p>
+
+<h2 id="fazit">Was zählt, bevor man anfängt</h2>
+
+<p>Ferienvermietung in Kärnten ist kein Selbstläufer. Aber sie ist auch kein Glücksspiel.</p>
+
+<p>Wer den Markt versteht, das Objekt richtig positioniert, auf mehreren Plattformen präsent ist und die Gästebetreuung ernstnimmt, kann dauerhaft überdurchschnittliche Ergebnisse erzielen.</p>
+
+<p><strong>Die Frage ist nicht ob, sondern wie man es angeht.</strong></p>
+
+<p>Wer das professionell angehen will, ohne selbst täglich erreichbar zu sein, findet im <a href="/airbnb-management-kaernten">Airbnb Management Kärnten</a> eine Übersicht, wie Full-Service-Verwaltung in der Praxis funktioniert.</p>
+    `,
+    tableOfContents: [
+      { id: 'warum-kaernten', text: 'Warum Kärnten für Ferienvermietung attraktiv ist', level: 2 },
+      { id: 'plattformen', text: 'Plattformen: Wo man präsent sein sollte', level: 2 },
+      { id: 'einnahmen', text: 'Was Eigentümer realistisch verdienen können', level: 2 },
+      { id: 'aufwand', text: 'Was Ferienvermietung wirklich bedeutet', level: 2 },
+      { id: 'selbst-oder-management', text: 'Selbst verwalten oder Management auslagern?', level: 2 },
+      { id: 'recht', text: 'Rechtliche Grundlagen', level: 2 },
+      { id: 'regionen', text: 'Regionen in Kärnten im Vergleich', level: 2 },
+      { id: 'fazit', text: 'Was zählt, bevor man anfängt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-05-06',
+    category: 'Grundlagen',
+    tags: ['Ferienvermietung', 'Kärnten', 'Leitfaden', 'Wörthersee', 'Airbnb', 'Booking.com', 'Eigentümer', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Blick auf einen Kärntner See mit Bergen im Hintergrund – Ferienvermietung Kärnten',
+    readingTime: 8,
+  },
+  {
     slug: 'airbnb-steuer-oesterreich-2026',
     title: 'Airbnb Steuern in Österreich 2026 – Was Kurzzeitvermieter wirklich zahlen',
     description: 'Welche Steuern fallen bei Kurzzeitvermietung in Österreich wirklich an? Einkommensteuer, Umsatzsteuer, Ortstaxe und Meldepflichten – eine nüchterne Analyse der steuerlichen Realität für Airbnb-Hosts 2026.',

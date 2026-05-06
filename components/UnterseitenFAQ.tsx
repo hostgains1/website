@@ -146,6 +146,29 @@ export const leistungenFAQs: FAQItem[] = [
   }
 ];
 
+export const ferienvermietungKaerntenFAQs: FAQItem[] = [
+  {
+    question: "Brauche ich eine Genehmigung für Ferienvermietung in Kärnten?",
+    answer: "Eine spezielle Bewilligung für private Ferienvermietung gibt es in Kärnten meist nicht – aber es gibt Meldepflichten: Ortstaxe bei der Gemeinde anmelden, Gäste melderechtlich erfassen und Einnahmen beim Finanzamt erklären. Wer in einer Eigentumswohnung vermietet, sollte außerdem prüfen, ob die Hausordnung oder der Wohnungseigentumsvertrag Kurzzeitvermietung erlaubt."
+  },
+  {
+    question: "Wie viele Nächte pro Jahr kann ich in Kärnten realistisch vermieten?",
+    answer: "Das hängt stark vom Standort ab. Eine gut ausgestattete Wohnung am Wörthersee erzielt im Sommer 85–95% Auslastung, im Frühling und Herbst 40–60%, im Winter deutlich weniger. Im Jahresschnitt sind 100–160 vermietete Nächte realistisch – mehr mit aktivem Management und Mehrkanalansprache."
+  },
+  {
+    question: "Was ist besser: Ferienvermietung oder Langzeitmiete?",
+    answer: "Ferienvermietung erzielt in der Hochsaison deutlich höhere Nachtpreise, erfordert aber mehr Aufwand und ist stärker saisonabhängig. Langzeitmiete ist stabiler und passiver. In der Wörthersee-Region übersteigen die Einnahmen aus Ferienvermietung bei professionellem Management die Langzeitmietrendite häufig um 40–80% – aber nur wenn die Auslastung stimmt."
+  },
+  {
+    question: "Eignet sich meine Wohnung für Ferienvermietung?",
+    answer: "Entscheidend sind: Lage (Seenähe, Ortszentrum, Erreichbarkeit), Ausstattung (vollständige Küche, stabiles WLAN, gutes Bett), Zustand und Fotos. Eine Wohnung muss kein Luxusobjekt sein – aber sie muss in Fotos und Realität übereinstimmen. Gäste bestrafen Enttäuschungen sofort mit schlechten Bewertungen."
+  },
+  {
+    question: "Kann ich als Eigentümer selbst entscheiden, wann ich meine Wohnung vermiete?",
+    answer: "Ja. Du kannst jederzeit Zeiträume für die eigene Nutzung oder Renovierungen sperren. Das gilt auch bei professionellem Management – du behältst die Kontrolle über deinen Kalender und die Vermietungszeiträume."
+  },
+];
+
 export const airbnbManagementKaerntenFAQs: FAQItem[] = [
   {
     question: "Warum ist Kärnten ein guter Standort für Kurzzeitvermietung?",
