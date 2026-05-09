@@ -48,7 +48,8 @@ export const Hero: React.FC = () => {
           {/* Main Headline - H1 mit Haupt-Keywords */}
           <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1] sm:leading-tight mb-3 sm:mb-6 animate-fade-in">
             <span className="hidden sm:block">Ferienvermietung Kärnten:</span>
-            <span className="block sm:mt-1 text-white/90">Deine Wohnung,</span>
+            <span className="block sm:hidden text-white/90">Deine Ferienwohnung,</span>
+            <span className="hidden sm:block sm:mt-1 text-white/90">Deine Wohnung,</span>
             {/* Mobile: einzelne Wörter mit Highlight, Desktop: ein Block */}
             <span className="hidden sm:inline-block mt-1 text-[#314a43] bg-sand px-3 py-1 rounded">
               unser Management.
