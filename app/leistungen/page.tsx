@@ -406,7 +406,7 @@ export default function LeistungenPage() {
                     <div className="text-sm text-gray-600 font-medium">Durchschnittsbewertung</div>
                   </div>
                   <div className="bg-sand-light rounded-2xl p-6 text-center">
-                    <div className="text-3xl sm:text-4xl font-bold text-hostgains mb-2">0 Stunden</div>
+                    <div className="text-3xl sm:text-4xl font-bold text-hostgains mb-2">0h</div>
                     <div className="text-sm text-gray-600 font-medium">Aufwand pro Monat</div>
                   </div>
                 </div>
@@ -444,7 +444,7 @@ export default function LeistungenPage() {
                 </h2>
                 <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
                   Keine Fixkosten, keine Einrichtungsgebühren, keine versteckten Kosten.
-                  Performance-basiert: Wenn du nichts verdienst, zahlen wir drauf – nicht du.
+                  Performance-basiert: Verdienst du nichts, verdienen wir auch nichts.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
