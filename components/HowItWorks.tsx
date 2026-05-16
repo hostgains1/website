@@ -2,7 +2,7 @@
 import React from 'react';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
-import { Phone, Search, KeyRound, TrendingUp, ArrowRight, ShieldCheck, Percent, Clock, FileCheck } from 'lucide-react';
+import { Phone, Search, KeyRound, TrendingUp, ArrowRight, ShieldCheck, Percent, Clock, FileCheck, Milestone } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -48,11 +48,10 @@ export const HowItWorks: React.FC = () => {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="inline-flex items-center gap-2 bg-hostgains/5 border border-hostgains/20 rounded-full px-4 py-1.5 mb-4 sm:mb-6"
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20"
           >
-            <span className="text-hostgains text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.15em] uppercase">
-              So funktioniert's
-            </span>
+            <Milestone className="w-3 h-3 sm:w-4 sm:h-4 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] sm:text-xs md:text-sm text-hostgains font-medium">So funktioniert's</span>
           </motion.div>
           <motion.h2
             id="how-it-works-heading"
