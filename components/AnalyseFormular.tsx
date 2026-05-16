@@ -88,6 +88,9 @@ export const AnalyseFormular: React.FC = () => {
           timestamp: new Date().toISOString(),
         }),
       });
+      if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: unknown }).gtag === 'function') {
+        (window as unknown as { gtag: (cmd: string, event: string, params: Record<string, unknown>) => void }).gtag('event', 'conversion_event_submit_lead_form', {});
+      }
       setIsSubmitted(true);
     } catch (error) {
       console.error('Form submission error:', error);

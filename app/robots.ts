@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/static/'],
+        disallow: ['/api/', '/_next/', '/static/', '/erstgespräch', '/erstgespräch-danke'],
       },
     ],
     sitemap: 'https://www.hostgains.at/sitemap.xml',
