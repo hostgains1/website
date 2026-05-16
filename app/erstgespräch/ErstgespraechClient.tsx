@@ -152,7 +152,7 @@ export function ErstgespraechClient() {
             className="absolute inset-0 w-full h-full object-cover"
             poster="/hero-woerthersee.jpg"
           >
-            <source src="https://tfqcaolget1nsuld.public.blob.vercel-storage.com/Website%20Video.mp4" type="video/mp4" />
+            <source src="/website-video.mp4" type="video/mp4" />
           </video>
 
           {/* Bottom gradient */}
@@ -287,7 +287,7 @@ export function ErstgespraechClient() {
           <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-3">Nicht für dich, wenn</p>
           <ul className="space-y-2.5">
             {[
-              'Du die Immobilie in den nächsten 12 Monaten verkaufen oder selbst beziehen möchtest.',
+              'Du sofortige Ergebnisse ohne eine Anlaufphase von 4–8 Wochen erwartest.',
               'Du keine Optimierung an deiner Vermietung zulassen willst.',
             ].map((p) => (
               <li key={p} className="flex items-start gap-3">
@@ -401,9 +401,14 @@ export function ErstgespraechClient() {
                 <p className="text-[10px] text-hostgains/50 mt-1.5">€/Mo · 82 % Auslastung</p>
               </div>
             </div>
-            <div className="bg-gray-950 rounded-2xl py-3.5 text-center shadow-[0_2px_12px_rgba(0,0,0,0.12)]">
-              <p className="text-white font-bold text-sm tracking-wide">+550 € mehr pro Monat</p>
-            </div>
+            <button
+              type="button"
+              onClick={scrollToQuiz}
+              className="w-full bg-gray-950 hover:bg-gray-800 rounded-2xl py-3.5 text-center shadow-[0_2px_12px_rgba(0,0,0,0.12)] transition-colors active:scale-[0.98] flex items-center justify-center gap-2"
+            >
+              <span className="text-white font-bold text-sm tracking-wide">+550 € mehr pro Monat</span>
+              <ArrowRight size={14} className="text-white/70" strokeWidth={2.5} />
+            </button>
           </div>
         </div>
 
