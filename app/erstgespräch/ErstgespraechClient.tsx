@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, ArrowLeft, Check, X, ChevronDown, TrendingUp, AlertCircle, Users, Milestone, Star, Sparkles, HelpCircle, Calendar } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Check, X, ChevronDown, TrendingUp, AlertCircle, Users, Milestone, Star, Sparkles, HelpCircle, Calendar, Volume2, VolumeX, Maximize2 } from 'lucide-react';
 
 type QuizStep = 'idle' | 'q1' | 'q2' | 'calendly';
 
@@ -47,7 +47,21 @@ export function ErstgespraechClient() {
   const [quizStep, setQuizStep] = useState<QuizStep>('idle');
   const [animKey, setAnimKey] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [isMuted, setIsMuted] = useState(true);
   const quizRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const toggleMute = () => {
+    if (!videoRef.current) return;
+    videoRef.current.muted = !isMuted;
+    setIsMuted(prev => !prev);
+  };
+  const toggleFullscreen = () => {
+    const v = videoRef.current;
+    if (!v) return;
+    if ((v as any).webkitEnterFullscreen) (v as any).webkitEnterFullscreen();
+    else if (v.requestFullscreen) v.requestFullscreen();
+  };
 
   /* ── Calendly postMessage redirect ── */
   const onCalendly = useCallback((e: MessageEvent) => {
@@ -130,6 +144,7 @@ export function ErstgespraechClient() {
           style={{ aspectRatio: '4/5', maxHeight: '74svh' }}
         >
           <video
+            ref={videoRef}
             autoPlay
             muted
             loop
@@ -142,6 +157,26 @@ export function ErstgespraechClient() {
 
           {/* Bottom gradient */}
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" aria-hidden="true" />
+
+          {/* Video controls */}
+          <div className="absolute bottom-4 right-4 flex gap-2">
+            <button
+              type="button"
+              onClick={toggleMute}
+              className="w-9 h-9 rounded-full bg-black/40 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-black/60 transition-colors"
+              aria-label={isMuted ? 'Ton einschalten' : 'Ton ausschalten'}
+            >
+              {isMuted ? <VolumeX size={15} /> : <Volume2 size={15} />}
+            </button>
+            <button
+              type="button"
+              onClick={toggleFullscreen}
+              className="w-9 h-9 rounded-full bg-black/40 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-black/60 transition-colors"
+              aria-label="Video vergrößern"
+            >
+              <Maximize2 size={15} />
+            </button>
+          </div>
         </div>
       </div>
 
@@ -162,7 +197,7 @@ export function ErstgespraechClient() {
       {/* ══════════════════════════════════════
           PROMISE – Glass stat cards
       ══════════════════════════════════════ */}
-      <section className="px-5 py-12">
+      <section className="px-5 py-12 text-center">
         <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
           <TrendingUp className="w-3 h-3 text-hostgains" aria-hidden="true" />
           <span className="text-[10px] text-hostgains font-medium">Was sich ändert</span>
@@ -190,13 +225,15 @@ export function ErstgespraechClient() {
       ══════════════════════════════════════ */}
       <section className="mx-5 mb-12">
         <div className="bg-white/80 backdrop-blur-md border border-white rounded-3xl px-5 py-8 shadow-[0_2px_16px_rgba(0,0,0,0.05),inset_0_1px_0_rgba(255,255,255,0.9)]">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
-            <AlertCircle className="w-3 h-3 text-hostgains" aria-hidden="true" />
-            <span className="text-[10px] text-hostgains font-medium">Kommt dir das bekannt vor?</span>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
+              <AlertCircle className="w-3 h-3 text-hostgains" aria-hidden="true" />
+              <span className="text-[10px] text-hostgains font-medium">Kommt dir das bekannt vor?</span>
+            </div>
+            <h2 className="text-[1.3rem] font-extrabold leading-snug tracking-tight text-gray-950 mb-6">
+              Viele Eigentümer lassen jeden Monat Geld liegen – ohne es zu wissen.
+            </h2>
           </div>
-          <h2 className="text-[1.3rem] font-extrabold leading-snug tracking-tight text-gray-950 mb-6">
-            Viele Eigentümer lassen jeden Monat Geld liegen – ohne es zu wissen.
-          </h2>
           <ul className="space-y-3.5">
             {[
               'Meine Buchungsrate könnte besser sein.',
@@ -211,7 +248,7 @@ export function ErstgespraechClient() {
               </li>
             ))}
           </ul>
-          <p className="text-gray-400 text-sm mt-6 leading-relaxed italic">
+          <p className="text-gray-400 text-sm mt-6 leading-relaxed italic text-center">
             Wenn du bei 2 oder mehr Punkten nickst – dann ist dieses Gespräch genau das Richtige für dich.
           </p>
         </div>
@@ -221,13 +258,15 @@ export function ErstgespraechClient() {
           WHO IS THIS FOR
       ══════════════════════════════════════ */}
       <section className="px-5 py-12 border-t border-white/60">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
-          <Users className="w-3 h-3 text-hostgains" aria-hidden="true" />
-          <span className="text-[10px] text-hostgains font-medium">Für wen ist das?</span>
+        <div className="text-center mb-1">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
+            <Users className="w-3 h-3 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] text-hostgains font-medium">Für wen ist das?</span>
+          </div>
+          <h2 className="text-[1.3rem] font-extrabold leading-snug tracking-tight text-gray-950 mb-7">
+            hostgains passt zu dir, wenn&nbsp;…
+          </h2>
         </div>
-        <h2 className="text-[1.3rem] font-extrabold leading-snug tracking-tight text-gray-950 mb-7">
-          hostgains passt zu dir, wenn&nbsp;…
-        </h2>
         <ul className="space-y-3.5 mb-8">
           {[
             'Du eine Ferienwohnung in Kärnten besitzt oder planst.',
@@ -248,7 +287,7 @@ export function ErstgespraechClient() {
           <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-3">Nicht für dich, wenn</p>
           <ul className="space-y-2.5">
             {[
-              'Du außerhalb Kärntens vermietest.',
+              'Du die Immobilie in den nächsten 12 Monaten verkaufen oder selbst beziehen möchtest.',
               'Du keine Optimierung an deiner Vermietung zulassen willst.',
             ].map((p) => (
               <li key={p} className="flex items-start gap-3">
@@ -263,14 +302,16 @@ export function ErstgespraechClient() {
       {/* ══════════════════════════════════════
           PLAN – dark
       ══════════════════════════════════════ */}
-      <section className="mx-5 mb-12 rounded-3xl bg-gray-950 px-6 py-10 shadow-[0_8px_40px_rgba(0,0,0,0.14)]">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
-          <Milestone className="w-3 h-3 text-hostgains-light" aria-hidden="true" />
-          <span className="text-[10px] text-hostgains-light font-medium">So läuft es ab</span>
+      <section className="mx-5 mb-12 rounded-3xl bg-hostgains px-6 py-10 shadow-[0_8px_40px_rgba(49,74,67,0.25)]">
+        <div className="text-center mb-10">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
+            <Milestone className="w-3 h-3 text-sand" aria-hidden="true" />
+            <span className="text-[10px] text-sand font-medium">So läuft es ab</span>
+          </div>
+          <h2 className="text-[1.45rem] font-extrabold leading-snug tracking-tight text-white">
+            Von Erstgespräch zu mehr Umsatz — in 3 Schritten.
+          </h2>
         </div>
-        <h2 className="text-[1.45rem] font-extrabold leading-snug tracking-tight text-white mb-10">
-          Von Erstgespräch zu mehr Umsatz — in 3 Schritten.
-        </h2>
 
         <div className="space-y-0">
           {[
@@ -280,14 +321,14 @@ export function ErstgespraechClient() {
           ].map((step, i) => (
             <div key={step.num} className="flex gap-5 pb-9 last:pb-0 relative">
               {i < 2 && (
-                <div className="absolute left-[19px] top-10 bottom-0 w-px bg-white/10" aria-hidden="true" />
+                <div className="absolute left-[19px] top-10 bottom-0 w-px bg-white/20" aria-hidden="true" />
               )}
-              <div className="w-10 h-10 rounded-full border border-white/15 flex items-center justify-center flex-shrink-0 bg-white/5 shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]">
-                <span className="text-[10px] font-bold text-white/40 tracking-widest">{step.num}</span>
+              <div className="w-10 h-10 rounded-full border border-white/25 flex items-center justify-center flex-shrink-0 bg-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]">
+                <span className="text-[10px] font-bold text-white/60 tracking-widest">{step.num}</span>
               </div>
               <div className="pt-1">
                 <p className="font-bold text-white text-[0.9375rem] mb-1.5 leading-snug">{step.title}</p>
-                <p className="text-white/45 text-sm leading-relaxed">{step.text}</p>
+                <p className="text-white/70 text-sm leading-relaxed">{step.text}</p>
               </div>
             </div>
           ))}
@@ -298,9 +339,11 @@ export function ErstgespraechClient() {
           PROOF – Founders + Case Study + Quote
       ══════════════════════════════════════ */}
       <section className="px-5 py-12 border-t border-white/60">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
-          <Star className="w-3 h-3 text-hostgains" aria-hidden="true" />
-          <span className="text-[10px] text-hostgains font-medium">Wer wir sind</span>
+        <div className="text-center mb-5">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
+            <Star className="w-3 h-3 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] text-hostgains font-medium">Wer wir sind</span>
+          </div>
         </div>
 
         {/* Founder cards */}
@@ -325,7 +368,7 @@ export function ErstgespraechClient() {
           ))}
         </div>
 
-        <p className="text-gray-500 text-[0.9375rem] leading-relaxed mb-10">
+        <p className="text-gray-500 text-[0.9375rem] leading-relaxed mb-10 text-center">
           Wir haben hostgains 2024 gegründet, weil wir selbst gesehen haben wie viel Potenzial Ferienwohnungen in Kärnten haben – und wie selten es wirklich ausgeschöpft wird.
         </p>
 
@@ -385,7 +428,7 @@ export function ErstgespraechClient() {
       {/* ══════════════════════════════════════
           PICTURE – Zukunftsbild
       ══════════════════════════════════════ */}
-      <section className="mx-5 mb-12 rounded-3xl bg-hostgains px-6 py-10 shadow-[0_8px_40px_rgba(49,74,67,0.2)]">
+      <section className="mx-5 mb-12 rounded-3xl bg-hostgains px-6 py-10 text-center shadow-[0_8px_40px_rgba(49,74,67,0.2)]">
         <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
           <Sparkles className="w-3 h-3 text-white/70" aria-hidden="true" />
           <span className="text-[10px] text-white/70 font-medium">Stell dir vor</span>
@@ -402,13 +445,15 @@ export function ErstgespraechClient() {
           FAQ
       ══════════════════════════════════════ */}
       <section className="px-5 py-12 border-t border-white/60">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
-          <HelpCircle className="w-3 h-3 text-hostgains" aria-hidden="true" />
-          <span className="text-[10px] text-hostgains font-medium">FAQ</span>
+        <div className="text-center">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
+            <HelpCircle className="w-3 h-3 text-hostgains" aria-hidden="true" />
+            <span className="text-[10px] text-hostgains font-medium">FAQ</span>
+          </div>
+          <h2 className="text-[1.3rem] font-extrabold leading-snug tracking-tight text-gray-950 mb-7">
+            Die häufigsten Fragen – ehrlich beantwortet.
+          </h2>
         </div>
-        <h2 className="text-[1.3rem] font-extrabold leading-snug tracking-tight text-gray-950 mb-7">
-          Die häufigsten Fragen – ehrlich beantwortet.
-        </h2>
 
         <div className="space-y-2">
           {FAQ_ITEMS.map((item, i) => (
@@ -451,9 +496,11 @@ export function ErstgespraechClient() {
         style={{ scrollMarginTop: '56px' }}
       >
         <div className="pt-10">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
-            <Calendar className="w-3 h-3 text-hostgains" aria-hidden="true" />
-            <span className="text-[10px] text-hostgains font-medium">Jetzt loslegen</span>
+          <div className="text-center">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-5 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
+              <Calendar className="w-3 h-3 text-hostgains" aria-hidden="true" />
+              <span className="text-[10px] text-hostgains font-medium">Jetzt loslegen</span>
+            </div>
           </div>
 
           {/* Idle */}
