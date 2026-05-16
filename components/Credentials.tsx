@@ -80,7 +80,7 @@ export const Credentials: React.FC = () => {
         <header className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 md:mb-16">
           <motion.div
             {...badgeFadeIn}
-            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-white/70 backdrop-blur-md border border-white/80 shadow-[0_2px_16px_rgba(49,74,67,0.06),inset_0_1px_0_rgba(255,255,255,0.95)]"
+            className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20"
           >
             <MapPin className="w-3 h-3 sm:w-4 sm:h-4 text-hostgains" aria-hidden="true" />
             <span className="text-[10px] sm:text-xs md:text-sm text-hostgains font-medium">Lokale Expertise in Kärnten</span>

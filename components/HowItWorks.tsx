@@ -48,7 +48,7 @@ export const HowItWorks: React.FC = () => {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-md border border-white/80 rounded-full px-4 py-1.5 mb-4 sm:mb-6 shadow-[0_2px_16px_rgba(49,74,67,0.06),inset_0_1px_0_rgba(255,255,255,0.95)]"
+            className="inline-flex items-center gap-2 bg-hostgains/5 border border-hostgains/20 rounded-full px-4 py-1.5 mb-4 sm:mb-6"
           >
             <span className="text-hostgains text-[10px] sm:text-xs font-bold tracking-[0.12em] sm:tracking-[0.15em] uppercase">
               So funktioniert's

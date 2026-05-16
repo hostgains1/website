@@ -46,28 +46,15 @@ export const Hero: React.FC = () => {
       <div className="flex-1 flex items-center justify-center relative z-10 px-4 sm:px-6 md:px-8 pb-16 sm:pb-20">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Headline - H1 mit Haupt-Keywords */}
-          <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1.05] sm:leading-tight mb-3 sm:mb-6 animate-fade-in text-center">
-            {/* Desktop */}
-            <span className="hidden sm:block text-white/70 font-medium tracking-wide">Ferienvermietung Kärnten:</span>
-            <span className="hidden sm:block sm:mt-1 text-white/90">Deine</span>
-            <span className="hidden sm:block relative mt-0.5">
-              <span className="absolute -inset-2 bg-sand/20 blur-xl rounded-full pointer-events-none" aria-hidden="true" />
-              <span className="relative text-sand drop-shadow-[0_0_24px_rgba(219,188,131,0.6)]">Ferienwohnung,</span>
-            </span>
-            <span className="hidden sm:inline-block mt-2 text-[#314a43] bg-sand px-3 py-1 rounded">
+          <h1 className="font-display text-[2.25rem] sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-[1] sm:leading-tight mb-3 sm:mb-6 animate-fade-in">
+            <span className="hidden sm:block">Ferienvermietung Kärnten:</span>
+            <span className="block sm:hidden text-white/90">Deine Wohnung,</span>
+            <span className="hidden sm:block sm:mt-1 text-white/90">Deine Wohnung,</span>
+            {/* Mobile: einzelne Wörter mit Highlight, Desktop: ein Block */}
+            <span className="hidden sm:inline-block mt-1 text-[#314a43] bg-sand px-3 py-1 rounded">
               unser Management.
             </span>
-
-            {/* Mobile */}
-            <span className="block sm:hidden text-white/70 text-[0.875rem] font-semibold tracking-[0.12em] uppercase mb-1">
-              Ferienvermietung Kärnten
-            </span>
-            <span className="block sm:hidden text-white/90">Deine</span>
-            <span className="block sm:hidden relative my-1">
-              <span className="absolute -inset-3 bg-sand/20 blur-xl rounded-full pointer-events-none" aria-hidden="true" />
-              <span className="relative text-sand font-black drop-shadow-[0_0_20px_rgba(219,188,131,0.5)]">Ferienwohnung,</span>
-            </span>
-            <span className="sm:hidden flex flex-col items-center gap-0.5 mt-1">
+            <span className="sm:hidden flex flex-col items-center mt-0.5">
               <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">unser</span>
               <span className="text-[#314a43] bg-sand px-2 py-0.5 rounded-md">Management.</span>
             </span>

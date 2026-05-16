@@ -101,7 +101,7 @@ export const FAQ: React.FC = () => {
             whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="inline-flex items-center gap-1.5 sm:gap-2 bg-white/70 backdrop-blur-md border border-white/80 text-hostgains px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4 shadow-[0_2px_16px_rgba(49,74,67,0.06),inset_0_1px_0_rgba(255,255,255,0.95)]"
+            className="inline-flex items-center gap-1.5 sm:gap-2 bg-hostgains/5 text-hostgains px-3 sm:px-4 py-1.5 sm:py-2 rounded-full mb-3 sm:mb-4"
           >
             <HelpCircle size={14} className="sm:w-4 sm:h-4" aria-hidden="true" />
             <span className="text-[10px] sm:text-xs md:text-sm font-semibold">FAQ</span>
