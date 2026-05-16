@@ -106,9 +106,9 @@ export function ErstgespraechClient() {
       <section className="px-5 pt-10 pb-6 text-center">
 
         {/* Glass badge */}
-        <div className="inline-flex items-center gap-1.5 text-[10px] font-bold tracking-[0.14em] uppercase text-hostgains bg-white/80 backdrop-blur-md border border-hostgains/12 px-3.5 py-2 rounded-full mb-6 shadow-[0_2px_12px_rgba(49,74,67,0.07),inset_0_1px_0_rgba(255,255,255,1)]">
-          <span className="w-1.5 h-1.5 rounded-full bg-hostgains" aria-hidden="true" />
-          Ferienwohnungen in Kärnten
+        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-6 rounded-full bg-hostgains/10 backdrop-blur-sm border border-hostgains/20">
+          <Milestone className="w-3 h-3 text-hostgains" aria-hidden="true" />
+          <span className="text-[10px] text-hostgains font-medium">Ferienwohnungen in Kärnten</span>
         </div>
 
         {/* H1 */}
@@ -137,7 +137,7 @@ export function ErstgespraechClient() {
             className="absolute inset-0 w-full h-full object-cover"
             poster="/hero-woerthersee.jpg"
           >
-            <source src="/Website%20Video.mp4" type="video/mp4" />
+            <source src="https://tfqcaolget1nsuld.public.blob.vercel-storage.com/Website%20Video.mp4" type="video/mp4" />
           </video>
 
           {/* Bottom gradient */}
