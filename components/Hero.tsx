@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ArrowRight, ChevronDown, Check } from 'lucide-react';
 
 export const Hero: React.FC = () => {
@@ -19,17 +18,19 @@ export const Hero: React.FC = () => {
       role="banner"
       aria-label="hostgains - Professionelle Kurzzeitvermietung und Airbnb Management in Kärnten"
     >
-      {/* Background Image - Ferienvermietung Kärnten */}
+      {/* Background Video */}
       <div className="absolute inset-0 overflow-hidden">
-        <Image
-          src="/Ferienvermietung Kärnten.png"
-          alt="Ferienvermietung in Kärnten - Blick auf die Kärntner Landschaft"
-          fill
-          priority
-          className="object-cover saturate-[1.1] brightness-[1.05]"
-          sizes="100vw"
-        />
-        {/* Gradient Overlay - für bessere Lesbarkeit */}
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/Ferienvermietung Kärnten.png"
+        >
+          <source src="/Website%20Video.mp4" type="video/mp4" />
+        </video>
+        {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-hostgains/75 via-hostgains/55 to-hostgains/85" />
       </div>
 
