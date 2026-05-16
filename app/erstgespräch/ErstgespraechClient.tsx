@@ -152,7 +152,7 @@ export function ErstgespraechClient() {
             className="absolute inset-0 w-full h-full object-cover"
             poster="/hero-woerthersee.jpg"
           >
-            <source src="/website-video.mp4" type="video/mp4" />
+            <source src="https://tfqcaolget1nsuld.public.blob.vercel-storage.com/Website%20Video.mp4" type="video/mp4" />
           </video>
 
           {/* Bottom gradient */}
