@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, ArrowLeft, Check, X, ChevronDown, TrendingUp, AlertCircle, Users, Milestone, Star, Sparkles, HelpCircle, Calendar, Volume2, VolumeX, Maximize2 } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Check, X, ChevronDown, TrendingUp, AlertCircle, Users, Milestone, Star, Sparkles, HelpCircle, Calendar, Volume2, VolumeX, Maximize2, Minimize2, Play } from 'lucide-react';
 
 type QuizStep = 'idle' | 'q1' | 'q2' | 'calendly';
 
@@ -48,6 +48,8 @@ export function ErstgespraechClient() {
   const [animKey, setAnimKey] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [isMuted, setIsMuted] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const quizRef = useRef<HTMLDivElement>(null);
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
@@ -61,16 +63,28 @@ export function ErstgespraechClient() {
     postToYouTube(isMuted ? 'unMute' : 'mute');
     setIsMuted(prev => !prev);
   };
-  const toggleFullscreen = () => {
-    const el = iframeRef.current;
-    if (!el) return;
-    const req =
-      el.requestFullscreen ||
-      (el as any).webkitRequestFullscreen ||
-      (el as any).mozRequestFullScreen ||
-      (el as any).msRequestFullscreen;
-    req?.call(el).catch(() => {});
+  const togglePlay = () => {
+    postToYouTube(isPlaying ? 'pauseVideo' : 'playVideo');
+    setIsPlaying(prev => !prev);
   };
+  const toggleFullscreen = () => {
+    setIsFullscreen(prev => !prev);
+  };
+
+  /* ── Body scroll lock + ESC handler while fullscreen ── */
+  useEffect(() => {
+    if (!isFullscreen) return;
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsFullscreen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [isFullscreen]);
 
   /* ── Calendly postMessage redirect ── */
   const onCalendly = useCallback((e: MessageEvent) => {
@@ -149,24 +163,53 @@ export function ErstgespraechClient() {
       {/* Video card */}
       <div className="px-5">
         <div
-          className="relative w-full rounded-3xl overflow-hidden bg-gray-900 shadow-[0_12px_40px_rgba(0,0,0,0.18)]"
-          style={{ aspectRatio: '4/5', maxHeight: '74svh' }}
+          className={
+            isFullscreen
+              ? 'fixed inset-0 z-[9999] bg-black flex items-center justify-center overflow-hidden'
+              : 'relative w-full rounded-3xl overflow-hidden bg-gray-900 shadow-[0_12px_40px_rgba(0,0,0,0.18)]'
+          }
+          style={isFullscreen ? undefined : { aspectRatio: '4/5', maxHeight: '74svh' }}
         >
           <iframe
             ref={iframeRef}
             src="https://www.youtube.com/embed/svDzy_AcnI8?autoplay=1&mute=1&loop=1&playlist=svDzy_AcnI8&controls=0&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1"
             title="hostgains – Erstgespräch Video"
-            allow="autoplay; encrypted-media; picture-in-picture; web-share; fullscreen"
-            allowFullScreen
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-            style={{ height: '100%', aspectRatio: '16/9', minWidth: '100%' }}
+            allow="autoplay; encrypted-media; picture-in-picture; web-share"
+            className={
+              isFullscreen
+                ? 'pointer-events-none'
+                : 'absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none'
+            }
+            style={
+              isFullscreen
+                ? { width: 'min(100vw, calc(100vh * 16 / 9))', aspectRatio: '16/9' }
+                : { height: '100%', aspectRatio: '16/9', minWidth: '100%' }
+            }
           />
 
+          {/* Tap-to-toggle play/pause overlay */}
+          <button
+            type="button"
+            onClick={togglePlay}
+            className="absolute inset-0 z-10 cursor-pointer"
+            aria-label={isPlaying ? 'Video pausieren' : 'Video abspielen'}
+          >
+            {!isPlaying && (
+              <span className="absolute inset-0 flex items-center justify-center bg-black/30">
+                <span className="w-16 h-16 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
+                  <Play size={28} className="text-gray-900 ml-1" fill="currentColor" />
+                </span>
+              </span>
+            )}
+          </button>
+
           {/* Bottom gradient */}
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" aria-hidden="true" />
+          {!isFullscreen && (
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent pointer-events-none z-10" aria-hidden="true" />
+          )}
 
           {/* Video controls */}
-          <div className="absolute bottom-4 right-4 flex gap-2">
+          <div className="absolute bottom-4 right-4 flex gap-2 z-20">
             <button
               type="button"
               onClick={toggleMute}
@@ -179,9 +222,9 @@ export function ErstgespraechClient() {
               type="button"
               onClick={toggleFullscreen}
               className="w-9 h-9 rounded-full bg-black/40 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-black/60 transition-colors"
-              aria-label="Video vergrößern"
+              aria-label={isFullscreen ? 'Vollbild verlassen' : 'Video vergrößern'}
             >
-              <Maximize2 size={15} />
+              {isFullscreen ? <Minimize2 size={15} /> : <Maximize2 size={15} />}
             </button>
           </div>
         </div>
