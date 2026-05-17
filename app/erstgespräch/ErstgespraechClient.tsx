@@ -49,18 +49,23 @@ export function ErstgespraechClient() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [isMuted, setIsMuted] = useState(true);
   const quizRef = useRef<HTMLDivElement>(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
 
+  const postToYouTube = (func: string) => {
+    iframeRef.current?.contentWindow?.postMessage(
+      JSON.stringify({ event: 'command', func, args: [] }),
+      '*'
+    );
+  };
   const toggleMute = () => {
-    if (!videoRef.current) return;
-    videoRef.current.muted = !isMuted;
+    postToYouTube(isMuted ? 'unMute' : 'mute');
     setIsMuted(prev => !prev);
   };
   const toggleFullscreen = () => {
-    const v = videoRef.current;
-    if (!v) return;
-    if ((v as any).webkitEnterFullscreen) (v as any).webkitEnterFullscreen();
-    else if (v.requestFullscreen) v.requestFullscreen();
+    const el = iframeRef.current;
+    if (!el) return;
+    if ((el as any).webkitEnterFullscreen) (el as any).webkitEnterFullscreen();
+    else if (el.requestFullscreen) el.requestFullscreen();
   };
 
   /* ── Calendly postMessage redirect ── */
@@ -143,18 +148,15 @@ export function ErstgespraechClient() {
           className="relative w-full rounded-3xl overflow-hidden bg-gray-900 shadow-[0_12px_40px_rgba(0,0,0,0.18)]"
           style={{ aspectRatio: '4/5', maxHeight: '74svh' }}
         >
-          <video
-            ref={videoRef}
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-            className="absolute inset-0 w-full h-full object-cover"
-            poster="/hero-woerthersee.jpg"
-          >
-            <source src="https://tfqcaolget1nsuld.public.blob.vercel-storage.com/Website%20Video.mp4" type="video/mp4" />
-          </video>
+          <iframe
+            ref={iframeRef}
+            src="https://www.youtube.com/embed/svDzy_AcnI8?autoplay=1&mute=1&loop=1&playlist=svDzy_AcnI8&controls=0&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1"
+            title="hostgains – Erstgespräch Video"
+            allow="autoplay; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+            style={{ height: '100%', aspectRatio: '16/9', minWidth: '100%' }}
+          />
 
           {/* Bottom gradient */}
           <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" aria-hidden="true" />
