@@ -64,8 +64,12 @@ export function ErstgespraechClient() {
   const toggleFullscreen = () => {
     const el = iframeRef.current;
     if (!el) return;
-    if ((el as any).webkitEnterFullscreen) (el as any).webkitEnterFullscreen();
-    else if (el.requestFullscreen) el.requestFullscreen();
+    const req =
+      el.requestFullscreen ||
+      (el as any).webkitRequestFullscreen ||
+      (el as any).mozRequestFullScreen ||
+      (el as any).msRequestFullscreen;
+    req?.call(el).catch(() => {});
   };
 
   /* ── Calendly postMessage redirect ── */
@@ -132,8 +136,8 @@ export function ErstgespraechClient() {
 
         {/* H1 */}
         <h1 className="text-[2.2rem] font-black leading-[1.1] tracking-[-0.02em] text-gray-950 mb-4">
-          Mehr raus aus deiner<br />
-          <span className="text-hostgains">Ferienwohnung.</span>
+          Mehr Auslastung,<br />
+          <span className="text-hostgains">weniger Aufwand.</span>
         </h1>
 
         {/* Sub */}
@@ -152,7 +156,7 @@ export function ErstgespraechClient() {
             ref={iframeRef}
             src="https://www.youtube.com/embed/svDzy_AcnI8?autoplay=1&mute=1&loop=1&playlist=svDzy_AcnI8&controls=0&playsinline=1&rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1"
             title="hostgains – Erstgespräch Video"
-            allow="autoplay; encrypted-media; picture-in-picture; web-share"
+            allow="autoplay; encrypted-media; picture-in-picture; web-share; fullscreen"
             allowFullScreen
             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
             style={{ height: '100%', aspectRatio: '16/9', minWidth: '100%' }}
