@@ -3,6 +3,113 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-bewertungen-woerthersee-4-8-sterne-wendepunkt',
+    title: 'Airbnb Bewertungen am Wörthersee: Warum 4,8 Sterne der Wendepunkt sind',
+    description: 'Bewertungen entscheiden 2026 mehr über die Auslastung als die Lage. Warum 4,8 Sterne am Wörthersee der Wendepunkt sind und wie Airbnb das Ranking neu gewichtet.',
+    excerpt: 'Bewertungen sind kein Imagefaktor. Sie sind der härteste Hebel im Airbnb-Ranking. Was am Wörthersee zwischen 4,7 und 4,9 Sternen wirklich passiert.',
+    content: `
+<p>Es klingt unscheinbar: 4,7 oder 4,8 Sterne. <strong>Doch genau zwischen diesen beiden Werten verläuft eine Linie, hinter der ein Inserat sichtbar bleibt – oder leise verschwindet.</strong></p>
+
+<p>Bewertungen sind 2026 keine Nebenmetrik mehr. Sie sind der härteste Hebel im Ranking jeder großen Buchungsplattform. Wer das ignoriert, verliert Buchungen, ohne den Verlust je in einer Statistik zu sehen.</p>
+
+<h2 id="schwellenwert">Der Schwellenwert: 4,7 – 4,8 – 4,9</h2>
+
+<p>Drei Zahlen, drei verschiedene Welten.</p>
+
+<p><strong>Unter 4,7 Sternen</strong> dämpft Airbnb die Sichtbarkeit messbar. Inserate erscheinen seltener auf der ersten Suchseite, das interne <em>probability-of-booking</em>-Modell bewertet das Listing als Risikofaktor.</p>
+
+<p><strong>Ab 4,8 Sternen</strong> ist ein Inserat Superhost-fähig. Voraussetzung: 4,8 Durchschnitt der letzten 365 Tage, mindestens zehn abgeschlossene Aufenthalte, eine Antwortrate von 90 Prozent innerhalb 24 Stunden und eine Stornoquote unter einem Prozent.</p>
+
+<p><strong>Ab 4,9 Sternen</strong> rückt das Inserat in Reichweite des <em>Guest Favorite</em>-Badges – jenes Labels, das Airbnb seit 2024 im Ranking stärker gewichtet als den klassischen Superhost-Status.</p>
+
+<p>Die nüchterne Konsequenz: Ein Nicht-Superhost mit 4,95 Sternen und Guest-Favorite-Badge steht in der Suche heute häufig vor einem Superhost mit 4,8 ohne dieses Label.</p>
+
+<h2 id="alter-bewertungen">Warum frische Reviews mehr wert sind als alte</h2>
+
+<p>Die zweite Veränderung wird oft übersehen.</p>
+
+<p>Airbnb gewichtet die letzten 90 Tage stärker als die letzten zwölf Monate. <strong>Ein Inserat mit 4,6 Schnitt, aber sechs starken Reviews aus dem letzten Quartal, überholt ein Inserat mit 4,9 ohne aktuelle Aktivität.</strong></p>
+
+<p>Für den Wörthersee bedeutet das: Was im Mai und Juni eingesammelt wird, entscheidet über die Sichtbarkeit in der Hauptsaison.</p>
+
+<p>Saisonale Vermieter, die im Oktober schließen und im Juni wieder öffnen, starten algorithmisch fast bei null. Wer im Frühling die ersten Buchungen versemmelt, bezahlt das im Juli mit niedrigeren Plätzen in der Suche – obwohl das Inserat objektiv das gleiche ist wie im Vorjahr.</p>
+
+<h2 id="response-rate">Antwortzeit: Wo der unsichtbare Hebel liegt</h2>
+
+<p>Antwortzeit ist 2026 wichtiger geworden als der reine Antwortgrad.</p>
+
+<p>Auswertungen aus Millionen von Buchungen zeigen einen klaren Sprung: Inserate, die innerhalb einer Stunde antworten, konvertieren Anfragen messbar besser als Listings mit Antwortzeit über eine Stunde. <strong>Die Differenz liegt bei rund 25 Prozent höherer Buchungswahrscheinlichkeit – allein durch das Antwortverhalten.</strong></p>
+
+<p>Der Effekt ist nicht linear. Eine Antwortrate von 100 Prozent korreliert mit deutlich höheren Konversionsraten als 89 Prozent – nicht nur, weil mehr Anfragen beantwortet werden, sondern weil der Algorithmus aktive Hosts strukturell bevorzugt.</p>
+
+<p>Praktisch heißt das: <em>Wer Anfragen abends, im Auto oder zwischen zwei Meetings beantwortet, verliert nicht eine Buchung. Er verliert eine Position im Ranking, die in der nächsten Suchsession nicht zurückkommt.</em></p>
+
+<h2 id="zwei-systeme">Zwei Bewertungssysteme, die parallel laufen</h2>
+
+<p>Eigentümer sehen meist nur eine Zahl: den Sternedurchschnitt im Inserat. Im Hintergrund laufen aber zwei Bewertungssysteme.</p>
+
+<p><strong>Die Gästesicht:</strong> Sterne, schriftliche Reviews, das Bild eines Inserats in der Suche. Hier zählt nicht nur die Note, sondern auch, wie häufig Wörter wie <em>sauber</em>, <em>ruhig</em>, <em>genau wie beschrieben</em> oder <em>Lage</em> in den Texten auftauchen. Airbnb wertet diese Textsignale algorithmisch aus.</p>
+
+<p><strong>Die Plattformsicht:</strong> Host Performance Standards. Hier fließen Antwortverhalten, Stornoraten, Reklamationen und seltene Eingriffe des Airbnb-Supports ein. Wenige Eigentümer wissen, dass schon eine einzige berechtigte Beschwerde – etwa zu fehlender Sauberkeit am Check-in – einen sichtbaren Knick im internen Score auslöst.</p>
+
+<p>Beide Systeme greifen ineinander. Wer den ersten Teil pflegt und den zweiten ignoriert, sieht im dritten Quartal Buchungen, die nicht mehr kommen.</p>
+
+<h2 id="woerthersee-kontext">Wörthersee 2026: Warum jetzt der kritische Punkt ist</h2>
+
+<p>Die Saison beginnt. Die Buchungslage für Juli ist in vielen Lagen rund um den See bereits eng. Was jetzt fehlt, sind die ersten Reviews der laufenden Saison – nicht die der Stammgäste aus dem Vorjahr, sondern die der Mai- und Juni-Anreisen.</p>
+
+<p>Drei Punkte machen das Frühjahr am Wörthersee besonders heikel:</p>
+
+<p>Erstens: <strong>Erwartungshaltung.</strong> Frühlingsgäste reisen wettersensibel. Wer ankommt und an Tag eins regnet, bewertet anders als der Sommergast bei 30 Grad. Wer Erwartung und Realität nicht im Inserat synchronisiert – durch ehrliche Bilder, Hinweise auf Saisoncharakter, klare Temperaturangaben – verliert Sterne ohne objektive Schuld.</p>
+
+<p>Zweitens: <strong>Heizungsdetails.</strong> Mai-Nächte am See sind oft unter zehn Grad. Eine nicht funktionierende Therme oder eine kalte Schlafzimmerseite produziert die Bewertung, die der ganzen Saison schadet.</p>
+
+<p>Drittens: <strong>Konkurrenzdichte.</strong> Die Zahl der Inserate rund um den See ist in den letzten drei Jahren deutlich gewachsen. Ein Listing, das im Mai keine frischen Reviews aufbaut, startet im Juli mit Rückstand – und die Hauptsaison ist zu kurz, um diesen Rückstand aufzuholen.</p>
+
+<h2 id="strukturell">Was strukturell wirkt – und was nicht</h2>
+
+<p>Tipps wie "freundlich um eine Bewertung nach dem Check-out bitten" sind nicht falsch. Aber sie sind oberflächlich.</p>
+
+<p>Strukturell wirken vier Dinge:</p>
+
+<p><strong>Ein Inserat, das nicht verspricht, was es nicht hält.</strong> Die häufigste Ursache für 4,6er-Bewertungen ist nicht schlechte Qualität, sondern die Differenz zwischen Foto und Realität.</p>
+
+<p><strong>Eine Reinigung, die nach jedem Check-out objektiv überprüft wird.</strong> Nicht durch den Reiniger selbst, sondern durch ein zweites Augenpaar oder ein dokumentiertes Protokoll mit Foto.</p>
+
+<p><strong>Eine Kommunikation, die innerhalb einer Stunde reagiert</strong> – auch nachts, auch sonntags. Über automatisierte Vorlagen, einen 24/7-Service oder ein Team, das sich abwechselt. Die <a href="/blog/gaestekommunikation-denkfehler">häufigsten Denkfehler in der Gästekommunikation</a> zeigen, wo gute Hosts unbemerkt Sterne verlieren.</p>
+
+<p><strong>Eine öffentliche Reaktion auf Reviews.</strong> Antworten auf Kritik werden von zukünftigen Gästen mitgelesen. Wer ruhig, präzise und nicht defensiv antwortet, gewinnt Buchungen jenseits der eigentlichen Bewertung.</p>
+
+<p>Wer diese vier Punkte strukturell aufsetzt, betreibt kein Listing mehr, sondern ein kleines Hotel ohne Rezeption. Genau das ist der Standard, an dem sich <a href="/airbnb-management-kaernten">professionelle Kurzzeitvermietung in Kärnten</a> heute orientiert.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>4,8 Sterne sind nicht die Spitze, sondern die Eintrittskarte. Was dazwischen passiert – zwischen 4,6 und 4,9, zwischen schneller und langsamer Antwort, zwischen frischen und alten Reviews – entscheidet über die Auslastung der nächsten Saison.</p>
+
+<p>Bewertungen sind kein Imagefaktor. Sie sind der Mechanismus, mit dem Plattformen ihre Suchergebnisse sortieren. Wer sie als weichen Faktor behandelt, behandelt seinen härtesten Hebel mit der falschen Hand.</p>
+    `,
+    tableOfContents: [
+      { id: 'schwellenwert', text: 'Der Schwellenwert: 4,7 – 4,8 – 4,9', level: 2 },
+      { id: 'alter-bewertungen', text: 'Warum frische Reviews mehr wert sind als alte', level: 2 },
+      { id: 'response-rate', text: 'Antwortzeit: Wo der unsichtbare Hebel liegt', level: 2 },
+      { id: 'zwei-systeme', text: 'Zwei Bewertungssysteme, die parallel laufen', level: 2 },
+      { id: 'woerthersee-kontext', text: 'Wörthersee 2026: Warum jetzt der kritische Punkt ist', level: 2 },
+      { id: 'strukturell', text: 'Was strukturell wirkt – und was nicht', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-05-18',
+    category: 'Reviews & Reputation',
+    tags: ['Bewertungen', 'Reviews', 'Superhost', 'Guest Favorites', 'Airbnb', 'Wörthersee', 'Kärnten', 'Ranking'],
+    featuredImage: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Elegante Hotelfassade bei Dämmerung – Premium-Hospitality und Bewertungsqualität',
+    readingTime: 6,
+  },
+  {
     slug: 'ferienvermietung-kaernten-leitfaden',
     title: 'Ferienvermietung Kärnten: Was Eigentümer wirklich wissen müssen',
     description: 'Ferienvermietung in Kärnten – ein ehrlicher Leitfaden für Eigentümer. Plattformen, realistische Einnahmen, rechtliche Grundlagen und die Frage: selbst verwalten oder Management auslagern?',
