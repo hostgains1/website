@@ -1,10 +1,12 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, X, User, Mail, Phone } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, X, User, Mail, Phone, Calendar } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 interface FormData {
   standort: string;
@@ -56,11 +58,14 @@ export function AnalyseFormClient() {
   const canSubmitContact = () => {
     return (
       formData.name.trim().length > 0 &&
-      formData.email.trim().length > 0 &&
+      EMAIL_REGEX.test(formData.email.trim()) &&
       formData.telefon.trim().length > 0 &&
       datenschutzAccepted
     );
   };
+
+  const showEmailError =
+    formData.email.trim().length > 0 && !EMAIL_REGEX.test(formData.email.trim());
 
   const handleNext = () => {
     if (currentStep < TOTAL_QUESTIONS && canProceedQuestion()) {
@@ -92,8 +97,10 @@ export function AnalyseFormClient() {
           timestamp: new Date().toISOString(),
         }),
       });
-      if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: unknown }).gtag === 'function') {
-        (window as unknown as { gtag: (cmd: string, event: string, params: Record<string, unknown>) => void }).gtag('event', 'conversion_event_submit_lead_form', {});
+      if (typeof window !== 'undefined') {
+        const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+        w.dataLayer = w.dataLayer || [];
+        w.dataLayer.push({ event: 'lead_form_submit' });
       }
       setIsSubmitted(true);
     } catch (error) {
@@ -344,17 +351,35 @@ export function AnalyseFormClient() {
             />
           </div>
 
-          <div className="relative">
-            <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" size={24} />
-            <input
-              type="email"
-              placeholder="Deine E-Mail"
-              value={formData.email}
-              onChange={(e) => updateFormData('email', e.target.value)}
-              onKeyDown={handleKeyDown}
-              className={contactInputClasses}
-              autoComplete="email"
-            />
+          <div>
+            <div className="relative">
+              <Mail
+                className={`absolute left-4 top-1/2 -translate-y-1/2 ${
+                  showEmailError ? 'text-red-400' : 'text-gray-400'
+                }`}
+                size={24}
+              />
+              <input
+                type="email"
+                inputMode="email"
+                placeholder="Deine E-Mail"
+                value={formData.email}
+                onChange={(e) => updateFormData('email', e.target.value)}
+                onKeyDown={handleKeyDown}
+                className={`${contactInputClasses} ${
+                  showEmailError
+                    ? 'border-red-300 focus:border-red-400 focus:ring-red-200'
+                    : ''
+                }`}
+                autoComplete="email"
+                aria-invalid={showEmailError}
+              />
+            </div>
+            {showEmailError && (
+              <p className="text-sm text-red-500 mt-1.5 ml-1">
+                Bitte gib eine gültige E-Mail-Adresse ein.
+              </p>
+            )}
           </div>
 
           <div className="relative">
@@ -404,27 +429,62 @@ export function AnalyseFormClient() {
     );
   };
 
+  useEffect(() => {
+    if (!isSubmitted) return;
+    if (document.getElementById('calendly-widget-script')) return;
+    const s = document.createElement('script');
+    s.id = 'calendly-widget-script';
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.head.appendChild(s);
+  }, [isSubmitted]);
+
   const renderSuccessMessage = () => (
     <motion.div
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
-      className="text-center py-12"
     >
-      <div className="w-20 h-20 bg-hostgains/10 rounded-full flex items-center justify-center mx-auto mb-6">
-        <CheckCircle2 size={40} className="text-hostgains" />
+      <div className="text-center pt-2 pb-8">
+        <div className="w-20 h-20 bg-hostgains/10 rounded-full flex items-center justify-center mx-auto mb-6">
+          <CheckCircle2 size={40} className="text-hostgains" />
+        </div>
+        <h2 className="text-3xl font-display font-bold text-gray-900 mb-3">
+          Vielen Dank{formData.name ? `, ${formData.name.split(' ')[0]}` : ''}!
+        </h2>
+        <p className="text-gray-600 text-lg max-w-md mx-auto">
+          Wir haben deine Angaben erhalten und senden dir die Einschätzung innerhalb von 24 Stunden per E-Mail.
+        </p>
       </div>
-      <h2 className="text-3xl font-display font-bold text-gray-900 mb-3">
-        Vielen Dank{formData.name ? `, ${formData.name.split(' ')[0]}` : ''}!
-      </h2>
-      <p className="text-gray-600 text-lg mb-8 max-w-md mx-auto">
-        Wir haben deine Angaben erhalten und senden dir die Einschätzung innerhalb von 24 Stunden per E-Mail.
-      </p>
-      <Link
-        href="/"
-        className="inline-flex items-center gap-2 text-hostgains font-medium hover:underline"
-      >
-        Zurück zur Startseite
-      </Link>
+
+      <div className="border-t border-sand-dark pt-8">
+        <div className="text-center mb-6">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-4 rounded-full bg-hostgains/10 border border-hostgains/20">
+            <Calendar className="w-3 h-3 text-hostgains" aria-hidden="true" />
+            <span className="text-[11px] text-hostgains font-semibold uppercase tracking-wide">Bonus</span>
+          </div>
+          <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 leading-snug">
+            Sichere dir gleich dein kostenloses Strategiegespräch
+          </h3>
+          <p className="text-gray-500 text-sm sm:text-base">
+            20 Minuten · unverbindlich · per Video-Call
+          </p>
+        </div>
+
+        <div
+          className="calendly-inline-widget rounded-2xl overflow-hidden border border-sand-dark shadow-[0_2px_16px_rgba(0,0,0,0.06)]"
+          data-url="https://calendly.com/hostgains/potentialanalyse?hide_event_type_details=1&hide_gdpr_banner=1"
+          style={{ minWidth: '280px', height: '680px' }}
+        />
+
+        <div className="text-center mt-6">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-gray-500 text-sm hover:text-gray-700 transition-colors"
+          >
+            Zurück zur Startseite
+          </Link>
+        </div>
+      </div>
     </motion.div>
   );
 

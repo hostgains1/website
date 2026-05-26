@@ -50,9 +50,9 @@ const serviceSchema = {
     name: 'hostgains',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Drautalstraße 48',
-      addressLocality: 'Klagenfurt am Wörthersee',
-      postalCode: '9061',
+      streetAddress: 'Waldebene 44',
+      addressLocality: 'Kühnsdorf',
+      postalCode: '9125',
       addressRegion: 'Kärnten',
       addressCountry: 'AT',
     },
@@ -76,7 +76,7 @@ const breadcrumbSchema = {
 const faqItems = [
   {
     question: 'Was kostet professionelles Management?',
-    answer: 'hostgains arbeitet performance-basiert. Die Provision liegt bei 18% des Nettoumsatzes. Es gibt keine Fixkosten, keine Einrichtungsgebühren und keine versteckten Kosten. Du zahlst nur, wenn du verdienst.',
+    answer: 'hostgains arbeitet rein performance-basiert: Es gibt keine Fixkosten, keine Einrichtungsgebühren und keine versteckten Kosten. Du zahlst nur eine transparente Umsatzbeteiligung – und nur dann, wenn auch tatsächlich Buchungen generiert werden. Die genauen Konditionen besprechen wir im kostenlosen Erstgespräch.',
   },
   {
     question: 'Wie viel Zeit spart professionelles Management?',

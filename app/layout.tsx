@@ -108,7 +108,7 @@ const organizationSchema = {
   foundingDate: '2024',
   foundingLocation: {
     '@type': 'Place',
-    name: 'Klagenfurt am Wörthersee, Kärnten, Österreich',
+    name: 'Kühnsdorf, Kärnten, Österreich',
   },
   founder: [
     {
@@ -124,10 +124,10 @@ const organizationSchema = {
   ],
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Drautalstraße 48',
-    addressLocality: 'Klagenfurt am Wörthersee',
+    streetAddress: 'Waldebene 44',
+    addressLocality: 'Kühnsdorf',
     addressRegion: 'Kärnten',
-    postalCode: '9061',
+    postalCode: '9125',
     addressCountry: 'AT',
   },
   areaServed: [
@@ -179,16 +179,16 @@ const localBusinessSchema = {
   email: 'info@hostgains.at',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Drautalstraße 48',
-    addressLocality: 'Klagenfurt am Wörthersee',
+    streetAddress: 'Waldebene 44',
+    addressLocality: 'Kühnsdorf',
     addressRegion: 'Kärnten',
-    postalCode: '9061',
+    postalCode: '9125',
     addressCountry: 'AT',
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: 46.6364,
-    longitude: 14.3122,
+    latitude: 46.6172,
+    longitude: 14.6233,
   },
   areaServed: [
     { '@type': 'City', name: 'Klagenfurt am Wörthersee' },
@@ -262,6 +262,24 @@ export default function RootLayout({
   return (
     <html lang="de-AT">
       <head>
+        {/* Google Tag Manager */}
+        <script dangerouslySetInnerHTML={{ __html: `
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-P5TBG56F');
+        `}} />
+
+        {/* Google tag (gtag.js) – Google Ads AW-18004134614 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18004134614" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-18004134614');
+        `}} />
+
         {/* Preconnect for Performance */}
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://calendly.com" />
@@ -290,6 +308,16 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans bg-sand-light text-gray-900 antialiased selection:bg-hostgains selection:text-white`}>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-P5TBG56F"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
+
         {/* Skip Navigation Link for Accessibility */}
         <a href="#main-content" className="skip-link">
           Zum Hauptinhalt springen

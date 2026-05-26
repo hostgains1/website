@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Section } from './Section';
 import { motion } from 'framer-motion';
-import { Camera, Tag, Share2, Headset, Search, Linkedin, ArrowRight, MapPin, LucideIcon, SprayCan } from 'lucide-react';
+import { Camera, Tag, Share2, Headset, Search, Linkedin, ArrowRight, MapPin, Sparkles } from 'lucide-react';
 import { badgeFadeIn, headingFadeIn, textFadeIn, cardAnimation, smoothViewTransition } from '@/lib/animations';
 import Link from 'next/link';
 
@@ -57,7 +57,7 @@ export const Credentials: React.FC = () => {
       dark: false
     },
     {
-      icon: SprayCan,
+      icon: Sparkles,
       title: "Reinigung & Wäscheservice",
       desc: "Wir koordinieren Reinigung und Wäsche nach jedem Gast. Regelmäßige Check-ups stellen sicher, dass alles in Ordnung ist.",
       dark: false

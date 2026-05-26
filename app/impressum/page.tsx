@@ -52,12 +52,13 @@ export default function ImpressumPage() {
                 Angaben gemäß § 5 ECG:
               </h2>
               <address className="not-italic text-gray-700 leading-relaxed">
-                <p className="font-semibold text-gray-900 mb-2">Mario Brenner</p>
+                <p className="font-semibold text-gray-900 mb-1">hostgains e.U.</p>
+                <p className="text-gray-700 mb-2">Inhaber: Julian Ograjensek</p>
                 <div className="flex items-start gap-2 mb-1">
                   <MapPin size={16} className="mt-1 shrink-0 text-hostgains" />
                   <span>
-                    Drautalstraße 48<br />
-                    9061 Klagenfurt am Wörthersee<br />
+                    Waldebene 44<br />
+                    9125 Kühnsdorf<br />
                     Österreich
                   </span>
                 </div>

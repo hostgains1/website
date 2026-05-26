@@ -60,13 +60,13 @@ export default function DatenschutzrichtlinienPage() {
                 Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) und anderer nationaler Datenschutzgesetze sowie sonstiger datenschutzrechtlicher Bestimmungen ist:
               </p>
               <address className="not-italic text-gray-700 leading-relaxed mb-4 bg-sand-light p-4 rounded-xl">
-                <p className="font-semibold text-gray-900">hostgains</p>
-                <p className="font-semibold text-gray-900">Mario Brenner</p>
+                <p className="font-semibold text-gray-900">hostgains e.U.</p>
+                <p className="text-gray-700">Inhaber: Julian Ograjensek</p>
                 <div className="flex items-start gap-2 mt-3">
                   <MapPin size={16} className="mt-1 shrink-0 text-hostgains" />
                   <span>
-                    Drautalstraße 48<br />
-                    9061 Klagenfurt am Wörthersee<br />
+                    Waldebene 44<br />
+                    9125 Kühnsdorf<br />
                     Österreich
                   </span>
                 </div>

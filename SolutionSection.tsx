@@ -5,19 +5,14 @@ import { ArrowRight, Sparkles, Camera, TrendingUp, Globe, Headphones, CheckCircl
 
 const services = [
   {
-    icon: Camera,
-    title: "Listing-Optimierung",
-    description: "Professionelle Fotos, psychologisch wirksame Texte & SEO"
-  },
-  {
     icon: TrendingUp,
     title: "Dynamisches Pricing",
     description: "Preisoptimierung & Wettbewerbsanalyse in Echtzeit"
   },
   {
-    icon: SprayCan,
-    title: "Reinigung & Instandhaltung",
-    description: "Koordination & Qualitätssicherung nach höchsten Standards"
+    icon: Camera,
+    title: "Listing-Optimierung",
+    description: "Professionelle Fotos, psychologisch wirksame Texte & SEO"
   },
   {
     icon: Globe,
@@ -28,6 +23,11 @@ const services = [
     icon: Headphones,
     title: "24/7 Gästebetreuung",
     description: "Kommunikation, Check-in/out & Support rund um die Uhr"
+  },
+  {
+    icon: SprayCan,
+    title: "Reinigung & Instandhaltung",
+    description: "Koordination & Qualitätssicherung nach höchsten Standards"
   }
 ];
 

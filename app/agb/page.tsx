@@ -53,7 +53,7 @@ export default function AGBPage() {
               </h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  <strong>1.1</strong> Die Airbnb Management & Marketing Agentur hostgains (Werbeagentur Mario Brenner) (im Folgenden „Agentur" und/oder „hostgains") erbringt ihre Leistungen ausschließlich auf der Grundlage der nachfolgenden Allgemeinen Geschäftsbedingungen (AGB). Diese gelten für alle Rechtsbeziehungen zwischen der Agentur und dem Kunden, selbst wenn nicht ausdrücklich auf sie Bezug genommen wird. Die AGB sind ausschließlich für Rechtsbeziehung mit Unternehmern anwendbar, sohin B2B.
+                  <strong>1.1</strong> Die Airbnb Management & Marketing Agentur hostgains e.U. (Inhaber: Julian Ograjensek, Waldebene 44, 9125 Kühnsdorf, Österreich) (im Folgenden „Agentur" und/oder „hostgains") erbringt ihre Leistungen ausschließlich auf der Grundlage der nachfolgenden Allgemeinen Geschäftsbedingungen (AGB). Diese gelten für alle Rechtsbeziehungen zwischen der Agentur und dem Kunden, selbst wenn nicht ausdrücklich auf sie Bezug genommen wird. Die AGB sind ausschließlich für Rechtsbeziehung mit Unternehmern anwendbar, sohin B2B.
                 </p>
                 <p>
                   <strong>1.2</strong> Maßgeblich ist jeweils die zum Zeitpunkt des Vertragsschlusses gültige Fassung. Abweichungen von diesen sowie sonstige ergänzende Vereinbarungen mit dem Kunden sind nur wirksam, wenn sie von der Agentur schriftlich bestätigt werden.

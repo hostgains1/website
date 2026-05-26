@@ -44,9 +44,9 @@ const serviceSchema = {
     name: 'hostgains',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Drautalstraße 48',
-      addressLocality: 'Klagenfurt am Wörthersee',
-      postalCode: '9061',
+      streetAddress: 'Waldebene 44',
+      addressLocality: 'Kühnsdorf',
+      postalCode: '9125',
       addressRegion: 'Kärnten',
       addressCountry: 'AT',
     },

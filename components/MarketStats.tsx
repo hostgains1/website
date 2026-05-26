@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Section } from './Section';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
-import { AlertCircle, Layers, BadgePercent, SprayCan, MessageSquare, TrendingUp, ArrowRight, Plus, Minus, Sparkles } from 'lucide-react';
+import { AlertCircle, Layers, BadgePercent, MessageSquare, TrendingUp, ArrowRight, Plus, Minus, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 
 // Counter Animation Hook
@@ -94,7 +94,7 @@ export const MarketStats: React.FC = () => {
   // Accordion-Aufgaben für "Mehr Umsatz weniger Aufwand" - SEO-optimiert
   const tasks = [
     {
-      icon: SprayCan,
+      icon: Sparkles,
       title: "Reinigungskoordination",
       desc: "Professionelle Reinigung deiner Ferienwohnung nach jedem Gast – koordiniert durch unser lokales Team in Kärnten. Wir organisieren Qualitätschecks nach Hotel-Standard, Wäschewechsel mit frischer Bettwäsche und Handtüchern, sowie das Nachfüllen aller Verbrauchsmaterialien. Die Reinigungspartner sind geprüft und versichert. So erhält jeder Gast eine makellose Unterkunft – ohne dass du dich um Organisation oder Terminplanung kümmern musst."
     },
@@ -144,7 +144,7 @@ export const MarketStats: React.FC = () => {
           </motion.div>
 
           {/* Statistik-Zahlen mit Counter-Animation */}
-          <div className="flex flex-col sm:flex-row items-stretch justify-center max-w-3xl mx-auto mb-16 sm:mb-20 md:mb-24">
+          <div className="flex flex-col sm:flex-row items-stretch justify-center max-w-3xl mx-auto mb-10 sm:mb-14">
             {stats.map((stat, index) => (
               <React.Fragment key={index}>
                 <AnimatedNumber value={stat.value} label={stat.label} />
