@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, X, User, Mail, Phone } from 'lucide-react';
 import Link from 'next/link';
@@ -23,7 +22,6 @@ interface FormData {
 const TOTAL_QUESTIONS = 5;
 
 export function AnalyseFormClient() {
-  const router = useRouter();
   const [currentStep, setCurrentStep] = useState(1);
   const [showContactForm, setShowContactForm] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -98,10 +96,10 @@ export function AnalyseFormClient() {
           timestamp: new Date().toISOString(),
         }),
       });
-      router.push('/analyse-danke');
+      window.location.href = '/analyse-danke';
     } catch (error) {
       console.error('Form submission error:', error);
-      router.push('/analyse-danke');
+      window.location.href = '/analyse-danke';
     } finally {
       setIsSubmitting(false);
     }
