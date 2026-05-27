@@ -271,15 +271,6 @@ export default function RootLayout({
           })(window,document,'script','dataLayer','GTM-P5TBG56F');
         `}} />
 
-        {/* Google tag (gtag.js) – Google Ads AW-18004134614 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18004134614" />
-        <script dangerouslySetInnerHTML={{ __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-18004134614');
-        `}} />
-
         {/* Preconnect for Performance */}
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://calendly.com" />

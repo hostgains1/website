@@ -21,32 +21,9 @@ const NEXT_STEPS = [
 export function AnalyseDankeClient() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    const w = window as unknown as {
-      dataLayer?: Record<string, unknown>[];
-      gtag?: (...args: unknown[]) => void;
-    };
+    const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
     w.dataLayer = w.dataLayer || [];
     w.dataLayer.push({ event: 'lead_form_submit' });
-
-    function fireConversion() {
-      const win = window as unknown as { gtag?: (...args: unknown[]) => void };
-      if (typeof win.gtag === 'function') {
-        win.gtag('event', 'conversion', {
-          send_to: 'AW-18004134614/yPzLCNmNt7QcENaVhYlD',
-        });
-        return true;
-      }
-      return false;
-    }
-
-    if (!fireConversion()) {
-      let attempts = 0;
-      const interval = setInterval(() => {
-        attempts++;
-        if (fireConversion() || attempts >= 20) clearInterval(interval);
-      }, 250);
-      return () => clearInterval(interval);
-    }
   }, []);
 
   useEffect(() => {
