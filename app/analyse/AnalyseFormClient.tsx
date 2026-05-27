@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, X, User, Mail, Phone, Calendar } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Send, MapPin, Home, Building2, Hotel, Users, CheckCircle2, X, User, Mail, Phone } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -22,10 +23,10 @@ interface FormData {
 const TOTAL_QUESTIONS = 5;
 
 export function AnalyseFormClient() {
+  const router = useRouter();
   const [currentStep, setCurrentStep] = useState(1);
   const [showContactForm, setShowContactForm] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const [datenschutzAccepted, setDatenschutzAccepted] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     standort: '',
@@ -97,15 +98,10 @@ export function AnalyseFormClient() {
           timestamp: new Date().toISOString(),
         }),
       });
-      if (typeof window !== 'undefined') {
-        const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
-        w.dataLayer = w.dataLayer || [];
-        w.dataLayer.push({ event: 'lead_form_submit' });
-      }
-      setIsSubmitted(true);
+      router.push('/analyse-danke');
     } catch (error) {
       console.error('Form submission error:', error);
-      setIsSubmitted(true);
+      router.push('/analyse-danke');
     } finally {
       setIsSubmitting(false);
     }
@@ -429,65 +425,6 @@ export function AnalyseFormClient() {
     );
   };
 
-  useEffect(() => {
-    if (!isSubmitted) return;
-    if (document.getElementById('calendly-widget-script')) return;
-    const s = document.createElement('script');
-    s.id = 'calendly-widget-script';
-    s.src = 'https://assets.calendly.com/assets/external/widget.js';
-    s.async = true;
-    document.head.appendChild(s);
-  }, [isSubmitted]);
-
-  const renderSuccessMessage = () => (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.95 }}
-      animate={{ opacity: 1, scale: 1 }}
-    >
-      <div className="text-center pt-2 pb-8">
-        <div className="w-20 h-20 bg-hostgains/10 rounded-full flex items-center justify-center mx-auto mb-6">
-          <CheckCircle2 size={40} className="text-hostgains" />
-        </div>
-        <h2 className="text-3xl font-display font-bold text-gray-900 mb-3">
-          Vielen Dank{formData.name ? `, ${formData.name.split(' ')[0]}` : ''}!
-        </h2>
-        <p className="text-gray-600 text-lg max-w-md mx-auto">
-          Wir haben deine Angaben erhalten und senden dir die Einschätzung innerhalb von 24 Stunden per E-Mail.
-        </p>
-      </div>
-
-      <div className="border-t border-sand-dark pt-8">
-        <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-4 rounded-full bg-hostgains/10 border border-hostgains/20">
-            <Calendar className="w-3 h-3 text-hostgains" aria-hidden="true" />
-            <span className="text-[11px] text-hostgains font-semibold uppercase tracking-wide">Bonus</span>
-          </div>
-          <h3 className="text-xl sm:text-2xl font-display font-bold text-gray-900 mb-2 leading-snug">
-            Sichere dir gleich dein kostenloses Strategiegespräch
-          </h3>
-          <p className="text-gray-500 text-sm sm:text-base">
-            20 Minuten · unverbindlich · per Video-Call
-          </p>
-        </div>
-
-        <div
-          className="calendly-inline-widget rounded-2xl overflow-hidden border border-sand-dark shadow-[0_2px_16px_rgba(0,0,0,0.06)]"
-          data-url="https://calendly.com/hostgains/potentialanalyse?hide_event_type_details=1&hide_gdpr_banner=1"
-          style={{ minWidth: '280px', height: '680px' }}
-        />
-
-        <div className="text-center mt-6">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-gray-500 text-sm hover:text-gray-700 transition-colors"
-          >
-            Zurück zur Startseite
-          </Link>
-        </div>
-      </div>
-    </motion.div>
-  );
-
   return (
     <div className="min-h-screen bg-sand-light flex flex-col">
       <header className="bg-white border-b border-sand-dark">
@@ -507,115 +444,107 @@ export function AnalyseFormClient() {
 
       <main className="flex-1 flex items-center justify-center py-8 px-4">
         <div className="w-full max-w-xl">
-          {!isSubmitted ? (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="bg-white rounded-2xl shadow-xl p-6 sm:p-10"
-            >
-              <div className="mb-8">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm text-gray-500">
-                    {showContactForm ? 'Kontaktdaten' : `Frage ${currentStep} von ${TOTAL_QUESTIONS}`}
-                  </span>
-                  <span className="text-sm font-bold text-gray-900">
-                    {progress}%
-                  </span>
-                </div>
-                <div className="w-full h-2 bg-sand rounded-full overflow-hidden">
-                  <motion.div
-                    className="h-full bg-hostgains rounded-full"
-                    initial={{ width: 0 }}
-                    animate={{ width: `${progress}%` }}
-                    transition={{ duration: 0.3, ease: 'easeOut' }}
-                  />
-                </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="bg-white rounded-2xl shadow-xl p-6 sm:p-10"
+          >
+            <div className="mb-8">
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-sm text-gray-500">
+                  {showContactForm ? 'Kontaktdaten' : `Frage ${currentStep} von ${TOTAL_QUESTIONS}`}
+                </span>
+                <span className="text-sm font-bold text-gray-900">
+                  {progress}%
+                </span>
               </div>
-
-              <div className="min-h-[360px]">
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={showContactForm ? 'contact' : currentStep}
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -20 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    {showContactForm ? renderContactForm() : renderQuestion()}
-                  </motion.div>
-                </AnimatePresence>
+              <div className="w-full h-2 bg-sand rounded-full overflow-hidden">
+                <motion.div
+                  className="h-full bg-hostgains rounded-full"
+                  initial={{ width: 0 }}
+                  animate={{ width: `${progress}%` }}
+                  transition={{ duration: 0.3, ease: 'easeOut' }}
+                />
               </div>
-
-              <div className="flex gap-4 mt-8">
-                {(currentStep > 1 || showContactForm) && (
-                  <button
-                    type="button"
-                    onClick={handleBack}
-                    className="flex items-center justify-center gap-2 px-6 py-4 rounded-xl border-2 border-sand-dark text-gray-600 hover:bg-sand transition-all font-medium"
-                  >
-                    <ArrowLeft size={20} />
-                    Zurück
-                  </button>
-                )}
-
-                {!showContactForm ? (
-                  <button
-                    type="button"
-                    onClick={handleNext}
-                    disabled={!canProceedQuestion()}
-                    className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-                      canProceedQuestion()
-                        ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
-                        : 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                    }`}
-                  >
-                    Weiter
-                    <ArrowRight size={20} />
-                  </button>
-                ) : (
-                  <button
-                    type="button"
-                    onClick={handleSubmit}
-                    disabled={!canSubmitContact() || isSubmitting}
-                    className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-                      canSubmitContact() && !isSubmitting
-                        ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
-                        : 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                    }`}
-                  >
-                    {isSubmitting ? (
-                      <>
-                        <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                        Wird gesendet...
-                      </>
-                    ) : (
-                      <>
-                        Einschätzung anfordern
-                        <Send size={20} />
-                      </>
-                    )}
-                  </button>
-                )}
-              </div>
-            </motion.div>
-          ) : (
-            <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-10">
-              {renderSuccessMessage()}
             </div>
-          )}
 
-          {!isSubmitted && (
-            <div className="mt-6 flex items-center justify-center gap-6 text-sm text-gray-500">
-              <span className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-hostgains rounded-full"></span>
-                100% kostenlos
-              </span>
-              <span className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-hostgains rounded-full"></span>
-                Unverbindlich
-              </span>
+            <div className="min-h-[360px]">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={showContactForm ? 'contact' : currentStep}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -20 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  {showContactForm ? renderContactForm() : renderQuestion()}
+                </motion.div>
+              </AnimatePresence>
             </div>
-          )}
+
+            <div className="flex gap-4 mt-8">
+              {(currentStep > 1 || showContactForm) && (
+                <button
+                  type="button"
+                  onClick={handleBack}
+                  className="flex items-center justify-center gap-2 px-6 py-4 rounded-xl border-2 border-sand-dark text-gray-600 hover:bg-sand transition-all font-medium"
+                >
+                  <ArrowLeft size={20} />
+                  Zurück
+                </button>
+              )}
+
+              {!showContactForm ? (
+                <button
+                  type="button"
+                  onClick={handleNext}
+                  disabled={!canProceedQuestion()}
+                  className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
+                    canProceedQuestion()
+                      ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
+                      : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                  }`}
+                >
+                  Weiter
+                  <ArrowRight size={20} />
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={handleSubmit}
+                  disabled={!canSubmitContact() || isSubmitting}
+                  className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
+                    canSubmitContact() && !isSubmitting
+                      ? 'bg-hostgains hover:bg-hostgains-dark text-white shadow-lg'
+                      : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                  }`}
+                >
+                  {isSubmitting ? (
+                    <>
+                      <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                      Wird gesendet...
+                    </>
+                  ) : (
+                    <>
+                      Einschätzung anfordern
+                      <Send size={20} />
+                    </>
+                  )}
+                </button>
+              )}
+            </div>
+          </motion.div>
+
+          <div className="mt-6 flex items-center justify-center gap-6 text-sm text-gray-500">
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-hostgains rounded-full"></span>
+              100% kostenlos
+            </span>
+            <span className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-hostgains rounded-full"></span>
+              Unverbindlich
+            </span>
+          </div>
         </div>
       </main>
     </div>
