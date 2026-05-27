@@ -27,10 +27,25 @@ export function AnalyseDankeClient() {
     };
     w.dataLayer = w.dataLayer || [];
     w.dataLayer.push({ event: 'lead_form_submit' });
-    if (typeof w.gtag === 'function') {
-      w.gtag('event', 'conversion', {
-        send_to: 'AW-18004134614/yPzLCNmNt7QcENaVhYlD',
-      });
+
+    function fireConversion() {
+      const win = window as unknown as { gtag?: (...args: unknown[]) => void };
+      if (typeof win.gtag === 'function') {
+        win.gtag('event', 'conversion', {
+          send_to: 'AW-18004134614/yPzLCNmNt7QcENaVhYlD',
+        });
+        return true;
+      }
+      return false;
+    }
+
+    if (!fireConversion()) {
+      let attempts = 0;
+      const interval = setInterval(() => {
+        attempts++;
+        if (fireConversion() || attempts >= 20) clearInterval(interval);
+      }, 250);
+      return () => clearInterval(interval);
     }
   }, []);
 
