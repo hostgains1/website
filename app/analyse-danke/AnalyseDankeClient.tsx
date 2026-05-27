@@ -49,7 +49,7 @@ export function AnalyseDankeClient() {
               </h1>
             </div>
             <p className="text-gray-500 text-sm sm:text-base">
-              Wir melden uns innerhalb von 24 Stunden bei dir.
+              Wir senden dir deine persönliche Einschätzung innerhalb von 24 Stunden per E-Mail — mit konkreten Empfehlungen für mehr Auslastung und Umsatz.
             </p>
           </div>
 
@@ -57,13 +57,13 @@ export function AnalyseDankeClient() {
             <div className="text-center mb-4">
               <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-3 rounded-full bg-hostgains/10 border border-hostgains/20">
                 <Calendar className="w-3 h-3 text-hostgains" aria-hidden="true" />
-                <span className="text-[11px] text-hostgains font-semibold uppercase tracking-wide">Kostenloses Erstgespräch</span>
+                <span className="text-[11px] text-hostgains font-semibold uppercase tracking-wide">Kostenloses Strategiegespräch</span>
               </div>
               <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 leading-snug">
-                Oder sichere dir gleich einen Termin
+                Dein Potenzial persönlich besprechen?
               </h2>
               <p className="text-gray-500 text-sm">
-                20 Minuten · unverbindlich · per Video-Call
+                In 20 Minuten analysieren wir gemeinsam deine Situation und zeigen dir konkrete nächste Schritte — unverbindlich, per Video-Call.
               </p>
             </div>
 
