@@ -3,20 +3,7 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle2, Mail, Clock, Calendar } from 'lucide-react';
-
-const NEXT_STEPS = [
-  {
-    icon: Mail,
-    title: 'E-Mail kommt',
-    text: 'Du erhältst deine persönliche Auslastungseinschätzung innerhalb von 24 Stunden per E-Mail.',
-  },
-  {
-    icon: Clock,
-    title: 'Konkrete Empfehlungen',
-    text: 'Wir analysieren deine Angaben und zeigen dir, wo du ansetzen kannst.',
-  },
-];
+import { CheckCircle2, Calendar } from 'lucide-react';
 
 export function AnalyseDankeClient() {
   useEffect(() => {
@@ -52,48 +39,30 @@ export function AnalyseDankeClient() {
         </div>
       </header>
 
-      <main className="flex-1 px-4 py-12 sm:py-16">
+      <main className="flex-1 px-4 py-8 sm:py-12">
         <div className="w-full max-w-lg mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-10 text-center" style={{ animation: 'fadeIn 0.4s ease-out' }}>
-            <div className="w-20 h-20 bg-hostgains/10 rounded-full flex items-center justify-center mx-auto mb-6">
-              <CheckCircle2 className="text-hostgains" size={40} />
+          <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 text-center" style={{ animation: 'fadeIn 0.4s ease-out' }}>
+            <div className="flex items-center justify-center gap-3 mb-2">
+              <CheckCircle2 className="text-hostgains flex-shrink-0" size={28} />
+              <h1 className="text-xl sm:text-2xl font-bold text-gray-900 leading-snug">
+                Vielen Dank!
+              </h1>
             </div>
-
-            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 leading-snug">
-              Vielen Dank!
-            </h1>
-            <p className="text-gray-500 text-base sm:text-lg mb-8 leading-relaxed">
-              Wir haben deine Angaben erhalten und senden dir die Einschätzung innerhalb von 24 Stunden per E-Mail.
+            <p className="text-gray-500 text-sm sm:text-base">
+              Wir melden uns innerhalb von 24 Stunden bei dir.
             </p>
-
-            <div className="text-left space-y-5 mb-8">
-              {NEXT_STEPS.map((item, i) => {
-                const Icon = item.icon;
-                return (
-                  <div key={i} className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-hostgains/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Icon size={18} className="text-hostgains" />
-                    </div>
-                    <div>
-                      <p className="font-semibold text-gray-900 text-sm">{item.title}</p>
-                      <p className="text-gray-500 text-sm leading-relaxed mt-0.5">{item.text}</p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-10 mt-6">
-            <div className="text-center mb-6">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-4 rounded-full bg-hostgains/10 border border-hostgains/20">
+          <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-8 mt-4">
+            <div className="text-center mb-4">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 mb-3 rounded-full bg-hostgains/10 border border-hostgains/20">
                 <Calendar className="w-3 h-3 text-hostgains" aria-hidden="true" />
-                <span className="text-[11px] text-hostgains font-semibold uppercase tracking-wide">Bonus</span>
+                <span className="text-[11px] text-hostgains font-semibold uppercase tracking-wide">Kostenloses Erstgespräch</span>
               </div>
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 leading-snug">
-                Sichere dir gleich dein kostenloses Strategiegespräch
+              <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 leading-snug">
+                Oder sichere dir gleich einen Termin
               </h2>
-              <p className="text-gray-500 text-sm sm:text-base">
+              <p className="text-gray-500 text-sm">
                 20 Minuten · unverbindlich · per Video-Call
               </p>
             </div>
