@@ -20,10 +20,17 @@ const NEXT_STEPS = [
 
 export function AnalyseDankeClient() {
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
-      w.dataLayer = w.dataLayer || [];
-      w.dataLayer.push({ event: 'lead_form_submit' });
+    if (typeof window === 'undefined') return;
+    const w = window as unknown as {
+      dataLayer?: Record<string, unknown>[];
+      gtag?: (...args: unknown[]) => void;
+    };
+    w.dataLayer = w.dataLayer || [];
+    w.dataLayer.push({ event: 'lead_form_submit' });
+    if (typeof w.gtag === 'function') {
+      w.gtag('event', 'conversion', {
+        send_to: 'AW-18004134614/yPzLCNmNt7QcENaVhYlD',
+      });
     }
   }, []);
 
