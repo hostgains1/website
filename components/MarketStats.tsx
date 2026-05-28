@@ -163,13 +163,14 @@ export const MarketStats: React.FC = () => {
             {challenges.map((challenge, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
-                whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                viewport={{ once: true, margin: "0px 0px -120px 0px" }}
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true, margin: "0px 0px -100px 0px" }}
                 transition={{
-                  duration: 0.7,
-                  ease: [0.22, 1, 0.36, 1],
-                  delay: index * 0.12
+                  type: "spring",
+                  stiffness: 130,
+                  damping: 13,
+                  delay: index * 0.14
                 }}
                 className="group bg-white/30 backdrop-blur-xl rounded-2xl p-5 sm:p-6 border border-white/50 shadow-[0_8px_32px_rgba(49,74,67,0.08)] hover:shadow-[0_16px_48px_rgba(49,74,67,0.12)] hover:bg-white/40 transition-all duration-500"
               >
