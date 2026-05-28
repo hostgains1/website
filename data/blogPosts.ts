@@ -3,6 +3,115 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-versicherung-ferienwohnung-oesterreich',
+    title: 'Welche Versicherung braucht ein Airbnb? Was bei Kurzzeitvermietung in Österreich wirklich zählt',
+    description: 'Privathaftpflicht und Eigenheimversicherung decken Kurzzeitvermietung meist nicht. Welche Versicherungen ein Airbnb oder Ferienhaus in Österreich wirklich braucht – Haftpflicht, Gebäude, Inventar, Betriebsunterbrechung – und warum AirCover keine Polizze ersetzt.',
+    excerpt: 'Die meisten Ferienwohnungen sind im Schadensfall schlechter versichert, als ihre Eigentümer glauben. Wo private Polizzen aufhören und welche Deckung Kurzzeitvermietung in Österreich tatsächlich braucht.',
+    content: `
+<p>Eine Ferienwohnung wirkt versichert, sobald eine Polizze im Ordner liegt. <strong>Im Schadensfall zeigt sich oft das Gegenteil: Die bestehende Versicherung deckt genau das nicht, was die Vermietung erst riskant macht.</strong></p>
+
+<p>Der Grund ist selten böser Wille des Versicherers. Es ist eine Frage der Nutzung – und die ändert sich in dem Moment, in dem fremde Gäste ein- und ausgehen.</p>
+
+<h2 id="deckungsluecke">Der Punkt, an dem die Privatpolizze aufhört</h2>
+
+<p>Eine klassische Eigenheim- oder Haushaltsversicherung kalkuliert mit einem privat genutzten Objekt. Ein Haushalt, bekannte Bewohner, planbares Risiko.</p>
+
+<p>Kurzzeitvermietung verändert dieses Profil grundlegend. <strong>Wechselnde Gäste, häufige An- und Abreisen, unbeaufsichtigte Geräte und ein spürbar höheres Schadensaufkommen</strong> – von Leitungswasser über Brandrisiko bis zu Einbruch.</p>
+
+<p>Viele österreichische Versicherer behandeln regelmäßige Kurzzeitvermietung deshalb als <em>erhöhtes</em> oder <em>gewerbliches</em> Risiko. Wird diese Nutzung nicht gemeldet, kann der Versicherer im Schadensfall die Leistung kürzen oder ganz verweigern.</p>
+
+<p>Die unangenehme Konsequenz: Die Polizze besteht, die Prämie wird bezahlt – und der Schutz greift trotzdem nicht, weil die tatsächliche Nutzung nie offengelegt wurde.</p>
+
+<h2 id="haftung">Die Haftungsfrage ist die teuerste</h2>
+
+<p>Sachschäden am eigenen Objekt sind ärgerlich. Personenschäden bei Gästen sind existenziell.</p>
+
+<p>Ein Gast stürzt auf einer nassen Treppe, eine Glasfront splittert, jemand verletzt sich am Steg oder im Pool. <strong>In solchen Fällen haftet der Eigentümer – und eine reine Privathaftpflicht schließt die Vermietung in der Regel ausdrücklich aus.</strong></p>
+
+<p>Was hier greift, ist eine <strong>Haus- und Grundbesitzerhaftpflicht</strong> beziehungsweise eine gewerbliche Betriebs- oder Beherbergungshaftpflicht. Sie deckt Ansprüche Dritter, die im Zusammenhang mit der Vermietung entstehen.</p>
+
+<p>Entscheidend ist nicht nur, <em>dass</em> eine Haftpflicht besteht, sondern wie hoch die Deckungssumme reicht. Bei Personenschäden sind sechsstellige Beträge schnell erreicht. Pauschale Deckungssummen im Millionenbereich sind hier kein Luxus, sondern die eigentliche Funktion der Polizze.</p>
+
+<h2 id="gebaeude-inventar">Gebäude und Inventar sind zwei Paar Schuhe</h2>
+
+<p>Wer das Objekt selbst besitzt, braucht zwei getrennte Betrachtungen.</p>
+
+<p>Die <strong>Gebäudeversicherung</strong> schützt die Substanz – Feuer, Sturm, Leitungswasser, Elementarereignisse. Bei touristischer Nutzung muss sie erweitert oder neu eingestuft werden, sonst droht dieselbe Deckungslücke wie bei der Haftpflicht.</p>
+
+<p>Die <strong>Inventar- oder Haushaltsversicherung</strong> betrifft die Einrichtung: Möbel, Küche, Elektronik, Ausstattung. Gerade hier entstehen die häufigen Kleinschäden des Vermietungsalltags – und gerade hier deckt eine private Haushaltspolizze die gewerbliche Nutzung oft nicht.</p>
+
+<p>Die Versicherungsfrage hängt dabei eng an der steuerlichen Einordnung. Wer die Vermietung als Einkunftsquelle betreibt, sollte die <a href="/blog/airbnb-steuer-oesterreich-2026">steuerlichen Pflichten bei der Kurzzeitvermietung in Österreich</a> ohnehin sauber geklärt haben – die Einstufung als gewerblich wirkt in beide Richtungen.</p>
+
+<h2 id="aircover">Warum AirCover keine Versicherung ist</h2>
+
+<p>Plattformen werben mit eigenem Schutz. Airbnb nennt es AirCover, andere Anbieter haben vergleichbare Programme.</p>
+
+<p><strong>Diese Programme sind keine Versicherung, sondern eine Garantiezusage des Plattformbetreibers – mit eigenen Bedingungen, Fristen und Ausschlüssen.</strong></p>
+
+<p>Drei Punkte werden dabei regelmäßig übersehen:</p>
+
+<p>Erstens gilt der Schutz nur für Aufenthalte, die über die Plattform gebucht wurden. <em>Direktbuchungen fallen heraus.</em></p>
+
+<p>Zweitens liegt der Fokus auf Sachschäden durch Gäste – umfassende Haftpflichtansprüche Dritter sind damit nicht verlässlich abgedeckt.</p>
+
+<p>Drittens entscheidet im Streitfall der Plattformbetreiber über die Auszahlung, nicht ein Versicherungsvertrag mit klagbarem Anspruch.</p>
+
+<p>AirCover kann eine sinnvolle Ergänzung sein. Als Ersatz für eine eigene Polizze ist es nicht gebaut.</p>
+
+<h2 id="betriebsunterbrechung">Wenn ein Schaden den Betrieb stoppt</h2>
+
+<p>Ein Wasserschaden trifft selten nur die Wand. Er trifft den Kalender.</p>
+
+<p>Steht die Wohnung nach einem Schaden wochenlang leer, fällt nicht nur die Reparatur an, sondern auch der entgangene Ertrag der bereits gebuchten Wochen. <strong>Eine Betriebsunterbrechungs- oder Ertragsausfalldeckung fängt genau diesen Teil auf.</strong></p>
+
+<p>Für saisonal stark ausgelastete Objekte – etwa rund um den Wörthersee in der Hauptsaison – kann dieser Ausfall größer ausfallen als der Sachschaden selbst.</p>
+
+<p>Ergänzend lohnt ein Blick auf einen <strong>Rechtsschutz</strong>, der Streitigkeiten mit Gästen, Nachbarn oder Plattformen abdeckt – ein Bereich, der im Vermietungsalltag häufiger auftritt als der spektakuläre Großschaden.</p>
+
+<h2 id="praxis">Was vor der ersten Buchung zu klären ist</h2>
+
+<p>Die Logik ist weniger eine Frage der Produktnamen als der richtigen Reihenfolge:</p>
+
+<p><strong>Nutzung melden.</strong> Die Kurzzeitvermietung dem Versicherer offenlegen, bevor der erste Gast anreist – sonst steht jede Deckung auf wackeligem Boden.</p>
+
+<p><strong>Haftpflicht zuerst.</strong> Prüfen, ob die Polizze die Vermietung einschließt und ob die Deckungssumme für Personenschäden ausreicht.</p>
+
+<p><strong>Gebäude und Inventar trennen.</strong> Beide Bereiche getrennt auf die gewerbliche Nutzung einstellen.</p>
+
+<p><strong>Ertragsausfall einplanen.</strong> Vor allem dort, wo eine kurze Hauptsaison den Großteil der Einnahmen trägt.</p>
+
+<p><strong>Plattformschutz richtig einordnen.</strong> Als Ergänzung, nicht als Fundament.</p>
+
+<p>Wer mehrere Objekte betreibt oder die Verwaltung abgibt, sollte zusätzlich klären, wer im Schadensfall welche Police hält. Bei einem strukturierten <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> ist diese Zuständigkeit Teil des Betriebskonzepts – und nichts, das im Ernstfall erst gesucht wird.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Die meisten Ferienwohnungen sind nicht unversichert. Sie sind <em>falsch</em> versichert – mit privaten Polizzen für eine gewerbliche Realität.</p>
+
+<p>Die Frage ist deshalb nicht, ob eine Versicherung existiert, sondern ob sie die tatsächliche Nutzung kennt. <strong>Eine gemeldete, korrekt eingestufte Polizze ist im Schadensfall mehr wert als drei ungemeldete.</strong></p>
+    `,
+    tableOfContents: [
+      { id: 'deckungsluecke', text: 'Der Punkt, an dem die Privatpolizze aufhört', level: 2 },
+      { id: 'haftung', text: 'Die Haftungsfrage ist die teuerste', level: 2 },
+      { id: 'gebaeude-inventar', text: 'Gebäude und Inventar sind zwei Paar Schuhe', level: 2 },
+      { id: 'aircover', text: 'Warum AirCover keine Versicherung ist', level: 2 },
+      { id: 'betriebsunterbrechung', text: 'Wenn ein Schaden den Betrieb stoppt', level: 2 },
+      { id: 'praxis', text: 'Was vor der ersten Buchung zu klären ist', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-05-29',
+    category: 'Recht & Versicherung',
+    tags: ['Versicherung', 'Haftpflicht', 'Ferienwohnung', 'Airbnb', 'Kurzzeitvermietung', 'Österreich', 'Kärnten', 'Recht'],
+    featuredImage: 'https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Versicherungspolizze mit Lupe auf dem Tisch – welche Versicherung ein Airbnb oder Ferienhaus braucht',
+    readingTime: 6,
+  },
+  {
     slug: 'airbnb-bewertungen-woerthersee-4-8-sterne-wendepunkt',
     title: 'Airbnb Bewertungen am Wörthersee: Warum 4,8 Sterne der Wendepunkt sind',
     description: 'Bewertungen entscheiden 2026 mehr über die Auslastung als die Lage. Warum 4,8 Sterne am Wörthersee der Wendepunkt sind und wie Airbnb das Ranking neu gewichtet.',
@@ -105,8 +214,8 @@ export const blogPosts: BlogPost[] = [
     publishedAt: '2026-05-18',
     category: 'Reviews & Reputation',
     tags: ['Bewertungen', 'Reviews', 'Superhost', 'Guest Favorites', 'Airbnb', 'Wörthersee', 'Kärnten', 'Ranking'],
-    featuredImage: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80',
-    featuredImageAlt: 'Elegante Hotelfassade bei Dämmerung – Premium-Hospitality und Bewertungsqualität',
+    featuredImage: 'https://images.unsplash.com/photo-1742490382029-98357c08f3cd?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Stilvoll und individuell eingerichtete Ferienwohnung – das Gästeerlebnis als Basis für Top-Bewertungen',
     readingTime: 6,
   },
   {
@@ -243,8 +352,8 @@ export const blogPosts: BlogPost[] = [
     publishedAt: '2026-05-06',
     category: 'Grundlagen',
     tags: ['Ferienvermietung', 'Kärnten', 'Leitfaden', 'Wörthersee', 'Airbnb', 'Booking.com', 'Eigentümer', 'Kurzzeitvermietung'],
-    featuredImage: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80',
-    featuredImageAlt: 'Blick auf einen Kärntner See mit Bergen im Hintergrund – Ferienvermietung Kärnten',
+    featuredImage: '/Seeblick.jpg',
+    featuredImageAlt: 'Terrasse einer Ferienwohnung mit Blick auf einen Kärntner See und die Berge – Ferienvermietung Kärnten',
     readingTime: 8,
   },
   {
@@ -411,8 +520,8 @@ Sonstiges: 800 €</p>
     publishedAt: '2026-04-30',
     category: 'Recht & Steuern',
     tags: ['Steuer', 'Österreich', 'Airbnb', 'Einkommensteuer', 'Umsatzsteuer', 'Ortstaxe', 'Kurzzeitvermietung', 'Kärnten'],
-    featuredImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
-    featuredImageAlt: 'Taschenrechner und Finanzdokumente – Steuerplanung für Kurzzeitvermietung',
+    featuredImage: 'https://images.unsplash.com/photo-1765868017186-18a3fc4c2942?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Unterschriebenes Dokument mit Stift und Banknoten – Steuerpflichten bei der Kurzzeitvermietung in Österreich',
     readingTime: 7,
   },
   {

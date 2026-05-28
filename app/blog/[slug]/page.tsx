@@ -76,7 +76,9 @@ export default async function BlogPostPage({ params }: PageProps) {
     '@type': 'Article',
     headline: post.title,
     description: post.description,
-    image: post.featuredImage,
+    image: post.featuredImage.startsWith('http')
+      ? post.featuredImage
+      : `https://www.hostgains.at${post.featuredImage}`,
     datePublished: formatDateISO(post.publishedAt),
     dateModified: post.updatedAt ? formatDateISO(post.updatedAt) : formatDateISO(post.publishedAt),
     author: {
