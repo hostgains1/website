@@ -163,11 +163,11 @@ export const MarketStats: React.FC = () => {
             {challenges.map((challenge, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 50, filter: "blur(10px)" }}
+                initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
                 whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "0px 0px -120px 0px" }}
                 transition={{
-                  duration: 0.9,
+                  duration: 0.7,
                   ease: [0.22, 1, 0.36, 1],
                   delay: index * 0.12
                 }}
