@@ -3,6 +3,122 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'mindestaufenthalt-woerthersee-hauptsaison-2026',
+    title: 'Mindestaufenthalt am Wörthersee: Strategie für die Hauptsaison',
+    description: 'Mindestaufenthalt am Wörthersee in der Hauptsaison 2026: Warum eine fixe Stay-Length-Regel Umsatz kostet und wie dynamische Mindestnächte die Auslastung tragen.',
+    excerpt: 'Eine fixe Stay-Length-Regel kostet in der Hauptsaison messbar Umsatz. Wo der Wörthersee zwischen Algorithmus und Reinigungskalender entscheidet – und warum der Juni darüber bestimmt.',
+    content: `
+<p>Anfang Juni am Wörthersee. <strong>Die Kalender füllen sich, die Schlüsselübergaben werden zur Routine, die Hauptsaison startet.</strong></p>
+
+<p>In dieser Phase entscheidet eine Einstellung über den Jahresumsatz, die viele Eigentümer einmal gesetzt und nie wieder angefasst haben: die Mindestaufenthaltsdauer.</p>
+
+<p>Eine scheinbar harmlose Regel – und einer der wenigen Hebel, die Auslastung und Nachtpreis gleichzeitig bewegen. In beide Richtungen.</p>
+
+<h2 id="der-blinde-fleck">Der blinde Fleck im Kalender</h2>
+
+<p>Wer in der Hauptsaison rund um den Wörthersee fünf oder sieben Nächte als Minimum verlangt, verfolgt eine plausible Logik: weniger Anreisen, weniger Reinigung, höhere Nachtpreise, ruhigeres Management.</p>
+
+<p>Was dabei oft übersehen wird, sind die <strong>Orphan Days</strong> – einzelne Nächte zwischen zwei längeren Buchungen, die kein neuer Gast mehr füllen kann, weil sie unter die eigene Mindestschwelle fallen.</p>
+
+<p>Internationale Auswertungen aus dem Kurzzeitvermietungsmarkt taxieren die jährlichen Umsatzverluste durch Orphan Days auf <strong>fünf bis fünfzehn Prozent des potenziellen Jahresumsatzes</strong>. Bei einem Objekt, das in Spitzenmonaten 6.000 bis 8.000 € umsetzt, summiert sich das auf Beträge, die in keiner Bilanz als <em>Leerstand</em> auftauchen.</p>
+
+<p>Es sieht nach einer ausgebuchten Saison aus.</p>
+
+<h2 id="prinzip">Was Stay-Length wirklich beeinflusst</h2>
+
+<p>Airbnb und Booking.com werten Aufenthaltsdauer in zwei Dimensionen: Auslastung und durchschnittlicher Nachtpreis (ADR).</p>
+
+<p>Beide Werte bewegen sich gegenläufig.</p>
+
+<p>Kurze Aufenthalte erhöhen die Buchungsdichte und damit die Auslastung. Längere Aufenthalte erlauben höhere Nachtpreise und reduzieren Reinigungskosten. <strong>Der Punkt, an dem das Produkt aus beiden maximal wird, ist nicht statisch – er verschiebt sich mit Saison, Wochentag und Buchungsvorlauf.</strong></p>
+
+<p>In der Wörthersee-Hauptsaison – grob Mitte Juni bis Mitte September – verschiebt sich das Optimum für viele Objekte in Richtung vier bis sieben Nächte. In der Nebensaison eher in Richtung zwei bis drei.</p>
+
+<p>Wer ganzjährig auf einer festen Zahl bleibt, lässt entweder in der Nebensaison Buchungen aus oder in der Hauptsaison Umsatz liegen. Die Logik dahinter überschneidet sich eng mit der Frage, <a href="/blog/airbnb-preise-richtig-setzen">wie Preise am Wörthersee dynamisch gesetzt werden</a> – Mindestaufenthalt ist im Kern dieselbe Entscheidung, nur in einer anderen Einheit.</p>
+
+<h2 id="lead-time">Buchungsvorlauf als zweite Dimension</h2>
+
+<p>Eine zweite Variable wird in den meisten Inseraten gar nicht bewusst gesteuert: der Buchungsvorlauf.</p>
+
+<p>Internationale Datenanalysen für 2026 zeigen erhebliche Schwankungen je nach Markt – von rund 17 Tagen Vorlauf in städtischen Märkten bis zu 65 Tagen in stark saisonalen Ferienregionen.</p>
+
+<p>Der Wörthersee fällt mit seinem starken deutsch-österreichischen Gästeanteil in den mittleren Bereich. <em>Familien buchen früh, Paare und Wochenendgäste oft spontan, Tagungs- und Eventgäste nochmal anders.</em></p>
+
+<p>Daraus folgt eine einfache Konsequenz: Mindestaufenthalte sollten nicht nur saisonal, sondern auch nach Buchungsfenster variieren. Wer 60 Tage vor Anreise sieben Nächte verlangt, schreckt Familien nicht ab – sie planen ohnehin länger. Wer dieselbe Regel sieben Tage vor Anreise stehen lässt, blockiert genau die spontanen Buchungen, die die Restwoche füllen würden.</p>
+
+<h2 id="gap-filling">Gap-Filling: Die unterschätzte Mechanik</h2>
+
+<p>Die effektivste Korrektur ist auch die einfachste.</p>
+
+<p>Eine Gap-Filling-Regel reduziert die Mindestnächte automatisch, sobald zwischen zwei bestehenden Buchungen nur noch wenige Nächte verbleiben.</p>
+
+<p>Konkret: Sind ein oder zwei Nächte zwischen zwei Aufenthalten frei, fällt das Minimum für genau diese Nächte auf eine. <strong>Auswertungen aus dem internationalen Markt zeigen, dass eine sauber gesetzte Gap-Filling-Regel den Jahresumsatz typischerweise um vier bis elf Prozent erhöht – ohne einen einzigen zusätzlichen Marketingschritt.</strong></p>
+
+<p>Plattform-Tools wie Airbnbs Smart Pricing decken das nur eingeschränkt ab. Spezialisierte Pricing-Systeme oder ein aktiv betriebenes <a href="/airbnb-management">Airbnb Management in Kärnten</a> lösen das deutlich präziser – inklusive einer Preisanpassung für die Orphan-Nacht, die sonst über dem marktgerechten Niveau liegen würde.</p>
+
+<h2 id="paradox">Das Hauptsaison-Paradox</h2>
+
+<p>Es klingt zunächst widersprüchlich: Gerade in der Phase, in der jede Nacht teurer ist, lohnt sich häufig die niedrigste Mindestaufenthaltsregel – nämlich kurz vor Anreise und für die letzten verbleibenden Lücken.</p>
+
+<p>Die Logik ist klar. In der Hauptsaison Mitte Juli füllen sich Kalender zwei bis drei Wochen vorher. Was an einzelnen Nächten übrig bleibt, ist Restbestand.</p>
+
+<p><em>Eine Nacht zu 220 € ist mehr wert als eine ungebuchte zu null.</em></p>
+
+<p>Anders ausgedrückt: Hohe Mindestaufenthalte sind im <strong>Vorverkauf</strong> sinnvoll, weil sie höherwertige Buchungen abgreifen. Im <strong>Restverkauf</strong> sind sie ein Eigentor.</p>
+
+<h2 id="check-in-tag">Check-in-Tage als operative Variable</h2>
+
+<p>Eine dritte Stellschraube wird in Österreich oft unterschätzt: der erlaubte Check-in-Tag.</p>
+
+<p>Klassisch akzeptieren Hotels und Pensionen flexible Anreisetage. Viele Ferienwohnungen am Wörthersee öffnen aus operativen Gründen – Reinigungskapazität, geordnete Wechsel – nur an Samstagen oder Sonntagen.</p>
+
+<p>Das vereinfacht den Betrieb. Es schließt aber Mittwoch- und Donnerstag-Anreisen aus – also genau jene Buchungen, die zwischen zwei Sieben-Nächte-Aufenthalten die Restnächte füllen würden.</p>
+
+<p>Wer einen Reinigungspartner mit flexiblen Slots hat, gewinnt hier strukturell. Wer das nicht ohne Aufwand abbilden kann, lagert es typischerweise im Rahmen einer Full-Service-Verwaltung aus – nicht aus Bequemlichkeit, sondern weil die Reinigung sonst zum Bottleneck der gesamten Stay-Length-Strategie wird.</p>
+
+<h2 id="praxis">Vier Linien für die Wörthersee-Saison</h2>
+
+<p>Aus den genannten Mechaniken lassen sich vier strukturelle Linien ableiten, die saisonübergreifend tragen:</p>
+
+<p><strong>Saisonale Differenzierung.</strong> Hauptsaison anders als Nebensaison – nicht nur beim Preis, sondern auch bei den Mindestnächten. Drei Nächte im Mai, vier bis fünf im Hochsommer, drei wieder ab Mitte September.</p>
+
+<p><strong>Vorlaufabhängige Regeln.</strong> Buchungen weit vor Anreise dürfen anspruchsvoller sein. Kurzfristige Lücken brauchen niedrige Eintrittshürden – idealerweise automatisiert ab dem Punkt, an dem nur noch sieben oder zehn Tage Vorlauf bleiben.</p>
+
+<p><strong>Gap-Filling als Standard.</strong> Keine Saison ohne automatische Lückenschließung. Manuell ist es zu fehleranfällig – ein bis zwei vergessene Orphan Days pro Monat sind in der Hochsaison schnell ein vierstelliger Betrag.</p>
+
+<p><strong>Flexible Check-in-Tage in der Hauptsaison.</strong> Mindestens an Wochenenden, wo möglich auch unter der Woche – sofern die Reinigung das trägt. Wo sie es nicht trägt, lohnt die ehrliche Frage, ob die Stay-Length-Regel die Auslastung schützt oder den Reinigungsplan.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Die Hauptsaison am Wörthersee dauert zwölf bis vierzehn Wochen. In dieser Phase entscheidet jede Nacht über den Jahresumsatz – nicht durch den Wochenendpreis allein, sondern durch die Frage, ob der Kalender Lücken produziert oder vermeidet.</p>
+
+<p>Mindestaufenthalt ist deshalb keine Komforteinstellung. <strong>Es ist eine Pricing-Entscheidung in einem zweiten Gewand – mit derselben Wirkung auf den Jahresertrag wie der Nachtpreis selbst.</strong></p>
+
+<p>Wer das System einmal richtig aufsetzt, verliert in den heikelsten zwölf Wochen weniger Nächte als der direkte Wettbewerb. Und gewinnt damit eine Saison, die im Inserat selbst nicht sichtbar wird – aber in der Auswertung des Folgejahres umso deutlicher.</p>
+    `,
+    tableOfContents: [
+      { id: 'der-blinde-fleck', text: 'Der blinde Fleck im Kalender', level: 2 },
+      { id: 'prinzip', text: 'Was Stay-Length wirklich beeinflusst', level: 2 },
+      { id: 'lead-time', text: 'Buchungsvorlauf als zweite Dimension', level: 2 },
+      { id: 'gap-filling', text: 'Gap-Filling: Die unterschätzte Mechanik', level: 2 },
+      { id: 'paradox', text: 'Das Hauptsaison-Paradox', level: 2 },
+      { id: 'check-in-tag', text: 'Check-in-Tage als operative Variable', level: 2 },
+      { id: 'praxis', text: 'Vier Linien für die Wörthersee-Saison', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-06-03',
+    category: 'Pricing & Strategie',
+    tags: ['Mindestaufenthalt', 'Stay-Length', 'Hauptsaison', 'Pricing', 'Auslastung', 'Wörthersee', 'Kärnten', 'Airbnb'],
+    featuredImage: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Sommerliche Atmosphäre am See – Symbolbild für die Hauptsaison-Strategie am Wörthersee',
+    readingTime: 6,
+  },
+  {
     slug: 'airbnb-versicherung-ferienwohnung-oesterreich',
     title: 'Welche Versicherung braucht ein Airbnb? Was bei Kurzzeitvermietung in Österreich wirklich zählt',
     description: 'Privathaftpflicht und Eigenheimversicherung decken Kurzzeitvermietung meist nicht. Welche Versicherungen ein Airbnb oder Ferienhaus in Österreich wirklich braucht – Haftpflicht, Gebäude, Inventar, Betriebsunterbrechung – und warum AirCover keine Polizze ersetzt.',
