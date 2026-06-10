@@ -3,6 +3,132 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-stornobedingungen-hauptsaison-2026',
+    title: 'Airbnb Stornobedingungen 2026: Welche Linie im Sommer trägt',
+    description: 'Airbnb hat Strict abgeschafft, Limited eingeführt, Flexible bevorzugt das Ranking. Wie sich Stornobedingungen 2026 am Wörthersee auf Auslastung auswirken.',
+    excerpt: 'Im Oktober 2025 hat Airbnb seine Stornopolitik umgebaut – meist ohne dass Eigentümer aktiv eingreifen mussten. Wo Firm trägt, wo Flexible Reichweite bringt und warum die 24-Stunden-Karenz die Pricing-Logik verschiebt.',
+    content: `
+<p>Am 1. Oktober 2025 hat Airbnb eine Politik abgeschafft, die ein gutes Jahrzehnt lang als <strong>Standardlösung für ernsthafte Vermieter</strong> galt: die Strict-Stornobedingung.</p>
+
+<p>Acht Monate später, mitten in der Sommersaison, ist diese Reform am Wörthersee noch immer unvollständig angekommen. In vielen Inseraten steht inzwischen <em>Firm</em> – nicht aus Überzeugung, sondern weil der Algorithmus automatisch umgestellt hat.</p>
+
+<p>Stornobedingungen entscheiden mit darüber, wie sichtbar ein Listing ist, wie sicher der Ertrag landet und wie viele Gäste in der Anfrage gar nicht erst auf die Buchungstaste klicken.</p>
+
+<h2 id="reform">Was die Reform konkret geändert hat</h2>
+
+<p>Vor Oktober 2025 hatte Airbnb fünf grundlegende Stornopolitiken im Angebot. Strict war die strengste – volle Erstattung nur in den ersten 48 Stunden nach Buchung, danach harte Linien bis zur Anreise.</p>
+
+<p>Mit der Reform ist Strict für neue Inserate verschwunden. <strong>Bestehende Inserate, die nicht aktiv widersprochen haben, wurden in die neue Stufe <em>Firm</em> überführt</strong> – eine Stufe weicher als vorher, ohne dass der Eigentümer etwas tun musste.</p>
+
+<p>Gleichzeitig wurde eine vierte Option eingeführt, die im Markt vorher nicht existierte: <em>Limited</em>. Sie sitzt zwischen Moderate und Firm und greift einen Gästetyp ab, der von Moderate nicht überzeugt war, aber Firm zu hart fand.</p>
+
+<p>Aus zwei aktiven Stufen wurden drei. Eine harte Stufe ist faktisch nur noch auf Einladung verfügbar.</p>
+
+<h2 id="stufen">Die vier Stufen, wie sie heute wirken</h2>
+
+<p><strong>Flexible.</strong> Volle Erstattung bis 24 Stunden vor Anreise. Maximale Buchbarkeit, geringster Ertragsschutz.</p>
+
+<p><strong>Moderate.</strong> Volle Erstattung bis fünf Tage vor Anreise. Eine Mischform, die operativ den fairsten Kompromiss bietet – und in der Praxis am häufigsten gewählt wird.</p>
+
+<p><strong>Limited.</strong> Volle Erstattung bis 14 Tage vor Anreise. Zwischen 14 und 7 Tagen erhält der Gastgeber 50 Prozent, innerhalb von 7 Tagen die volle Buchungssumme. Die neue, in Österreich kaum bekannte Mittelstufe.</p>
+
+<p><strong>Firm.</strong> Volle Erstattung bis 30 Tage vor Anreise. Danach gestaffelte Teilerstattung. Strict-Niveau gibt es nur noch in Sonderfällen.</p>
+
+<p>Zusätzlich greift unabhängig vom Hauptmodell eine <strong>universelle 24-Stunden-Karenz</strong>: Wer mindestens sieben Tage vor Anreise bucht, kann innerhalb der ersten 24 Stunden ohne Begründung kostenfrei stornieren. Diese Regel gilt automatisch in den meisten europäischen Märkten und kann vom Gastgeber nicht abgewählt werden.</p>
+
+<h2 id="ranking">Wo Airbnb die Sichtbarkeit dreht</h2>
+
+<p>Im stillen Teil des Algorithmus passiert das Entscheidende.</p>
+
+<p>Inserate mit flexibleren Stornobedingungen erscheinen in den Suchergebnissen weiter oben. Airbnb erklärt das selbst – die Plattform belohnt gästefreundliche Politik mit Reichweite. <strong>Auswertungen aus internationalen Märkten zeigen messbare Klick- und Konversionsdifferenzen zwischen Firm und Flexible von 20 bis 35 Prozent in vergleichbaren Suchabfragen.</strong></p>
+
+<p>Die Wirkung läuft in zwei Richtungen.</p>
+
+<p>Flexible verschafft mehr Sichtbarkeit, mehr Klicks, mehr Buchungen – aber auch mehr Stornierungen. Firm sichert den Ertrag pro Buchung, kostet aber Reichweite und damit am Ende der Saison oft mehr Umsatz, als die strengere Politik im Einzelfall geschützt hat.</p>
+
+<p>Der Punkt, an dem sich das umdreht, hängt am eigenen Markt. <em>In Phasen niedriger Nachfrage zahlt Flexible auf das Listing ein. In ausgebuchten Spitzenmonaten schützt Firm den Ertrag, ohne die Auslastung zu gefährden.</em></p>
+
+<h2 id="karenz">Die 24-Stunden-Karenz und ihr blinder Fleck</h2>
+
+<p>Die neue Karenzregel klingt nach Detail. In der Praxis ist sie der Punkt, an dem viele Eigentümer nicht hingesehen haben.</p>
+
+<p>Jeder Gast, der mindestens eine Woche im Voraus bucht, hat 24 Stunden Zeit, kostenfrei zu stornieren – unabhängig davon, welche Hauptpolitik im Inserat steht.</p>
+
+<p>Praktisch bedeutet das: Buchungen sind im ersten Tag <strong>nicht final.</strong> Der Eintrag im Kalender wirkt wie eine bestätigte Reservierung, ist es aber wirtschaftlich noch nicht.</p>
+
+<p>Für die laufende Saison hat das eine konkrete Konsequenz. Wer Preise sofort anhebt, sobald eine Buchung eingeht, riskiert in dieser Phase, dass der Block stiller verschwindet, als er gekommen ist – und die später aktivierte Preisspitze keine zweite Anfrage mehr abholt.</p>
+
+<p>Wer eng am Markt arbeitet, behandelt frische Buchungen die ersten 24 Stunden als <em>weich</em> und passt die Pricing-Logik erst danach an. Die Mechanik überschneidet sich eng mit der <a href="/blog/mindestaufenthalt-woerthersee-hauptsaison-2026">Mindestaufenthalts-Logik in der Hauptsaison</a> – beide Hebel entscheiden mit darüber, ob aus einer Anfrage am Ende eine bezahlte Nacht wird.</p>
+
+<h2 id="superhost">Die Ein-Prozent-Falle</h2>
+
+<p>Eine zweite Mechanik wirkt im Hintergrund: die Superhost-Stornoquote.</p>
+
+<p>Airbnb verlangt für den Superhost-Status eine vom Gastgeber ausgelöste Stornoquote unter einem Prozent. Bei zwanzig Buchungen pro Jahr bedeutet das in der Praxis: <strong>eine einzige Storno – und der Status ist für das nächste Quartal weg.</strong></p>
+
+<p>Das hat eine paradoxe Folge. Wer eine erkennbar schwierige Buchung im Kalender hat – konfliktanfälliger Gast, Anreise während laufender Reparatur – kann es sich kaum leisten, sie selbst zu stornieren. Stattdessen wird der Aufenthalt akzeptiert, und ein möglicher Schaden hinterher in Kauf genommen.</p>
+
+<p>Der Hebel ist nicht trivial. Auswertungen für 2026 zeigen, dass Superhost-Listings rund <strong>vier bis fünf Prozentpunkte höhere Auslastung als vergleichbare Nicht-Superhosts erreichen – über das Jahr typischerweise rund 29 Prozent mehr Gesamtumsatz.</strong></p>
+
+<p>Es geht also nicht um die einzelne stornierte Buchung. Es geht darum, mit welcher Stornopolitik man strukturell gar nicht erst in die Lage kommt, selbst stornieren zu müssen – etwa weil eine 14-Tage-Vorlauffrist die problematischsten Last-Minute-Buchungen herausfiltert.</p>
+
+<h2 id="woerthersee">Was am Wörthersee in der Sommersaison trägt</h2>
+
+<p>Auf zwölf bis vierzehn Wochen Hauptsaison verteilt sich am Wörthersee der Großteil der Jahresübernachtungen. In dieser Phase ist die Nachfrage so dicht, dass Sichtbarkeit selten der Engpass ist.</p>
+
+<p>Hier verschiebt sich das Optimum strukturell Richtung <strong>Firm oder Limited</strong>. Das Listing wird auch ohne Ranking-Bonus genug angeklickt, und die längere Vorlauffrist sichert die Belegung früh – mit überschaubarem Risiko später Lückenstornos.</p>
+
+<p>In der Nebensaison kehrt sich die Rechnung um.</p>
+
+<p>Mai, Anfang Juni, September und Oktober tragen nicht von selbst. Jedes zusätzliche Prozent Klickrate, jede zusätzliche Anfrage wirkt. <em>Flexible oder Moderate sind in diesen Wochen oft das wirtschaftlich überlegene Modell – auch wenn sie weniger nach Schutz aussehen.</em></p>
+
+<p>Die saisonale Differenzierung ist in Airbnbs Standardumgebung allerdings nicht direkt möglich. Eine Hauptpolitik wird pro Inserat gewählt, nicht pro Saison. Wer dynamisch fahren will, arbeitet entweder über einen Channel-Manager, mit benutzerdefinierten Stornorichtlinien auf Einladung oder mit aktivem manuellen Umstellen alle paar Wochen.</p>
+
+<p>Dieser laufende Eingriff ist einer der Punkte, an denen ein strukturiertes <a href="/airbnb-management">Airbnb Management in Kärnten</a> Wirkung zeigt: Die Politik wird saisonal mitgedacht, nicht im März eingestellt und im Oktober vergessen.</p>
+
+<h2 id="kombination">Die Kombination, die selten gesehen wird</h2>
+
+<p>Eine weitere Option steht in der Plattform, wird aber selten genutzt: die <strong>nicht erstattbare Nebenoption</strong>.</p>
+
+<p>Sie lässt sich an jedes Hauptmodell ankoppeln. Gäste sehen dann beide Preise nebeneinander – etwa 220 € pro Nacht mit Firm-Stornoregeln und 209 € ohne Erstattungsmöglichkeit.</p>
+
+<p>Der niedrigere Preis triggert Buchungen, die sonst nicht stattfinden würden. <em>Auswertungen aus internationalen Märkten zeigen Konversionsanstiege im niedrigen zweistelligen Bereich</em>, sobald die Nebenoption aktiviert ist – mit dem Nebeneffekt, dass diese Buchungen am Ende kaum noch storniert werden.</p>
+
+<p>Für Hauptsaisonwochen am Wörthersee – wenn das Inventar ohnehin knapp wird – ist das einer der wirksamsten Hebel, ohne das Hauptmodell anzufassen.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Die Reform vom Oktober 2025 ist kein Detail. Sie hat das Verhältnis zwischen Sichtbarkeit und Ertrag im Inserat neu sortiert – ohne dass die meisten Eigentümer aktiv eingegriffen hätten.</p>
+
+<p><strong>Wer heute nicht weiß, welche Stornopolitik in seinem Inserat hinterlegt ist, hat sie in der Regel im Oktober 2025 unbewusst geändert.</strong></p>
+
+<p>Die Aufgabe für die laufende Saison ist klein, aber konkret. Politik prüfen. Mit der eigenen Saisonkurve abgleichen. Die Nebenoption testweise einschalten, wo die Auslastung es trägt. Und im Herbst – nicht im März – über die Strategie für 2027 nachdenken.</p>
+
+<p>Stornobedingungen sind keine Service-Frage. Sie sind eine der wenigen Stellschrauben, die Sichtbarkeit, Konversion und Ertragsschutz <em>gleichzeitig</em> bewegen.</p>
+    `,
+    tableOfContents: [
+      { id: 'reform', text: 'Was die Reform konkret geändert hat', level: 2 },
+      { id: 'stufen', text: 'Die vier Stufen, wie sie heute wirken', level: 2 },
+      { id: 'ranking', text: 'Wo Airbnb die Sichtbarkeit dreht', level: 2 },
+      { id: 'karenz', text: 'Die 24-Stunden-Karenz und ihr blinder Fleck', level: 2 },
+      { id: 'superhost', text: 'Die Ein-Prozent-Falle', level: 2 },
+      { id: 'woerthersee', text: 'Was am Wörthersee in der Sommersaison trägt', level: 2 },
+      { id: 'kombination', text: 'Die Kombination, die selten gesehen wird', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-06-10',
+    category: 'Pricing & Strategie',
+    tags: ['Stornobedingungen', 'Cancellation Policy', 'Firm', 'Flexible', 'Ranking', 'Hauptsaison', 'Wörthersee', 'Airbnb'],
+    featuredImage: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Kalender mit Markierungen – Stornobedingungen und Buchungsfristen in der Hauptsaison am Wörthersee',
+    readingTime: 6,
+  },
+  {
     slug: 'mindestaufenthalt-woerthersee-hauptsaison-2026',
     title: 'Mindestaufenthalt am Wörthersee: Strategie für die Hauptsaison',
     description: 'Mindestaufenthalt am Wörthersee in der Hauptsaison 2026: Warum eine fixe Stay-Length-Regel Umsatz kostet und wie dynamische Mindestnächte die Auslastung tragen.',
