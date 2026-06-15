@@ -3,6 +3,98 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'ferienwohnung-klopeiner-see-vermieten',
+    title: 'Ferienwohnung am Klopeiner See vermieten: Warum der wärmste See nicht automatisch die beste Rendite bringt',
+    description: 'Klopeiner See, Turnersee und der Sonnenwinkel in Südkärnten gelten als wärmste Badeseen Mitteleuropas. Was das für die Kurzzeitvermietung wirklich bedeutet – und warum die kurze, dichte Saison über die Rendite einer Ferienwohnung entscheidet, nicht die Wassertemperatur.',
+    excerpt: 'Der Klopeiner See ist der wärmste Badesee Österreichs – und genau das verleitet zu einer Fehlkalkulation. Wie der Markt rund um Klopeiner See, Turnersee und den Sonnenwinkel tatsächlich funktioniert.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Kaum eine Region in Kärnten verkauft sich so leicht wie der Klopeiner See. <strong>Wärmster Badesee Österreichs, Wassertemperaturen bis 28 Grad, Saisonstart oft schon im Mai.</strong> Genau dieses Argument führt bei Ferienwohnungen aber regelmäßig zur falschen Kalkulation.</p>
+
+<p>Denn die Wassertemperatur entscheidet nicht über die Rendite. Über die Rendite entscheidet, wie lang und wie dicht die Nachfrage tatsächlich auf das Objekt trifft.</p>
+
+<h2 id="markt">Wie der Markt rund um den Klopeiner See tickt</h2>
+
+<p>Der Klopeiner See liegt im Süden Kärntens, im sogenannten <em>Sonnenwinkel</em> rund um St. Kanzian. Auf gut einem Quadratkilometer Wasserfläche drängt sich eine der höchsten touristischen Dichten des Landes.</p>
+
+<p>Das prägt den Vermietungsmarkt anders als am Wörthersee. Hier dominiert seit Jahrzehnten eine Mischung aus Campingplätzen, Pensionen, Privatzimmern und Appartements – ein Markt mit <strong>viel Angebot im klassischen Familiensegment</strong>.</p>
+
+<p>Die Folge ist eine spürbare Preisspanne nach unten. Wer eine Ferienwohnung positioniert, konkurriert nicht nur mit anderen Apartments, sondern mit einem dichten Bett-für-Bett-Angebot, das den Durchschnittspreis drückt.</p>
+
+<p><em>Das ist kein Nachteil – aber es verschiebt die Stellschrauben.</em> Am Klopeiner See entscheidet weniger der Quadratmeterpreis und mehr die Differenzierung über das, was im Umkreis fehlt: Ruhe, Ausstattung, Parkplatz, Eigenständigkeit.</p>
+
+<h2 id="turnersee">Turnersee und die leiseren Seen im Jauntal</h2>
+
+<p>Wer „Klopeiner See“ sagt, meint meist die gesamte Seenlandschaft des Jauntals. Direkt benachbart liegen <strong>Turnersee, Kleinsee und der Gösselsdorfer See</strong> – ebenfalls warm, aber deutlich ruhiger.</p>
+
+<p>Der Turnersee ist dafür das beste Beispiel. Naturnäher, weniger verbaut, kein Trubel am Ufer. Ein Profil, das eine andere Gästegruppe anzieht als der quirlige Klopeiner See.</p>
+
+<p>Für die Vermietung heißt das: Die Lage am Turnersee ist nicht automatisch „schlechter“, weil weniger los ist. <strong>Sie spricht ein Publikum an, das genau diese Ruhe sucht – und dafür auch in der Nebensaison bucht.</strong></p>
+
+<p>Diese Unterscheidung wird im Marketing der Region oft verwischt, weil alles unter der Marke Klopeiner See läuft. Für die Positionierung eines einzelnen Objekts ist sie aber zentral.</p>
+
+<h2 id="denkfehler">Der Denkfehler: Wassertemperatur ist kein Auslastungsversprechen</h2>
+
+<p>„Der wärmste See“ klingt nach längerer Saison und damit nach mehr Einnahmen. In der Praxis funktioniert das nur eingeschränkt.</p>
+
+<p>Die warmen Wochen verlängern das Schwimmen – aber sie verlängern nicht zwangsläufig die <em>buchungsstarke</em> Zeit. Die geballte Nachfrage konzentriert sich weiterhin auf <strong>Juli und August und die umliegenden Ferienfenster</strong>.</p>
+
+<p>Was dabei oft übersehen wird:
+Nicht die Temperatur bringt die Buchung, sondern der Schulferienkalender der Quellmärkte.</p>
+
+<p>Familien aus Wien, der Steiermark, aus Deutschland und Norditalien buchen, wann sie freihaben – nicht, wann das Wasser zwei Grad wärmer ist. Die warme Wassertemperatur ist ein gutes Verkaufsargument im Inserat, aber kein Hebel, der die Hauptsaison strukturell verlängert.</p>
+
+<h2 id="saison">Was die kurze, dichte Saison strategisch bedeutet</h2>
+
+<p>Am Klopeiner See trägt eine kurze Hochsaison einen überproportionalen Anteil des Jahresertrags. Diese Konzentration hat zwei Konsequenzen.</p>
+
+<p><strong>Erstens:</strong> In der Spitze sind die Tagespreise entscheidend. Wer hier zu früh oder zu pauschal kalkuliert, verschenkt genau die Wochen, die das Jahr finanzieren.</p>
+
+<p><strong>Zweitens:</strong> Die Rand- und Nebensaison entscheidet über den Unterschied zwischen „nett“ und „rentabel“. Genau hier wird am häufigsten falsch reagiert – meist über den Preis.</p>
+
+<p>Dass pauschale Rabatte in der schwachen Zeit selten die richtige Antwort sind, gilt am Sonnenwinkel besonders. Warum <a href="/blog/nebensaison-ferienwohnung-kaernten">Preissenkungen in der Nebensaison das eigentliche Problem nicht lösen</a>, lässt sich an kaum einer Region so klar zeigen wie an diesen Seen mit ihrer extrem kurzen Spitze.</p>
+
+<h2 id="standortvorteile">Standortvorteile, die in Südkärnten unterschätzt werden</h2>
+
+<p>Bei aller Nüchternheit zur Saison: Die Region hat strukturelle Vorteile, die im Schatten des Wörthersees gern übersehen werden.</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li><strong>Preisniveau beim Einkauf:</strong> Immobilien im Jauntal sind günstiger als am Wörthersee – die Einstiegshürde für ein Vermietungsobjekt liegt deutlich niedriger.</li>
+  <li><strong>Lage zur Grenze:</strong> Die Nähe zu Slowenien und Italien öffnet zusätzliche Quellmärkte, die am Nordufer Kärntens kaum eine Rolle spielen.</li>
+  <li><strong>Familienprofil:</strong> Flache Ufer und warmes Wasser machen die Seen zu einem verlässlichen Familienziel – eine Gästegruppe, die früh und mehrere Nächte bucht.</li>
+  <li><strong>Wetterlage:</strong> Der Sonnenwinkel zählt zu den niederschlagsärmsten und sonnenreichsten Ecken Österreichs – ein Argument, das über die reine Badesaison hinaus trägt.</li>
+</ul>
+
+<p>Diese Vorteile wirken aber nur, wenn das Objekt sauber positioniert und der Preis über die Saison hinweg aktiv gesteuert wird. <em>Ein günstiger Einkauf rettet keine schwache Auslastungsstrategie.</em></p>
+
+<p>Genau an diesem Punkt trennt sich Hobby von Betrieb. Wer ein Objekt am Klopeiner See oder Turnersee ernsthaft betreibt, braucht eine Logik für die ganze Saison, nicht nur für den August. Wie eine strukturierte <a href="/ferienvermietung-kaernten">Ferienvermietung in Kärnten</a> diese Steuerung übernimmt, ist weniger eine Frage des Sees als des Systems dahinter.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Der Klopeiner See verkauft sich über die Wassertemperatur. Rentabel wird eine Ferienwohnung dort aber über etwas anderes: <strong>die Fähigkeit, eine kurze, dichte Saison maximal auszunutzen und in den Randwochen nicht reflexhaft den Preis zu senken.</strong></p>
+
+<p>Der wärmste See ist ein gutes erstes Argument. Das zweite – Positionierung und Preissteuerung – entscheidet, ob daraus ein Ertrag wird.</p>
+    `,
+    tableOfContents: [
+      { id: 'markt', text: 'Wie der Markt rund um den Klopeiner See tickt', level: 2 },
+      { id: 'turnersee', text: 'Turnersee und die leiseren Seen im Jauntal', level: 2 },
+      { id: 'denkfehler', text: 'Der Denkfehler: Wassertemperatur ist kein Auslastungsversprechen', level: 2 },
+      { id: 'saison', text: 'Was die kurze, dichte Saison strategisch bedeutet', level: 2 },
+      { id: 'standortvorteile', text: 'Standortvorteile, die in Südkärnten unterschätzt werden', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-06-15',
+    category: 'Standortanalyse',
+    tags: ['Klopeiner See', 'Turnersee', 'Südkärnten', 'Sonnenwinkel', 'St. Kanzian', 'Ferienwohnung', 'Kurzzeitvermietung', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Warmer Badesee in Südkärnten von oben – Ferienwohnung am Klopeiner See und Turnersee vermieten',
+    readingTime: 6,
+  },
+  {
     slug: 'airbnb-stornobedingungen-hauptsaison-2026',
     title: 'Airbnb Stornobedingungen 2026: Welche Linie im Sommer trägt',
     description: 'Airbnb hat Strict abgeschafft, Limited eingeführt, Flexible bevorzugt das Ranking. Wie sich Stornobedingungen 2026 am Wörthersee auf Auslastung auswirken.',

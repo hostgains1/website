@@ -73,9 +73,10 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.description,
+    inLanguage: 'de-AT',
     image: post.featuredImage.startsWith('http')
       ? post.featuredImage
       : `https://www.hostgains.at${post.featuredImage}`,
@@ -85,6 +86,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       '@type': 'Person',
       name: post.author.name,
       jobTitle: post.author.role,
+      url: 'https://www.hostgains.at',
     },
     publisher: {
       '@type': 'Organization',
