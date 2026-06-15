@@ -90,7 +90,7 @@ Nicht die Temperatur bringt die Buchung, sondern der Schulferienkalender der Que
     publishedAt: '2026-06-15',
     category: 'Standortanalyse',
     tags: ['Klopeiner See', 'Turnersee', 'Südkärnten', 'Sonnenwinkel', 'St. Kanzian', 'Ferienwohnung', 'Kurzzeitvermietung', 'Kärnten'],
-    featuredImage: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=1200&q=80',
+    featuredImage: '/Ferienvermietung%20Klopeinersee.jpg',
     featuredImageAlt: 'Warmer Badesee in Südkärnten von oben – Ferienwohnung am Klopeiner See und Turnersee vermieten',
     readingTime: 6,
   },
