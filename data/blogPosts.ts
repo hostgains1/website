@@ -3,6 +3,111 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'direktbuchungen-airbnb-host-only-fee-2026',
+    title: 'Direktbuchungen 2026: Wie Airbnbs 15,5 % das Rechnen neu sortieren',
+    description: 'Airbnbs Host-only-Fee von 15,5 % gilt seit April 2026 für alle Inserate. Was Direktbuchungen am Wörthersee bringen – und ab welcher Quote sie tragen.',
+    excerpt: 'Seit dem 13. April 2026 zahlen alle Airbnb-Hosts 15,5 %. Wo Direktbuchungen das Rechnen verändern, was die Wiederbuchungsquote wert ist – und warum am Wörthersee nicht jeder Aufbau lohnt.',
+    content: `
+<p>Am 13. April 2026 hat Airbnb einen Schritt vollzogen, der seit August 2025 angekündigt war. <strong>Die Host-only-Gebühr von 15,5 % gilt seitdem für alle Inserate – auch für die, deren Eigentümer das Modell nie aktiv gewählt haben.</strong></p>
+
+<p>Im Gegenzug ist die separate Gästegebühr verschwunden. Aus der Außensicht wirkt der Preis stabil, aus der Innensicht hat sich die Rechnung verschoben.</p>
+
+<p>Was vorher als 3 % Hostgebühr plus 14–16 % Gästegebühr nebeneinander lief, ist jetzt eine einzige Zahl im Hostkonto. Sie ist sichtbar, sie ist groß – und sie verändert die Frage, wie viel Mühe sich für eigene Buchungswege lohnt.</p>
+
+<h2 id="reform">Was die Vereinheitlichung wirklich verändert hat</h2>
+
+<p>Die alte Split-Fee-Logik versteckte einen Teil der Plattformkosten auf der Gästeseite. Der Hostpreis wirkte günstig, der Gesamtpreis am Ende der Buchung aber nicht.</p>
+
+<p>Mit dem Wechsel auf die einheitlichen 15,5 % trägt jetzt der Eigentümer die volle sichtbare Last. <em>Die Plattform verdient nicht mehr, aber sie verdient sichtbarer.</em></p>
+
+<p>Praktisch heißt das: Ein Nachtumsatz von 200 € am Wörthersee landet nach Airbnb-Gebühr bei 169 €. Über eine 150-Nächte-Saison sind das rund 4.650 €, die in der Plattform bleiben – nicht versteckt, sondern in jeder einzelnen Abrechnung sichtbar.</p>
+
+<p>An diesem Punkt fängt eine alte Diskussion neu an: Wie viel Aufwand rechtfertigt ein Direktbuchungskanal, der genau diese Gebühr umgeht?</p>
+
+<h2 id="was-15-prozent-kosten">Was Direktbuchungen wirtschaftlich tatsächlich wiegen</h2>
+
+<p>Internationale Marktdaten aus 2024 zeigen eine klare Verteilung: <strong>Direktbuchungen machen rund 34 % der Buchungen im Ferienvermietungsmarkt aus.</strong> Airbnb liegt mit etwa 46 % vorne, der Rest verteilt sich auf Booking.com und kleinere Kanäle.</p>
+
+<p>Diese 34 % sind aber kein Naturgesetz. Sie spiegeln den Durchschnitt über professionell betreute Bestände, die seit Jahren auf eigene Buchungskanäle setzen.</p>
+
+<p>Für ein Einzelobjekt am Wörthersee, das heute ohne eigene Website arbeitet, liegt die Direktbuchungsquote typischerweise im niedrigen einstelligen Bereich. Stammgäste aus dem Vorjahr, ein paar Empfehlungen, kein systematischer Aufbau.</p>
+
+<p>Die wirtschaftliche Wirkung ist trotzdem messbar. <em>Bereits 20 % Direktbuchungsanteil senken die effektive Plattformgebühr eines Objekts von 15,5 % auf rund 12,4 %.</em> Bei einem Saisonumsatz von 30.000 € sind das knapp 1.000 € pro Jahr, die nicht mehr an Airbnb gehen.</p>
+
+<p>Bei 40 % Direktbuchungsanteil liegt der Hebel bei rund 1.900 € – ohne dass eine zusätzliche Nacht verkauft werden muss.</p>
+
+<h2 id="wiederbuchung">Die Wiederbucherquote – der eigentliche Hebel</h2>
+
+<p>Was in den Diskussionen um Direktbuchungen meist untergeht: Der eigentliche Wert liegt nicht in der ersten Buchung, sondern in der zweiten.</p>
+
+<p>Auswertungen aus dem internationalen Markt zeigen eine <strong>Wiederbucherquote von rund 45 % bei Gästen, die einmal direkt gebucht haben.</strong> Wer die Plattform einmal umgeht, kehrt bei der nächsten Reise mit hoher Wahrscheinlichkeit zur Direktbuchung zurück.</p>
+
+<p>Diese Mechanik wirkt verzögert. Im ersten Jahr ist der Anteil klein. Ab Jahr drei kippt das Verhältnis bei Objekten mit stabilem Stammgästeprofil – am Wörthersee betrifft das vor allem Familienwohnungen, die mehrjährige Buchungen aus Wien und Süddeutschland sehen.</p>
+
+<p>Der Effekt ist nicht trivial. Eine Familie, die in vier aufeinanderfolgenden Sommern fünf Nächte bucht und ab dem zweiten Aufenthalt direkt anfragt, spart über den Zyklus rund 600 bis 900 € Plattformgebühr ein. Verteilt über zwanzig solcher Gäste pro Saison sind das fünfstellige Beträge, die nie in einer Provisionsabrechnung auftauchen.</p>
+
+<h2 id="stornoraten">Stornoraten – der zweite, weniger sichtbare Vorteil</h2>
+
+<p>Eine zweite Mechanik wird in der Praxis selten benannt.</p>
+
+<p>Die durchschnittlichen Stornoraten unterscheiden sich nach Kanal deutlich. <strong>Booking.com liegt bei 39 bis 40 %, Airbnb je nach Modell bei 14 bis 18 %, Vrbo bei 11 bis 15 %.</strong> Direktbuchungen liegen strukturell darunter – nicht weil die Buchungen besser sind, sondern weil der Aufwand auf Gastseite höher ist und damit die Entscheidung verbindlicher.</p>
+
+<p>Im Ergebnis verschwindet ein Teil des scheinbaren Buchungsvolumens auf den Plattformen wieder, bevor er in der Kasse ankommt. Das verschiebt die Rechnung weiter Richtung Direktkanal – auch wenn dieser auf den ersten Blick weniger Reichweite hat.</p>
+
+<p>In Kombination mit der überarbeiteten <a href="/blog/airbnb-stornobedingungen-hauptsaison-2026">Stornopolitik nach der Airbnb-Reform vom Oktober 2025</a> entsteht ein Bild, das am Wörthersee gerade jetzt – Mitte Juni, mit gefülltem Kalender und beginnender Hochsaison – durchgerechnet werden sollte.</p>
+
+<h2 id="aufbau">Was den Aufbau am Wörthersee bremst</h2>
+
+<p>Die Theorie ist klar. Die Praxis hat drei Engpässe.</p>
+
+<p><strong>Sichtbarkeit.</strong> Ohne eigene Domain, ohne saubere Buchungsmaske, ohne Vertrauen im Auftritt bleibt jede Direktbuchungsabsicht beim Gast hängen. Eine improvisierte Anfrage per E-Mail überzeugt 2026 niemanden mehr, der gewohnt ist, in zwei Klicks auf Airbnb zu bezahlen.</p>
+
+<p><strong>Zahlungsabwicklung.</strong> Die Plattform übernimmt Kartenakzeptanz, Identitätsprüfung und Auszahlungssicherheit. Eine eigene Lösung – über Stripe, ein spezialisiertes Buchungstool oder eine integrierte Hotellösung – ist möglich, aber kein Nebenbei-Projekt.</p>
+
+<p><strong>Konversion.</strong> Die mobile Konversionsrate im Ferienvermietungsmarkt liegt bei rund 1,9 %, die Desktop-Rate bei 3,9 %. Wer eine eigene Buchungsseite betreibt, bekommt diese Werte nicht geschenkt – sie müssen über Geschwindigkeit, Bilder, Klarheit und ein funktionierendes Vertrauenssignal aufgebaut werden.</p>
+
+<p>Wer das selbst macht, investiert die ersten zwölf Monate Stunden statt Gebühren. Wer es im Rahmen einer strukturierten <a href="/airbnb-management-kaernten">Kurzzeitvermietung in Kärnten</a> abbildet, lagert genau diese Aufbauzeit aus – und nutzt eine bestehende Infrastruktur, statt sie für ein einzelnes Objekt zu errichten.</p>
+
+<h2 id="zielgroesse">Die realistische Zielgröße</h2>
+
+<p>Eine gesunde Direktbuchungsquote für ein gut betreutes Wörthersee-Objekt liegt 2026 zwischen 15 und 30 %. Mehr ist möglich, aber selten ohne klares Markenprofil oder mehrjährig gepflegten Bestand.</p>
+
+<p>Innerhalb dieser Spanne entsteht die Wirkung schrittweise.</p>
+
+<p>Die ersten Direktbuchungen kommen über Stammgäste – ohne Aufbau, aber auch ohne Skalierung. Der nächste Schritt sind sichtbare eigene Kanäle: Website, Google-Profil, eine konsistente Adresse, unter der das Objekt gefunden wird, wenn der Name in die Suche kommt.</p>
+
+<p>Erst ab der dritten Stufe – sauberer Funnel von Anfrage zu Zahlung – beginnt die Quote strukturell zu wachsen. <em>Wer diesen Punkt unterschätzt, sieht zwei Jahre lang wenig Bewegung und verliert die Geduld in Jahr drei, kurz bevor sich die Investition gerechnet hätte.</em></p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Die 15,5 % sind keine Diskussion mehr. Sie sind das neue Fundament, auf dem jede Saison rechnen muss.</p>
+
+<p><strong>Direktbuchungen sind 2026 keine Ideologie, sondern eine Margenfrage.</strong> Sie ersetzen die Plattform nicht – sie machen sie eine Spur weniger entscheidend.</p>
+
+<p>Wer am Wörthersee in drei Jahren noch dieselben Saisonzahlen sehen will, beginnt jetzt mit dem Aufbau dessen, was Airbnb nicht entscheidet: dem Kanal, über den der zweite und dritte Aufenthalt eines Gastes zurückkommt.</p>
+    `,
+    tableOfContents: [
+      { id: 'reform', text: 'Was die Vereinheitlichung wirklich verändert hat', level: 2 },
+      { id: 'was-15-prozent-kosten', text: 'Was Direktbuchungen wirtschaftlich tatsächlich wiegen', level: 2 },
+      { id: 'wiederbuchung', text: 'Die Wiederbucherquote – der eigentliche Hebel', level: 2 },
+      { id: 'stornoraten', text: 'Stornoraten – der zweite, weniger sichtbare Vorteil', level: 2 },
+      { id: 'aufbau', text: 'Was den Aufbau am Wörthersee bremst', level: 2 },
+      { id: 'zielgroesse', text: 'Die realistische Zielgröße', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-06-17',
+    category: 'Pricing & Strategie',
+    tags: ['Direktbuchungen', 'Host-only-Fee', 'Airbnb Gebühren', 'OTA-Strategie', 'Wörthersee', 'Kärnten', 'Marge', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Analytics-Dashboard auf einem Laptop – Direktbuchungen und Plattformkosten in der Kurzzeitvermietung am Wörthersee',
+    readingTime: 7,
+  },
+  {
     slug: 'ferienwohnung-klopeiner-see-vermieten',
     title: 'Ferienwohnung am Klopeiner See vermieten: Warum der wärmste See nicht automatisch die beste Rendite bringt',
     description: 'Klopeiner See, Turnersee und der Sonnenwinkel in Südkärnten gelten als wärmste Badeseen Mitteleuropas. Was das für die Kurzzeitvermietung wirklich bedeutet – und warum die kurze, dichte Saison über die Rendite einer Ferienwohnung entscheidet, nicht die Wassertemperatur.',
