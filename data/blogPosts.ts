@@ -3,6 +3,121 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-guest-favorites-woerthersee-hauptsaison-2026',
+    title: 'Guest Favorites am Wörthersee: Wie das Airbnb-Siegel 2026 wirkt',
+    description: 'Guest Favorites hat 2026 den Superhost als zentrales Airbnb-Ranking-Signal abgelöst. Wie das Badge am Wörthersee die Sichtbarkeit im Sommer sortiert.',
+    excerpt: 'Rund neun Prozent aller Airbnb-Inserate tragen das Guest-Favorite-Siegel. Warum der Cut zwischen 4,89 und 4,91 Sternen 2026 die Sommersichtbarkeit am Wörthersee entscheidet – und was der tägliche Abgleich operativ verlangt.',
+    content: `
+<p>Anfang Juli am Wörthersee. In den Sichtbarkeitsdaten der Plattformen läuft parallel zur Hauptsaison eine leise Verschiebung – und viele Eigentümer merken sie zuerst am Buchungsverhalten, nicht am Regelwerk.</p>
+
+<p>Das <strong>Guest-Favorites-Siegel</strong> hat seit dem Frühjahr 2026 die Rolle übernommen, die jahrelang der Superhost innehatte: die zentrale Vertrauens-Markierung im Airbnb-Suchergebnis.</p>
+
+<p>Rund <strong>25 Prozent des Ranking-Gewichts</strong> hängen inzwischen am Badge. Und das Siegel wird nicht jährlich vergeben, sondern jeden Morgen neu berechnet.</p>
+
+<h2 id="was-veraendert">Was das Guest-Favorite-Siegel wirklich ist</h2>
+
+<p>Airbnb hat das Badge im Herbst 2023 gestartet. In der Anfangsphase war es eine Zusatzauszeichnung – sichtbar, aber selten kaufentscheidend.</p>
+
+<p>Seit dem Algorithmus-Update im Frühjahr 2026 ist es die primäre Qualitätsmarke der Plattform. Der Superhost existiert weiter, verliert im Ranking aber Gewicht.</p>
+
+<p>Die Zahl, um die es geht: Guest Favorites bezeichnet die <strong>obersten rund neun Prozent aller aktiven Airbnb-Inserate weltweit</strong>. Kein Antrag, keine Gebühr, kein Formular – ein automatisch berechnetes Perzentil.</p>
+
+<p>Am Wörthersee bedeutet das in Zahlen: In einer Region mit einigen tausend aktiven Inseraten fällt der Kreis der Guest-Favorite-Objekte pro Saison in einen niedrigen dreistelligen Bereich zusammen. Das ist enger als die meisten annehmen.</p>
+
+<h2 id="kriterien">Die Kriterien, die die meisten unterschätzen</h2>
+
+<p>Die offiziellen Anforderungen lesen sich harmlos.</p>
+
+<p>Ein Inserat qualifiziert sich, wenn es mindestens <strong>fünf Bewertungen aus den letzten vier Jahren</strong> hat, davon mindestens eine aus den letzten zwei Jahren. Der Sternedurchschnitt soll bei über 4,9 liegen. Die Host-seitige Stornoquote sowie die Quote schwerwiegender Beschwerden dürfen jeweils unter einem Prozent bleiben.</p>
+
+<p>Auf dem Papier machbar. In der Praxis bewegen sich die meisten am Wörthersee zwischen 4,80 und 4,90 Sternen. Die Differenz von einem Zehntel wirkt akademisch – <em>sie ist der Ausschluss vom Badge.</em></p>
+
+<p>Auch die Ein-Prozent-Regel bei Host-Stornos ist strikt. Bei zwanzig Buchungen im Jahr bedeutet das faktisch: <strong>keine einzige selbst ausgelöste Storno.</strong> Wer eine Buchung pro Saison als Sicherheitsventil ablehnt, verliert das Siegel damit im Alleingang.</p>
+
+<h2 id="taeglicher-abgleich">Der tägliche Abgleich – und was daran anders ist</h2>
+
+<p>Beim Superhost lief der Zyklus quartalsweise. Wer zwei Monate stabil bei 4,85 lag, sah das Badge frühestens am nächsten Bewertungsstichtag verschwinden.</p>
+
+<p>Guest Favorites läuft anders. <strong>Airbnb wertet die Bestände einmal in 24 Stunden aus.</strong> Eine Bewertung mit einem Stern, ein einzelner Host-Storno, ein einzelner Support-Fall – die Wirkung erscheint am nächsten Morgen im Ranking.</p>
+
+<p>Das verändert die Betriebstemperatur. Wer im Juli eine 4-Sterne-Bewertung einfängt, sieht den Badge nicht am nächsten Quartalsende wackeln, sondern <em>am nächsten Werktag.</em></p>
+
+<p>Für den laufenden Sommer am Wörthersee heißt das: Reinigung, Kommunikation und technische Ausstattung müssen in der Hochsaison auf einem Niveau laufen, das keine schwache Woche pro Monat mehr zulässt.</p>
+
+<h2 id="hebel">Die zwei Hebel, die dahinter wirken</h2>
+
+<p>Neben dem Siegel selbst haben sich in der Algorithmus-Version 2026 zwei operative Metriken nach vorn geschoben.</p>
+
+<p><strong>Konversionsrate</strong> – der Anteil der Anfragen, die tatsächlich zu einer Buchung werden – ist das am stärksten gewichtete Einzelsignal der Plattform.</p>
+
+<p><strong>Klickrate im Suchergebnis</strong> – der Anteil der Suchtreffer, die auf das Inserat klicken – ist der zweitgrößte Hebel.</p>
+
+<p>Beide Kennzahlen entstehen aus dem Zusammenspiel von Coverbild, Titel, Preis und Standortlage – nicht aus dem Text der Beschreibung. Wer im März das Coverbild wechselt und im Juni wieder zurückstellt, hat in dieser Zeit den größten Einzelhebel bewegt, den die Plattform kennt.</p>
+
+<p>Am Wörthersee mit seiner dichten Sommer-Konkurrenz wirkt das direkt. In Wochen, in denen zwanzig vergleichbare Objekte gleichzeitig sichtbar sind, entscheidet die Bildqualität über die Klickrate, die Klickrate über die Konversion – und die Konversion über die Sichtbarkeit der Folgewoche.</p>
+
+<h2 id="reaktionszeit">Fünf Minuten – die neue Latte bei der Reaktionszeit</h2>
+
+<p>Ein Punkt, den viele Eigentümer aus der Superhost-Ära anders im Kopf haben: die Reaktionszeit-Grenze.</p>
+
+<p>Der frühere Standard „Antwort innerhalb 24 Stunden" ist für das Ranking bedeutungslos geworden. Der aktuelle Benchmark liegt <strong>unter fünf Minuten für die Erstantwort</strong>. Zwischen fünf Minuten und einer Stunde toleriert der Algorithmus. Ab einer Stunde beginnt die Reichweite für Anfragen zu sinken.</p>
+
+<p>Eine Antwortquote unter 95 Prozent oder eine durchschnittliche Antwortzeit über einer Stunde ist 2026 kein Randproblem – sondern ein struktureller Ranking-Nachteil.</p>
+
+<p>Die logische Konsequenz: automatisierte Erst-Antworten sind für ernsthaft betriebene Objekte kein Nice-to-have mehr. Wer in der Hochsaison persönlich zwischen zwei Terminen antwortet, verpasst die Fenster, in denen die Plattform Reichweite verteilt.</p>
+
+<h2 id="woerthersee-realitaet">Was das für den Wörthersee-Sommer bedeutet</h2>
+
+<p>Im Juli 2026 treffen am Wörthersee zwei Dinge aufeinander: die dichte Sommernachfrage – und ein Ranking-Regime, das enger geworden ist.</p>
+
+<p>Objekte im Guest-Favorite-Segment sehen eine <strong>deutlich höhere Präsenz auf der ersten Suchseite</strong>. Wo das Siegel fehlt, konkurriert der Preis wieder direkter – nicht die Positionierung.</p>
+
+<p>Der Effekt trägt weiter als eine Saison. <a href="/blog/airbnb-bewertungen-woerthersee-4-8-sterne-wendepunkt">Warum Bewertungsniveaus über 4,8 Sternen der eigentliche Wendepunkt sind</a>, lässt sich am Guest-Favorite-Cutoff besonders klar sehen: Zwischen 4,89 und 4,91 verläuft eine Linie, die auf dem Papier nach Rundungsfehler aussieht – und in der Sichtbarkeit den Unterschied zwischen zwei Segmenten ausmacht.</p>
+
+<h2 id="operativ">Wo Prozesse den Badge sichern – oder verlieren</h2>
+
+<p>Vier operative Bruchlinien tauchen bei Wörthersee-Objekten regelmäßig auf.</p>
+
+<ul>
+  <li><strong>Reinigungslücken zwischen Zwei-Nacht-Gästen</strong>, die eine 4-Sterne-Bewertung für Sauberkeit auslösen – das Kriterium fließt separat und gewichtet in die Badge-Berechnung ein.</li>
+  <li><strong>Foto-Beschreibungs-Diskrepanzen</strong>, meist bei kleinen Details (Bad, Küche, Ausblick), die Gäste unter „Genauigkeit der Angaben" abwerten.</li>
+  <li><strong>Späte Antworten am Wochenende</strong>, die die durchschnittliche Antwortzeit in Richtung 60 Minuten drücken – genug, um in der Sichtbarkeit langsam abzusinken.</li>
+  <li><strong>Einzelne Host-Stornos</strong>, die im Kalender als kleine Anpassung wirken und die Ein-Prozent-Grenze für die nächsten zwölf Monate hart trennen.</li>
+</ul>
+
+<p>Diese vier Punkte lassen sich strukturell absichern – meist nicht ohne verlässliches Reinigungsteam, Antwort-Automatik und ein Kalender-System, das Doppelbuchungen ausschließt. Genau hier setzt ein strukturiertes <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> an: nicht als Zusatzleistung, sondern als operative Grundvoraussetzung des neuen Ranking-Regimes.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Guest Favorites ist 2026 keine Auszeichnung mehr. Es ist die Zulassungsvoraussetzung für die obere Suchseite.</p>
+
+<p>Der Superhost-Status behält Symbolwert. Der wirtschaftliche Hebel liegt am Badge, das jeden Tag neu bestätigt oder entzogen wird – und an einer Handvoll Metriken, die sich in einer einzigen schwachen Woche verschieben lassen.</p>
+
+<p>Am Wörthersee entscheidet der Sommer 2026 damit weniger über den Preis pro Nacht als über die Bewertungen der ersten sechs Wochen. <em>Was hier auf 4,92 landet, arbeitet ab Mitte August in einer anderen Sichtbarkeitsklasse als das Objekt daneben.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-veraendert', text: 'Was das Guest-Favorite-Siegel wirklich ist', level: 2 },
+      { id: 'kriterien', text: 'Die Kriterien, die die meisten unterschätzen', level: 2 },
+      { id: 'taeglicher-abgleich', text: 'Der tägliche Abgleich – und was daran anders ist', level: 2 },
+      { id: 'hebel', text: 'Die zwei Hebel, die dahinter wirken', level: 2 },
+      { id: 'reaktionszeit', text: 'Fünf Minuten – die neue Latte bei der Reaktionszeit', level: 2 },
+      { id: 'woerthersee-realitaet', text: 'Was das für den Wörthersee-Sommer bedeutet', level: 2 },
+      { id: 'operativ', text: 'Wo Prozesse den Badge sichern – oder verlieren', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-07-01',
+    category: 'Reviews & Reputation',
+    tags: ['Guest Favorites', 'Airbnb Ranking', 'Superhost', 'Bewertungen', 'Wörthersee', 'Kärnten', 'Algorithmus', 'Hauptsaison'],
+    featuredImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Modernes Wohnzimmer in einer hochwertigen Ferienwohnung – Guest Favorites und Airbnb-Bewertungsranking am Wörthersee 2026',
+    readingTime: 6,
+  },
+  {
     slug: 'smart-lock-self-check-in-woerthersee-2026',
     title: 'Smart Lock oder Schlüsselübergabe: Was am Wörthersee 2026 trägt',
     description: 'Self-Check-in am Wörthersee 2026: Wann sich Smart Locks operativ wirklich rechnen, was 89 % erwartender Gäste bedeuten – und wo eine Übergabe noch trägt.',
