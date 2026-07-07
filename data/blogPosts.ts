@@ -3,6 +3,112 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'gewerbeanmeldung-kurzzeitvermietung-ferienwohnung',
+    title: 'Gewerbeanmeldung bei Kurzzeitvermietung: Wann aus Vermietung ein Gewerbe wird',
+    description: 'Wann wird die Vermietung eines Ferienhauses in Österreich zum Gewerbe? Eine Einordnung nach Gewerbeordnung, VwGH-Kriterien, den Konsequenzen für Sozialversicherung und Kärntner Besonderheiten – inklusive der neuen EU-Registrierpflicht ab Mai 2026.',
+    excerpt: 'Nicht der Umsatz entscheidet, ob aus Vermietung ein Gewerbe wird, sondern Leistungsumfang, Mietdauer und Regelmäßigkeit. Eine nüchterne Einordnung nach Gewerbeordnung und ihren Konsequenzen.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Kurzzeitvermietung wirkt unkompliziert: Wohnung eintragen, Buchungen sammeln, Miete kassieren. Die Frage, ob daraus rechtlich ein Gewerbe wird, stellt sich bei vielen Eigentümern erst, wenn die Vermietung längst läuft.</p>
+
+<p>Genau diese Verspätung kostet. Die gewerberechtliche Einstufung entscheidet über Sozialversicherung, Genehmigungspflichten und im schlechtesten Fall über nachträgliche Bescheide.</p>
+
+<p>Wo die Grenze tatsächlich verläuft und was sich ändert, sobald Vermietung zum Gewerbe wird – eine nüchterne Einordnung.</p>
+
+<h2 id="ausgangspunkt">Der gesetzliche Ausgangspunkt</h2>
+
+<p>Die Gewerbeordnung (§ 2 Abs. 1 Z 9 GewO) nimmt die <strong>bloße Vermietung von Wohnräumen</strong> von der Gewerbepflicht aus.</p>
+
+<p>Wer eine Wohnung oder ein Haus überlässt, ohne weitere Leistungen zu erbringen, bleibt in der Regel Vermieter im zivilrechtlichen Sinn – nicht Gewerbetreibender.</p>
+
+<p><em>Diese Ausnahme ist der Grund, warum viele Eigentümer über Jahre unproblematisch privat vermieten – auch bei mehreren Wochen im Jahr.</em></p>
+
+<p>Sobald aber hoteltypische Nebenleistungen hinzukommen, verschiebt sich die rechtliche Einordnung Richtung Beherbergungsgewerbe.</p>
+
+<h2 id="kriterien">Die Kriterien, die die Grenze ziehen</h2>
+
+<p>Der Verwaltungsgerichtshof beurteilt nicht ein einzelnes Merkmal, sondern das Gesamtbild. In der Praxis kristallisieren sich vier Punkte heraus:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li><strong>Zusatzleistungen:</strong> Endreinigung durch den Vermieter, regelmäßiger Wäschewechsel, aktiver WLAN- oder Frühstücksservice, persönliche Schlüsselübergabe vor Ort</li>
+  <li><strong>Mietdauer:</strong> Kurze Aufenthalte von ein bis wenigen Nächten statt klassischer, längerfristiger Wohnraummiete</li>
+  <li><strong>Regelmäßigkeit und Ertragsabsicht:</strong> Wiederholte, ganzjährige Vermietung statt gelegentlicher Einzelfälle</li>
+  <li><strong>Umfang des Angebots:</strong> Mehrere Betten oder Einheiten, die faktisch einem Beherbergungsbetrieb entsprechen</li>
+</ul>
+
+<p>Kein einzelnes Kriterium reicht für sich. Wer aber drei oder vier dieser Merkmale gleichzeitig erfüllt, bewegt sich real im Gastgewerbe – unabhängig davon, wie klein das einzelne Objekt ist.</p>
+
+<p>Diese Abgrenzung folgt derselben Logik wie die <a href="/blog/airbnb-steuer-oesterreich-2026">steuerliche Einordnung von Kurzzeitvermietung</a>, die auf denselben Kriterien aufbaut, aber andere Konsequenzen behandelt.</p>
+
+<h2 id="konsequenzen">Was sich ändert, wenn die Vermietung zum Gewerbe wird</h2>
+
+<p>Die gewerbliche Einstufung ist kein Formalakt ohne Wirkung. Sie zieht mehrere konkrete Pflichten nach sich.</p>
+
+<p><strong>Gewerbeanmeldung</strong> bei der zuständigen Bezirkshauptmannschaft, vor Aufnahme der Tätigkeit.</p>
+
+<p><strong>Pflichtmitgliedschaft in der Wirtschaftskammer</strong>, mit entsprechendem Kammerbeitrag.</p>
+
+<p><strong>Sozialversicherung nach GSVG</strong> statt reiner Einkommensteuer auf Vermietungseinkünfte – ein Unterschied, der bei der Kalkulation häufig unterschätzt wird.</p>
+
+<p><strong>Betriebsanlagengenehmigung</strong>, im Regelfall zusätzlich erforderlich, sobald ein Beherbergungsbetrieb im engeren Sinn vorliegt.</p>
+
+<p>Das Gastgewerbe zählt zu den reglementierten Gewerben. Wer es ausübt, braucht entweder einen <strong>Befähigungsnachweis</strong> oder einen gewerberechtlichen Geschäftsführer, der diesen erbringt.</p>
+
+<p><em>Wer diese Kette unterschätzt, riskiert nicht nur eine Nachmeldung, sondern rückwirkende Sozialversicherungsbeiträge – oft der teurere Teil der Geschichte.</em></p>
+
+<h2 id="kaernten">Kärnten: die Grauzone der Privatzimmervermietung</h2>
+
+<p>Die Wirtschaftskammer Kärnten stellt ein eigenes Infoblatt zur Abgrenzung touristischer Beherbergung bereit – ein Hinweis darauf, wie häufig diese Frage in der Praxis strittig ist.</p>
+
+<p>Eine Ausnahme bildet die sogenannte <strong>häusliche Nebenbeschäftigung</strong>: Wer im eigenen Wohnhaus in begrenztem Umfang Zimmer mit Frühstück vermietet, bleibt unter bestimmten Voraussetzungen von der Gewerbepflicht ausgenommen – auch wenn dabei Nebenleistungen erbracht werden.</p>
+
+<p>Diese Ausnahme greift nur bei kleinem Umfang und persönlicher Führung. Wer mehrere Objekte oder ganze Ferienhäuser vermietet, fällt in der Regel nicht mehr darunter.</p>
+
+<p>Unabhängig von der gewerberechtlichen Einordnung bleiben zwei kommunale Pflichten bestehen: die <strong>Ortstaxe</strong> und in vielen Gemeinden die <strong>Gästemeldung</strong>. Beide gelten, ob privat oder gewerblich vermietet wird.</p>
+
+<h2 id="kvdg">Ab Mai 2026: eine zusätzliche Pflicht, unabhängig vom Gewerbe</h2>
+
+<p>Mit der <strong>EU-Verordnung zur Kurzzeitvermietung (KVDG)</strong> wird ab Mai 2026 EU-weit eine <strong>Registriernummer</strong> zur Voraussetzung, um eine Unterkunft öffentlich anbieten zu dürfen.</p>
+
+<p>Diese Registrierung ist von der Gewerbefrage zu trennen. Sie betrifft die Zulässigkeit der Vermarktung selbst – nicht, ob die dahinterstehende Tätigkeit privat oder gewerblich eingestuft ist.</p>
+
+<p>Für Eigentümer bedeutet das: Beide Fragen, Gewerbe und Registrierung, müssen künftig unabhängig voneinander geklärt werden.</p>
+
+<h2 id="praxis">Wie sich Betreiber vor einer unbeabsichtigten Einstufung schützen</h2>
+
+<p>Die häufigste Ursache für eine ungewollte Gewerbeeinstufung ist nicht die Vermietung selbst, sondern der Leistungsumfang, den Eigentümer persönlich übernehmen.</p>
+
+<p>Wer Reinigung, Check-in und Gästekommunikation an einen externen Dienstleister auslagert statt sie selbst zu erbringen, bewegt sich näher an der reinen Raumüberlassung – dem gesetzlichen Ausgangspunkt der privaten Vermietung.</p>
+
+<p>Genau hier setzt strukturiertes <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> an: als klare organisatorische Trennung zwischen Eigentümerrolle und operativer Durchführung – nicht als Umgehung der Gewerbefrage, sondern als saubere Abgrenzung.</p>
+
+<h2 id="fazit">Fazit</h2>
+
+<p>Ob aus Vermietung ein Gewerbe wird, entscheidet sich nicht am Umsatz und nicht an der Zahl der Buchungen, sondern am <strong>Leistungsumfang, der Mietdauer und der Regelmäßigkeit</strong> im Zusammenspiel.</p>
+
+<p><em>Wer diese drei Punkte kennt und aktiv steuert, vermeidet die teuerste Variante: eine nachträgliche Einstufung durch die Behörde statt einer bewussten Entscheidung im Vorfeld.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'ausgangspunkt', text: 'Der gesetzliche Ausgangspunkt', level: 2 },
+      { id: 'kriterien', text: 'Die Kriterien, die die Grenze ziehen', level: 2 },
+      { id: 'konsequenzen', text: 'Was sich ändert, wenn die Vermietung zum Gewerbe wird', level: 2 },
+      { id: 'kaernten', text: 'Kärnten: die Grauzone der Privatzimmervermietung', level: 2 },
+      { id: 'kvdg', text: 'Ab Mai 2026: eine zusätzliche Pflicht, unabhängig vom Gewerbe', level: 2 },
+      { id: 'praxis', text: 'Wie sich Betreiber vor einer unbeabsichtigten Einstufung schützen', level: 2 },
+      { id: 'fazit', text: 'Fazit', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-07-08',
+    category: 'Recht & Steuern',
+    tags: ['Gewerbeanmeldung', 'Gewerbeordnung', 'Ferienwohnung', 'Kärnten', 'Beherbergungsgewerbe', 'Vermietung', 'Recht', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Zwei Geschäftspartner beim Handschlag – Gewerbeanmeldung und rechtliche Einordnung bei der Kurzzeitvermietung von Ferienhäusern',
+    readingTime: 6,
+  },
+  {
     slug: 'ferienwohnung-klopeiner-see-vermieten',
     title: 'Ferienwohnung am Klopeiner See vermieten: Warum der wärmste See nicht automatisch die beste Rendite bringt',
     description: 'Klopeiner See, Turnersee und der Sonnenwinkel in Südkärnten gelten als wärmste Badeseen Mitteleuropas. Was das für die Kurzzeitvermietung wirklich bedeutet – und warum die kurze, dichte Saison über die Rendite einer Ferienwohnung entscheidet, nicht die Wassertemperatur.',
