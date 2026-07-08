@@ -3,6 +3,121 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'booking-com-genius-woerthersee-2026',
+    title: 'Booking.com Genius 2026: Wie das Programm die Wörthersee-Marge verschiebt',
+    description: 'Genius Level 1 kostet mehr, als es aussieht. Wie das überarbeitete Booking.com-Programm 2026 Sichtbarkeit gegen Marge verrechnet – am Wörthersee ganz konkret.',
+    excerpt: '10 Prozent Genius-Rabatt plus 15 Prozent Kommission ergeben 23,5 Prozent effektive Belastung. Warum die 2026 überarbeitete Sichtbarkeitslogik den Aufschlag am Wörthersee neu sortiert.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Booking.com ist am Wörthersee kein Randkanal. Für viele Objekte trägt die Plattform 30 bis 45 Prozent der Sommerbuchungen – oft mehr als Airbnb, gerade bei Gästen aus Deutschland, Italien und den Beneluxländern.</p>
+
+<p>Und Booking.com hat 2026 leise verändert, wie diese Reichweite verteilt wird. <strong>Das Genius-Programm ist kein reines Rabatt-Tool mehr, sondern das zentrale Sichtbarkeits-Signal der Plattform.</strong></p>
+
+<p>Wer das Programm auf 10 Prozent stellt und den Rest sich selbst überlässt, sieht die Wirkung 2026 nicht mehr im Ranking. Wer den nächsten Schritt geht, zahlt am Ende deutlich mehr, als die Prozentzahl suggeriert.</p>
+
+<h2 id="was-genius">Was Genius wirklich ist – und was es 2026 geworden ist</h2>
+
+<p>Genius ist Booking.coms Treueprogramm. Es teilt Gäste in drei Level ein, mit steigenden Vorteilen: Level 1 ab zwei Buchungen in zwei Jahren, Level 2 ab fünf, Level 3 ab fünfzehn.</p>
+
+<p>Auf Anbieterseite entscheidet der Vermieter, welches Level er bedient – und mit welchem Rabatt. Der Rabatt geht vollständig zu Lasten des Anbieters. Booking.com kassiert die reguläre Kommission von 15 Prozent auf den bereits reduzierten Preis.</p>
+
+<p>Bis 2025 galt eine einfache Regel: <em>Wer bei Genius mitmachte und mindestens 10 Prozent Rabatt bot, bekam sichtbar mehr Reichweite.</em> Der Aufschlag im Ranking war fast automatisch.</p>
+
+<p>Seit 2026 gilt diese Automatik nicht mehr. Booking.com wertet Genius-Angebote inzwischen über ein <strong>relevanzbasiertes Modell</strong>, das Preisstruktur, Verfügbarkeit und Buchungswahrscheinlichkeit zusammenzieht. Angebote mit dem Mindestrabatt von 10 Prozent verlieren dabei sichtbar an Impressionen. Angebote mit 15 bis 20 Prozent oder mit Zusatzleistungen – kostenloses Frühstück, kostenloses Upgrade – ziehen im Ranking vorbei.</p>
+
+<h2 id="rechnung">Die verdeckte Rechnung: warum 10 Prozent Rabatt nicht 10 Prozent kosten</h2>
+
+<p>Der wichtigste Denkfehler beim Genius-Programm liegt in der Kommunikation der Prozentzahlen.</p>
+
+<p>Booking.com präsentiert den Rabatt getrennt von der Kommission. In der Wahrnehmung der meisten Vermieter fühlt sich das so an: 15 Prozent Kommission plus 10 Prozent Rabatt = 25 Prozent Belastung.</p>
+
+<p>Die Realität ist eine andere.</p>
+
+<p>Eine Nacht mit ausgewiesenem Preis von 200 € läuft mit Genius Level 1 so ab: Der Gast bekommt den Preis um 10 Prozent reduziert und zahlt 180 €. Auf diese 180 € berechnet Booking.com die reguläre Provision von 15 Prozent – 27 €. Der Vermieter erhält <strong>153 €</strong>.</p>
+
+<p>Ohne Genius wäre die Rechnung: 200 € minus 15 Prozent Provision = <strong>170 €</strong>.</p>
+
+<p>Der reale Unterschied beträgt 17 € pro Nacht – nicht 20 € (die reinen 10 Prozent) und nicht 30 € (10 plus 15). <strong>Der effektive Umsatzabschlag liegt bei 23,5 Prozent des Listenpreises statt bei 15 Prozent ohne Genius.</strong></p>
+
+<p>Über eine Saison mit 100 Nächten und einem Durchschnittspreis von 180 € verschiebt sich dadurch der Umsatz um <em>knapp 1.700 €</em> gegenüber dem gleichen Objekt ohne Genius-Teilnahme.</p>
+
+<h2 id="gegenrechnung">Was gegen die 1.700 € steht</h2>
+
+<p>Die Zahl macht nur Sinn, wenn ihr eine ehrliche Gegenrechnung gegenübersteht.</p>
+
+<p>Booking.com weist für Genius-Objekte im Durchschnitt <strong>rund 70 Prozent mehr Suchansichten und rund 45 Prozent mehr Buchungen</strong> aus als für vergleichbare Nicht-Genius-Angebote. Diese Zahlen sind Plattformdaten und über die letzten Jahre stabil geblieben.</p>
+
+<p>Für ein Wörthersee-Objekt mit sechzig gebuchten Nächten im Nicht-Genius-Zustand bedeutet das rechnerisch rund neunzehn Zusatznächte durch Genius. Bei einem realistischen Sommer-ADR von 180 € entsteht daraus etwa 3.400 € zusätzlicher Umsatz – abzüglich der 23,5 Prozent Belastung landet der Nettoeffekt bei rund 2.600 €.</p>
+
+<p><em>Der Hebel trägt also – aber er trägt erst, wenn das Objekt sonst Auslastungsspielraum hat.</em> Ein Objekt, das ohne Genius bereits über 80 Prozent Sommerauslastung erreicht, verliert durch die Teilnahme mehr Marge, als es an Zusatznächten gewinnt.</p>
+
+<h2 id="algorithmus">Was sich mit dem Algorithmus-Update wirklich verschoben hat</h2>
+
+<p>Bis 2025 reichte für die versprochene Sichtbarkeit die formale Genius-Teilnahme. Ein Häkchen bei 10 Prozent, und das Objekt lief mit im Genius-Filter der Suche.</p>
+
+<p>Ab 2026 zählt der Filter allein nicht mehr. Die Plattform wählt aus den Genius-Angeboten aus, welches sie welchem Suchenden zeigt – nach der gleichen Logik, mit der Airbnb längst arbeitet.</p>
+
+<p>Für Vermieter bedeutet das eine unangenehme Klarheit. Die früher wirksame Minimalstrategie – 10 Prozent Rabatt, keine Zusatzleistungen – produziert 2026 <strong>Rabatt ohne die entsprechende Reichweite</strong>. Der Umsatzabschlag bleibt, der Sichtbarkeitsvorteil verschwindet.</p>
+
+<p>Der Bruch verläuft praktisch an drei Punkten:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>Angebote mit 15 bis 20 Prozent Rabatt bekommen Impressionen bevorzugt.</li>
+  <li>Angebote mit Zusatzleistungen (kostenloses Frühstück, kostenloses Upgrade) werden separat gewichtet.</li>
+  <li>Angebote mit 10 Prozent Rabatt und ohne Zusatzleistungen verlieren Ranking-Positionen gegenüber Nicht-Genius-Objekten in derselben Preisklasse.</li>
+</ul>
+
+<h2 id="woerthersee-realitaet">Was das für den Wörthersee-Sommer heißt</h2>
+
+<p>Am Wörthersee kollidieren im Juli zwei Effekte. Die Grundnachfrage ist hoch – aber sie ist auf wenige Wochen konzentriert. Gäste, die im Juli buchen, tun das oft kurzfristig, mit klaren Preisvergleichen zwischen fünf oder sechs vergleichbaren Objekten.</p>
+
+<p>In dieser Konkurrenz entscheiden zwei Signale: die Position im Suchergebnis und der ausgewiesene Preis inklusive Rabatte.</p>
+
+<p>Wer Level 1 fährt, senkt seinen Preis um zehn Prozent – und wird 2026 nicht mehr zwingend vor dem Nachbarobjekt angezeigt. <em>Die Wirkung ist die schlechteste beider Welten: geringere Marge bei gleicher Sichtbarkeit.</em></p>
+
+<p>Wer Level 2 mit 15 Prozent fährt, bekommt Reichweite – zahlt aber effektiv rund 27,7 Prozent Umsatzabschlag pro Genius-Buchung. Bei einer Sommerauslastung, die auch ohne Rabatt nahe an der Kapazitätsgrenze liegt, ist das ein struktureller Rechenverlust.</p>
+
+<p>Die Airbnb-Vereinheitlichung auf 15,5 Prozent Host-only-Fee im April 2026 hat einen Teil dieses Rechnens vorweggenommen. <a href="/blog/direktbuchungen-airbnb-host-only-fee-2026">Was die neuen Airbnb-Kalkulationen zeigen</a>, wirkt auf der Booking-Seite parallel: Die Plattformkosten sind sichtbarer geworden, aber sie sind nicht die einzige Stellschraube.</p>
+
+<h2 id="entscheidung">Wo die Entscheidung im Jahresverlauf tatsächlich fällt</h2>
+
+<p>Die operativ wichtigste Konsequenz aus dem 2026er-Update ist keine Preisentscheidung, sondern eine Kalenderfrage.</p>
+
+<p>Genius als Ganzjahres-Standard – aktiviert und vergessen – produziert am Wörthersee im Hochsommer strukturelle Margenverluste ohne Kompensation. Genius als saisonales Sichtbarkeits-Werkzeug – aktiv gesetzt in Wochen mit Auslastungsproblem, abgeschaltet in Wochen mit fester Nachfrage – hat den umgekehrten Effekt.</p>
+
+<p>April, Mai, September und Oktober sind die Fenster, in denen der Zusatz an Impressionen wirtschaftlich trägt. Juli und August sind es fast nie.</p>
+
+<p>Die Steuerung dieser Fenster funktioniert manuell mühsam. Sie skaliert nur mit einer klaren Preisstrategie und einer Systematik, wie sie im Rahmen einer strukturierten <a href="/leistungen">Full-Service-Betreuung von Kurzzeitvermietungen</a> abgebildet wird. Der Unterschied zwischen dem Objekt, das die Genius-Teilnahme aktiv steuert, und dem Objekt, das sie einmal einschaltet, liegt an einem einzigen Wochenwert am Ende der Saison.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Das Booking.com-Genius-Programm ist 2026 kein Setup-Häkchen mehr. Es ist ein aktiv zu führendes Instrument, das Sichtbarkeit gegen Marge verrechnet – jeden Monat neu.</p>
+
+<p>Für den Wörthersee-Sommer bedeutet das eine klare Trennlinie. In Wochen mit hoher Nachfrage senkt das Programm den Ertrag ohne Gegenleistung. In Wochen mit offener Kalenderfläche kann es die Auslastungslücke schließen, die andere Hebel nicht mehr erreichen.</p>
+
+<p><em>Wer die Trennung nicht selbst zieht, überlässt sie dem Algorithmus – und dessen Prioritäten sind seit dem Frühjahr 2026 andere als die des Vermieters.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-genius', text: 'Was Genius wirklich ist – und was es 2026 geworden ist', level: 2 },
+      { id: 'rechnung', text: 'Die verdeckte Rechnung: warum 10 Prozent Rabatt nicht 10 Prozent kosten', level: 2 },
+      { id: 'gegenrechnung', text: 'Was gegen die 1.700 € steht', level: 2 },
+      { id: 'algorithmus', text: 'Was sich mit dem Algorithmus-Update wirklich verschoben hat', level: 2 },
+      { id: 'woerthersee-realitaet', text: 'Was das für den Wörthersee-Sommer heißt', level: 2 },
+      { id: 'entscheidung', text: 'Wo die Entscheidung im Jahresverlauf tatsächlich fällt', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-07-08',
+    category: 'Pricing & Strategie',
+    tags: ['Booking.com', 'Genius Programm', 'OTA-Strategie', 'Provision', 'Wörthersee', 'Kärnten', 'Sichtbarkeit', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Modernes helles Wohnzimmer einer Ferienwohnung – Booking.com Genius-Programm und Provisionsrechnung am Wörthersee 2026',
+    readingTime: 6,
+  },
+  {
     slug: 'gewerbeanmeldung-kurzzeitvermietung-ferienwohnung',
     title: 'Gewerbeanmeldung bei Kurzzeitvermietung: Wann aus Vermietung ein Gewerbe wird',
     description: 'Wann wird die Vermietung eines Ferienhauses in Österreich zum Gewerbe? Eine Einordnung nach Gewerbeordnung, VwGH-Kriterien, den Konsequenzen für Sozialversicherung und Kärntner Besonderheiten – inklusive der neuen EU-Registrierpflicht ab Mai 2026.',
