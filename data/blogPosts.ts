@@ -3,6 +3,125 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-ai-suche-summer-release-woerthersee-2026',
+    title: 'Airbnb-AI-Suche 2026: Was am Wörthersee jetzt gelesen wird',
+    description: 'Airbnb Summer Release 2026 verschiebt die Rangordnung: KI liest Inserate statt Menschen. Was am Wörthersee zwischen Amenities, Bild und Vergleich jetzt zählt.',
+    excerpt: 'Seit Mai 2026 entscheiden nicht mehr Gäste zuerst über die Sichtbarkeit eines Inserats, sondern Airbnbs Sprachmodell. Was das für Wörthersee-Objekte in der Hochsaison konkret verändert.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Am Wörthersee läuft der Juli in der klassischen Sommertaktung – Kurzbuchungen, Preisdruck, volle Kalender. Was viele Eigentümer nicht sehen: Die Plattform, auf der ihre Inserate stehen, liest sie seit Mai 2026 anders.</p>
+
+<p>Der Airbnb <strong>Summer Release 2026</strong> hat still verschoben, wie die Suche funktioniert. Nicht der Text auf einem Inserat entscheidet primär die Sichtbarkeit – sondern die strukturierten Daten, die Airbnbs eigene Sprachmodelle daraus ziehen.</p>
+
+<p>Das ist keine Marketing-Änderung. Es ist ein Wechsel des Publikums, für das ein Inserat geschrieben wird.</p>
+
+<h2 id="wer-liest">Wer ein Inserat 2026 tatsächlich liest</h2>
+
+<p>Bis 2024 war die erste Instanz eines Inserats immer ein Mensch. Ein Gast scrollte durch die Suchergebnisse, überflog Titel und Bild, klickte, las den Beschreibungstext.</p>
+
+<p>Seit dem Summer Release 2026 sitzt eine Zwischenschicht dazwischen. Airbnbs Sprachmodell parst jede Beschreibung, jede Amenity-Angabe, jedes Bild – und entscheidet, welche Version des Inserats welchem Suchenden gezeigt wird.</p>
+
+<p>Eine Familie sieht andere Highlights als ein Remote-Worker. Ein Paar für ein Wochenende sieht andere Bilder als eine vierköpfige Reisegruppe für zehn Nächte. <em>Die Beschreibung selbst wird nicht mehr in einer Version für alle ausgeliefert.</em></p>
+
+<p>Das bedeutet praktisch: Was in einem Fließtext steht, muss von der KI erst extrahiert werden. Was als strukturierter Tag angegeben ist, liegt direkt vor.</p>
+
+<h2 id="smart-setup">Smart Setup und das Problem der bestehenden Inserate</h2>
+
+<p>Für neue Inserate hat Airbnb <strong>Smart Setup</strong> eingeführt. Der Host gibt Adresse und Fotos ein, Computer-Vision parst die Räume, ein Sprachmodell schreibt Beschreibung und Amenity-Liste, öffentliche Standortdaten kommen automatisch dazu.</p>
+
+<p>Das Ergebnis ist ein sauber strukturiertes Inserat – aber es ist auch der neue Referenzstandard, mit dem alle bestehenden Inserate verglichen werden.</p>
+
+<p>Für ein Wörthersee-Objekt, das 2021 einmal manuell aufgesetzt und seither nur oberflächlich gepflegt wurde, wirkt sich das direkt aus. Amenities, die nicht als Tag hinterlegt sind, existieren in der KI-Sicht nicht. <em>Ein Boot am Steg, das nur im Beschreibungstext auftaucht, gewinnt keine Suchtreffer für „Ferienwohnung mit Bootsanleger".</em></p>
+
+<p>Die klassischen Hebel wie <a href="/blog/airbnb-inserat-optimieren-7-hebel">Titel, Coverbild und Amenity-Auswahl</a> bleiben wirksam – aber sie greifen jetzt in eine zweite Verarbeitungsebene ein, die nicht mehr rein visuell ist.</p>
+
+<p>Die Konsequenz ist unangenehm asymmetrisch. Neue Inserate starten mit vollständiger Struktur. Ältere Inserate müssen sie nachziehen – oder verlieren im Vergleich Boden.</p>
+
+<h2 id="side-by-side">Die Seite-an-Seite-Vergleichsansicht und was sie zeigt</h2>
+
+<p>Die zweite größere Neuerung ist die <strong>KI-generierte Vergleichsansicht</strong>. Gäste können zwei Inserate direkt nebeneinander stellen; Airbnbs Sprachmodell schreibt eine kurze Zusammenfassung der Unterschiede – zu Grundriss, Design, Lage und Ausstattung.</p>
+
+<p>Am Wörthersee im Juli ist das relevanter, als es klingt. Ein Suchender vergleicht selten zehn Objekte – sondern zwei bis drei. Wer in dieser Vergleichsansicht auftaucht, sitzt im engeren Kreis.</p>
+
+<p>Die Zusammenfassung wird nicht neutral geschrieben. Sie hebt hervor, was das Modell an strukturierten Attributen findet. Ein Inserat mit sauber ausgezeichneten Amenities – Klimaanlage, Waschmaschine, Bootsanleger, Sauna – bekommt eine differenzierte Beschreibung. Ein Inserat mit vagen Textblöcken bekommt eine unspezifische.</p>
+
+<p>Der Effekt ist eine <strong>strukturelle Bevorzugung sauber gepflegter Inserate</strong> – nicht in der Suche selbst, sondern eine Ebene später, im direkten Vergleich.</p>
+
+<h2 id="ask-about">„Ask about this home" – die neue Rolle des Beschreibungstexts</h2>
+
+<p>Airbnb hat 2026 eine konversationelle KI direkt auf der Inseratsseite implementiert. Gäste stellen Fragen – „Ist der Wörthersee zu Fuß erreichbar?", „Gibt es einen Grill?" – und ein Assistent antwortet aus den strukturierten Daten des Inserats.</p>
+
+<p>Was das Modell in den Amenities, im Beschreibungstext und in den Bewertungen findet, wird direkt zitiert. Was nicht dort steht, wird ehrlich verneint: „Diese Information ist im Inserat nicht angegeben."</p>
+
+<p>Das verschiebt die Funktion des Textes. Er ist nicht mehr Verkaufsprosa, sondern <strong>Datenquelle</strong>. Jede spezifische Aussage – Entfernung zum See in Metern, Distanz zum nächsten Supermarkt, Ausstattung der Küche im Detail – ist nutzbare Information. Jede Marketing-Formulierung („einzigartiges Erlebnis am schönsten See Kärntens") ist es nicht.</p>
+
+<p><em>Ein Inserat, das die häufigsten zehn Gästefragen sauber im Text beantwortet, senkt die Rate an Wiederholungsanfragen und erhöht gleichzeitig die Konversion.</em></p>
+
+<h2 id="was-veraendert-woerthersee">Was das am Wörthersee konkret verändert</h2>
+
+<p>Für Objekte am Wörthersee kollidieren zwei lokale Realitäten mit dem neuen Modell.</p>
+
+<p>Erstens: Die klassischen Wörthersee-Merkmale – Seelage, Steg, Bootsplatz, Blick – sind für Gäste kaufentscheidend. In vielen Inseraten stehen sie ausführlich im Fließtext, aber nicht in den Amenity-Tags. Die KI sieht sie damit nur eingeschränkt und ordnet sie nicht in die passende Filter-Suche ein.</p>
+
+<p>Zweitens: Die saisonalen Highlights – Ironman-Wochenende, Starnacht am Wörthersee, spätsommerliche Weinwochen – sind zeitlich sensibel. Wer sie als saisonalen Textblock einträgt, gewinnt Sichtbarkeit für kurze Fenster. Wer sie strukturell nicht abbildet, verpasst die Suche nach spezifischen Reisezeitpunkten.</p>
+
+<p>Die operativ wichtigste Konsequenz: Amenity-Listen müssen 2026 <strong>vollständig und präzise</strong> sein. Nicht „vieles vorhanden" – sondern jede einzelne relevante Kategorie aktiv ausgewählt oder abgewählt. Ein leerer Filter wird von der KI als „nicht vorhanden" interpretiert, nicht als „unbekannt".</p>
+
+<h2 id="bewertungen">Warum Bewertungen jetzt doppelt zählen</h2>
+
+<p>Die zweite unauffällige Verschiebung liegt bei den Bewertungen. Airbnbs Modell zieht nicht mehr nur den Sternwert heran, sondern liest die Rezensionstexte – und leitet daraus konkrete Attribute ab.</p>
+
+<p>Wer in fünfzehn Bewertungen liest „unglaublich sauber", „liebevoll eingerichtet" oder „ruhige Lage", ist ein anderes Objekt für die Suche als eines mit gleichem Sternwert, aber generischem Bewertungstext.</p>
+
+<p>Das ist keine spekulative Interpretation. Airbnbs eigene Kommunikation nennt Bewertungstexte inzwischen explizit als Datenquelle für die Personalisierung der Suchergebnisse. <em>Was Gäste in Freitextform schreiben, wird von der Plattform strukturell verarbeitet.</em></p>
+
+<p>Für Wörthersee-Objekte im mittleren Preissegment ist das der stärkere Hebel als jede Textanpassung im Inserat selbst – vorausgesetzt, die Bewertungen sind zahlreich genug (ab etwa fünfzehn) und liegen zeitlich nah genug (die letzten zwei Jahre).</p>
+
+<h2 id="woran-erkennt-man">Woran ein KI-lesbares Inserat erkennbar ist</h2>
+
+<p>Ein Inserat, das im neuen Modell trägt, hat vier Merkmale:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>Alle Amenities strukturiert eingetragen – nicht nur die häufigen, sondern alle relevanten Kategorien aktiv ausgewählt oder abgewählt</li>
+  <li>Beschreibungstext mit konkreten Zahlen, Entfernungen und Details statt Werbeadjektiven</li>
+  <li>Fotos mit sichtbaren, benennbaren Merkmalen – die Computer-Vision liest sie mit</li>
+  <li>Aktuelle Bewertungen mit spezifischen Beschreibungen, nicht nur pauschalem Lob</li>
+</ul>
+
+<p>Diese vier Punkte lassen sich manuell abarbeiten. Sie müssen aber laufend gepflegt werden – die Amenity-Kategorien selbst ändern sich zwei- bis dreimal pro Jahr, und alte Tags werden ohne Hinweis inaktiv.</p>
+
+<p>Wer ein Wörthersee-Objekt professionell betreiben will, ohne diese Pflege selbst zu übernehmen, lagert sie üblicherweise in ein strukturiertes <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> aus – nicht als Zusatzleistung, sondern als operative Konsequenz aus dem geänderten Ranking-Modell.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Die Sichtbarkeit auf Airbnb entscheidet sich 2026 nicht mehr am Text, den ein Gast liest. Sie entscheidet sich an den Daten, die eine KI aus dem Inserat extrahiert – und daran, wie präzise diese Daten strukturiert vorliegen.</p>
+
+<p>Für Wörthersee-Objekte im Sommer heißt das eine unangenehme Klarheit: Inserate, die auf 2022er-Standards laufen, verlieren gegen Inserate, die auf den 2026er-Standard umgestellt sind – auch bei gleicher Ausstattung, gleicher Lage und ähnlichen Bewertungen.</p>
+
+<p><em>Der Unterschied ist unsichtbar für den Eigentümer, aber messbar in den Impressionen. Wer die Umstellung nicht selbst vornimmt, überlässt sie einem Modell, das die Lücken automatisch mit „nicht angegeben" füllt.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'wer-liest', text: 'Wer ein Inserat 2026 tatsächlich liest', level: 2 },
+      { id: 'smart-setup', text: 'Smart Setup und das Problem der bestehenden Inserate', level: 2 },
+      { id: 'side-by-side', text: 'Die Seite-an-Seite-Vergleichsansicht und was sie zeigt', level: 2 },
+      { id: 'ask-about', text: '„Ask about this home" – die neue Rolle des Beschreibungstexts', level: 2 },
+      { id: 'was-veraendert-woerthersee', text: 'Was das am Wörthersee konkret verändert', level: 2 },
+      { id: 'bewertungen', text: 'Warum Bewertungen jetzt doppelt zählen', level: 2 },
+      { id: 'woran-erkennt-man', text: 'Woran ein KI-lesbares Inserat erkennbar ist', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-07-15',
+    category: 'Listing & Marketing',
+    tags: ['Airbnb AI', 'Summer Release 2026', 'Listing Optimierung', 'Smart Setup', 'Wörthersee', 'Kärnten', 'Sichtbarkeit', 'Amenities'],
+    featuredImage: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Helle moderne Küche einer Ferienwohnung – strukturierte Daten und KI-lesbare Ausstattung als Grundlage der Airbnb-Sichtbarkeit 2026',
+    readingTime: 6,
+  },
+  {
     slug: 'booking-com-genius-woerthersee-2026',
     title: 'Booking.com Genius 2026: Wie das Programm die Wörthersee-Marge verschiebt',
     description: 'Genius Level 1 kostet mehr, als es aussieht. Wie das überarbeitete Booking.com-Programm 2026 Sichtbarkeit gegen Marge verrechnet – am Wörthersee ganz konkret.',
