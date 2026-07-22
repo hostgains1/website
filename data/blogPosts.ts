@@ -3,6 +3,121 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-mid-term-buchungen-woerthersee-nebensaison-2026',
+    title: 'Mid-Term-Buchungen am Wörthersee: Wie 28+ Nächte die Nebensaison rechnen',
+    description: 'Airbnb-Aufenthalte ab 28 Nächten machen rund 17 % aller Buchungen aus. Warum sie am Wörthersee 2026 die Nebensaison anders verrechnen als klassische Kurzzeitvermietung.',
+    excerpt: 'Rund jede fünfte auf Airbnb gebuchte Nacht ist Teil eines Aufenthalts ab 28 Nächten. Für Wörthersee-Objekte ist das im Sommer irrelevant – für den Oktober bis April ist es die zentrale Kalender-Frage.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Ende Juli am Wörthersee ist die Nebensaison noch ein abstrakter Begriff. Die Kalender laufen bis Anfang September dicht, die Preise halten, die Auslastung entscheidet sich nicht am Wochenende. Und trotzdem fällt jetzt eine Weichenstellung, die viele Eigentümer erst im Oktober bemerken.</p>
+
+<p>Zwischen Oktober und April verändert sich die Rechnung der Vermietung fundamental. Nicht, weil die Nachfrage einbricht – sondern weil sich die <strong>Zusammensetzung der Buchungen</strong> verschiebt.</p>
+
+<p>Und in dieser Verschiebung liegt eine Zahl, die am Wörthersee kaum jemand aktiv steuert: der Anteil an Aufenthalten ab 28 Nächten.</p>
+
+<h2 id="was-airbnb-verrechnet">Was Airbnb als Long-Stay verrechnet – und warum die Grenze bei 28 liegt</h2>
+
+<p>Airbnb definiert einen <strong>Monthly Stay</strong> ab dem 28. Nacht eines Aufenthalts. Ab diesem Punkt greift ein anderer Kalkulationsrahmen: eine niedrigere Servicegebühr für den Gast, ein separater monatlicher Rabatt für den Host, eine geänderte Stornierungslogik – und ein separates Filter-Segment in der Suche.</p>
+
+<p>Die Plattform selbst rückt Long-Stays seit dem Frühjahr 2026 sichtbar nach vorn. Auf der Startseite tauchen eigene Kategorien für monatliche Aufenthalte auf, in der Suchmaske gibt es einen prominenten „Monthly Stays"-Filter. Der Grund liegt in den Airbnb-eigenen Zahlen: <em>Rund jede fünfte auf der Plattform gebuchte Nacht ist inzwischen Teil eines Aufenthalts von 28 Nächten oder mehr.</em></p>
+
+<p>Weltweit liegt der Anteil bei etwa 17 bis 19 Prozent aller Buchungen. In den USA ist die Nachfrage nach Mid-Term-Rentals zwischen 2019 und 2025 um rund 136 Prozent gewachsen – mehr als doppelt so schnell wie klassische Kurzaufenthalte.</p>
+
+<p>Für Airbnb ist das ein strategischer Kanal. Für Wörthersee-Eigentümer ist es ein Segment, das im Kalender meist gar nicht auftaucht – weil das Objekt aktiv keine Buchungen ab 28 Nächten annimmt.</p>
+
+<h2 id="rechnung-nebensaison">Die Rechnung, die am Wörthersee anders aussieht als in Wien</h2>
+
+<p>Am Wörthersee bewegen sich die Sommerpreise für ein gut ausgestattetes Zwei-Zimmer-Objekt in der Hauptsaison zwischen 180 und 260 € pro Nacht.</p>
+
+<p>Zwischen Oktober und März fällt dieser Wert regelmäßig auf 60 bis 95 €. Und die Auslastung liegt in diesen Monaten in vielen Kärntner Gemeinden strukturell unter 30 Prozent.</p>
+
+<p>Zwei Extremrechnungen zeigen die Größenordnung.</p>
+
+<p><strong>Klassisch:</strong> Ein Objekt mit 8 gebuchten Nächten im November, ADR 75 €. Bruttoumsatz: 600 €. Nach Reinigung (rund 60 € pro Wechsel × 3 Wechsel = 180 €) und Plattformgebühr bleibt netto rund 350 €.</p>
+
+<p><strong>Long-Stay:</strong> Dasselbe Objekt mit einer Mid-Term-Buchung über den gesamten Monat November, 30 Nächte, ADR 60 € nach dem 20-Prozent-Monatsrabatt. Bruttoumsatz: 1.800 €. Reinigung: einmalig 60 €. Verwaltungsaufwand: deutlich geringer.</p>
+
+<p>Die Differenz liegt bei einem Faktor von rund fünf – ohne dass die Grundnachfrage in der Region sich verändert hätte. Der Unterschied kommt <em>ausschließlich aus der Verschiebung des Buchungsmusters.</em></p>
+
+<p>Airbnbs eigene Daten für 2022 haben diese Größenordnung strukturell bestätigt: Listings, die sowohl kurze als auch monatliche Aufenthalte akzeptierten, verdienten im Durchschnitt <strong>rund 45 Prozent mehr</strong> als reine Kurzzeitangebote.</p>
+
+<h2 id="wer-bucht">Wer am Wörthersee 28+ Nächte tatsächlich bucht</h2>
+
+<p>Der Long-Stay-Gast am Wörthersee ist kein klassischer Tourist. Er ist – in dieser Reihenfolge relevant – Remote-Worker, Sanierungs-Übergangsmieter, Winter-Sabbatical-Reisender und Handwerker auf Montage.</p>
+
+<p>Remote-Worker aus dem DACH-Raum bilden das größte Einzelsegment. Sie suchen ein voll ausgestattetes Objekt mit stabilem WLAN, Schreibtisch und Küche, meist im Zeitraum November bis März. Die Buchungsentscheidung fällt nicht spontan, sondern vier bis acht Wochen im Voraus.</p>
+
+<p>Das zweite Segment sind <strong>Übergangsmieter</strong>: Menschen, deren eigene Wohnung saniert wird oder deren Umzug sich verzögert. Diese Buchungen sind unregelmäßig, aber ganzjährig verteilt und kommen fast ausschließlich aus einem Radius von 80 bis 150 km.</p>
+
+<p>Das dritte Segment ist neu und hat 2024 begonnen, sichtbar zu wachsen: <strong>Winter-Sabbaticals aus Deutschland und den Niederlanden</strong>. Vier- bis achtwöchige Aufenthalte, oft Familien mit einem Elternteil im Home-Office, gebucht Ende September für November bis Januar.</p>
+
+<p>Alle drei Segmente sind zahlenmäßig kleiner als der Sommer-Tourismus – aber sie füllen genau die Monate, in denen der klassische Kurzzeitmarkt strukturell versagt.</p>
+
+<h2 id="steuerlicher-bruch">Der steuerliche Bruch bei 30 Nächten – und was er in Österreich bedeutet</h2>
+
+<p>Wo die operative Rechnung überzeugt, wird die steuerliche schnell übersehen.</p>
+
+<p>In Österreich behandelt das Umsatzsteuerrecht kurzfristige Beherbergung (bis zu 30 Tage) anders als langfristige Wohnraumüberlassung. Für Kurzaufenthalte gilt der ermäßigte Umsatzsteuersatz von 10 Prozent, kombiniert mit der Kleinunternehmergrenze von 35.000 € pro Jahr.</p>
+
+<p>Aufenthalte, die deutlich über 30 Nächte hinausgehen, verschieben sich rechtlich in Richtung <strong>langfristige Vermietung</strong>. Die konkrete Einstufung hängt von der Gesamtkonstellation ab – Vertragsdauer, Möblierung, Nebenleistungen – und ist im Einzelfall vom Steuerberater zu prüfen.</p>
+
+<p>Für den einzelnen Buchungsmonat ist der Unterschied wirtschaftlich klein. Für die Kalkulation der Nebensaison insgesamt ist er relevant, weil sich sowohl der Aufwand für die Meldung als auch die Behandlung von Werbungskosten verschieben können. Die grundlegenden Kriterien der <a href="/blog/airbnb-steuer-oesterreich-2026">steuerlichen Einordnung von Kurzzeitvermietung in Österreich</a> gelten weiter – aber der Grenzverlauf bei 30 Nächten ist der Punkt, an dem sie sich neu sortieren.</p>
+
+<h2 id="operativ">Was ein Long-Stay-Kalender operativ verlangt</h2>
+
+<p>Die Umstellung auf Mid-Term-Buchungen ist keine reine Einstellungsfrage in der Airbnb-Kalendermaske.</p>
+
+<p>Sie verlangt <strong>drei bewusste Entscheidungen</strong>, die in Summe die Grundstruktur des Angebots verändern.</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>Ausstattung: Schreibtisch mit Bildschirm-Anschluss, stabile Internetverbindung ab 100 Mbit/s, ausreichender Stauraum für einen mehrwöchigen Aufenthalt, funktionierende Küche mit realistischem Alltagsbetrieb.</li>
+  <li>Preisstruktur: Ein sichtbarer Monatsrabatt zwischen 20 und 30 Prozent auf den Nebensaisonpreis, kombiniert mit einer Mindestaufenthaltsdauer von 28 Nächten in den Monaten mit niedriger Kurzzeitnachfrage.</li>
+  <li>Kalender-Logik: Freihaltung ganzer Kalenderblöcke statt Fragmentierung durch einzelne Zwei-Nacht-Buchungen – konkret meist ab Anfang Oktober bis Ende März.</li>
+</ul>
+
+<p>Der Bruchpunkt liegt beim dritten Punkt. Wer im November noch einzelne Wochenendbuchungen zulässt, verhindert damit die Fünf-Wochen-Buchung, die dieselbe Kalenderfläche wesentlich profitabler nutzen würde.</p>
+
+<p>Die praktische Umsetzung ist Kalender-Handwerk mehr als Preis-Handwerk. Für ein einzelnes Objekt lässt sich das manuell führen. Für eine wachsende Zahl an Einheiten wird es schnell zum Vollzeit-Prozess – und ist typischerweise Teil einer strukturierten <a href="/leistungen">Full-Service-Betreuung von Kurzzeitvermietungen</a>, weil sich Preisstrategie und Kalenderführung nur gemeinsam entscheiden lassen.</p>
+
+<h2 id="was-jetzt">Was zwischen Juli und September am Wörthersee tatsächlich entschieden wird</h2>
+
+<p>Die operative Konsequenz aus der Long-Stay-Rechnung ist zeitkritisch, nicht mengenkritisch.</p>
+
+<p>Wer im September beschließt, Mid-Term-Buchungen zu aktivieren, hat den Buchungsvorlauf verpasst. Die relevanten Anfragen für November bis Januar laufen in den letzten Julitagen und im gesamten August – <em>parallel zur laufenden Sommersaison, in der die Aufmerksamkeit anderswo liegt.</em></p>
+
+<p>Was jetzt entschieden wird, ist nicht der Preis für die Nebensaison. Es ist die Antwort auf eine strategische Vorfrage: Ist das Objekt zwischen Oktober und März überhaupt für 28+-Nächte-Buchungen sichtbar?</p>
+
+<p>Ein Wörthersee-Objekt, das im November mit 350 € Nettoumsatz aus fragmentierten Kurzaufenthalten rechnet, konkurriert real gegen dasselbe Objekt, das mit einem einzigen Long-Stay auf 1.500 € Netto kommt. Der Unterschied entsteht nicht am Marktpreis. Er entsteht an einer Kalenderentscheidung, die im Juli getroffen wird.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Die Nebensaison am Wörthersee ist 2026 kein Auslastungsproblem im klassischen Sinn. Sie ist eine Frage der Zusammensetzung.</p>
+
+<p>Wer den Kalender in dieser Phase primär für Kurzaufenthalte offen hält, spielt gegen einen Trend, den Airbnb strukturell verstärkt und der in den DACH-Reise-Mustern seit vier Jahren stabil gewachsen ist.</p>
+
+<p><em>Der Long-Stay-Anteil einer Vermietung entsteht nicht durch Zufall. Er entsteht dadurch, dass eine Kalenderfläche für ihn freigehalten wird – oder eben nicht.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-airbnb-verrechnet', text: 'Was Airbnb als Long-Stay verrechnet – und warum die Grenze bei 28 liegt', level: 2 },
+      { id: 'rechnung-nebensaison', text: 'Die Rechnung, die am Wörthersee anders aussieht als in Wien', level: 2 },
+      { id: 'wer-bucht', text: 'Wer am Wörthersee 28+ Nächte tatsächlich bucht', level: 2 },
+      { id: 'steuerlicher-bruch', text: 'Der steuerliche Bruch bei 30 Nächten – und was er in Österreich bedeutet', level: 2 },
+      { id: 'operativ', text: 'Was ein Long-Stay-Kalender operativ verlangt', level: 2 },
+      { id: 'was-jetzt', text: 'Was zwischen Juli und September am Wörthersee tatsächlich entschieden wird', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-07-22',
+    category: 'Saisonalität & Markt',
+    tags: ['Mid-Term Rentals', 'Long Stay', 'Nebensaison', 'Wörthersee', 'Kärnten', 'Remote Work', 'Monatsrabatt', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Modernes helles Wohnzimmer einer Ferienwohnung mit Blick nach draußen – Mid-Term-Buchungen am Wörthersee in der Nebensaison 2026',
+    readingTime: 7,
+  },
+  {
     slug: 'airbnb-ai-suche-summer-release-woerthersee-2026',
     title: 'Airbnb-AI-Suche 2026: Was am Wörthersee jetzt gelesen wird',
     description: 'Airbnb Summer Release 2026 verschiebt die Rangordnung: KI liest Inserate statt Menschen. Was am Wörthersee zwischen Amenities, Bild und Vergleich jetzt zählt.',
