@@ -3,6 +3,120 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'buchungsvorlauf-woerthersee-hauptsaison-2026',
+    title: 'Buchungsvorlauf halbiert: Wörthersee-August 2026 im neuen Takt',
+    description: 'Die Buchungsvorlaufzeit ist in Österreichs Hotellerie von 17 auf rund 10 Tage gesunken – was das für Wörthersee-Vermieter im August 2026 konkret bedeutet.',
+    excerpt: 'Bis zu 43 Prozent der Sommergäste entscheiden erst im letzten Monat. Warum diese Verschiebung 2026 die Preisführung eines Wörthersee-Objekts wichtiger macht als seine Ausstattung.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Ende Juli ist am Wörthersee die Wahrnehmung noch klar: volle Kalender, kurze Kommunikation, wenig Bewegung. Was in dieser Ruhe untergeht, ist eine strukturelle Verschiebung, die den August 2026 anders taktet als den August 2024.</p>
+
+<p>Die österreichische Hotellerie hat im laufenden Sommer eine <strong>durchschnittliche Buchungsvorlaufzeit von rund zehn Tagen</strong> gemessen. Im Vorjahr waren es siebzehn.</p>
+
+<p>Was klingt wie ein Detail der Statistik, verändert die Grundmechanik der Preisführung – und trifft Ferienobjekte anders als Hotels.</p>
+
+<h2 id="was-verschoben">Was sich wirklich verschoben hat</h2>
+
+<p>Bis zum Sommer 2024 lag die durchschnittliche Vorlaufzeit für Airbnb- und Booking-Buchungen am Wörthersee zwischen zwölf und siebzehn Tagen. Es gab eine kleine Long-Tail-Kurve mit Buchungen ab Februar für Juli – aber die Masse fiel innerhalb der drei Wochen vor Anreise.</p>
+
+<p>Für 2026 dokumentiert die aktuelle Branchenerhebung eine markante Verschiebung: <strong>Bis zu 43 Prozent aller Sommergäste treffen ihre Buchungsentscheidung erst im letzten Monat</strong> vor der Reise. Bei einzelnen Häusern bucht der durchschnittliche Gast nur noch zehn Tage vorher.</p>
+
+<p>Zwischen 50 und 70 Prozent der Interessenten für die österreichische Sommersaison hatten zum Befragungszeitpunkt ihre Reise noch gar nicht vollständig gebucht. Das Muster ist nicht regional – es ist national. In Kärnten wird es besonders sichtbar, weil der Kanal-Mix aus Airbnb, Booking.com und Direktbuchungen im Vergleich zur reinen Stadthotellerie ohnehin stärker auf spontane Anreisen reagiert.</p>
+
+<p>Ein Objekt, das im Juni noch 60 Prozent seiner August-Nächte belegt hatte, sieht diese Zahl 2026 in vielen Fällen erst Anfang August. <em>Die Auslastung entsteht später – aber sie entsteht.</em></p>
+
+<h2 id="preisrhythmus">Warum der Preisrhythmus dadurch komprimiert wird</h2>
+
+<p>Die klassische dynamische Preisführung folgte einer einfachen Logik. Zwölf Wochen vor Anreise: hoher Preis. Sechs Wochen vor Anreise: leichter Discount. Zwei Wochen vor Anreise: Last-Minute-Preis, meist zehn bis fünfzehn Prozent unter Referenz.</p>
+
+<p>Dieser Rhythmus setzt voraus, dass ein relevanter Teil der Buchungen in den frühen Fenstern kommt – sonst gibt es nichts, was ein früher Aufschlag stabilisieren könnte.</p>
+
+<p>Wenn die Masse der Entscheidungen aber ins letzte Vier-Wochen-Fenster wandert, kollabiert die Kurve. Der frühe Preis bekommt weniger Volumen. Der mittlere Bereich fällt strukturell weg. Und der späte Preis muss zwei Rollen übernehmen: die Auslastung sichern <em>und</em> den Ertrag halten.</p>
+
+<p>Am Wörthersee zeigt sich das an einem konkreten Punkt. Objekte, die im Mai noch 220 € pro Nacht für die zweite Augustwoche eingestellt hatten, haben in vielen Fällen bis Anfang Juli keine einzige Buchung generiert. Nicht weil der Preis falsch war – sondern weil die Käufer erst später im Suchtrichter erscheinen.</p>
+
+<h2 id="wo-hebel">Wo der Hebel jetzt liegt</h2>
+
+<p>Die praktische Konsequenz ist keine Preissenkung. Sie ist eine <strong>Verkürzung des Reaktionszyklus</strong>.</p>
+
+<p>Wer bis 2024 wöchentliche Preisrunden gefahren hat, kommt 2026 mit der Frequenz nicht mehr durch. Das relevante Fenster liegt in den letzten zwei bis drei Wochen – und in diesen Wochen entscheidet sich der ADR nicht durch eine Preisliste, sondern durch die tägliche Marktbeobachtung.</p>
+
+<p>Drei Signale werden dadurch wichtiger:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>Der Preis vergleichbarer Objekte im gleichen Ort, an genau denselben Nächten</li>
+  <li>Die verbleibende offene Kalenderfläche in der Region – nicht nur beim eigenen Objekt</li>
+  <li>Der Trend der letzten 48 bis 72 Stunden bei Suchimpressionen des eigenen Inserats</li>
+</ul>
+
+<p>Diese Signale sind kein Setup-Thema. Sie funktionieren nur, wenn jemand sie täglich zusammenführt – manuell, per Tool oder im Rahmen einer strukturierten <a href="/leistungen">Full-Service-Betreuung der Kurzzeitvermietung</a>, die diese Auswertung als Standardprozess führt.</p>
+
+<h2 id="sichtbarkeit">Sichtbarkeit als eigentlicher Engpass</h2>
+
+<p>Wenn zwei Drittel aller Reisenden ihre Buchung im letzten Fenster treffen, verschiebt sich die Frage vom „Wer bucht?" zum „Wer wird zum Buchungszeitpunkt gefunden?"</p>
+
+<p>Die Suche auf Airbnb und Booking.com wählt am Buchungstag aus einer sehr kurzen Liste – meist fünf bis acht Objekte, die der Filter des Suchenden freigibt. Wer in dieser Liste nicht sichtbar ist, existiert für die Buchung nicht.</p>
+
+<p>Die Sichtbarkeit selbst entscheidet sich <strong>zwei bis drei Wochen vor dem Suchvorgang</strong>. Ein Inserat, das im späten Juli bereit sein soll, muss im frühen Juli seinen Datenzustand haben: aktuelle Bewertungen, sauber gepflegte Amenities, korrekte Verfügbarkeitseinstellungen.</p>
+
+<p>Die entscheidenden Hebel sind dabei nicht neu. Wie sich das Ranking an einer Reihe konkreter Punkte festmacht, ist an anderer Stelle beschrieben – in der Systematik der <a href="/blog/airbnb-inserat-optimieren-7-hebel">sieben zentralen Inserats-Hebel</a>. Die Verschiebung 2026 verändert nicht diese Hebel selbst, sondern ihre Zeitachse.</p>
+
+<h2 id="cashflow">Der Cashflow-Effekt, den viele Vermieter erst im Herbst sehen</h2>
+
+<p>Ein zweiter, weniger sichtbarer Effekt trifft die Liquidität.</p>
+
+<p>Wenn Buchungen erst zehn Tage vor Anreise entstehen, kommen die Auszahlungen von Airbnb und Booking.com entsprechend spät. Wer im Juni noch mit einer Vorauszahlung für die zweite Augustwoche kalkuliert hat, wartet 2026 länger.</p>
+
+<p>Für ein einzelnes Objekt ist das ein Detail. Für einen Eigentümer mit drei oder vier Einheiten – oder für einen kleinen Investor mit Finanzierungskosten im laufenden Betrieb – verschiebt sich die interne Rechnung um ein bis zwei Wochen. <em>Das ist selten kritisch, aber es verändert die Kalender-Rhythmik der Zahlungsplanung.</em></p>
+
+<h2 id="operative-konsequenzen">Was Wörthersee-Objekte im August 2026 konkret verändert</h2>
+
+<p>Aus der Verschiebung entstehen drei operative Konsequenzen, die sich in einem einzigen Sommer messbar niederschlagen.</p>
+
+<p><strong>Erstens:</strong> Die Woche vom 10. bis 16. August, die Woche vom 17. bis 23. August und die letzte Augustwoche sind 2026 im ADR nicht gleich. Sie folgen unterschiedlichen Kurven – abhängig vom Ironman-Wochenende, der Starnacht-Vorlaufzeit und den unterschiedlich taktenden Schulferienenden in Wien, Bayern und Baden-Württemberg. Wer für alle drei Wochen denselben Preis fährt, verzichtet auf 15 bis 25 Prozent Ertrag pro Nacht.</p>
+
+<p><strong>Zweitens:</strong> Die operative Kapazität für Gästekommunikation muss in den letzten zwei Augustwochen doppelt bereitstehen. Anfragen laufen komprimiert – oft zwölf bis zwanzig pro Tag für ein einzelnes Objekt – und die Antwortzeit wird zum Ranking-Faktor.</p>
+
+<p><strong>Drittens:</strong> Storno-Wahrscheinlichkeit und Anreise-Wahrscheinlichkeit verhalten sich in der neuen Buchungsstruktur asymmetrisch. Buchungen, die zehn Tage vor Anreise entstehen, stornieren seltener als solche mit drei Monaten Vorlauf – aber sie verlangen sofortige operative Klarheit, weil kein Puffer bleibt.</p>
+
+<h2 id="regionaler-rahmen">Der regionale Rahmen: was Kärnten strukturell schon gezeigt hat</h2>
+
+<p>Kärnten hat im ersten Halbjahr 2026 ein Nächtigungsplus von rund 3,9 Prozent und ein Ankunftsplus von 6,0 Prozent verzeichnet. Rechnerisch heißt das: <strong>mehr Anreisen, aber kürzere Aufenthalte.</strong></p>
+
+<p>Diese Kombination ist die messbare Vorstufe zur Verschiebung, die im August operativ ankommt. Wer mehr, aber jeweils kürzer bucht, plant seltener früh – und entscheidet später.</p>
+
+<p>Der Durchschnittsumsatz pro Gast und Tag liegt in Kärnten aktuell bei rund 190 €. Für ein Ferienobjekt am Wörthersee mit einer typischen Belegung von zwei bis vier Personen ergibt sich daraus die realistische Preisspanne, die im letzten Buchungsfenster verteidigt werden muss – nicht die Sommerwunsch-Preisliste vom Mai.</p>
+
+<h2 id="fazit">Was bleibt</h2>
+
+<p>Der Wörthersee-Sommer 2026 verläuft nicht schlechter als 2024. Er verläuft anders getaktet.</p>
+
+<p>Die Verschiebung der Buchungsvorlaufzeit von siebzehn auf zehn Tage ist keine Krise. Sie ist eine strukturelle Anpassung, die belohnt, was schnell reagiert – und bestraft, was einmal eingestellt und dann sich selbst überlassen wird.</p>
+
+<p><em>Der Unterschied zwischen einem Objekt mit gutem und mit ausgezeichnetem August-Ertrag liegt 2026 fast vollständig im letzten Fenster vor Anreise – dort, wo bis vor drei Jahren die Nebengeräusche waren.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-verschoben', text: 'Was sich wirklich verschoben hat', level: 2 },
+      { id: 'preisrhythmus', text: 'Warum der Preisrhythmus dadurch komprimiert wird', level: 2 },
+      { id: 'wo-hebel', text: 'Wo der Hebel jetzt liegt', level: 2 },
+      { id: 'sichtbarkeit', text: 'Sichtbarkeit als eigentlicher Engpass', level: 2 },
+      { id: 'cashflow', text: 'Der Cashflow-Effekt, den viele Vermieter erst im Herbst sehen', level: 2 },
+      { id: 'operative-konsequenzen', text: 'Was Wörthersee-Objekte im August 2026 konkret verändert', level: 2 },
+      { id: 'regionaler-rahmen', text: 'Der regionale Rahmen: was Kärnten strukturell schon gezeigt hat', level: 2 },
+      { id: 'fazit', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-07-29',
+    category: 'Pricing & Strategie',
+    tags: ['Buchungsvorlauf', 'Last Minute', 'Hauptsaison', 'Wörthersee', 'Kärnten', 'Preisstrategie', 'Sichtbarkeit', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Ruhige helle Wohnzimmer-Szene einer Ferienwohnung – verkürzter Buchungsvorlauf am Wörthersee in der Hauptsaison 2026',
+    readingTime: 7,
+  },
+  {
     slug: 'airbnb-mid-term-buchungen-woerthersee-nebensaison-2026',
     title: 'Mid-Term-Buchungen am Wörthersee: Wie 28+ Nächte die Nebensaison rechnen',
     description: 'Airbnb-Aufenthalte ab 28 Nächten machen rund 17 % aller Buchungen aus. Warum sie am Wörthersee 2026 die Nebensaison anders verrechnen als klassische Kurzzeitvermietung.',
