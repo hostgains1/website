@@ -3,6 +3,124 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'aufenthaltsabgabe-kaernten-4-50-euro-november-2026',
+    title: 'Aufenthaltsabgabe Kärnten 2026: Was 4,50 € am Wörthersee verändern',
+    description: 'Ab 1. November 2026 gilt in Kärnten eine einheitliche Aufenthaltsabgabe von 4,50 € pro Gast und Nacht. Was die Reform für Wörthersee-Vermieter operativ bedeutet.',
+    excerpt: 'Der Sprung von 2,70 auf 4,50 € pro Nacht ist keine Preisänderung – er ist eine Kalkulationsverschiebung. Für Wörthersee-Objekte entscheidet sich im Herbst 2026, wie sauber sie kommuniziert wird.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Anfang August wirkt der 1. November in einem Wörthersee-Objekt weit entfernt. Die Kalender sind dicht, die Aufmerksamkeit liegt bei Anreisen, nicht bei Landesgesetzen. Genau in dieser Phase greift die größte Reform der Kärntner Tourismusfinanzierung seit fünfzehn Jahren.</p>
+
+<p>Am 19. März 2026 hat der Kärntner Landtag ein Bündel aus drei Gesetzen beschlossen: das neue Kärntner Tourismusgesetz, das Kärntner Aufenthaltsabgabengesetz und das Nebenwohnsitzabgabengesetz.</p>
+
+<p>Für Vermieter am Wörthersee ist davon eine Zahl operativ zentral: <strong>4,50 € pro Gast und Nacht</strong>, gültig einheitlich im gesamten Bundesland ab 1. November 2026.</p>
+
+<h2 id="was-sich-aendert">Was sich rechtlich tatsächlich ändert</h2>
+
+<p>Die bisherige Systematik in Kärnten war fragmentiert. Jede Gemeinde konnte ihre eigene Ortstaxe festlegen, meist zwischen <strong>1,50 und 2,70 € pro Nacht</strong>, kombiniert mit einer separaten Nächtigungsabgabe. Für ein einzelnes Objekt bedeutete das je nach Standort unterschiedliche Sätze, unterschiedliche Formulare und unterschiedliche Abrechnungsintervalle.</p>
+
+<p>Mit der Reform verschmelzen Ortstaxe und Nächtigungsabgabe zu einer einzigen Position: der <em>Kärntner Aufenthaltsabgabe</em>. Der Satz ist landesweit einheitlich, unabhängig von Gemeinde, Kategorie oder Bettenzahl.</p>
+
+<p>Parallel wird die Trägerstruktur radikal verschlankt. Aus derzeit 125 Organisationseinheiten auf drei Ebenen werden zehn Einheiten auf zwei Ebenen – die Kärnten Werbung und neun regionale Tourismusverbände. Für die Meldeprozesse eines einzelnen Vermieters bedeutet das mittelfristig weniger Ansprechpartner und eine einheitlichere Schnittstelle.</p>
+
+<h2 id="zahl-im-kontext">Die Zahl im Kalkulationskontext</h2>
+
+<p>Der Sprung von 2,70 auf 4,50 € pro Nacht wirkt auf dem Papier moderat. In der operativen Rechnung eines Wörthersee-Objekts ist er es nicht.</p>
+
+<p>Ein Beispiel. Ein Zwei-Zimmer-Objekt in Velden vermietet in einem typischen Sommermonat 22 Nächte, im Schnitt an 2,4 Personen. Bisher: 22 × 2,4 × 2,70 € = <strong>rund 143 € Ortstaxe pro Monat</strong>. Ab November 2026: 22 × 2,4 × 4,50 € = <strong>rund 238 € pro Monat</strong>. Über eine volle Saison ergibt sich für dieses Objekt eine Verschiebung von rund <strong>570 € pro Jahr</strong> allein durch die Abgabenanhebung.</p>
+
+<p>Für ein Portfolio mit vier bis fünf Einheiten liegt die jährliche Differenz schnell bei 2.500 bis 3.000 €. Die Zahl ist wirtschaftlich verkraftbar – aber sie ist keine Rundungsposition mehr.</p>
+
+<p>Entscheidend ist die zweite Ebene: <em>Wer die Abgabe trägt.</em> In Österreich wird die Aufenthaltsabgabe rechtlich vom Gast geschuldet und vom Vermieter für die Gemeinde treuhändisch eingehoben. Die Frage ist nicht steuerlich, sondern kommunikativ – und dort entscheidet sich, ob der Vermieter oder der Gast den Anstieg in der Wahrnehmung trägt.</p>
+
+<h2 id="was-enthalten">Was 4,50 € tatsächlich enthalten</h2>
+
+<p>Anders als die bisherige Ortstaxe umfasst die neue Aufenthaltsabgabe eine klar zweckgebundene Komponente: einen <strong>Infrastruktur- und Mobilitätsbeitrag von 0,90 €</strong> pro Nacht und Gast.</p>
+
+<p>Damit finanziert das Land eine landesweite Gästekarte: freie Nutzung des gesamten öffentlichen Verkehrs in Kärnten für die Dauer des Aufenthalts. Das umfasst Regionalbusse, S-Bahnen, teilweise Schifffahrt am Wörthersee – für einen Gast, der eine Woche bleibt, entspricht das einem geldwerten Vorteil von deutlich über 30 €.</p>
+
+<p><em>Die Abgabenerhöhung ist damit nicht abstrakt. Sie ist verbunden mit einer konkreten Leistung, die im Inserat kommunizierbar wird.</em></p>
+
+<p>Für Wörthersee-Objekte ist das doppelt relevant: Ein Teil der Sommergäste reist ohne eigenen PKW an – Bahn nach Klagenfurt oder Villach, dann Bus zum Objekt. Für dieses Segment sinkt der effektive Reise-Grenzkostenpreis mit der Reform sichtbar.</p>
+
+<h2 id="airbnb-booking">Was Airbnb und Booking automatisch tun – und was nicht</h2>
+
+<p>Ein wiederkehrender Denkfehler in dieser Umstellungsphase betrifft die technische Abwicklung.</p>
+
+<p>Airbnb hebt in einer Reihe europäischer Städte die lokale Übernachtungsabgabe automatisch beim Gast ein und leitet sie weiter. In <strong>Kärnten geschieht das nicht automatisch</strong>. Weder Airbnb noch Booking.com übernehmen die Berechnung, Anzeige oder Abführung der Kärntner Aufenthaltsabgabe.</p>
+
+<p>Die Konsequenz ist praktisch. Jeder Vermieter muss den Betrag entweder:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>im Übernachtungspreis einkalkulieren und in der Beschreibung transparent ausweisen, oder</li>
+  <li>als zusätzliche Gebühr über das Airbnb-Feld „lokale Steuern" oder das entsprechende Feld auf Booking.com hinterlegen, oder</li>
+  <li>vor Ort in bar oder per Zahlungslink einheben – die operativ ungünstigste, aber häufigste Variante.</li>
+</ul>
+
+<p>Alle drei Wege sind zulässig. Nur der zweite Weg schützt vor negativen Bewertungen im Muster „unerwartete Zusatzkosten bei Anreise". Wer diese Umstellung nicht spätestens Anfang Oktober im Kalender-Setup abgeschlossen hat, riskiert die ersten November-Anreisen mit einer Kommunikationslücke.</p>
+
+<h2 id="wahrnehmung">Wie Gäste die Erhöhung tatsächlich wahrnehmen</h2>
+
+<p>Preispsychologisch ist der Übergang von 2,70 auf 4,50 € genau in dem Bereich, der auffällt.</p>
+
+<p>Bei einer typischen Sommerbuchung – vier Nächte, zwei Personen – steigen die aufgeschlagenen Abgaben von rund 22 auf 36 €. Das ist nicht die Position, die eine Buchung verhindert. Es ist die Position, die im Buchungsprozess eine <em>zweite Sichtung</em> auslöst.</p>
+
+<p>Deutsche Gäste, die den Wörthersee mit Bayern oder Salzburg vergleichen, sehen: Kärnten liegt mit 4,50 € künftig <strong>über dem Bayern-Median</strong> (dort meist zwischen 2 und 3 €) und ungefähr gleichauf mit Salzburg-Stadt (aktuell 4,20 €). Die Preisführung eines Kärntner Objekts konkurriert damit nicht mehr über eine niedrige Zusatzposition, sondern über die transparente Bündelung mit der ÖPNV-Gästekarte.</p>
+
+<p>Diese Verlagerung des Verkaufsarguments ist die eigentliche Umstellung des Winters 2026/27.</p>
+
+<h2 id="umstellung">Der operative Umstellungsmoment im Herbst</h2>
+
+<p>Für ein einzelnes Objekt sind drei Termine im Herbst 2026 relevant.</p>
+
+<p><strong>Mitte September:</strong> Die betreffende Gemeinde oder der neu zusammengelegte Tourismusverband stellt die überarbeiteten Meldeformulare bereit. Erst ab diesem Zeitpunkt ist der genaue elektronische Meldeweg bekannt – bisher pro Gemeinde unterschiedlich, künftig in Richtung landesweit vereinheitlicht.</p>
+
+<p><strong>Anfang Oktober:</strong> Zeitpunkt für die Anpassung der Preisdarstellung in Airbnb, Booking.com und auf der eigenen Website. Reservierungen, die nach dem 1. November anreisen, müssen die neue Abgabe korrekt ausweisen – auch wenn sie im September gebucht wurden.</p>
+
+<p><strong>1. November:</strong> Erste Anreise unter dem neuen Regime. Die Gästekarte für den ÖPNV muss ab diesem Datum ausgehändigt oder digital bereitgestellt werden.</p>
+
+<p>Wer diese Reihenfolge bewusst plant, hat die Umstellung als operativen Vorgang. Wer sie nicht plant, hat sie als Beschwerde-Anlass. Wer ein wachsendes Portfolio führt, wickelt diese Schritte in der Regel im Rahmen einer strukturierten <a href="/airbnb-management-kaernten">professionellen Kurzzeitvermietungs-Betreuung in Kärnten</a> ab, weil sich die drei Termine mit der laufenden Preis- und Kalenderführung überschneiden.</p>
+
+<h2 id="zweitwohnsitz">Was 2028 zusätzlich kommt</h2>
+
+<p>Die Aufenthaltsabgabe ist nur ein Teil der Reform. Ab 2028 tritt in Kärnten eine <strong>Nebenwohnsitzabgabe</strong> in Kraft: monatliche Beträge zwischen 24 und 130 €, abhängig von Wohnungsgröße und Gemeindekategorie.</p>
+
+<p>Betroffen sind Wohnungen, die nicht als Hauptwohnsitz gemeldet sind und in einem Kalenderjahr weniger als zwölf Wochen genutzt werden. Für eine reine Ferienwohnung, die konstant über Kurzzeitvermietungs-Plattformen gebucht wird, greift die Abgabe in der Regel nicht – der Nachweis über Buchungen zählt als Nutzung.</p>
+
+<p>Der Grenzfall betrifft Objekte in der Übergangsphase: gekaufte Wohnungen, die noch nicht auf Plattformen aktiv sind, oder Zweitwohnsitze, die nur wenige Wochen im Jahr vermietet werden. Für diese Kategorie verändert sich die wirtschaftliche Rechnung ab 2028 spürbar.</p>
+
+<p>Am Wörthersee betrifft das eine relevante Zahl: rund <em>ein Drittel der wörtherseenahen Wohnungen</em> in bestimmten Gemeinden sind laut Erhebungen der Landesstatistik Nebenwohnsitze. Nicht alle davon werden vermietet – und genau dort greift die neue Abgabe.</p>
+
+<h2 id="bleibt">Was bleibt</h2>
+
+<p>Die Aufenthaltsabgabe von 4,50 € ist keine dramatische Einzelposition. Sie ist der sichtbarste Punkt einer Reform, die die Tourismusfinanzierung in Kärnten strukturell neu ordnet.</p>
+
+<p>Für ein Wörthersee-Objekt entscheidet sich die operative Wirkung nicht am 1. November, sondern in den sechs Wochen davor. In diesem Zeitraum wird festgelegt, ob die Umstellung eine transparente Position im Angebot ist – oder eine Reibungsstelle im Check-in.</p>
+
+<p><em>Der eigentliche Hebel liegt nicht in der Abgabe selbst. Er liegt in der Klarheit, mit der ihr Gegenwert – die freie ÖPNV-Nutzung, die einheitliche Landeslogik, die reduzierte Verwaltung – im Inserat sichtbar wird.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-sich-aendert', text: 'Was sich rechtlich tatsächlich ändert', level: 2 },
+      { id: 'zahl-im-kontext', text: 'Die Zahl im Kalkulationskontext', level: 2 },
+      { id: 'was-enthalten', text: 'Was 4,50 € tatsächlich enthalten', level: 2 },
+      { id: 'airbnb-booking', text: 'Was Airbnb und Booking automatisch tun – und was nicht', level: 2 },
+      { id: 'wahrnehmung', text: 'Wie Gäste die Erhöhung tatsächlich wahrnehmen', level: 2 },
+      { id: 'umstellung', text: 'Der operative Umstellungsmoment im Herbst', level: 2 },
+      { id: 'zweitwohnsitz', text: 'Was 2028 zusätzlich kommt', level: 2 },
+      { id: 'bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-08-05',
+    category: 'Recht & Steuern',
+    tags: ['Aufenthaltsabgabe', 'Kärnten', 'Wörthersee', 'Tourismusgesetz', 'Ortstaxe', 'Nächtigungsabgabe', 'Kurzzeitvermietung', 'Recht'],
+    featuredImage: 'https://images.unsplash.com/photo-1476611317561-60117649dd94?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Herbstliche Landschaft in Kärnten – neue Aufenthaltsabgabe ab 1. November 2026',
+    readingTime: 8,
+  },
+  {
     slug: 'buchungsvorlauf-woerthersee-hauptsaison-2026',
     title: 'Buchungsvorlauf halbiert: Wörthersee-August 2026 im neuen Takt',
     description: 'Die Buchungsvorlaufzeit ist in Österreichs Hotellerie von 17 auf rund 10 Tage gesunken – was das für Wörthersee-Vermieter im August 2026 konkret bedeutet.',
