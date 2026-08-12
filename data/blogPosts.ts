@@ -3,6 +3,137 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-co-host-network-woerthersee-2026',
+    title: 'Airbnb Co-Host Network 2026: Was der Marktplatz am Wörthersee ändert',
+    description: 'Airbnb hat mit dem Co-Host Network einen eigenen Marktplatz für Vermietungshilfe aufgebaut. Was das 2026 für Eigentümer am Wörthersee tatsächlich verschiebt – und was in Österreich noch nicht ankommt.',
+    excerpt: '15.000 vermittelte Co-Hosts, 100.000 Objekte, zwölf Länder. Warum das neue Airbnb-Marktsegment die klassische Trennung zwischen Selbstbetrieb und Vollbetreuung neu sortiert – und in Kärnten trotzdem nur mittelbar ankommt.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Airbnb hat 2024 einen Teil seines Ökosystems umgebaut, der außerhalb der Plattform kaum sichtbar wurde: den Übergang zwischen Eigentümer und operativem Betreiber. Zwei Jahre später ist daraus ein eigener Marktplatz geworden – und in einigen europäischen Ländern verändert er die Preisstruktur der Vermietungsbetreuung.</p>
+
+<p>Das <strong>Airbnb Co-Host Network</strong> zählt inzwischen rund <strong>15.000 verifizierte Co-Hosts</strong>, die weltweit über 100.000 Objekte betreuen. Verfügbar ist der Marktplatz derzeit in zwölf Ländern – darunter Deutschland, Frankreich, Italien und Spanien. Österreich fehlt bisher auf dieser Liste.</p>
+
+<p>Für Eigentümer am Wörthersee ist das nicht nur eine geografische Randnotiz. Es ist die Erklärung, warum in Kärnten weiter zwei Systeme parallel existieren – und warum die deutsche Grenze in diesem Punkt eine harte Trennlinie zieht.</p>
+
+<h2 id="was-ist-neu">Was am Co-Host Network wirklich neu ist</h2>
+
+<p>Co-Hosts hat es auf Airbnb formal immer gegeben. Freunde, Familienmitglieder oder eine Reinigungskraft konnten seit Jahren als Mit-Betreiber eingetragen werden, mit definierten Rechten für Kalender, Nachrichten oder Abrechnung.</p>
+
+<p>Was 2024 als Winter Release startete und 2025 skaliert wurde, ist etwas anderes: <em>ein Marktplatz für Fremde</em>. Ein Eigentümer, der niemanden aus dem eigenen Umfeld ansprechen kann, wählt aus einem Pool geprüfter lokaler Betreiber – vergleicht Bewertungen, Preise und Referenzobjekte, schließt den Vertrag direkt in der Plattform.</p>
+
+<p>Die Bezahlung läuft automatisch: Airbnb zieht den vereinbarten Anteil pro Buchung vom Payout ab und leitet ihn an den Co-Host weiter. Kein separater Vertrag, keine getrennte Rechnung, keine Vorschüsse.</p>
+
+<p>Diese vier Elemente – Vermittlung, Verifizierung, Abrechnung, Bewertung – waren vorher nicht plattformseitig gelöst. Sie liefen über Freundeskreise, lokale Facebook-Gruppen oder klassische Beauftragung eines Managementunternehmens.</p>
+
+<h2 id="preisstruktur">Die neue Preisstruktur zwischen Selbstbetrieb und Vollbetreuung</h2>
+
+<p>Wirtschaftlich entsteht durch den Marktplatz ein Segment, das es vorher in dieser Form nicht gab.</p>
+
+<p>Solo-Co-Hosts, die über das Netzwerk gebucht werden, verlangen international meist zwischen <strong>10 und 15 Prozent</strong> vom Bruttoumsatz. Sie übernehmen Teilaufgaben – Gästekommunikation, Kalenderpflege, gelegentliche Reinigungskoordination – aber selten den gesamten operativen Betrieb.</p>
+
+<p>Ein klassisches Vermietungs-Management-Unternehmen liegt in derselben Region zwischen <strong>20 und 30 Prozent</strong> vom Bruttoumsatz. Es übernimmt dafür die vollständige Prozesskette: dynamisches Pricing, Multichannel-Distribution, Reinigungsteam, technische Instandhaltung, rechtliche Meldungen, Fotografie und Inseratsführung.</p>
+
+<p>Der Preisunterschied ist real, aber die Leistungstiefe ist es ebenso. <em>Ein Co-Host ersetzt eine halbe Stelle in der Gästekommunikation. Ein Management ersetzt einen Betrieb.</em></p>
+
+<p>Was die Marktplatz-Logik verändert, ist die Sichtbarkeit dieser Trennung. Bis 2024 war für einen Eigentümer, der sich zwischen beiden Wegen entschied, der Unterschied nicht sofort erkennbar. Beide Optionen liefen als „professionelle Vermietungsbetreuung". Jetzt gibt es innerhalb der Plattform ein Preisband, das die Erwartung neu kalibriert.</p>
+
+<h2 id="kriterien">Wer als Co-Host im Netzwerk gelistet wird – und warum die Hürde nicht niedrig ist</h2>
+
+<p>Der öffentliche Eindruck – „jeder kann Co-Host werden" – trifft die Realität nur teilweise.</p>
+
+<p>Airbnb setzt für die Aufnahme in das offizielle Netzwerk mehrere harte Kriterien voraus:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>Ein durchschnittlicher Gäste-Sternwert von <strong>mindestens 4,8</strong> über alle bisher betreuten Objekte in den letzten zwölf Monaten</li>
+  <li>Eine Host-seitige Stornoquote unter <strong>drei Prozent</strong></li>
+  <li>Eine verifizierte Identität mit vollständigem Nachweis</li>
+  <li>Mindestens eine dokumentierte Betreuungshistorie mit tatsächlichen Buchungen</li>
+</ul>
+
+<p>Diese Latte ist funktional dieselbe wie die für das Guest-Favorite-Siegel eines Einzelobjekts – nur dass sie hier auf den gesamten Betrieb eines Betreibers angelegt wird. Wer im ersten Jahr eine schwache Bewertung fängt oder ein einziges Objekt-Chaos hinter sich hat, verliert die Listung.</p>
+
+<p>Der Effekt: Der Pool ist nach oben gefiltert, aber begrenzt. In einer Region wie dem Rhein-Main-Gebiet oder Berlin sind Dutzende Co-Hosts sichtbar. In einer Region wie der Uckermark oder dem Sauerland sind es Einzelne.</p>
+
+<h2 id="oesterreich">Warum Österreich noch nicht auf der Liste steht</h2>
+
+<p>Die Auswahl der zwölf Länder folgt keiner offen kommunizierten Logik. Airbnb nennt „Marktreife und regulatorische Klarheit" als Kriterien – ohne die Bewertung im Einzelfall zu erläutern.</p>
+
+<p>In der Praxis zeigt sich ein Muster: Länder mit stark fragmentierten regionalen Vermietungsregeln kommen später. Österreich ist ein solches Land. Die Kombination aus bundesländerspezifischen Nächtigungsabgaben, unterschiedlichen Meldeprozessen und einer seit Juli 2026 wirkenden EU-Verordnung zur Kurzzeitvermietung erschwert die Standardisierung eines länderweiten Marktplatzes.</p>
+
+<p>Für Eigentümer am Wörthersee ergibt sich daraus eine unsymmetrische Marktlage. Ein deutscher Eigentümer, der ein Objekt in München betreibt, findet innerhalb der Plattform in wenigen Minuten fünf bis zehn verifizierte Co-Hosts mit lokalen Referenzen. Ein Kärntner Eigentümer sieht dasselbe Menü <em>nicht</em>. Er greift auf Empfehlungen, regionale Anbieter und klassisches <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> zurück – die parallel bestehende, aber getrennt organisierte Struktur.</p>
+
+<h2 id="was-uebernimmt">Was ein Co-Host tatsächlich übernimmt – und was nicht</h2>
+
+<p>Der Begriff „Co-Host" verdeckt in der öffentlichen Wahrnehmung, wie schmal das Leistungsspektrum in der Regel ist.</p>
+
+<p>Ein typischer Marktplatz-Co-Host verwaltet Nachrichten, bestätigt Buchungen, koordiniert Check-in und -out und beauftragt Reinigung. Er trägt in der Regel <strong>nicht</strong>:</p>
+
+<ul class="list-disc pl-6 mb-6 space-y-2">
+  <li>Multichannel-Distribution über Booking.com, Vrbo, Expedia oder lokale Plattformen</li>
+  <li>Dynamisches Pricing mit täglicher Marktanalyse</li>
+  <li>Rechtliche Meldungen (Gästemeldung, Nächtigungsabgabe, Umsatzsteuer)</li>
+  <li>Professionelle Fotografie und Inseratsoptimierung</li>
+  <li>Kalendarische Lückenschließung außerhalb des Airbnb-Ökosystems</li>
+</ul>
+
+<p>Für ein Objekt, das zu 100 Prozent über Airbnb läuft und in einer stabilen Nachfrageumgebung liegt, kann das ausreichen. Für ein Wörthersee-Objekt, das in der Nebensaison zusätzliche Kanäle braucht, ist es ein Teilservice.</p>
+
+<p>Der wirtschaftliche Bruchpunkt liegt selten in der Hochsaison – dort trägt der Selbstlauf. Er liegt in den <em>zwölf Wochen Übergang</em>: Ende April bis Mitte Juni, Mitte September bis Anfang November. In diesen Fenstern entscheidet die Multichannel-Präsenz über die Belegung, nicht die Airbnb-Antwortquote.</p>
+
+<h2 id="was-verschiebt">Was sich in Deutschland tatsächlich verschoben hat</h2>
+
+<p>Zwei Jahre nach dem Start ist das Netzwerk in Deutschland kein Nischenprodukt mehr. Beobachtbare Verschiebungen aus dem Marktkommentar 2025 und 2026:</p>
+
+<p>Klassische regionale Vermietungsagenturen in stark touristischen Regionen – Ostsee, Allgäu, Chiemgau – haben ihre Standardprovision <em>nicht</em> gesenkt, aber ihre Leistungsbeschreibungen erweitert. Der 20-Prozent-Satz enthält heute Positionen, die vor drei Jahren separat kalkuliert wurden: quartalsweise Fotoauffrischung, Bewertungsantwort-Framework, Steuerkoordination.</p>
+
+<p>Solo-Betreiber, die früher informell über Facebook oder lokale Netzwerke arbeiteten, sind sichtbarer geworden – aber gleichzeitig unter stärkeren Ranking-Druck. Wer den 4,8-Grenzwert einmal verliert, verliert damit die Listung.</p>
+
+<p>Das reine Preisargument ist damit weniger scharf, als es auf den ersten Blick wirkt. <strong>Zehn Prozent gegen zwanzig Prozent ist selten die tatsächliche Wahl</strong> – die tatsächliche Wahl liegt zwischen einem Teil-Service für einen Airbnb-only-Betrieb und einer Vollbetreuung, die den Kanal- und Preismix aktiv führt.</p>
+
+<h2 id="konsequenz">Was für Wörthersee-Eigentümer daraus folgt</h2>
+
+<p>Solange Österreich nicht Teil des Netzwerks ist, bleibt die konkrete Marktplatz-Option in Kärnten aus. Was aber ankommt, ist die <strong>Preistransparenz-Erwartung</strong>, die der Marktplatz in benachbarten Ländern gesetzt hat.</p>
+
+<p>Eigentümer, die für ein Zweitwohnsitz-Objekt am Wörthersee einen deutschen Vergleich ziehen – etwa weil sie selbst ein Objekt im DACH-Raum kennen – rechnen inzwischen mit einer klareren Trennung zwischen Teilservice und Vollbetreuung.</p>
+
+<p>Für die operative Wahl heißt das drei Dinge.</p>
+
+<p><strong>Erstens:</strong> Die Grundsatzfrage ist nicht mehr „Selbstbetrieb oder Agentur", sondern „Reicht Teil-Service oder braucht das Objekt Vollprozess?" Diese Frage hängt am Kanalmix, an der Saisonalität und an der Bereitschaft des Eigentümers, in der Nebensaison Zeit in aktive Preisführung zu stecken.</p>
+
+<p><strong>Zweitens:</strong> Ein Teilservice-Anbieter ist selten günstig, sondern anders zusammengesetzt. Wer für 12 Prozent nur die Airbnb-Kommunikation abgibt und die restliche Prozesskette selbst führt, spart Prozentpunkte – und übernimmt Kalender- und Pricing-Verantwortung. Für ein Objekt in stabiler Sommerlage kann das aufgehen. Für ein Objekt, dessen wirtschaftliche Gesundheit in den Randmonaten entschieden wird, meist nicht.</p>
+
+<p><strong>Drittens:</strong> Die Bewertungsschwelle wird transparenter. Ein Anbieter, dessen Objekte im Schnitt unter 4,8 liegen, würde im Marktplatz-Modell die Listung verlieren. Im nicht vermarktplatzten Kärntner Umfeld existiert dieser Ranking-Filter nicht formal – aber die dahinterliegende Qualitätslogik der Plattform gilt trotzdem. Wer eine <a href="/leistungen">strukturierte Betreuung der Kurzzeitvermietung</a> beauftragt, wählt implizit über dieselben Kennzahlen aus, die Airbnb explizit macht.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>Das Co-Host Network ist keine Revolution des Vermietungsmarkts. Es ist eine <em>Formalisierung</em> einer bestehenden Grauzone – des informellen Teilservice zwischen Freundschaftsdienst und Agentur.</p>
+
+<p>In den Ländern, in denen es verfügbar ist, hat es die Erwartungshaltung an Preistransparenz verändert und den Druck auf Anbieter mit schwacher Bewertungshistorie erhöht. In Österreich wirkt es 2026 indirekt: als Vergleichsmaßstab, mit dem international denkende Eigentümer die lokale Landschaft bewerten.</p>
+
+<p><em>Der eigentliche Punkt liegt nicht am Marktplatz selbst. Er liegt an der Frage, die er sichtbar macht: Was in einer Vermietung wirklich delegiert werden kann – und was nicht.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-ist-neu', text: 'Was am Co-Host Network wirklich neu ist', level: 2 },
+      { id: 'preisstruktur', text: 'Die neue Preisstruktur zwischen Selbstbetrieb und Vollbetreuung', level: 2 },
+      { id: 'kriterien', text: 'Wer als Co-Host im Netzwerk gelistet wird – und warum die Hürde nicht niedrig ist', level: 2 },
+      { id: 'oesterreich', text: 'Warum Österreich noch nicht auf der Liste steht', level: 2 },
+      { id: 'was-uebernimmt', text: 'Was ein Co-Host tatsächlich übernimmt – und was nicht', level: 2 },
+      { id: 'was-verschiebt', text: 'Was sich in Deutschland tatsächlich verschoben hat', level: 2 },
+      { id: 'konsequenz', text: 'Was für Wörthersee-Eigentümer daraus folgt', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-08-12',
+    category: 'Betrieb & Organisation',
+    tags: ['Co-Host Network', 'Airbnb', 'Property Management', 'Wörthersee', 'Kärnten', 'Marktplatz', 'Vermietungsbetreuung', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Moderner Arbeitsplatz mit Laptop – Airbnb Co-Host Network 2026 und die neue Marktstruktur der Vermietungsbetreuung am Wörthersee',
+    readingTime: 7,
+  },
+  {
     slug: 'aufenthaltsabgabe-kaernten-4-50-euro-november-2026',
     title: 'Aufenthaltsabgabe Kärnten 2026: Was 4,50 € am Wörthersee verändern',
     description: 'Ab 1. November 2026 gilt in Kärnten eine einheitliche Aufenthaltsabgabe von 4,50 € pro Gast und Nacht. Was die Reform für Wörthersee-Vermieter operativ bedeutet.',
