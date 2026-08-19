@@ -3,6 +3,97 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'woerthersee-marathon-2026-nebensaison-belegung',
+    title: 'Wörthersee Marathon 2026: Wie ein neues Event die Nebensaison verändert',
+    description: 'Am 27. September 2026 findet erstmals der Wörthersee Marathon statt. Was das Event für die Belegungslogik am See kalkulatorisch tatsächlich verschiebt.',
+    excerpt: 'Ein ausgebuchtes Wettkampffeld bei einer Premiere, die VCM-Familie als Veranstalter, Team- und Halbmarathon-Formate: Der neue Marathon verschiebt mehr als ein Wochenende – und weniger, als ein spontaner Preisaufschlag suggerieren würde.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Am 27. September 2026 findet in Klagenfurt zum ersten Mal ein Marathon rund um den Wörthersee statt. Das Event ist von der VCM-Familie – jener Organisation, die auch den Vienna City Marathon trägt – aufgesetzt worden. Für die volle Marathon-Distanz sind die Startplätze bereits vergeben.</p>
+
+<p>Die operative Frage für Vermieter am See beginnt damit nicht am Renntag. Sie beginnt sechs bis zwölf Wochen davor – also jetzt.</p>
+
+<p>Ein neues Event dieser Größe unterscheidet sich strukturell von einem etablierten. Wer Buchungsmuster liest, sieht diese Unterschiede – und trifft daraufhin oder eben nicht die richtigen Kalender- und Preisentscheidungen.</p>
+
+<h2 id="warum-premiere">Warum die Premiere anders zählt als ein Zweitjahr</h2>
+
+<p>Ein etabliertes Sportevent baut über Jahre ein Buchungsraster auf. Läufer, Angehörige, Vereine und regionale Gruppen kennen die typische Anreisezeit, den passenden Radius um das Startgelände, das Preisniveau am Renntag. Airbnb-Kalender in Klagenfurt füllen sich für einen dritten oder fünften Marathon-Jahrgang nach einem lesbaren Muster.</p>
+
+<p>Für den ersten Wörthersee Marathon fehlen diese Referenzdaten. Was existiert, ist ein anderes Signal: <strong>ein ausgebuchtes Wettkampffeld auf der vollen Distanz</strong> – bei einem Ereignis, das zum ersten Mal stattfindet. Das lässt eine hohe Nachfragefokussierung auf den Kernradius um das Strandbad Klagenfurt erwarten, deutlich enger als bei einer 5. Ausgabe.</p>
+
+<p>Der operative Effekt liegt in der Preiselastizität. Wer zwischen 25. und 28. September einen Kalender ohne Referenzmarkt führt, orientiert sich entweder am Sommer-Preisband oder am Nebensaison-Preisband – <em>und beide Referenzen greifen an diesem Wochenende nicht.</em></p>
+
+<h2 id="event-wochenende">Was das Event-Wochenende operativ verschiebt</h2>
+
+<p>Der Marathon startet Sonntag um 09:00 am Strandbad Klagenfurt, mit Zieleinlauf bis 18:00 Uhr. Der Veranstalter kommuniziert aktiv ein <em>extended weekend</em> ab Donnerstag – dazu Aufenthaltspakete, den Halbmarathon <em>Wild Beauty</em> von Klagenfurt nach Velden über 21 Kilometer und Team-Formate für zwei bis zehn Personen.</p>
+
+<p>Die Kombination hat drei operative Konsequenzen.</p>
+
+<p><strong>Erstens:</strong> Der Nachfrageeffekt reicht weiter als eine Nacht. Ein Marathon-Wochenende, das mit Donnerstag-Anreise geplant ist, verschiebt den Mindestaufenthalt für Objekte mit klarer Zielgruppe. Zwei Nächte bleiben für die reine Renn-Anreise typisch; drei bis vier Nächte werden im Umfeld einer Premiere realistisch, wenn Vorbereitung, Streckenbesichtigung und regionale Aktivitäten mit einfließen.</p>
+
+<p><strong>Zweitens:</strong> Die Strecke um den ganzen See verändert die relevante Standortdefinition. Objekte in Krumpendorf, Pörtschach, Velden oder Reifnitz liegen streckennah – und werden erstmals aktiv nachgefragt, nicht nur zufällig gebucht. Wer bisher in der Airbnb- oder Booking-Suche nach „Klagenfurt" gefiltert hat, sucht 2026 zusätzlich nach Ortsnamen entlang des Rundkurses.</p>
+
+<p><strong>Drittens:</strong> Die Team- und Halbmarathon-Formate senken die Startschwelle deutlich. Ein Team von acht Läufern bringt tendenziell mehr Übernachtungsvolumen pro Buchung mit als ein einzelner Marathonläufer – und teilt die Kosten. Das verschiebt die Zahlungsbereitschaft für größere Objekte spürbar nach oben.</p>
+
+<h2 id="nebensaison-effekt">Der Nebensaison-Effekt jenseits des Marathon-Wochenendes</h2>
+
+<p>Interessanter als der Renntag selbst ist der zweite, weniger sichtbare Effekt: <em>Was passiert neben dem Wochenende?</em></p>
+
+<p>Der 27. September liegt in einem Zeitfenster, in dem die Wörthersee-Belegung traditionell steil abfällt. Der klassische Sommerurlaub ist beendet, die Familienbuchungen der Sommerferien vorbei, die Wetterlage in Kärnten nur noch abschnittsweise verlässlich.</p>
+
+<p>Kärntens Nächtigungszahlen des ersten Halbjahres 2026 – <strong>5,18 Millionen Nächtigungen, ein Plus von 3,9 Prozent</strong> gegenüber Vorjahr – zeigen einen klaren Trend zur verlängerten Saison. Klagenfurt am Wörthersee zählte 2025 im Sommerhalbjahr <strong>363.014 Nächtigungen</strong>. Was diese Zahlen nicht zeigen: Wie eng die Verteilung um den saisonalen Höhepunkt liegt und wie schnell sie ab Mitte September fällt.</p>
+
+<p>Ein Event dieser Größe zieht einen Ankernachfragepunkt in die Übergangswoche. Das ist wirtschaftlich mehr als ein einzelnes Wochenende: Es schafft eine kurze, konzentrierte Aufmerksamkeit für den Wörthersee als Destination – in dem Moment, in dem das organische Interesse bereits zurückgeht.</p>
+
+<p>Suchvolumen, das im Vorfeld auf den Marathon einzahlt, spielt teilweise auch anderen Objekten in die Karten. Der Netto-Effekt bleibt bescheiden, ist aber messbar. In vergleichbaren Marathon-Regionen liegt der zusätzliche Belegungsimpuls im Umfeld eines etablierten Events zwischen zehn und zwanzig Prozent – <em>nicht für das Renn-Wochenende selbst, sondern für die Aufmerksamkeitsphase davor.</em></p>
+
+<h2 id="preisstruktur">Was die Preisstruktur trägt – und was sie überzieht</h2>
+
+<p>Die Versuchung liegt nahe, das Marathon-Wochenende preislich stark aufzuladen. In der Praxis funktioniert dieser Reflex bei einer Premiere weniger sauber als bei einem etablierten Event.</p>
+
+<p>Zwei Mechaniken laufen gegeneinander.</p>
+
+<p><em>Der Aufwärtsdruck:</em> Ausgebuchte Marathon-Plätze bedeuten harte Nachfrage von einer Zielgruppe mit hoher Zahlungsbereitschaft. Läufer buchen früh, wenn das Ziel klar ist. Das rechtfertigt einen Aufschlag über dem regulären Nebensaison-Preis.</p>
+
+<p><em>Der Abwärtsdruck:</em> Fehlende Referenzpunkte für die Preisbereitschaft. Anders als bei einem Vienna City Marathon oder Salzburg Marathon existieren keine mehrjährigen Buchungsmuster, aus denen ein Pricing-Tool oder ein erfahrener Vermieter ein belastbares Preisdach ablesen könnte. Wer zu hoch ansetzt, riskiert <strong>leere Nächte in einer ohnehin ausdünnenden Kalenderwoche</strong>.</p>
+
+<p>Für die Preisführung ergibt sich ein pragmatisches Muster: ein moderater Aufschlag von 15 bis 25 Prozent über dem regulären September-Preis für Freitag bis Sonntag – nicht die 60 oder 80 Prozent, die für ein etabliertes Event der gleichen Größe realistisch wären. <em>Der ausgebuchte Wettkampfstatus bestätigt Nachfrage; er ersetzt keine Zeitreihe.</em></p>
+
+<p>Wer Multichannel arbeitet, sollte zusätzlich mit dem Airbnb-Konversions-Signal rechnen. Der 2026er Algorithmus gewichtet Konversionsrate stärker als je zuvor – ein Objekt mit hoher Suchsichtbarkeit, aber schwacher Buchungsquote in dieser Woche verliert Rang. Ein zu hoher Preis kostet damit doppelt: einmal die Buchung selbst, einmal den Ranking-Effekt für die Wochen danach.</p>
+
+<p>Wer sein Objekt strukturiert am Wörthersee führen lässt, weiß das im Vorfeld – und stellt den Kalender vier bis acht Wochen vor Renntag mit einer offenen Preisspanne auf. Ein Zugang zum operativen Rahmen dieser Betreuung liefert das <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a>.</p>
+
+<h2 id="blick-2027">Der Blick auf 2027 und die Struktur dahinter</h2>
+
+<p>Der Wörthersee Marathon 2026 ist Teil einer bewussten Kärntner Event-Strategie. Neben dem Marathon fanden im Juni 2026 die IDO Streetdance Europameisterschaften in Klagenfurt statt; im November stehen die Rock'n'Roll Akrobatik-Weltmeisterschaften an. Drei internationale Events in einem Kalenderjahr – für eine Stadt der Größenordnung Klagenfurt eine sichtbare Verdichtung.</p>
+
+<p>Für Vermieter am Wörthersee heißt das operativ: <strong>Die Nebensaison wird strukturell schrittweise umgebaut.</strong> Nicht durch eine einzelne Maßnahme, sondern durch eine Kette von Nachfrageankern, die sich über den Kalender verteilen. Wer sein Objekt konsequent an dieser Kalenderlogik führt, verschiebt langsam die eigene Auslastungskurve – nicht durch spektakuläre Peaks, sondern durch weniger tiefe Täler.</p>
+
+<p>Das zweite Marathon-Jahr 2027 wird dann das eigentlich interessante werden. Die Buchungskurve, die sich 2026 formt, wird die Referenz sein, an der sich Preise, Mindestaufenthalte und Kanalmix im Folgejahr messen lassen.</p>
+
+<p>Wer 2026 sauber dokumentiert – tatsächliche Belegung, tatsächliche Preise, tatsächliche Kanalverteilung – hat 2027 den Vorteil einer eigenen Zeitreihe, wo andere weiter aus dem Bauch heraus kalkulieren. Eine <a href="/analyse">objektbezogene Potenzialanalyse</a> macht diese Ausgangslage sichtbar, bevor die erste Buchung eingeht.</p>
+
+<p>Das ist der eigentliche stille Effekt einer Event-Premiere: <em>Sie schafft die Daten, an denen sich die Folgejahre orientieren.</em> Wer diese Datengrundlage nicht mitschreibt, verschenkt den größten Teil ihres Werts.</p>
+    `,
+    tableOfContents: [
+      { id: 'warum-premiere', text: 'Warum die Premiere anders zählt als ein Zweitjahr', level: 2 },
+      { id: 'event-wochenende', text: 'Was das Event-Wochenende operativ verschiebt', level: 2 },
+      { id: 'nebensaison-effekt', text: 'Der Nebensaison-Effekt jenseits des Marathon-Wochenendes', level: 2 },
+      { id: 'preisstruktur', text: 'Was die Preisstruktur trägt – und was sie überzieht', level: 2 },
+      { id: 'blick-2027', text: 'Der Blick auf 2027 und die Struktur dahinter', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-08-19',
+    category: 'Saisonalität & Markt',
+    tags: ['Wörthersee Marathon', 'Sportevent', 'Nebensaison', 'Wörthersee', 'Kärnten', 'Belegungsstrategie', 'Klagenfurt', 'Kurzzeitvermietung'],
+    featuredImage: 'https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Läufer bei einem Marathon – der Wörthersee Marathon 2026 in Klagenfurt und seine Wirkung auf die Nebensaison-Belegung',
+    readingTime: 7,
+  },
+  {
     slug: 'airbnb-co-host-network-woerthersee-2026',
     title: 'Airbnb Co-Host Network 2026: Was der Marktplatz am Wörthersee ändert',
     description: 'Airbnb hat mit dem Co-Host Network einen eigenen Marktplatz für Vermietungshilfe aufgebaut. Was das 2026 für Eigentümer am Wörthersee tatsächlich verschiebt – und was in Österreich noch nicht ankommt.',
