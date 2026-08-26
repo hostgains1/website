@@ -28,3 +28,6 @@ dist-ssr
 out/
 .vercel
 .env*.local
+
+# TypeScript build cache
+*.tsbuildinfo
