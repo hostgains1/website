@@ -3,6 +3,113 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'eu-kurzzeitvermietung-verordnung-kaernten-2026',
+    title: 'EU-Kurzzeitvermietung 2026: Warum Kärnten noch nicht mitspielt',
+    description: 'EU-Verordnung 2024/1028 gilt seit Mai 2026. Warum die Registrierungspflicht in Kärnten faktisch nicht greift – und was trotzdem operativ zu prüfen ist.',
+    excerpt: 'Seit 20. Mai 2026 verlangt die EU eine gültige Registrierungsnummer für jedes Airbnb- und Booking-Inserat. In Kärnten bleibt dieselbe Nummer bis heute leer – nicht weil die Verordnung nicht gilt, sondern weil sie im österreichischen Föderalismus an einer strukturellen Bruchlinie hängt.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Seit dem 20. Mai 2026 gilt in der gesamten Europäischen Union die Verordnung 2024/1028 zur Kurzzeitvermietung. Auf dem Papier bedeutet das: Jedes Airbnb- oder Booking-Inserat braucht eine gültige Registrierungsnummer, jede Plattform muss monatlich Buchungsdaten an eine nationale Stelle liefern.</p>
+
+<p>In Kärnten ist die entsprechende Nummer bis heute leer. Nicht weil die Verordnung ausgesetzt wäre, sondern weil sie im österreichischen Staatsaufbau an einer Bruchlinie hängt, die außerhalb ihres eigenen Anwendungsbereichs liegt.</p>
+
+<p>Die Konsequenz für Vermieter am Wörthersee ist weniger dramatisch, als der EU-weite Rollout suggeriert – aber sie ist strukturell wichtiger, als sie zunächst wirkt.</p>
+
+<h2 id="was-verlangt">Was die Verordnung tatsächlich verlangt</h2>
+
+<p>Die EU-Verordnung 2024/1028 ist keine Zulassung, keine Genehmigung und kein europaweit einheitliches Register. Sie ist ein <strong>Datenaustausch-Framework</strong> – konzipiert, um zwei Probleme parallel zu adressieren.</p>
+
+<p>Erstens: Plattformen dürfen keine Inserate mehr veröffentlichen, die keine gültige nationale Registrierungsnummer tragen. Zweitens: Die Plattformen liefern monatlich strukturierte Buchungsdaten – Anzahl der Nächte, Anzahl der Gäste, Objektidentifikation – an einen zentralen digitalen Zugangspunkt jedes Mitgliedstaats.</p>
+
+<p>Die Verordnung erzwingt <em>keine</em> Registrierungspflicht. Sie greift nur dort, wo ein Mitgliedstaat oder eine regionale Ebene eine solche Pflicht selbst geschaffen hat. Ohne nationalen oder regionalen Registrierungsprozess bleibt das Feld der Registrierungsnummer im Inserat schlicht leer – ohne rechtliche Konsequenz für Vermieter oder Plattform.</p>
+
+<p>Dieser Punkt wird in vielen Zusammenfassungen übersehen. <strong>Die Verordnung ist kein Schwert, sondern der Rahmen für ein Schwert, das jedes Land selbst schmieden muss.</strong></p>
+
+<h2 id="sonderweg">Der österreichische Sonderweg</h2>
+
+<p>Österreich hat sich entschieden, auf Bundesebene keinen zentralen Registrierungsprozess einzuführen. Die Begründung ist verfassungsrechtlich konsistent: Bau- und Raumordnungsrecht ist in Österreich Landessache. Ein bundesweites Kurzzeitvermietungs-Register würde in Länderkompetenzen eingreifen.</p>
+
+<p>Das Bundesministerium für Wirtschaft, Energie und Tourismus hat die EU-Verordnung formal umgesetzt – aber ohne die materielle Registrierungspflicht selbst zu schaffen. Diese Entscheidung liegt bei den neun Bundesländern.</p>
+
+<p>Was in Deutschland als einheitliche Bundeslösung skaliert werden könnte, zerfällt in Österreich in neun mögliche Parallellösungen, die jeweils innerhalb der eigenen Bauordnung entwickelt werden müssen.</p>
+
+<p>Der Effekt ist ein <em>vertikaler Fleckenteppich</em>: Ein Objekt in Wien fällt spätestens 2027 unter ein Register, ein Objekt in Salzburg-Stadt liegt in einem eng regulierten Umfeld, ein Objekt am Wörthersee bewegt sich vorerst in einer administrativen Grauzone.</p>
+
+<h2 id="wien-salzburg">Was Wien und Salzburg gerade tun</h2>
+
+<p>Wien ist am weitesten. Am 22. Juni 2026 hat Bürgermeister Ludwig ein verbindliches Wiener Kurzzeitvermietungs-Register angekündigt. Zielzeitpunkt für die Einführung: spätestens 1. Januar 2027. Jedes Objekt bekommt eine eigene Nummer, die im Inserat sichtbar sein muss; Plattformen sind verpflichtet, ohne diese Nummer nicht mehr zu listen.</p>
+
+<p>Salzburg reguliert seit Jahren über die Bau- und Raumordnung: Umnutzung von Wohnraum zur Kurzzeitvermietung ist bewilligungspflichtig, mit engen Voraussetzungen – kein Zuschuss aus der Wohnbauförderung, keine Eignung als Hauptwohnsitz. Ein digitales Register ist in Vorbereitung, die inhaltliche Hürde liegt aber bereits vor der Registrierung.</p>
+
+<p>Die restlichen sieben Bundesländer – Kärnten inklusive – warten auf jeweils eigene Umsetzungsverordnungen.</p>
+
+<h2 id="kaernten-luecke">Die Kärntner Lücke – und was in ihr passiert</h2>
+
+<p>Kärnten hat 2026 andere Prioritäten gesetzt. Im März wurde ein neues Tourismusgesetz beschlossen, dessen sichtbarste Änderung die einheitliche <strong>Aufenthaltsabgabe von 4,50 Euro pro Person und Nacht</strong> ab 1. November 2026 ist. Ein Register für Kurzzeitvermietung war nicht Teil dieses Pakets.</p>
+
+<p>Für Vermieter am Wörthersee, in Villach oder rund um den Klopeiner See heißt das operativ: Die EU-Registrierungsnummer im Airbnb-Inserat bleibt leer. Ein Verstoß ist es nicht – weil es keinen österreichischen oder kärntnerischen Registrierungsprozess gibt, aus dem eine Nummer entstehen könnte.</p>
+
+<p>Was aber trotzdem passiert:</p>
+
+<p>Die <strong>Meldepflicht auf Gemeindeebene</strong> bleibt bestehen und wird durch die neue Aufenthaltsabgabe indirekt aufgewertet. Wer Gäste beherbergt, meldet Nächtigungen an die Gemeinde, führt die Abgabe ab und dokumentiert die Buchungen – das war vor der EU-Verordnung so und ist es danach.</p>
+
+<p>Die Meldedaten liegen bei den Gemeinden. Sobald ein Land beschließt, aus dieser bestehenden Datengrundlage ein digitales Register nach EU-Standard zu bauen, ist die Umstellung technisch überschaubar. Politisch nicht – aber operativ.</p>
+
+<h2 id="was-plattformen-tun">Was Airbnb und Booking.com bereits verlangen</h2>
+
+<p>Die Plattformen sind seit 20. Mai 2026 verpflichtet, in jedem Inserat ein Feld für die Registrierungsnummer vorzuhalten – nicht aber, es zu erzwingen, wo keine nationale Basis existiert.</p>
+
+<p>Auf Airbnb erscheint im Objekt-Backoffice in Österreich derzeit ein Hinweis, dass eine Registrierungsnummer <em>nicht</em> erforderlich sei, solange die zuständige Behörde keine ausgegeben hat. Booking.com verfährt analog, verlangt aber pro Objekt eine Angabe zur rechtlichen Grundlage der Vermietung – Gewerbe, Privatvermietung, freiberuflicher Betrieb.</p>
+
+<p>Was sich <em>bereits</em> verschoben hat, sind die Datenübertragungspflichten. Beide Plattformen liefern seit Sommer 2026 monatlich strukturierte Buchungsdaten an den österreichischen digitalen Zugangspunkt. Für den einzelnen Vermieter unsichtbar – für die spätere politische Diskussion in den Ländern hochrelevant. Zum ersten Mal existiert eine belastbare Datenbasis über tatsächliche Belegung, Preise und Herkunft der Gäste.</p>
+
+<p>Aus dieser Datenlage werden die nächsten Regulierungsschritte gebaut. Was Vermieter heute nicht sehen, prägt die Verordnungen, die 2027 und 2028 kommen.</p>
+
+<h2 id="was-vorbereiten">Was sich jetzt sinnvoll vorbereiten lässt</h2>
+
+<p>Ein Panik-Reflex wäre falsch. Aktuell entsteht in Kärnten keine neue Meldepflicht, keine Nummer, keine Frist. Was entsteht, ist ein Zeitfenster, in dem Vermieter ihre eigene Datenlage sauber aufsetzen können – bevor eine Landesregelung sie in eine feste Form zwingt.</p>
+
+<p>Drei Punkte, die sich in diesem Fenster ohne Regulierungsdruck erledigen lassen:</p>
+
+<p><strong>Erstens:</strong> Klare Zuordnung des rechtlichen Rahmens pro Objekt. Wird das Objekt als Privatvermietung geführt, als Gewerbe angemeldet oder als landwirtschaftlicher Nebenbetrieb? Diese Zuordnung ist bereits heute steuerlich und buchhalterisch relevant und wird bei jeder späteren Registrierungspflicht die erste Prüffrage sein.</p>
+
+<p><strong>Zweitens:</strong> Konsistente Datenspur zwischen Plattform, Gemeindemeldung und Steuererklärung. Ein Objekt, dessen Airbnb-Übernachtungszahl 2026 nicht mit der Gemeindemeldung übereinstimmt, wird 2027 mit einer plattformübermittelten Datenlage konfrontiert, die die Diskrepanz sichtbar macht.</p>
+
+<p><strong>Drittens:</strong> Prüfung der Bau- und Widmungsgrundlage. Wenn Kärnten – wie Wien und Salzburg – irgendwann einen Registrierungsprozess an die Bauordnung koppelt, ist die entscheidende Frage nicht, ob eine Nummer da ist. Sondern ob die Nutzung des Objekts als Ferienunterkunft im Widmungsplan gedeckt ist. Wer diesen Punkt heute schon klar hat, verliert später keine Zeit.</p>
+
+<p>Für Eigentümer, die ihre Objekte strukturiert am Wörthersee führen lassen, laufen diese Vorprüfungen ohnehin im Rahmen der <a href="/leistungen">Full-Service-Kurzzeitvermietung</a> – wo Meldepflicht, steuerliche Erfassung und plattformseitige Datenkonsistenz Teil der laufenden Betreuung sind. Eine <a href="/analyse">objektbezogene Potenzialanalyse</a> macht sichtbar, welche der drei Punkte im konkreten Fall bereits stehen und welche nicht.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>Die EU-Verordnung 2024/1028 ist eher ein Vor-Register als ein Register selbst. Sie schafft die technische Infrastruktur, verschiebt die Beweislast bei den Plattformen und legt eine Datengrundlage, aus der Regulierung entsteht – wenn ein Mitgliedstaat sie schaffen will.</p>
+
+<p>Österreich will – vorerst – nicht auf Bundesebene. Kärnten will – vorerst – nicht auf Landesebene. Wien und Salzburg wollen, jedes auf seinem eigenen Weg.</p>
+
+<p>Für ein Objekt am Wörthersee heißt das 2026: keine neue Nummer, keine neue Frist, aber eine deutlich klarere Datenlage im Hintergrund. Wer sein Objekt in dieser Zeit sauber aufstellt, spart sich später den Umbau. Wer wartet, bis eine Regelung kommt, arbeitet dann rückwirkend gegen die Datenlage, die längst existiert.</p>
+
+<p>Das ist die eigentliche Verschiebung, die die Verordnung im ersten Jahr bringt: <em>Sichtbarkeit, bevor Regulierung.</em></p>
+    `,
+    tableOfContents: [
+      { id: 'was-verlangt', text: 'Was die Verordnung tatsächlich verlangt', level: 2 },
+      { id: 'sonderweg', text: 'Der österreichische Sonderweg', level: 2 },
+      { id: 'wien-salzburg', text: 'Was Wien und Salzburg gerade tun', level: 2 },
+      { id: 'kaernten-luecke', text: 'Die Kärntner Lücke – und was in ihr passiert', level: 2 },
+      { id: 'was-plattformen-tun', text: 'Was Airbnb und Booking.com bereits verlangen', level: 2 },
+      { id: 'was-vorbereiten', text: 'Was sich jetzt sinnvoll vorbereiten lässt', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-08-26',
+    category: 'Recht & Steuern',
+    tags: ['EU-Verordnung', 'Registrierungsnummer', 'Kurzzeitvermietung', 'Kärnten', 'Airbnb Regulierung', 'Ferienwohnung Recht', 'Meldepflicht', 'STR-VO'],
+    featuredImage: 'https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Person am Schreibtisch dokumentiert Formulare – EU-Kurzzeitvermietungsverordnung 2024/1028 und die Registrierungslage für Ferienwohnungen in Kärnten',
+    readingTime: 7,
+  },
+  {
     slug: 'woerthersee-marathon-2026-nebensaison-belegung',
     title: 'Wörthersee Marathon 2026: Wie ein neues Event die Nebensaison verändert',
     description: 'Am 27. September 2026 findet erstmals der Wörthersee Marathon statt. Was das Event für die Belegungslogik am See kalkulatorisch tatsächlich verschiebt.',
