@@ -3,6 +3,102 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'silvester-woerthersee-buchungsfenster-2026-2027',
+    title: 'Silvester am Wörthersee 2026/27: Preisfenster ab September',
+    description: 'Silvester ist im Q4 am Wörthersee die einzige Nacht mit eigener Preisdynamik. Warum ihre Preislogik im September gesetzt wird – und wo Vermieter typisch danebenliegen.',
+    excerpt: 'Zwischen Anfang Oktober und Mitte Dezember fällt die Belegung am Wörthersee auf das Jahrestief. Der 31. Dezember bleibt die einzige Nacht mit eigener Preisdynamik – und wer diese Nacht setzt, entscheidet in der Regel bereits im September, nicht im Dezember.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Zwischen Anfang Oktober und Mitte Dezember fällt die Belegung am Wörthersee auf ihr niedrigstes Niveau des Jahres. Der 31. Dezember unterbricht diese Kurve als einzige Nacht mit einer eigenen Preisdynamik. Wer den Preis für diese Nacht setzt, entscheidet in der Regel bereits im September – nicht im Dezember.</p>
+
+<p>Das ist die Beobachtung, die die Kalender vieler Kärntner Ferienobjekte im Herbst prägt: <strong>Ein einziger Termin mit deutlich höherer Zahlungsbereitschaft, umrahmt von einem Preistal, das viele Vermieter fehlinterpretieren.</strong></p>
+
+<p>Die Konsequenz ist bekannt. Silvester wird entweder zu früh mit Sommer-Preislogik verkauft – oder zu spät auf eine reduzierte Nebensaisonrate gesetzt.</p>
+
+<h2 id="anatomie">Anatomie eines einzelnen Termins</h2>
+
+<p>Silvester ist am Wörthersee kein Wochenende, das sich zu einem Kurzurlaub ausweitet. Es ist eine Punktveranstaltung, deren Nachfrage durch Feuerwerksperspektive, Sicht auf den See und Erreichbarkeit von Klagenfurt getrieben wird.</p>
+
+<p>Die Nachfragekurve steigt in vielen Jahren zwischen der zweiten und vierten Septemberwoche merklich an – oft ohne dass die Preise entsprechend nachjustiert werden. In dieser Phase ist der Anteil deutscher, italienischer und Wiener Anfragen am höchsten. Wer plant, plant früh.</p>
+
+<p>Ab Mitte November flacht die Kurve ab. Was übrig bleibt, sind kurzfristige Anfragen aus dem inländischen Markt und eine kleinere Gruppe internationaler Gäste, die auf Preisreduktionen spekulieren.</p>
+
+<p>Wer Silvester noch als „einer von 90 Tagen im Q4" behandelt, verpasst diese erste Welle. Die Preislogik der Nachsaison – niedrige Auslastung, defensive Rate – gilt für den 31. Dezember schlicht nicht.</p>
+
+<h2 id="fehler">Die drei häufigsten Preisfehler</h2>
+
+<p>Die typischen Muster lassen sich in drei Kategorien einordnen.</p>
+
+<p><strong>Erstens: Sommer-Preis zu Silvester.</strong> Ein Objekt, das im August 380 Euro pro Nacht kostet, wird im September einfach mit 400 Euro für Silvester eingestellt. Die Zahl klingt hoch, ist aber im relativen Marktumfeld – wo Silvester in Kärnten historisch einen deutlichen Aufschlag zur umliegenden Nebensaisonrate rechtfertigt – oft unter Marktniveau.</p>
+
+<p><strong>Zweitens: Preis identisch mit Wochenmittelwert November.</strong> Der Kalender wird pauschal auf Nebensaison gestellt, und Silvester bleibt bei 140 Euro. Der Buchungsdruck lässt die Nacht dann früh weggehen – zu einem Preis, der später von jedem vergleichbaren Objekt in Krumpendorf oder Pörtschach übertroffen wird.</p>
+
+<p><strong>Drittens: Zu später Preissprung.</strong> Der Silvester-Aufschlag wird erst im November eingezogen, wenn ein Großteil der zahlungsstarken Nachfrage längst verbucht ist. Was übrig bleibt, sind preissensiblere Segmente, die den Aufschlag nicht mehr tragen.</p>
+
+<p>In allen drei Fällen ist nicht der Preis das Problem, sondern die Timing-Logik.</p>
+
+<h2 id="mindestaufenthalt">Der Mindestaufenthalt als eigentlicher Hebel</h2>
+
+<p>Silvester ist einer der wenigen Termine im Kärntner Kalender, an denen ein Drei-Nächte-Mindestaufenthalt problemlos durchsetzbar ist – teilweise sogar erwartet wird.</p>
+
+<p>Wer die Nacht einzeln verkauft, produziert häufig einen unbrauchbaren Kalender: der 31. verkauft, 30. und 1. leer, kein Reinigungsfenster, keine Anschlussbuchung. Ein Zwei- oder Drei-Nächte-Bündel (30.12.–2.1. oder 29.12.–2.1.) glättet nicht nur die Belegung. Es verhindert den Preisverfall auf den Randnächten.</p>
+
+<p>Der Effekt ist in den Kalendern professionell geführter Objekte am Wörthersee gut zu sehen. Wo ein Mindestaufenthalt greift, wird der 31. selten unter Marktniveau verkauft, weil er im Bündel als Preistreiber wirkt. Wo er fehlt, taucht die Nacht früh im Suchergebnis auf, wird oft an Preisjäger weggebucht – und die umliegenden Nächte bleiben leer.</p>
+
+<h2 id="randtage">Was mit den Rändern passiert</h2>
+
+<p>Die Woche vor Silvester (25.–30. Dezember) und die ersten Januartage (1.–5. Januar) bilden am Wörthersee ein eigenes Nachfragefenster mit anderer Logik.</p>
+
+<p>Weihnachten selbst ist am Wörthersee historisch schwächer als in klassischen Ski-Regionen. Die Region liegt zwischen zwei Skigebieten (Nassfeld, Katschberg) und profitiert nicht direkt vom Feiertagsverkehr der Alpenrouten. Was funktioniert, sind Familienobjekte mit Platz für mehrere Generationen und ruhigem Umfeld.</p>
+
+<p>Die Tage nach Silvester (2.–5. Januar) laufen in der Regel schwach – außer für Objekte, die den Zeitraum als Verlängerungsoption an Silvester-Buchungen anbinden. Wer diese Anschlussnächte im September öffnet und leicht rabattiert, hebt die Wahrscheinlichkeit, dass Silvester als Vier-Nächte-Bündel gebucht wird.</p>
+
+<p>Der eigentliche Punkt: <em>Die Randtage sind kein eigenständiger Markt, sondern eine Verlängerungsoption für den Silvester-Buchenden.</em></p>
+
+<h2 id="preisniveau">Wo das Preisniveau realistisch liegt</h2>
+
+<p>Konkrete Preisspannen variieren stark nach Objekttyp und Mikrolage. Grobe Orientierungen aus öffentlich sichtbaren Kalendern professionell geführter Objekte am Wörthersee:</p>
+
+<p>Kompakte 2–4-Personen-Wohnungen ohne Seeblick liegen zu Silvester häufig bei 180–260 Euro pro Nacht, im Nebensaisonrahmen sonst bei 90–130 Euro. Wohnungen mit direktem Seeblick am Nord- oder Südufer bewegen sich zu Silvester bei 280–420 Euro. Häuser mit fünf oder mehr Schlafplätzen erreichen im Bündel oft 450–700 Euro pro Nacht, teilweise darüber.</p>
+
+<p>Diese Bänder sind keine Empfehlungen, sondern Beobachtungen. Der individuelle Preis hängt von Blick, Ausstattung, Erreichbarkeit von Klagenfurt und dem Feuerwerksrahmen ab.</p>
+
+<h2 id="fazit">Was jetzt in den Kalender gehört</h2>
+
+<p>Für Vermieter am Wörthersee sind September und die erste Oktoberhälfte das Zeitfenster, in dem die Silvester-Preislogik konsistent gesetzt werden sollte. Vier Elemente entscheiden.</p>
+
+<p><strong>Klare Preisstufe für den 31.12.,</strong> deutlich abgesetzt vom Nebensaisondurchschnitt und mit realistischem Bezug zum eigenen Objekttyp im Marktumfeld.</p>
+
+<p><strong>Mindestaufenthalt von 3–4 Nächten,</strong> der die Randtage einbindet und den Kalender vor Einzelbuchungen schützt.</p>
+
+<p><strong>Definierte Randpreise für 29.–30.12. und 1.–2.1.,</strong> die als Verlängerung im Silvester-Bündel wirken, nicht als eigenständige Rate.</p>
+
+<p><strong>Sichtbare Öffnung im Inserat,</strong> mit stimmigem Titel und Kalendersichtbarkeit, die den Zeitraum aktiv indiziert. Wer den Zeitraum erst im November für die Suche aktiviert, wird in dieser Phase nur noch von reduziert suchenden Segmenten gefunden.</p>
+
+<p>Wer Objekte am Wörthersee in einem strukturierten <a href="/airbnb-management-kaernten">Kurzzeitvermietungs-Management</a> führt, hat den Silvester-Kalender in der Regel Anfang September fixiert – nicht weil ein Einzelfall besonders lukrativ wäre, sondern weil die richtige Positionierung dieser einzelnen Nacht der stärkste Umsatzhebel des gesamten vierten Quartals ist. Eine <a href="/analyse">objektbezogene Potenzialanalyse</a> macht die konkrete Preisspanne für den eigenen Objekttyp im Vorfeld sichtbar.</p>
+
+<p>Die Nacht bleibt eine Ausnahme. Sie richtig zu spielen, ist deshalb weniger eine Preisfrage als eine Zeitfrage.</p>
+    `,
+    tableOfContents: [
+      { id: 'anatomie', text: 'Anatomie eines einzelnen Termins', level: 2 },
+      { id: 'fehler', text: 'Die drei häufigsten Preisfehler', level: 2 },
+      { id: 'mindestaufenthalt', text: 'Der Mindestaufenthalt als eigentlicher Hebel', level: 2 },
+      { id: 'randtage', text: 'Was mit den Rändern passiert', level: 2 },
+      { id: 'preisniveau', text: 'Wo das Preisniveau realistisch liegt', level: 2 },
+      { id: 'fazit', text: 'Was jetzt in den Kalender gehört', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-09-02',
+    category: 'Pricing & Strategie',
+    tags: ['Silvester', 'Wörthersee', 'Preisstrategie', 'Nebensaison', 'Q4', 'Mindestaufenthalt', 'Buchungsvorlauf', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1483393458019-411bc6bd104f?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Winterliche Alpenlandschaft in Dämmerung – Silvester-Preisfenster am Wörthersee ab September',
+    readingTime: 6,
+  },
+  {
     slug: 'eu-kurzzeitvermietung-verordnung-kaernten-2026',
     title: 'EU-Kurzzeitvermietung 2026: Warum Kärnten noch nicht mitspielt',
     description: 'EU-Verordnung 2024/1028 gilt seit Mai 2026. Warum die Registrierungspflicht in Kärnten faktisch nicht greift – und was trotzdem operativ zu prüfen ist.',
