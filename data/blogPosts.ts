@@ -3,6 +3,104 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'superhost-bewertungsfenster-september-woerthersee-2026',
+    title: 'Airbnb Superhost Q1 2027: Warum September in Kärnten entscheidet',
+    description: 'Am 1. Januar 2027 wertet Airbnb den nächsten Superhost-Zyklus. Warum die September-Reviews am Wörthersee überproportional wiegen – und was operativ noch möglich ist.',
+    excerpt: 'Der nächste Superhost-Zyklus wird am 1. Januar 2027 bewertet. Was in den Kalendern professionell geführter Objekte am Wörthersee gerade passiert, ist keine Bewertungspflege im klassischen Sinn – sondern eine kurze, mechanisch klar kalkulierbare Reparaturphase, die im Frühjahr nicht mehr nachholbar ist.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Der nächste Superhost-Zyklus wird am 1. Januar 2027 bewertet. Für Vermieter am Wörthersee bedeutet das: Das Bewertungsfenster, das über die Badge-Verlängerung entscheidet, endet in wenigen Wochen – und in dieser Phase wiegt jede einzelne Sommerbewertung überproportional schwer.</p>
+
+<p>Was in den Kalendern professionell geführter Objekte gerade passiert, ist keine gewöhnliche Reviewpflege. Es ist eine <strong>mechanisch klar kalkulierbare Reparaturphase</strong>, die im Frühjahr nicht mehr nachholbar ist.</p>
+
+<p>Der Grund liegt weniger in der Airbnb-Logik selbst als im Kärntner Saisonprofil.</p>
+
+<h2 id="zyklus">Wie der Zyklus tatsächlich funktioniert</h2>
+
+<p>Airbnb bewertet den Superhost-Status viermal pro Jahr – jeweils zum Ersten in Januar, April, Juli und Oktober. Grundlage ist der Verlauf der vergangenen zwölf Monate, nicht die letzten drei.</p>
+
+<p>Vier harte Kriterien müssen zum Bewertungsstichtag gleichzeitig erfüllt sein:</p>
+
+<p>Ein Gesamtbewertungsdurchschnitt von <strong>4,8 oder höher</strong>, mindestens <strong>zehn abgeschlossene Aufenthalte</strong> (oder 100 Nächte über mindestens drei Aufenthalte), eine <strong>Antwortquote von 90 Prozent</strong> auf neue Anfragen innerhalb von 24 Stunden und eine <strong>Stornoquote unter einem Prozent</strong>, abgesehen von durch Airbnb anerkannten Ausnahmefällen.</p>
+
+<p>Am 1. Januar 2027 ist der Stichtag. Was zwischen 1. Januar 2026 und 31. Dezember 2026 an Reviews eingegangen ist, zählt vollständig – nichts davor, nichts danach.</p>
+
+<h2 id="asymmetrie">Die Kärntner Asymmetrie</h2>
+
+<p>Für Vermieter in klassischen Ganzjahresmärkten – Wien, Salzburg-Stadt, Innsbruck – verteilen sich die zwölf Bewertungsmonate relativ gleichmäßig. Ein schwacher Juli lässt sich durch einen starken März kompensieren.</p>
+
+<p>Am Wörthersee funktioniert diese Logik nicht.</p>
+
+<p>Der Großteil der Buchungen und damit der Reviews entsteht zwischen Juni und Anfang September. Die Nebensaisonmonate liefern in typischen Objekten zwei bis fünf Bewertungen pro Quartal, oft weniger. Der Sommer trägt in vielen Kalendern <em>60 bis 80 Prozent aller Jahresreviews</em>.</p>
+
+<p>Das hat eine strukturelle Folge, die im Frühjahr niemand sieht: <strong>Fällt ein Sommermonat unter den Schnitt, ist die Reparaturkapazität für den Rest des Zyklus faktisch aufgebraucht.</strong> Eine 4,6er-Bewertung im August braucht sieben 5,0er-Bewertungen, um im Durchschnitt auf 4,85 zurückzukommen – und diese sieben Bewertungen entstehen in der Kärntner Nebensaison innerhalb eines einzigen Restjahres praktisch nie.</p>
+
+<h2 id="september">Warum September das kürzeste Fenster ist</h2>
+
+<p>Gäste bewerten in der Regel drei bis vierzehn Tage nach Abreise. Die Reviews, die aktuell noch offen sind, stammen fast ausschließlich aus dem August und den ersten Septembertagen. Alles, was ab Mitte September gebucht wird, bringt kaum noch Volumen für den Zyklus.</p>
+
+<p>Damit endet das operativ nutzbare Fenster nicht am 31. Dezember, sondern realistisch <strong>um den 20. September</strong>. Was danach kommt, hat entweder zu wenig Buchungsdichte oder zu späte Rückläufe.</p>
+
+<p>In der Praxis heißt das: Wer im September einen 4,6er-Review offen hat, kann bis Ende des Monats prüfen, ob der Gast von einem persönlichen Follow-up seinen Score angehoben oder eine Antwortmöglichkeit für die öffentliche Sicht ergänzt hat. Ab Oktober bewegt sich der Durchschnitt fast nicht mehr.</p>
+
+<p>Der oft übersehene Punkt:</p>
+
+<p><em>Die letzten Sommerreviews entscheiden über das gesamte kommende Jahr – nicht wegen ihrer Anzahl, sondern wegen ihrer Position im Kalender.</em></p>
+
+<h2 id="4-8-schwelle">Wo die 4,8-Schwelle konkret reißt</h2>
+
+<p>Der Bewertungsdurchschnitt wird auf Basis aller vollständig abgegebenen Reviews im 12-Monats-Fenster berechnet, gerundet auf eine Nachkommastelle. Der kritische Punkt liegt nicht bei 4,8, sondern faktisch bei <strong>4,85 im Rohwert</strong> – alles darunter rundet zu 4,7 und disqualifiziert.</p>
+
+<p>Für ein Objekt mit 20 Reviews im Zyklus bedeutet das: Eine einzige 4,0er-Bewertung zieht den Durchschnitt um 0,04 nach unten. Zwei solcher Bewertungen können bereits die Badge kosten, wenn der Rest nicht deutlich über 4,9 liegt.</p>
+
+<p>In Kärntner Objekten mit 12 bis 18 Reviews im Zyklus – ein typisches Volumen für ein Einzelobjekt mit dreimonatiger Hochsaison – ist die Toleranzgrenze noch enger. Hier reicht oft ein einziger 3,5er-Review, um den Zyklus zu kippen.</p>
+
+<p>Das ist keine Interpretation, sondern Arithmetik.</p>
+
+<h2 id="operativ">Was in den nächsten drei Wochen operativ zählt</h2>
+
+<p>Drei Ansatzpunkte lassen sich vor Ende September realistisch bewegen.</p>
+
+<p><strong>Erstens: Offene Response-Threads schließen.</strong> Die Antwortquote wird auf Basis aller Anfragen der letzten 365 Tage berechnet. Wer im Zyklus eine oder zwei versäumte 24-Stunden-Fenster hat, sollte prüfen, wie nahe die Quote an der 90-Prozent-Grenze liegt. Jede aktuelle Anfrage wird für den Zyklus stärker gewichtet als die des Vorjahres, weil sie den gleitenden Nenner erhöht.</p>
+
+<p><strong>Zweitens: Öffentliche Antworten auf schwache Reviews.</strong> Eine sachliche, ruhig formulierte Antwort auf einen 3- oder 4-Sterne-Review verändert den Durchschnitt nicht direkt. Sie verändert aber, wie zukünftige Gäste den Review lesen – und wie Airbnbs eigene Klassifikation zwischen „isolierter Vorfall" und „Muster" tendiert. Antworten, die nach dem 30. September nachgereicht werden, kommen für den Superhost-Zyklus zu spät.</p>
+
+<p><strong>Drittens: Reinigungs- und Bestandskontrolle vor den letzten Herbstbuchungen.</strong> Die Reviews, die noch fehlen, entstehen jetzt. Objekte, die Anfang September mit dem selben Bestand laufen wie im Juli, produzieren im Herbst oft leicht schwächere Reviews – die Waagschale des Zyklus ist an dieser Stelle am empfindlichsten.</p>
+
+<p>Wer seine Objekte am Wörthersee in einem strukturierten <a href="/airbnb-management">Airbnb Management in Kärnten</a> führt, hat diese drei Punkte typischerweise in der zweiten Septemberwoche adressiert – nicht aus Aktionismus, sondern weil das Fenster mechanisch schließt.</p>
+
+<h2 id="ranking">Die stille Auswirkung auf das Ranking 2027</h2>
+
+<p>Der Superhost-Status ist innerhalb des Airbnb-Rankings kein dominanter, aber ein konsistenter Faktor. Was in den öffentlichen Erklärungen der Plattform selten präzise formuliert wird, lässt sich aus den Ranglisten kärntnerischer Objekte über mehrere Jahre ablesen: Objekte, die den Superhost-Status durchgehend halten, werden im Suchergebnis strukturell höher gerankt als vergleichbare Objekte mit unterbrochenem Status.</p>
+
+<p>Der Effekt greift verzögert. Ein Objekt, das den Status zum 1. Januar 2027 verliert, spürt die Sichtbarkeitsreduktion nicht im Januar – sondern in der Buchungsphase für Sommer 2027, die zwischen Februar und Mai läuft.</p>
+
+<p>In dieser Phase wird ein spürbarer Anteil der Jahresauslastung entschieden. Am Wörthersee liegt der Buchungsvorlauf für die Hochsaison Juli/August bei durchschnittlich 90 bis 130 Tagen – der Superhost-Status wirkt genau in dieses Fenster hinein.</p>
+
+<p>Wer im Herbst eine <a href="/analyse">objektbezogene Potenzialanalyse</a> aufsetzt, sieht diese Zusammenhänge in den eigenen Zahlen: die Korrelation zwischen Badge-Kontinuität, durchschnittlichem Suchranking und Buchungsvorlauf ist in professionell geführten Kärntner Kalendern deutlich stärker sichtbar als in Einzelbetrachtungen von Reviews oder Preisen.</p>
+
+<p>Der Superhost-Status ist am Wörthersee kein Prestigemarker. Er ist ein Ranking-Faktor, dessen Verlust neun bis zwölf Monate später sichtbar wird – und dessen Zyklus jedes Jahr an derselben unauffälligen Stelle entschieden wird: in den letzten drei Septemberwochen.</p>
+    `,
+    tableOfContents: [
+      { id: 'zyklus', text: 'Wie der Zyklus tatsächlich funktioniert', level: 2 },
+      { id: 'asymmetrie', text: 'Die Kärntner Asymmetrie', level: 2 },
+      { id: 'september', text: 'Warum September das kürzeste Fenster ist', level: 2 },
+      { id: '4-8-schwelle', text: 'Wo die 4,8-Schwelle konkret reißt', level: 2 },
+      { id: 'operativ', text: 'Was in den nächsten drei Wochen operativ zählt', level: 2 },
+      { id: 'ranking', text: 'Die stille Auswirkung auf das Ranking 2027', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-09-09',
+    category: 'Reviews & Reputation',
+    tags: ['Superhost', 'Airbnb Reviews', 'Bewertungszyklus', 'Wörthersee', 'Kärnten', 'Ranking', 'Hauptsaison', 'Q1 2027'],
+    featuredImage: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Warm beleuchteter Rezeptionsbereich – Airbnb Superhost-Bewertungsfenster im September am Wörthersee',
+    readingTime: 6,
+  },
+  {
     slug: 'silvester-woerthersee-buchungsfenster-2026-2027',
     title: 'Silvester am Wörthersee 2026/27: Preisfenster ab September',
     description: 'Silvester ist im Q4 am Wörthersee die einzige Nacht mit eigener Preisdynamik. Warum ihre Preislogik im September gesetzt wird – und wo Vermieter typisch danebenliegen.',
