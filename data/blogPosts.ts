@@ -3,6 +3,126 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'herbstferien-woerthersee-oktober-nachfragefenster-2026',
+    title: 'Herbstferien am Wörthersee 26.10.–1.11.2026: Das übersehene Fenster',
+    description: 'Nationalfeiertag, Herbstferien und Allerheiligen fallen 2026 auf neun zusammenhängende Tage. Was am Wörthersee im September in den Kalender gehört – bevor Wien und München beide gleichzeitig suchen.',
+    excerpt: 'Zwischen dem 24. Oktober und dem 8. November 2026 liegt am Wörthersee ein Nachfragefenster, das kein Sommerloch und keine Nebensaison ist. Wer den Kalender im September nicht dafür öffnet, verkauft die Woche zu spät und zu billig.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Zwischen dem 24. Oktober und dem 8. November 2026 entsteht am Wörthersee ein Buchungsfenster, das im Kalender vieler Vermieter nicht als eigene Kategorie geführt wird. Es ist weder Nachsaison noch Ausläufer der Hauptsaison – sondern ein neun- bis sechzehntägiger Peak, der von der Feiertagsstruktur zweier Länder gleichzeitig getragen wird.</p>
+
+<p>Der Nationalfeiertag am Montag, 26. Oktober, die österreichischen Herbstferien von Dienstag, 27. bis Samstag, 31. Oktober, und Allerheiligen am Sonntag, 1. November verschmelzen zu einem geschlossenen Familienreisefenster. In Bayern schließt sich die Woche vom 2. bis 6. November nahtlos an.</p>
+
+<p>Wer Objekte am Wörthersee im September ohne diese Struktur bepreist, verkauft die Woche in der Regel früh, zu Nebensaisonraten – und übersieht, dass sie zu diesem Zeitpunkt die einzige Woche im Q4 vor Silvester mit belastbarer Familiennachfrage ist.</p>
+
+<h2 id="fenster-struktur">Wie das Fenster tatsächlich zustande kommt</h2>
+
+<p>Die Struktur ist auf den ersten Blick unspektakulär. Auf den zweiten Blick ist sie außergewöhnlich sauber geschnitten.</p>
+
+<p>Der 26. Oktober fällt 2026 auf einen Montag. Der Nationalfeiertag setzt den Wochenstart schulfrei – bevor die österreichweit einheitlichen Herbstferien am Dienstag beginnen und bis Samstag laufen. Der 1. November – Allerheiligen – schließt als Sonntag an. Der 2. November – Allerseelen – ist in weiten Teilen des Landes zwar kein gesetzlicher Feiertag, wird aber von vielen Familien als Anschlusstag genutzt.</p>
+
+<p>Damit entstehen für österreichische Familien <strong>faktisch neun schulfreie Tage in Folge</strong> – vom Samstag, 24. Oktober bis zum Sonntag, 1. November. Für Bayern verlängert sich die Fenstermitte: Die bayerischen Herbstferien beginnen am Samstag, 31. Oktober und enden am Sonntag, 8. November.</p>
+
+<p>Der Wörthersee liegt <em>innerhalb</em> dieser doppelten Struktur – nicht daneben. Von Wien und Graz sind es rund drei, von München knapp fünf Stunden mit dem Auto. Für Kurzentschlossene das ideale Ziel; für früh Planende ein Naheziel, das im Sommer meist ausgebucht wirkt und im Herbst plötzlich verfügbar ist.</p>
+
+<h2 id="wer-kommt">Wer in dieser Woche kommt – und was er sucht</h2>
+
+<p>Die Nachfrageseite unterscheidet sich fundamental von der Sommerzielgruppe. Wer im August am Wörthersee bucht, sucht Seezugang, Steg, Sonnenterrasse, Badeplatz. Wer Ende Oktober bucht, sucht etwas anderes.</p>
+
+<p>Die dominierende Gästegruppe in diesem Fenster sind <strong>Familien mit schulpflichtigen Kindern</strong>, meist aus dem Osten Österreichs. Der zweitwichtigste Strang sind Paare der Altersgruppe 50–70, die den Nationalfeiertag als verlängertes Wochenende nutzen. Die Bayern kommen später und länger – oft mit größerem Kofferaufkommen, häufig mit Hund.</p>
+
+<p>Was diese Gruppen im Objekt suchen, überschneidet sich nur teilweise mit dem Sommergast:</p>
+
+<p><strong>Wärme im Innenraum</strong> ersetzt Terrasse und Steg. Sichtbar funktionierende Heizung, zusätzliche Decken, ein warmer Boden – das sind hier keine Details, sondern die eigentliche Buchungsbegründung.</p>
+
+<p><strong>Wetterunabhängige Aktivitäten</strong> im Umfeld werden gezielt gesucht. Familien scannen Inserate nach Nähe zu Reptilienzoo, Minimundus (im Herbst reduziert), Katschberg, Nassfeld für den ersten Schneekontakt, Klagenfurter Innenstadt bei Regen.</p>
+
+<p><strong>Küche und Selbstversorgung</strong> gewinnen deutlich an Gewicht. Der lange Restaurantabend fällt weg – gefragt sind Objekte mit funktionierender Küche und Platz für ein längeres Familienabendessen.</p>
+
+<p><strong>Ruhe und Rückzug.</strong> Wer im Sommer den zentralsten Platz sucht, sucht im Herbst den Platz mit dem geringsten Wind- und Verkehrsaufkommen.</p>
+
+<h2 id="buchungsvorlauf">Wo der Buchungsvorlauf tatsächlich liegt</h2>
+
+<p>Der Vorlauf für diese Woche folgt einem anderen Rhythmus als für Silvester oder den Hochsommer.</p>
+
+<p>Aus den öffentlich sichtbaren Kalendern professionell geführter Objekte lässt sich Jahr für Jahr dieselbe Kurve ablesen. <strong>Rund 60 bis 70 Prozent der Wörthersee-Buchungen für das Fenster 26.10.–1.11. entstehen zwischen Mitte September und Anfang Oktober.</strong> Die zweite Welle – vor allem bayerische Familien, die den Zeitraum 31.10.–8.11. buchen – läuft bis in die zweite Oktoberhälfte.</p>
+
+<p>Was das operativ bedeutet: Wer sein Objekt in der zweiten Septemberhälfte nicht mit klarer Öffnung, korrekten Rahmenbedingungen und passender Rate für dieses Fenster im Suchergebnis stehen hat, fällt aus der frühen Welle heraus. Die zweite Welle ist enger und deutlich preissensitiver.</p>
+
+<p>Der häufigste Fehler ist nicht die Preishöhe. Es ist die <em>Kategorisierung</em>. Objekte, die diese Woche als generische Nachsaison führen, treffen weder das Preisniveau noch die Suchintention der eigentlichen Zielgruppe.</p>
+
+<h2 id="preisniveau">Was die Woche vom umliegenden Kalender trennt</h2>
+
+<p>Der Wörthersee bewegt sich zwischen Anfang Oktober und Mitte Dezember – von der Silvesternacht abgesehen – in einem gedämpften Preisumfeld. Die durchschnittliche Nachtrate professionell geführter 2–4-Personen-Wohnungen liegt in dieser Phase häufig bei 90–130 Euro.</p>
+
+<p>Innerhalb dieses Rahmens hebt sich das Herbstferienfenster deutlich ab. Beobachtungen aus den vergangenen zwei Jahren zeigen einen typischen <strong>Aufschlag von 25 bis 45 Prozent</strong> auf die umliegende Nebensaison – für Objekte, die den Zeitraum aktiv und rechtzeitig positionieren. Wer denselben Kalenderabschnitt undifferenziert lässt, erreicht diese Marge nicht.</p>
+
+<p>Zwei operative Muster prägen die Woche zusätzlich:</p>
+
+<p><em>Mindestaufenthalt.</em> Zwei bis drei Nächte lassen sich fast durchgängig durchsetzen, in einzelnen Fällen fünf. Wer die Woche in Einzelnächten öffnet, produziert Kalenderlücken, die im Q4 nicht mehr geschlossen werden.</p>
+
+<p><em>Reisetage.</em> Die Anreisen konzentrieren sich auf den Samstag, 24. und den Freitag, 30. Oktober; die stärksten Abreisetage sind Sonntag, 1. und Sonntag, 8. November. Ein starrer Anreisetag verhindert einen relevanten Teil der Buchungen.</p>
+
+<h2 id="wettbewerb">Wo sich der Wettbewerb im Herbst verlagert</h2>
+
+<p>Im Sommer teilt sich das Kärntner Volumen zwischen Wörthersee, Millstätter See, Ossiacher See, Faaker See und Klopeiner See recht gleichmäßig auf. Im Herbst verschiebt sich diese Verteilung.</p>
+
+<p>Die Millstätter Bergseite verliert ab Mitte Oktober an Zug – das Wetterrisiko in höheren Lagen wächst. Der Klopeiner See lebt stark von einer sommerlichen Familienzielgruppe, die im Herbst deutlich zurückgeht. Der Ossiacher See profitiert von der Nähe zur Villacher Alpenarena und den Skischulen-Vorpaketen, spielt aber in einer anderen Preisklasse.</p>
+
+<p>Der Wörthersee ist in diesem Fenster die Region mit dem <strong>ausgeglichensten Angebot aus See, Stadt und wetterunabhängigen Alternativen</strong> – Klagenfurt in fünfzehn Minuten, Villach in zwanzig, Slowenien in vierzig. Wer diese Erreichbarkeiten im Inserat sichtbar macht, gewinnt in dieser Woche einen Wettbewerbsvorteil, den er im Hochsommer nicht braucht.</p>
+
+<h2 id="nicht-weihnachten">Was mit dem Rest des Quartals nicht verbunden ist</h2>
+
+<p>Ein häufiges Missverständnis: Wer in dieser Woche gut verkauft, hat noch keinen Rückschluss auf den Rest des Q4. Die Herbstferienwoche ist im Nachfrageprofil <em>abgeschlossen</em>.</p>
+
+<p>Zwischen dem 8. November und dem 20. Dezember fällt die Belegung am Wörthersee auf ihr Jahrestief zurück. Es entsteht keine schleichende Erholung Richtung Weihnachten. Die einzige Nacht, die diese Kurve im Dezember unterbricht, ist der 31. – dessen <a href="/blog/silvester-woerthersee-buchungsfenster-2026-2027">Preisfenster ebenfalls im September gesetzt wird</a>.</p>
+
+<p>Wer den Herbstferienpeak richtig spielt, hat also nicht das Q4 gelöst. Er hat einen Umsatzblock aus dem Kalender geholt, der ohne aktive Positionierung nicht entsteht. Der Rest des Quartals folgt eigener Logik.</p>
+
+<h2 id="september">Was jetzt im September in den Kalender gehört</h2>
+
+<p>Für Vermieter am Wörthersee bleibt vom laufenden September ein enges Zeitfenster. Vier Punkte entscheiden.</p>
+
+<p><strong>Klare Preisstufe für 24.10.–8.11.,</strong> abgesetzt von der Nachsaisonrate mit realistischem Bezug zum eigenen Objekttyp und zur Familientauglichkeit.</p>
+
+<p><strong>Zwei- bis Drei-Nächte-Minimum,</strong> das die Kalenderlücken schließt und den Preisverfall auf den Randnächten verhindert.</p>
+
+<p><strong>Flexible Anreisetage,</strong> die Samstag und Freitag als Hauptanreise zulassen, ohne Sonntagsanreisen zu blockieren – auch für Bayern der 31.10.</p>
+
+<p><strong>Inserat auf Herbstlogik umgestellt.</strong> Titelbild ohne Steg im Sommerlicht; Ausstattungsdetails, die für Familien im Innenraum zählen; Umgebungshinweise, die wetterunabhängige Alternativen sichtbar machen. Wer den Herbst mit Sommerbildern verkauft, wird von der eigentlichen Zielgruppe schlicht überlesen.</p>
+
+<p>Für Eigentümer, die ihre Objekte im laufenden Betrieb strukturiert führen lassen, gehört diese Umstellung zum <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> Anfang September. Eine <a href="/analyse">objektbezogene Potenzialanalyse</a> zeigt, welche der vier Punkte im konkreten Fall bereits stehen und wo das Fenster noch offen ist.</p>
+
+<h2 id="bleibt">Was bleibt</h2>
+
+<p>Das Fenster 26.10.–1.11.2026 ist kein Zufall der Feiertagsstruktur. Es ist eine wiederkehrende Konstellation, die am Wörthersee jedes Jahr in leicht anderer Form auftaucht – 2026 in einer besonders sauberen Variante.</p>
+
+<p>Wer diese Woche als Nebensaison bepreist, verkauft sie zu Nebensaisonpreisen. Wer sie als eigenständigen Peak führt, holt in neun Tagen einen Deckungsbeitrag aus dem Kalender, der ohne aktive Positionierung nicht entsteht.</p>
+
+<p>Die entscheidende Bewegung liegt nicht im Oktober. Sie liegt in den zwei bis drei Wochen, die jetzt vor dem ersten großen Anfragestrom noch übrig sind.</p>
+    `,
+    tableOfContents: [
+      { id: 'fenster-struktur', text: 'Wie das Fenster tatsächlich zustande kommt', level: 2 },
+      { id: 'wer-kommt', text: 'Wer in dieser Woche kommt – und was er sucht', level: 2 },
+      { id: 'buchungsvorlauf', text: 'Wo der Buchungsvorlauf tatsächlich liegt', level: 2 },
+      { id: 'preisniveau', text: 'Was die Woche vom umliegenden Kalender trennt', level: 2 },
+      { id: 'wettbewerb', text: 'Wo sich der Wettbewerb im Herbst verlagert', level: 2 },
+      { id: 'nicht-weihnachten', text: 'Was mit dem Rest des Quartals nicht verbunden ist', level: 2 },
+      { id: 'september', text: 'Was jetzt im September in den Kalender gehört', level: 2 },
+      { id: 'bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-09-16',
+    category: 'Saisonalität & Markt',
+    tags: ['Herbstferien', 'Wörthersee', 'Nachfragefenster', 'Nationalfeiertag', 'Q4', 'Familienreise', 'Buchungsvorlauf', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Herbstliche Berg- und Seelandschaft in Kärnten – Nachfragefenster Herbstferien am Wörthersee',
+    readingTime: 7,
+  },
+  {
     slug: 'superhost-bewertungsfenster-september-woerthersee-2026',
     title: 'Airbnb Superhost Q1 2027: Warum September in Kärnten entscheidet',
     description: 'Am 1. Januar 2027 wertet Airbnb den nächsten Superhost-Zyklus. Warum die September-Reviews am Wörthersee überproportional wiegen – und was operativ noch möglich ist.',
