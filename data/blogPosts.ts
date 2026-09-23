@@ -3,6 +3,128 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'advent-woerthersee-november-dezember-nachfragefenster-2026',
+    title: 'Advent am Wörthersee 2026: Die sechs Wochen zwischen den Peaks',
+    description: 'Zwischen Herbstferien und Silvester liegt am Wörthersee ein Zeitraum, der in vielen Kalendern als leer geführt wird. Warum der Advent 2026 diesen Block auf sechs Wochen halbiert – und wo Vermieter typisch danebenliegen.',
+    excerpt: 'Vom 8. November bis zum 30. Dezember 2026 liegen am Wörthersee 52 Nächte, die in vielen Kalendern als Nebensaison durchlaufen. Ab Mitte November verändert sich in diesem Block etwas – wer den Advent als eigene Kategorie führt, verkauft ihn anders als das umliegende Preistal.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Zwischen dem Ende der Herbstferien am 8. November und dem Beginn des Silvesterfensters am 30. Dezember 2026 liegen am Wörthersee 52 Nächte, die in vielen Kalendern undifferenziert als Nebensaison durchlaufen. Die Belegung fällt in diesem Zeitraum in den meisten Objekten auf ihr Jahrestief zurück – mit einer Ausnahme, die im September selten mit eigener Logik gesetzt wird.</p>
+
+<p>Ab dem 13. beziehungsweise 14. November öffnen die beiden größten Kärntner Adventmärkte: der <strong>Villacher Advent</strong> rund um die Stadtpfarrkirche am 13. November und der <strong>Klagenfurter Christkindlmarkt</strong> am Neuen Platz am 14. November. Beide laufen bis zum 24. Dezember.</p>
+
+<p>Das verändert nicht das ganze Q4-Preistal. Es halbiert es – in einen weichen Block bis Mitte November und einen dichteren zwischen Mitte November und Weihnachten. Wer diese Unterscheidung im Kalender nicht abbildet, verkauft sechs Wochen zum selben Preis wie die drei davor.</p>
+
+<h2 id="statistik">Was die Winterstatistik tatsächlich zeigt</h2>
+
+<p>Die Wahrnehmung, November und Dezember seien am Wörthersee "tot", hält einer Prüfung der Landesstatistik nicht stand.</p>
+
+<p>Die Kärntner Wintersaison 2024/25 verzeichnete laut Landesstatistik <strong>970.516 Ankünfte (+6,5 Prozent)</strong> und <strong>3,71 Millionen Übernachtungen (+4,7 Prozent)</strong> gegenüber der Vorsaison. Der Doppelmonat November/Dezember allein trug <strong>784.546 Übernachtungen (+4,6 Prozent)</strong> bei – der Dezember 2024 war mit +5,1 Prozent Ankünften und +9,1 Prozent Übernachtungen der zweitstärkste seit Beginn der Erhebung 1968.</p>
+
+<p>Der Punkt: Das Wachstum entsteht nicht flächendeckend, sondern konzentriert sich auf zwei Marktsegmente. Das eine sind die klassischen Skidestinationen im Norden – Nassfeld, Katschberg, Turracher Höhe. Das andere sind die urbanen Adventräume Klagenfurt und Villach.</p>
+
+<p>Der Wörthersee liegt geografisch zwischen beiden Zonen. Er profitiert weder vom Skitourismus in nennenswertem Umfang noch fällt er automatisch in den städtischen Adventräumen an. Die Verbindung entsteht nicht über die Lage, sondern über die <em>Positionierung im Inserat</em>.</p>
+
+<h2 id="mechanik">Wie der Advent-Nachfragestrang tatsächlich funktioniert</h2>
+
+<p>Adventreisende buchen anders als Sommergäste. Der Vorlauf ist kürzer, die Aufenthaltsdauer geringer, die Zielgruppenzusammensetzung deutlich urbaner.</p>
+
+<p>Aus den Buchungsmustern professionell geführter Wörthersee-Objekte lässt sich Jahr für Jahr dasselbe ableiten. <strong>Der Peak der Adventbuchungen liegt zwischen Ende Oktober und dem ersten Adventwochenende.</strong> Vier von fünf Buchungen entstehen innerhalb dieser sechs Wochen; die Vorabreservierung im Sommer spielt praktisch keine Rolle.</p>
+
+<p>Der durchschnittliche Aufenthalt liegt bei zwei bis drei Nächten. Die stärksten Anreisetage sind Freitag und Samstag, die stärksten Buchungsanlässe sind Adventwochenenden – insbesondere das erste (28./29. November), das zweite (5./6. Dezember) und das dritte (12./13. Dezember).</p>
+
+<p>Die vierte Adventwoche fällt 2026 mit dem 19./20. Dezember ins Wochenende direkt vor Weihnachten – hier bricht die Nachfrage regelmäßig ein, weil die eigene Vorbereitungsphase beginnt.</p>
+
+<h2 id="zielgruppe">Wer in dieser Phase kommt</h2>
+
+<p>Die dominierende Gruppe sind <strong>Paare zwischen 35 und 65 aus dem urbanen Raum</strong>: Wien, Graz, München, Salzburg. Familien mit Kindern spielen im Advent am Wörthersee eine untergeordnete Rolle – die Herbstferien sind vorbei, die Weihnachtsferien noch nicht begonnen.</p>
+
+<p>Was diese Zielgruppe sucht, überschneidet sich nur teilweise mit dem Herbst- oder Sommergast:</p>
+
+<p><strong>Erreichbarkeit der Innenstädte.</strong> Klagenfurt und Villach sind vom mittleren Wörthersee in 15 bis 25 Minuten mit dem Auto erreichbar. Objekte, die diese Distanz sichtbar machen – idealerweise mit dem konkreten Zeitwert, nicht mit "zentral gelegen" –, werden im Adventfenster überproportional geklickt.</p>
+
+<p><strong>Warme Innenwahrnehmung.</strong> Das ist keine Ausstattungsfrage, sondern eine Bildfrage. Wer im Novemberfenster Sommer-Titelbilder zeigt, wird von der Adventzielgruppe schlicht übersehen. Warmes Innenlicht, sichtbare Kaminecke, Kerzen, dunkle Textilien im Foto tragen in dieser Phase mehr Klicks als Seeblick.</p>
+
+<p><strong>Kurzaufenthalt ohne Reibung.</strong> Zwei Nächte, klarer Check-in, Selbstversorgung möglich, Frühstückssituation ausgestattet. Der Sommergast bleibt eine Woche und verzeiht Kleinigkeiten. Der Adventgast bleibt 48 Stunden und misst jede.</p>
+
+<h2 id="preis">Wo das Preisfenster tatsächlich liegt</h2>
+
+<p>Der Wörthersee bewegt sich zwischen Anfang Oktober und dem 30. Dezember – von den Herbstferien und Silvester abgesehen – in einem gedämpften Preisumfeld. Die durchschnittliche Nachtrate professionell geführter 2–4-Personen-Objekte liegt in dieser Phase häufig bei 85 bis 130 Euro.</p>
+
+<p>Innerhalb dieses Rahmens öffnet sich für die Adventwochenenden ein deutlich abgesetzter Korridor. Beobachtungen aus den vergangenen zwei Saisonen zeigen einen typischen <strong>Aufschlag von 20 bis 35 Prozent</strong> auf die umliegenden Wochenraten – für Objekte, die den Zeitraum aktiv als Advent positionieren.</p>
+
+<p>Der häufigste operative Fehler ist nicht die Preishöhe. Es ist die <em>Struktur</em>. Drei Muster prägen die Woche:</p>
+
+<p><em>Wochenendaufschlag.</em> Freitag- und Samstagnächte im Advent tragen 25 bis 40 Prozent mehr als die umliegenden Wochennächte. Wer flache Wochentarife setzt, verschenkt genau die zwei Nächte, die die Zahlungsbereitschaft trägt.</p>
+
+<p><em>Mindestaufenthalt zwei Nächte.</em> Ein starrer Ein-Nacht-Modus fragmentiert den Kalender, ein Drei-Nacht-Minimum blockiert die typische Freitag-bis-Sonntag-Reise. Zwei Nächte treffen den tatsächlichen Aufenthaltsschnitt.</p>
+
+<p><em>Flexible Anreisetage.</em> Die Adventzielgruppe reist mehrheitlich freitags an, ein relevanter Teil aber auch donnerstags oder samstags. Ein festes Anreisefenster fällt aus einem Drittel der Suchergebnisse.</p>
+
+<h2 id="wettbewerb">Wo der Wettbewerb sich verschiebt</h2>
+
+<p>Im Sommer teilt sich das Kärntner Volumen relativ gleichmäßig auf die Seen auf. Im Advent verschiebt sich diese Verteilung deutlich.</p>
+
+<p>Klopeiner See und Ossiacher See spielen im Advent kaum eine Rolle – zu weit von den urbanen Adventräumen entfernt, zu schwach in der Wahrnehmung. Millstätter See bewegt sich in einer anderen Preisklasse und einer anderen Zielgruppe.</p>
+
+<p>Der Wörthersee steht in dieser Phase in direkter Konkurrenz zu <strong>Hotelalternativen in Klagenfurt und Villach selbst</strong>. Wer in beiden Städten eine Doppelzimmerrate zwischen 90 und 140 Euro sucht, bekommt sie im Advent verlässlich. Ein Ferienobjekt am Wörthersee muss diesen Vergleich nicht über den Preis gewinnen, sondern über etwas, das das Stadthotel nicht bietet: Ruhe außerhalb, Küche, Platz, in fünfzehn Minuten zurück im Zentrum.</p>
+
+<p>Wer diese Erreichbarkeit im Inserat nicht sichtbar macht, tritt in einen Preiskampf, den ein 32-Quadratmeter-Zimmer im Zentrum leichter gewinnt.</p>
+
+<h2 id="silvester-abgrenzung">Was mit dem Silvesterfenster nicht verbunden ist</h2>
+
+<p>Ein häufiges Missverständnis: Der Advent leitet den Silvesterverkauf ein. Er tut es nicht.</p>
+
+<p>Der 31. Dezember folgt einer eigenen Preisdynamik, die im September gesetzt und im November kaum noch verändert wird – der Buchungsvorlauf für die Silvesternacht am Wörthersee liegt in professionell geführten Objekten typischerweise zwischen 90 und 120 Tagen. Wer im Advent gut verkauft, hat für Silvester nichts gewonnen – und wer Silvester früh gesetzt hat, verkauft im Advent kein einziges Objekt mehr.</p>
+
+<p>Die zweiten Weihnachtsfeiertage und die Tage bis zum 30. Dezember fallen in ein enges Fenster mit stark verlängerter Aufenthaltsdauer – dominiert von Familien mit Kindern in den Weihnachtsferien und deutlich anderen Suchmustern als der Advent.</p>
+
+<p>Die drei Blöcke – Advent, Weihnachtsferien, Silvester – sind im Nachfrageprofil <em>abgeschlossene Einheiten</em>. Wer sie in einem Preisniveau führt, verliert an allen drei Stellen.</p>
+
+<h2 id="september-oktober">Was jetzt operativ zählt</h2>
+
+<p>Vom laufenden September bleibt ein enges Fenster, um den Adventblock für 2026 überhaupt in den Suchergebnissen sichtbar zu machen. Vier Punkte entscheiden.</p>
+
+<p><strong>Preisstufe für 13.11.–24.12. abgesetzt</strong> von der umliegenden Nebensaison, mit Wochenendaufschlag am Freitag und Samstag, ohne Aufschlag am Sonntag bis Donnerstag.</p>
+
+<p><strong>Zwei-Nächte-Minimum</strong> für den gesamten Block, das Ein-Nacht-Fragmentierung vermeidet und trotzdem den typischen Aufenthalt zulässt.</p>
+
+<p><strong>Anreisetage Donnerstag bis Samstag geöffnet</strong>, ohne dass eine feste Anreise Freitag den Kalender blockiert.</p>
+
+<p><strong>Inserat mit einem Innenraum-Titelbild.</strong> Der Sommertitel funktioniert im Advent nicht – nicht wegen des Motivs, sondern wegen der impliziten Jahreszeit. Ein Foto, das Wärme signalisiert, wird in dieser Phase häufiger geklickt als ein Steg im Sommerlicht.</p>
+
+<p>Für Vermieter, die ihre Objekte laufend führen lassen, ist diese Umstellung Teil eines strukturierten <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> Ende September oder in der ersten Oktoberwoche. Eine <a href="/analyse">objektbezogene Potenzialanalyse</a> zeigt, welche der vier Punkte konkret bereits stehen – und wo der Adventblock 2026 noch offen ist.</p>
+
+<h2 id="bleibt">Was bleibt</h2>
+
+<p>Der Advent am Wörthersee ist kein Skigebiet-Fenster und kein Familienfenster. Er ist ein Kurzaufenthalts-Fenster für urbane Paare, die zwei Nächte lang in eine warme Umgebung wollen – nah genug an den Christkindlmärkten, weit genug weg vom Menschenaufkommen.</p>
+
+<p>Diese Nische ist im Sommer irrelevant und im Winter oft unsichtbar. Sie fällt zwischen den Zielgruppenrastern durch. Wer sie im September mit eigener Preisstufe, eigenem Bild und eigenem Rhythmus in den Kalender einträgt, holt sechs Wochen aus dem Q4, die ohne diese Umstellung als Nebensaison durchlaufen.</p>
+
+<p>Wer sie nicht einträgt, verkauft den Adventzeitraum zum selben Preis wie den ersten November – und wundert sich, dass die Klicks auf dem Inserat ab Mitte November nicht steigen.</p>
+    `,
+    tableOfContents: [
+      { id: 'statistik', text: 'Was die Winterstatistik tatsächlich zeigt', level: 2 },
+      { id: 'mechanik', text: 'Wie der Advent-Nachfragestrang tatsächlich funktioniert', level: 2 },
+      { id: 'zielgruppe', text: 'Wer in dieser Phase kommt', level: 2 },
+      { id: 'preis', text: 'Wo das Preisfenster tatsächlich liegt', level: 2 },
+      { id: 'wettbewerb', text: 'Wo der Wettbewerb sich verschiebt', level: 2 },
+      { id: 'silvester-abgrenzung', text: 'Was mit dem Silvesterfenster nicht verbunden ist', level: 2 },
+      { id: 'september-oktober', text: 'Was jetzt operativ zählt', level: 2 },
+      { id: 'bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-09-23',
+    category: 'Saisonalität & Markt',
+    tags: ['Advent', 'Wörthersee', 'Nachfragefenster', 'Nebensaison', 'Klagenfurt', 'Villach', 'Q4', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1543589077-47d81606c1bf?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Warm beleuchteter Christkindlmarkt in der Dämmerung – Adventfenster am Wörthersee zwischen Herbstferien und Silvester',
+    readingTime: 7,
+  },
+  {
     slug: 'herbstferien-woerthersee-oktober-nachfragefenster-2026',
     title: 'Herbstferien am Wörthersee 26.10.–1.11.2026: Das übersehene Fenster',
     description: 'Nationalfeiertag, Herbstferien und Allerheiligen fallen 2026 auf neun zusammenhängende Tage. Was am Wörthersee im September in den Kalender gehört – bevor Wien und München beide gleichzeitig suchen.',
