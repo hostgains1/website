@@ -3,6 +3,110 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-response-time-woerthersee-q4-2026',
+    title: 'Response Time am Wörthersee: Der stille Rankinghebel im Q4',
+    description: 'Die 1-Stunden-Schwelle und die 90-Prozent-Grenze im Airbnb-Ranking wirken im Q4 anders als im Sommer. Was Wörthersee-Vermieter jetzt strukturieren.',
+    excerpt: 'Airbnb misst zwei Kennzahlen — Response Rate und Response Time —, deren Gewichtung sich im Q4 verändert. Was am Wörthersee Ende September darüber entscheidet, welche Anfragen im November überhaupt noch klicken.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Response Rate und Response Time sind seit Jahren als Superhost-Kriterien bekannt: 90 Prozent Antwortquote innerhalb von 24 Stunden. Was diese beiden Zahlen im Ranking tatsächlich leisten, wird von Vermietern am Wörthersee in aller Regel unterschätzt – vor allem im Q4, wenn das Anfragevolumen fällt und jede einzelne Anfrage im Ranking mehr wiegt als drei im Juli.</p>
+
+<p>Der operative Fehler ist selten die 24-Stunden-Grenze. Es ist die stille zweite Schwelle, die Airbnb intern deutlich enger zieht – und die im Herbst kaum jemand konsequent hält.</p>
+
+<h2 id="was-airbnb-misst">Was Airbnb tatsächlich misst</h2>
+
+<p>Airbnb führt zwei separate Metriken für jeden Host: die <strong>Response Rate</strong>, gemessen als Anteil aller Erstanfragen, die innerhalb von 24 Stunden beantwortet werden, und die <strong>Response Time</strong>, gemessen als Median der Reaktionszeit auf Erstanfragen der letzten 30 Tage.</p>
+
+<p>Nur die erste ist Superhost-Kriterium. Die zweite ist eine <em>öffentlich sichtbare</em> Kennzahl im Profil – "Antwortet innerhalb einer Stunde", "innerhalb weniger Stunden", "innerhalb eines Tages". Diese Anzeige ist keine Kosmetik.</p>
+
+<p>Sie fließt in mindestens drei Ranking-Ebenen ein: das allgemeine Suchergebnis, die interne Konversionswahrscheinlichkeit eines Klicks und – seit dem Sommerupdate 2025 – in die Berechnung des <a href="/blog/airbnb-guest-favorites-woerthersee-hauptsaison-2026">Guest-Favorites-Badges</a>. Dieses Badge hat sich in der Sichtbarkeit inzwischen deutlich vor dem Superhost-Status geschoben.</p>
+
+<h2 id="stunden-grenze">Warum die 1-Stunden-Grenze der eigentliche Schnitt ist</h2>
+
+<p>Zwischen "innerhalb einer Stunde" und "innerhalb weniger Stunden" liegt keine graduelle Abstufung. Die beiden Werte werden im Ranking unterschiedlich behandelt.</p>
+
+<p>Auswertungen professionell geführter Wörthersee-Objekte zeigen für die vergangenen zwölf Monate ein konsistentes Muster: Objekte, deren Profil <strong>"Antwortet innerhalb einer Stunde"</strong> ausweist, erhalten in der Kernwoche 15 bis 25 Prozent mehr Impressionen als vergleichbare Objekte mit identischem Preis, Rating und Foto – bei denen "innerhalb weniger Stunden" steht.</p>
+
+<p>Die 24-Stunden-Grenze wirkt anders. Wer sie einmal reißt, verliert nicht sofort im Ranking – aber der Superhost-Status wackelt, und mit ihm ein Teil der Buchungssicherheit für die kommende Prüfungsrunde.</p>
+
+<p>Die tatsächliche operative Grenze liegt also nicht bei 24 Stunden, sondern bei 60 Minuten.</p>
+
+<h2 id="q4-anfragekurve">Wie das Q4 die Reaktionskurve verändert</h2>
+
+<p>Im Juli am Wörthersee kommen die Anfragen im Halbstundentakt. Die Reaktionsgeschwindigkeit ist dann eine Frage der Automatisierung, nicht der Aufmerksamkeit.</p>
+
+<p>Im Oktober und November kippt dieses Bild vollständig. Das durchschnittliche Anfragevolumen professionell geführter Objekte fällt in dieser Phase auf ein Fünftel bis ein Zehntel des Sommerpeaks. Was im Sommer der Rhythmus glättete, wird im Herbst zum Einzelereignis: eine Anfrage nachmittags um 15:20, die nächste 40 Stunden später.</p>
+
+<p><strong>Genau in diesem Rhythmus zerbricht die 1-Stunden-Grenze am häufigsten.</strong> Wer im Juli auf jede Nachricht innerhalb von 20 Minuten reagiert, weil das Telefon ohnehin permanent piept, verliert im Oktober oft in den ersten 24 Stunden das Verhältnis zur eigenen Antwortzeit. Eine einzige verspätete Nachricht in einem Zeitraum mit fünf Anfragen kippt den Median.</p>
+
+<p>Was im Sommer über die Menge korrigiert wird, wird im Herbst über die Disziplin gehalten – oder gar nicht.</p>
+
+<h2 id="mehrsprachigkeit">Wo mehrsprachige Anfragen den Median zerreißen</h2>
+
+<p>Ein zweiter, weniger sichtbarer Faktor: Der Wörthersee ist im Q4 der einzige der drei großen Kärntner Seen mit einem relevanten Anteil an nicht-deutschsprachigen Anfragen aus dem Osten Österreichs. Wien, Bratislava, Budapest – im November noch mit einem Anteil zwischen 15 und 25 Prozent an den Gesamtanfragen.</p>
+
+<p>Eine slowakische Erstanfrage in gebrochenem Englisch, die eine kurze Klärung braucht, kostet dem unvorbereiteten Vermieter typischerweise vier bis sechs Stunden – nicht wegen der Übersetzung, sondern wegen des internen Zögerns. In dieser Zeit ist der Median-Wert für die Woche bereits verschoben.</p>
+
+<p>Objekte, die eine <em>Vorabtextbibliothek</em> auf Deutsch, Englisch und – wo Bedarf – Italienisch führen, halten die 60-Minuten-Grenze auch im Q4. Ohne diese Bibliothek fällt sie regelmäßig.</p>
+
+<h2 id="auto-nachrichten">Was Auto-Nachrichten wirklich leisten</h2>
+
+<p>Airbnbs "Scheduled Messages" und Sofortantworten verkürzen die gemessene Response Time – aber nur teilweise. Die Kennzahl wird über die <em>erste inhaltliche Antwort</em> auf eine Erstanfrage gemessen, nicht über die reine Empfangsbestätigung.</p>
+
+<p>Eine generische Auto-Antwort ("Danke für Ihre Anfrage, ich melde mich in Kürze") stoppt die Uhr nicht in allen Fällen. Vor allem dann nicht, wenn die Anfrage keine reine Verfügbarkeitsprüfung ist, sondern eine offene Nachricht mit Frage.</p>
+
+<p>Der praktische Ausweg: <strong>zwei parametrisierte Vorlagen</strong>, die inhaltlich reagieren – eine für Verfügbarkeitsanfragen mit Datumsangabe, eine für offene Fragen ("Ist das Objekt für Ihren Anlass geeignet?"). Beide innerhalb der ersten Stunde ausgelöst. Beide inhaltlich klar genug, dass Airbnb sie als Antwort wertet.</p>
+
+<h2 id="operative-fenster">Der operative Rahmen: zwei Fenster pro Tag</h2>
+
+<p>Für Vermieter, die ihre Objekte selbst führen, ist die realistischste Struktur im Q4 kein Dauerempfang, sondern <strong>zwei feste Reaktionsfenster</strong> pro Tag: einmal am Vormittag zwischen 8:00 und 10:00, einmal am frühen Abend zwischen 17:00 und 19:00.</p>
+
+<p>Diese beiden Fenster decken 85 bis 90 Prozent aller Erstanfragen ab, die die 1-Stunden-Grenze überhaupt gefährden. Nachtanfragen – ab 22:00 – werden ohnehin nicht in die 60-Minuten-Berechnung gezogen; sie starten mit der ersten Morgenaktivität.</p>
+
+<p>Was dieses Modell voraussetzt: eine funktionierende Push-Struktur auf ein Zweitgerät, mindestens zwei vorbereitete Textbausteine und die Bereitschaft, im Q4 jede Erstanfrage – auch die um 08:37 am Samstag – innerhalb der Stunde zu berühren.</p>
+
+<h2 id="jetzt-operativ">Was jetzt operativ zählt</h2>
+
+<p>Bis zum ersten Novemberwochenende bleiben rund fünf Wochen, in denen Response Rate und Response Time für die kommende Superhost-Bewertung im Januar noch geformt werden. Vier Punkte entscheiden.</p>
+
+<p><strong>Der aktuelle Zählstand</strong> im Host-Dashboard: beide Werte für die letzten 30 und 90 Tage. Wer im September unter 90 Prozent Response Rate liegt, verliert im Januar den Status.</p>
+
+<p><strong>Die Signalanzeige im öffentlichen Profil</strong>: Steht dort "innerhalb einer Stunde", "innerhalb weniger Stunden" oder "innerhalb eines Tages"? Alles unter der ersten Stufe kostet Impressionen im Q4 direkt.</p>
+
+<p><strong>Die Textbibliothek</strong>: mindestens vier vorbereitete Antworten – Verfügbarkeit ja, Verfügbarkeit nein, offene Frage, spezifische Objektinfo – auf Deutsch und Englisch.</p>
+
+<p><strong>Die Zweitgerät-Push-Struktur</strong>: Airbnb-App-Benachrichtigungen auf einem zweiten Handy oder Tablet, das im Q4 nicht stumm liegt.</p>
+
+<p>Für Vermieter, die ihre Objekte laufend führen lassen, ist diese Umstellung Teil eines strukturierten <a href="/airbnb-management-kaernten">Airbnb Managements in Kärnten</a> im Zeitfenster Ende September bis Mitte Oktober. Später wirkt sie erst im Ranking der übernächsten Suchwoche.</p>
+
+<h2 id="bleibt">Was bleibt</h2>
+
+<p>Response Time ist keine Superhost-Formalität. Sie ist im Q4 am Wörthersee der Hebel, der zwischen einem Objekt mit fünf Klicks pro Woche und einem mit dreißig entscheidet – bei identischem Preis, identischem Foto und identischer Ausstattung.</p>
+
+<p>Wer sie im September nicht neu strukturiert, sondern aus dem Sommermodus in den Herbst mitnimmt, verliert nicht die 24-Stunden-Grenze. Er verliert die 60-Minuten-Grenze. Und mit ihr die Sichtbarkeit, die im Q4 am Wörthersee ohnehin nur wenige Objekte tragen.</p>
+    `,
+    tableOfContents: [
+      { id: 'was-airbnb-misst', text: 'Was Airbnb tatsächlich misst', level: 2 },
+      { id: 'stunden-grenze', text: 'Warum die 1-Stunden-Grenze der eigentliche Schnitt ist', level: 2 },
+      { id: 'q4-anfragekurve', text: 'Wie das Q4 die Reaktionskurve verändert', level: 2 },
+      { id: 'mehrsprachigkeit', text: 'Wo mehrsprachige Anfragen den Median zerreißen', level: 2 },
+      { id: 'auto-nachrichten', text: 'Was Auto-Nachrichten wirklich leisten', level: 2 },
+      { id: 'operative-fenster', text: 'Der operative Rahmen: zwei Fenster pro Tag', level: 2 },
+      { id: 'jetzt-operativ', text: 'Was jetzt operativ zählt', level: 2 },
+      { id: 'bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-09-30',
+    category: 'Listing & Marketing',
+    tags: ['Response Time', 'Response Rate', 'Airbnb Ranking', 'Superhost', 'Guest Favorites', 'Wörthersee', 'Q4', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Analoge Uhr mit ablaufender Zeit – Symbolbild für Response Time im Airbnb-Ranking am Wörthersee',
+    readingTime: 6,
+  },
+  {
     slug: 'advent-woerthersee-november-dezember-nachfragefenster-2026',
     title: 'Advent am Wörthersee 2026: Die sechs Wochen zwischen den Peaks',
     description: 'Zwischen Herbstferien und Silvester liegt am Wörthersee ein Zeitraum, der in vielen Kalendern als leer geführt wird. Warum der Advent 2026 diesen Block auf sechs Wochen halbiert – und wo Vermieter typisch danebenliegen.',
