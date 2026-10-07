@@ -3,6 +3,122 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'kalenderoeffnung-sommer-2027-woerthersee-oktober',
+    title: 'Kalenderöffnung Sommer 2027 am Wörthersee: Was im Oktober gesetzt wird',
+    description: 'Airbnbs 24-Monats-Fenster macht den Sommer 2027 ab Oktober 2026 sichtbar. Wer am Wörthersee jetzt öffnet, verkauft die Hauptwochen – wer wartet, verliert sie an das Nachbarobjekt.',
+    excerpt: 'Zwischen dem 1. Oktober 2026 und dem 15. November wird am Wörthersee ein Fenster geöffnet, das in vielen Objekten unbemerkt vorbeiläuft: Die ersten Anfragen für Sommer 2027 laufen über Suchanfragen, die über zwei Jahre vorausreichen. Was in diesen sechs Wochen gesetzt oder nicht gesetzt wird, entscheidet über die Belegungslogik der kommenden Hauptsaison.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Airbnb erlaubt seit dem Sommer 2025 ein Verfügbarkeitsfenster von <strong>bis zu 730 Tagen</strong> – also 24 Monaten – in die Zukunft. Für Vermieter am Wörthersee hat sich damit die Frage verschoben, wann der Kalender für die kommende Hauptsaison geöffnet wird. Wer sie noch nach dem alten 365-Tage-Reflex beantwortet, öffnet den Sommer 2027 erst im Februar oder März – und ist damit in einem relevanten Segment des Marktes bereits ausgebucht, bevor er überhaupt sichtbar wird.</p>
+
+<p>Der Punkt ist nicht, dass im Oktober die Masse der Buchungen entsteht. Es ist, dass im Oktober die Masse der <em>strukturellen Entscheidungen</em> entsteht, die den Buchungsverlauf der kommenden sieben Monate prägen.</p>
+
+<h2 id="24-monats-fenster">Was das 24-Monats-Fenster tatsächlich verändert</h2>
+
+<p>Die Erweiterung des Buchungsfensters von zwölf auf 24 Monate ist in der operativen Praxis bisher nur teilweise angekommen. Zwei Beobachtungen aus den Kalendern professionell geführter Wörthersee-Objekte sind in diesem Zusammenhang relevant.</p>
+
+<p>Erstens: Die durchschnittliche Buchungsvorlaufzeit (<em>Booking Lead Time</em>) für Sommerurlaub in europäischen Kernregionen ist in der Saison 2026 gegenüber dem Vorjahr deutlich gestiegen. Branchenauswertungen nennen für den Stichtag Ende Mai eine durchschnittliche Vorlaufzeit von <strong>51 Tagen</strong> gegenüber 37 Tagen zwölf Monate zuvor.</p>
+
+<p>Dieser Durchschnittswert verdeckt das Entscheidende: Er mischt die kurzfristig buchenden Nebensaison-Gäste mit einem kleinen, aber hochprofitablen Segment früh planender Familien- und Gruppenreisender, deren tatsächlicher Vorlauf bei <strong>240 bis 400 Tagen</strong> liegt. Dieses Segment entscheidet im Oktober, nicht im März.</p>
+
+<p>Zweitens: Objekte, die ihr Kalenderfenster über die üblichen zwölf Monate hinaus geöffnet halten, erscheinen in Airbnbs internen Segmentfiltern für <em>Longview-Suchen</em> deutlich häufiger. Sichtbarkeit entsteht hier nicht über Preis oder Foto, sondern über die reine Verfügbarkeit.</p>
+
+<h2 id="wer-sucht-jetzt">Wer am Wörthersee im Oktober für den Sommer 2027 bereits sucht</h2>
+
+<p>Die drei Nachfragestränge, die im Oktober gegenwärtig Anfragen für den Juli und August 2027 am Wörthersee generieren, sind klar unterscheidbar – und sie buchen alle anders als die typische Spontanzielgruppe.</p>
+
+<p><strong>Familien mit schulpflichtigen Kindern</strong> aus Wien, München und Hamburg. Dieses Segment plant den Sommerurlaub häufig entlang der Schulferien-Kalender, die im September oder Oktober für das Folgejahr endgültig vorliegen. Die Buchung des Urlaubsorts erfolgt oft im Oktober oder November – also acht bis neun Monate vor Anreise.</p>
+
+<p><strong>Hochzeits- und Jubiläumsgruppen.</strong> Der Wörthersee ist in der Hauptsaison 2026 mit einem spürbaren Anteil von Gruppenbuchungen für Familienanlässe gelaufen – Hochzeiten in Pörtschach und Velden, runde Geburtstage. Diese Buchungen verlangen Objekte mit vier und mehr Schlafzimmern und werden in der Regel <em>mindestens zwölf Monate</em> vorausgeplant.</p>
+
+<p><strong>Internationale Zweitreisende.</strong> Gäste aus dem Vereinigten Königreich, den Niederlanden und Skandinavien, die den Alpenraum als Zweit- oder Drittreise im Jahr buchen, legen die Entscheidung für den konkreten See oft im Herbst des Vorjahres fest. Für Objekte mit mehrsprachigen Inseraten ein zahlender Strang; für andere praktisch nicht erreichbar.</p>
+
+<p>Keiner dieser drei Stränge sucht spontan. Alle drei suchen nach konkreter Verfügbarkeit – und nehmen das erste Objekt, das ihre Kernkriterien erfüllt und tatsächlich buchbar ist.</p>
+
+<h2 id="erste-preisstufe">Warum die erste Preisstufe im Kalender überproportional zählt</h2>
+
+<p>Der häufigste operative Fehler ist nicht, dass der Kalender zu spät geöffnet wird. Es ist, dass er mit einem <em>flachen Jahresdurchschnittspreis</em> geöffnet wird.</p>
+
+<p>Airbnb vergibt bei der ersten Preissichtung eines Objekts intern eine Preisklasse – nicht als öffentliches Label, sondern als Sortierkriterium für Suchergebnisse mit Preisfilter. Ein Objekt, das für den Juli 2027 mit <strong>180 Euro pro Nacht</strong> öffnet und erst im März 2027 auf 310 Euro angehoben wird, läuft in zwischenzeitlichen Filterabfragen in der Preisklasse "bis 200 Euro" – und wird in dieser Klasse überbucht, bevor die eigentliche Hauptsaisonpreisstufe greift.</p>
+
+<p>Für Objekte, die ihre Hauptwochen – in der Regel Kalenderwoche 29 bis 33 am Wörthersee – im Oktober mit der <em>finalen Startrate</em> öffnen, verschiebt sich dieses Bild. Sie landen von Beginn an im richtigen Preissegment, und die frühe Buchung, die sie dort abholen, kommt zur korrekten Rate.</p>
+
+<p>Praktisch heißt das: Der Juli-/August-Preis für 2027 wird im Oktober gesetzt, nicht im Mai. Spätere Anpassungen nach oben bleiben möglich, nach unten verlieren sie Boden.</p>
+
+<h2 id="mindestaufenthalt">Mindestaufenthalt – der stille Risikoparameter</h2>
+
+<p>Neben Preis entscheidet im frühen Buchungsfenster vor allem der Mindestaufenthalt über die Qualität der Buchungen.</p>
+
+<p>Objekte, die den Juli und August 2027 im Oktober mit einem flachen <strong>Zwei-Nächte-Mindestaufenthalt</strong> öffnen, geraten regelmäßig in das Muster, das die Hauptsaison 2026 bereits sichtbar gemacht hat: Frühe Zwei-Nacht-Buchungen für ein Dienstag-bis-Donnerstag-Fenster fragmentieren den Kalender und blockieren die Woche, in der eigentlich eine Sieben-Nacht-Familie landen würde.</p>
+
+<p>Die realistische Setzung für die Kernwoche 29 bis 33: <strong>fünf bis sieben Nächte</strong>, mit festen Anreisetagen Samstag und Sonntag. Nebenwochen – Anfang Juli, Ende August – vertragen drei Nächte. Der Oktober ist der Zeitpunkt, an dem diese Struktur festgelegt wird; später gesetzte Mindestaufenthalte wirken für die ersten Buchungen bereits nicht mehr.</p>
+
+<h2 id="was-gesetzt-wird">Welche Blöcke jetzt konkret gesetzt werden</h2>
+
+<p>Für ein typisches Zwei- bis Vier-Personen-Objekt am Wörthersee lassen sich fünf Blöcke benennen, die bis Mitte November strukturiert vorliegen müssen.</p>
+
+<p><strong>Pfingstwoche 2027</strong> – 15. bis 24. Mai. Noch Vorsaison, aber ein eigenständiges Preisfenster mit Familiennachfrage aus Deutschland. Aufschlag von 20 bis 30 Prozent auf die umliegende Vorsaison.</p>
+
+<p><strong>Fronleichnamswochenende</strong> – 27. bis 30. Mai. Verlängertes Wochenende, in Teilen Österreichs und Deutschlands schulfrei. Zwei- bis drei-Nacht-Fenster mit Wochenendaufschlag.</p>
+
+<p><strong>Hauptsaison</strong> – 11. Juli bis 29. August. Die Kernwochen 29 bis 33 mit maximaler Preisstufe, Fünf- bis Sieben-Nächte-Mindestaufenthalt, festen Anreisetagen Samstag.</p>
+
+<p><strong>Übergangswoche</strong> – 30. August bis 6. September. Das stille, aber verlässliche Fenster für Paare ohne Kinder, das in vielen Kalendern noch zur Hauptsaison gezählt wird, obwohl der Nachfragecharakter kippt. Separate Preisstufe sinnvoll.</p>
+
+<p><strong>Herbstferien 2027</strong> – 23. bis 31. Oktober. Das Fenster, das im <a href="/blog/herbstferien-woerthersee-oktober-nachfragefenster-2026">Herbstferien-Pattern 2026</a> bereits beschrieben wurde und sich strukturell wiederholt. Preisstufe über der umliegenden Nebensaison.</p>
+
+<h2 id="booking-abgrenzung">Was mit Booking.com nicht verbunden ist</h2>
+
+<p>Ein verbreitetes Missverständnis: Wer sein Objekt im Oktober auf Airbnb öffnet, öffnet es automatisch auf Booking.com mit. Das stimmt für Objekte, die über ein Channel-Management laufen – aber nicht für die Mehrheit der Wörthersee-Einzelvermieter, die beide Kanäle manuell führen.</p>
+
+<p>Booking.com behandelt den langen Vorlauf anders. Die Plattform zeigt Objekte in der Preisklasse zwar bis zu 16 Monate im Voraus an, gewichtet aber Kurz- und Mittelvorlauf in den Suchergebnissen deutlich stärker. Für den Sommer 2027 ist der Oktober auf Airbnb der entscheidende Monat; auf Booking.com beginnt das relevante Fenster erst zwischen Januar und März 2027.</p>
+
+<p>Wer beide Kanäle führt, muss diese Taktdifferenz im Oktober abbilden – nicht übertragen. Ein auf Airbnb früh gesetzter Preis, der auf Booking.com unverändert mitläuft, verliert dort nichts, weil die Suche ihn ohnehin erst später gewichtet. Umgekehrt gilt nicht: Ein zu spätes Airbnb-Opening ist durch Booking.com nicht kompensierbar.</p>
+
+<h2 id="operativ">Was jetzt operativ zählt</h2>
+
+<p>Vom laufenden Oktober bleiben rund sechs Wochen, in denen die Grundstruktur für 2027 am Wörthersee überhaupt noch rechtzeitig sichtbar wird. Vier Punkte entscheiden.</p>
+
+<p><strong>Kalender bis Oktober 2027 offen.</strong> Nicht nur bis zur Hauptsaison; nicht nur bis September. Der komplette Jahresverlauf, in dem der Nachfragestrang 2027 Entscheidungen trifft, muss sichtbar sein.</p>
+
+<p><strong>Hauptsaisonpreis finalisiert.</strong> Keine flache Jahresrate, keine Platzhalterpreise. Die Startrate für Kalenderwoche 29 bis 33 ist die Rate, in der das Objekt bei frühen Suchen landet.</p>
+
+<p><strong>Mindestaufenthalt für die Kernwochen gesetzt.</strong> Fünf bis sieben Nächte in der Hauptsaison, mit festen Anreisetagen. Alles darunter öffnet die Kalenderfragmentierung, die später nicht mehr geschlossen wird.</p>
+
+<p><strong>Separate Preisstufen für die vier Nebenblöcke</strong> – Pfingsten, Fronleichnam, Übergangswoche, Herbstferien. Alle vier mit eigener Rate; keiner im Jahresdurchschnitt mitlaufend.</p>
+
+<p>Für Vermieter, die ihre Objekte laufend führen lassen, ist diese Umstellung Teil eines strukturierten <a href="/airbnb-management-kaernten">Airbnb Managements in Kärnten</a> in den ersten beiden Oktoberwochen. Eine <a href="/analyse">objektbezogene Potenzialanalyse</a> zeigt für jedes der fünf Fenster, wo die Rate rechnerisch sitzen muss – und welche Mindestaufenthalte sie trägt.</p>
+
+<h2 id="bleibt">Was bleibt</h2>
+
+<p>Der Oktober ist am Wörthersee nicht der Monat der großen Buchungszahlen. Er ist der Monat der strukturellen Vorentscheidungen für ein Jahr, das für die meisten Vermieter gefühlt noch weit weg ist.</p>
+
+<p>Wer das 24-Monats-Fenster von Airbnb als technische Spielerei behandelt und den Sommer 2027 erst nach Jahreswechsel öffnet, verzichtet nicht auf ein paar frühe Buchungen. Er verzichtet auf das Segment, das die Hauptwochen am verlässlichsten zum höchsten Preis bucht – und findet sich im März in einem Markt wieder, in dem die Konkurrenz bereits positioniert ist.</p>
+
+<p>Der stille Vorteil liegt in der Oktoberwoche, in der sonst nichts passiert.</p>
+    `,
+    tableOfContents: [
+      { id: '24-monats-fenster', text: 'Was das 24-Monats-Fenster tatsächlich verändert', level: 2 },
+      { id: 'wer-sucht-jetzt', text: 'Wer am Wörthersee im Oktober für den Sommer 2027 bereits sucht', level: 2 },
+      { id: 'erste-preisstufe', text: 'Warum die erste Preisstufe im Kalender überproportional zählt', level: 2 },
+      { id: 'mindestaufenthalt', text: 'Mindestaufenthalt – der stille Risikoparameter', level: 2 },
+      { id: 'was-gesetzt-wird', text: 'Welche Blöcke jetzt konkret gesetzt werden', level: 2 },
+      { id: 'booking-abgrenzung', text: 'Was mit Booking.com nicht verbunden ist', level: 2 },
+      { id: 'operativ', text: 'Was jetzt operativ zählt', level: 2 },
+      { id: 'bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-10-07',
+    category: 'Pricing & Strategie',
+    tags: ['Kalenderöffnung', 'Hauptsaison 2027', 'Buchungsvorlauf', 'Early Bird', 'Wörthersee', 'Airbnb', 'Pricing', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Nebelverhangene Herbstlandschaft am See – Symbolbild für die Kalenderöffnung der Sommersaison 2027 am Wörthersee',
+    readingTime: 7,
+  },
+  {
     slug: 'airbnb-response-time-woerthersee-q4-2026',
     title: 'Response Time am Wörthersee: Der stille Rankinghebel im Q4',
     description: 'Die 1-Stunden-Schwelle und die 90-Prozent-Grenze im Airbnb-Ranking wirken im Q4 anders als im Sommer. Was Wörthersee-Vermieter jetzt strukturieren.',
