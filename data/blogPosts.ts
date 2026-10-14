@@ -3,6 +3,109 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'smart-pricing-woerthersee-nachsaison-2026-2027',
+    title: 'Smart Pricing in der Nachsaison: Warum Airbnbs Empfehlung am Wörthersee strukturell zu tief liegt',
+    description: 'Airbnbs Smart Pricing optimiert auf Kalenderfüllung, nicht auf Erlös. Zwischen Oktober und März führt das am Wörthersee zu Preisempfehlungen, die systematisch unter der realen Zahlungsbereitschaft liegen.',
+    excerpt: 'Zwischen Oktober und März arbeitet Airbnbs Preisautomatik an einem anderen Ziel als die meisten Vermieter annehmen. Die Empfehlungen für die Nachsaison am Wörthersee folgen einer Logik, die den Kalender füllt – nicht den Erlös maximiert. Wo der Unterschied liegt und was er in Euro bedeutet.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Smart Pricing ist für viele Wörthersee-Vermieter die stille Standardeinstellung – aktiviert bei der Inseratserstellung, nie wieder angefasst. In der Hauptsaison bleibt der Schaden begrenzt, weil die Nachfrage ohnehin über jedem möglichen Preispunkt liegt. Zwischen Oktober und März ist das anders. Hier arbeitet die Automatik gegen den Vermieter, nicht für ihn – und das sichtbarste Zeichen ist der Preis, den Airbnb im November für ein Objekt vorschlägt, das vor zwei Wochen noch bei 220 Euro lag.</p>
+
+<p>Der Reflex, dieser Empfehlung zu folgen, ist nachvollziehbar: Airbnb kennt den Markt, Airbnb sieht Milliarden Datenpunkte, Airbnb wird schon wissen, was ein Objekt wert ist. Die Annahme stimmt in Teilen und ist im strukturellen Kern falsch.</p>
+
+<h2 id="was-smart-pricing-tatsaechlich-misst">Was Smart Pricing tatsächlich misst</h2>
+
+<p>Die Preisautomatik vergleicht ein Objekt nicht mit sich selbst – also nicht mit seiner historischen Zahlungsbereitschaft, seiner Ausstattungsklasse oder seiner tatsächlichen Jahresauslastung. Sie vergleicht es mit <strong>vergleichbaren verfügbaren Objekten im gleichen Zeitfenster</strong> und bewertet laufend die <em>Buchungswahrscheinlichkeit</em> pro Preisstufe.</p>
+
+<p>Das Optimierungsziel ist eindeutig in Airbnbs Produktbeschreibung formuliert: <em>maximiere die Wahrscheinlichkeit, dass eine Nacht gebucht wird</em>. Nicht: maximiere den Erlös pro belegter Nacht. Nicht: maximiere den Monatsnetto nach Reinigung.</p>
+
+<p>Für Airbnb ist dieses Ziel rational. Die Plattform verdient pro gebuchter Nacht einen Servicegebühren-Anteil. Jede nicht verkaufte Nacht ist für die Plattform ein verlorener Umsatz; eine zu niedrig verkaufte Nacht ist nur ein marginaler Umsatzverlust. Die beiden Fälle sind für Airbnb nicht gleichwertig – und die Algorithmik folgt dieser Asymmetrie.</p>
+
+<p>Für den Vermieter ist die Asymmetrie umgekehrt. Eine nicht verkaufte Nacht in der Nachsaison kostet nichts außer Opportunität. Eine zu niedrig verkaufte Nacht kostet die Differenz zum erzielbaren Preis plus die Reinigungs-, Verschleiß- und Umsatzsteuerkosten der Buchung selbst.</p>
+
+<h2 id="warum-die-nachsaison-der-engpass-ist">Warum die Nachsaison der Engpass ist</h2>
+
+<p>In der Hauptsaison hebt der Algorithmus die Preise, weil die Buchungswahrscheinlichkeit auf jeder Stufe hoch ist. Für Juli-Nächte am Wörthersee liegt sie bei marktüblichen Objekten in der Nähe von eins – das heißt, die Nacht würde praktisch bei jedem realistisch gesetzten Preis gebucht. Smart Pricing landet hier näher am oberen Rand, weil es keinen Grund gibt, tiefer zu gehen.</p>
+
+<p>Zwischen Oktober und März kippt dieses Bild. Die durchschnittliche Auslastung am Wörthersee liegt im November <strong>unter 20 Prozent</strong>; im Februar leicht höher, im Jänner wieder darunter. Für den Algorithmus ist das ein deutliches Signal: Die Buchungswahrscheinlichkeit pro Nacht ist niedrig – also senkt er den Preis, bis sie wieder steigt.</p>
+
+<p>Das Problem: Die Buchungswahrscheinlichkeit in der Nachsaison steigt mit sinkendem Preis <em>strukturell nicht</em>. Wer im November an den Wörthersee kommt, kommt nicht wegen eines Schnäppchens. Es sind drei Nachfragestränge, die alle einen anderen Treiber haben als den Preis.</p>
+
+<p>Geschäftsreisende nach Klagenfurt und Villach, die eine Alternative zum Hotel suchen und über Spesen abrechnen. Werkstagepaare und Wellness-Kurzurlauber aus Wien und Graz, die bewusst in die ruhige Nebensaison fahren. Und der Advent- und Weihnachtsmarkt-Besucher, der an bestimmte Wochenenden gebunden ist.</p>
+
+<p>Diese Gäste reagieren auf Verfügbarkeit, Lage und Ausstattung – nicht auf fünfzehn Euro Preisunterschied. Eine Senkung von 130 auf 90 Euro ändert ihre Entscheidung nicht; sie reduziert nur den Erlös der Buchungen, die ohnehin kommen.</p>
+
+<h2 id="die-rechnung-im-november">Die Rechnung, die der Algorithmus nicht macht</h2>
+
+<p>Konkret für ein typisches Zwei-Personen-Objekt mit Seeblick in Pörtschach: Smart Pricing empfiehlt im November regelmäßig Nächte zwischen <strong>75 und 95 Euro</strong>, je nach Wochentag. Die manuell gesetzte, auf historischer Zahlungsbereitschaft basierende Rate für dasselbe Objekt liegt im gleichen Fenster bei <strong>115 bis 140 Euro</strong>.</p>
+
+<p>Der Erwartungswert bei Smart Pricing (85 Euro, 18 Prozent Auslastung): rund <em>459 Euro Umsatz im Monat</em>. Vor Reinigung, Plattform, Steuer.</p>
+
+<p>Der Erwartungswert bei manueller Preissetzung (125 Euro, 16 Prozent Auslastung): rund <em>600 Euro Umsatz im Monat</em>.</p>
+
+<p>Der Unterschied in der Buchungszahl ist bemerkenswert gering – gut eine Nacht pro Monat weniger beim höheren Preis. Die Nachsaison-Nachfrage am Wörthersee ist zu unelastisch, als dass die vierzig Euro Preisunterschied eine zweite oder dritte Buchung generieren würden. Was sich ändert, ist nur die Rate pro gebuchter Nacht.</p>
+
+<p>Über die fünf Monate November bis März addiert sich die Lücke – bei einem einzigen Objekt – auf eine mittlere vierstellige Summe. Verteilt auf ein Portfolio von drei bis fünf Objekten wird aus der stillen Standardeinstellung ein strukturelles Loch im Jahresergebnis.</p>
+
+<h2 id="wo-smart-pricing-tatsaechlich-funktioniert">Wo Smart Pricing in der Nachsaison tatsächlich funktioniert</h2>
+
+<p>Zwei Fenster bilden eine Ausnahme, die genannt werden sollte.</p>
+
+<p>Die <strong>Advent-Wochenenden</strong> zwischen Mitte November und Mitte Dezember haben am Wörthersee eine Preiselastizität, die näher an der Hauptsaison liegt als an der Nebensaison. Hier reagiert die Nachfrage – vor allem aus Deutschland und Italien – tatsächlich auf Preissignale, und Smart Pricing erkennt das Muster in der Regel korrekt.</p>
+
+<p>Das zweite Fenster sind die <strong>Last-Minute-Lücken innerhalb von sieben Tagen</strong>. Hier arbeitet der Algorithmus mit Signalen, die ein Vermieter manuell schwer abbildet. Eine automatische Preisreduktion drei Tage vor einem leeren Wochenende kann die Belegung tatsächlich retten.</p>
+
+<p>Außerhalb dieser beiden Fenster ist der Algorithmus in der tiefen Nachsaison strukturell gegen den Vermieter positioniert.</p>
+
+<h2 id="was-manuell-anders-laeuft">Was manuelle Preissetzung in der Nachsaison anders macht</h2>
+
+<p>Der Ausweg ist nicht, Smart Pricing komplett auszuschalten und mit einem Jahrespreis zu arbeiten. Es ist, die Nachsaison aus der Automatik <em>herauszunehmen</em> und dort mit einer anderen Logik zu preisen.</p>
+
+<p>Drei Setzungen sind praktisch entscheidend.</p>
+
+<p>Ein <strong>Rate-Floor</strong>, der sich an der Kostenstruktur orientiert – nicht an der Buchungswahrscheinlichkeit. Für ein Pörtschacher Zwei-Personen-Objekt liegt dieser Floor realistisch bei 110 bis 120 Euro netto pro Nacht. Darunter zahlt eine Buchung die Reinigung, den Verschleiß und die Steuer nicht mehr vollständig ein.</p>
+
+<p>Ein <strong>Mindestaufenthalt</strong>, der die kurzen Zwei-Nacht-Fenster ab November auf fünf bis sieben Nächte verschiebt. Weniger Buchungen, aber ein deutlich höheres Nettoergebnis pro Buchung – weil Reinigung und Übergabe nur einmal anfallen.</p>
+
+<p>Eine <strong>umgekehrte Wochentags-Logik</strong>. In der Hauptsaison sind Freitag- und Samstagnächte am teuersten. In der tiefen Nachsaison ist das Muster schwächer – weil die Geschäftsreisenden die Werktage buchen und das Wochenende der Spontanentscheidung überlassen bleibt. Werktagsraten dürfen in dieser Zeit näher an den Wochenendraten liegen, nicht fünfzehn Prozent darunter.</p>
+
+<h2 id="was-im-oktober-zu-tun-ist">Was im laufenden Oktober konkret zu tun ist</h2>
+
+<p>Für Vermieter, die mit Smart Pricing arbeiten, bleibt bis Ende Oktober das Fenster, in dem die Nachsaison 2026/27 noch strukturell neu bepreist werden kann, bevor die ersten Buchungen zur alten Rate einlaufen.</p>
+
+<p>Der konkrete Schritt ist nüchtern: Smart Pricing für die Monate November bis März ausschalten, einen manuell gesetzten Nachtpreis pro Fenster hinterlegen, Mindestaufenthalt und Anreisetage anpassen. Die beiden Ausnahmen – Advent-Wochenenden und Last-Minute-Lücken – lassen sich über getrennte Preisregeln abbilden, ohne die gesamte Automatik zu reaktivieren.</p>
+
+<p>Für Objekte, die laufend über ein strukturiertes <a href="/airbnb-management-kaernten">Airbnb Management in Kärnten</a> geführt werden, läuft diese Differenzierung ohnehin außerhalb der Plattformautomatik. Eine objektbezogene <a href="/analyse">Potenzialanalyse</a> zeigt für jedes Fenster zwischen Oktober und März, wo die Rate rechnerisch sitzen muss – und wo Smart Pricing in den letzten zwölf Monaten konkret Erlös gelassen hat.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>Die Nachsaison ist nicht der Teil des Jahres, in dem die großen Zahlen entstehen. Sie ist der Teil, in dem die kleinen Zahlen überproportional durchschlagen – weil fünfzehn Euro Rate-Unterschied pro Nacht sich über fünf Monate zu einer Summe addieren, die in der Hauptsaison zwei Buchungen entspricht.</p>
+
+<p>Smart Pricing ist für diese Monate nicht gebaut. Es ist ein Werkzeug für die Monate, in denen Nachfrage im Überschuss vorhanden ist. In den Monaten, in denen sie knapp ist, folgt es einer Logik, die am Wörthersee strukturell gegen den Vermieter läuft.</p>
+
+<p>Die stille Standardeinstellung ist in diesem Markt keine Standardeinstellung mehr. Sie ist eine Entscheidung – die im Oktober getroffen oder nicht getroffen wird.</p>
+    `,
+    tableOfContents: [
+      { id: 'was-smart-pricing-tatsaechlich-misst', text: 'Was Smart Pricing tatsächlich misst', level: 2 },
+      { id: 'warum-die-nachsaison-der-engpass-ist', text: 'Warum die Nachsaison der Engpass ist', level: 2 },
+      { id: 'die-rechnung-im-november', text: 'Die Rechnung, die der Algorithmus nicht macht', level: 2 },
+      { id: 'wo-smart-pricing-tatsaechlich-funktioniert', text: 'Wo Smart Pricing in der Nachsaison tatsächlich funktioniert', level: 2 },
+      { id: 'was-manuell-anders-laeuft', text: 'Was manuelle Preissetzung in der Nachsaison anders macht', level: 2 },
+      { id: 'was-im-oktober-zu-tun-ist', text: 'Was im laufenden Oktober konkret zu tun ist', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-10-14',
+    category: 'Pricing & Strategie',
+    tags: ['Smart Pricing', 'Nachsaison', 'Dynamisches Pricing', 'Wörthersee', 'Airbnb', 'Preisstrategie', 'Pörtschach', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Preis- und Umsatzkurve auf einem Dashboard – Symbolbild für die algorithmische Preissetzung in der Nachsaison am Wörthersee',
+    readingTime: 7,
+  },
+  {
     slug: 'kalenderoeffnung-sommer-2027-woerthersee-oktober',
     title: 'Kalenderöffnung Sommer 2027 am Wörthersee: Was im Oktober gesetzt wird',
     description: 'Airbnbs 24-Monats-Fenster macht den Sommer 2027 ab Oktober 2026 sichtbar. Wer am Wörthersee jetzt öffnet, verkauft die Hauptwochen – wer wartet, verliert sie an das Nachbarobjekt.',
