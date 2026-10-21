@@ -3,6 +3,103 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'kaernten-sommerbilanz-2026-aufenthaltsdauer-woerthersee',
+    title: 'Kärnten-Sommer 2026: Rekord-Ankünfte, kürzere Aufenthalte am See',
+    description: 'Kärntens August 2026 brachte Rang 1 bei Ankünften seit 1968, aber nur Rang 50 bei Nächtigungen. Was die kürzeren Aufenthalte für die Wörthersee-Planung 2027 bedeuten.',
+    excerpt: 'Die vorläufige Sommerbilanz 2026 für Kärnten zeigt eine strukturelle Verschiebung, die unter den Rekordzahlen leicht übersehen wird. Zwischen Juli und August landen Ankünfte und Nächtigungen auf unterschiedlichen Rängen – und das verändert, wie am Wörthersee für 2027 gepreist werden muss.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Die Landesstelle für Statistik Kärnten hat Anfang Oktober die vorläufigen Augustzahlen 2026 vorgelegt. Die Schlagzeile dazu war eindeutig: 669.389 Ankünfte im Monat – <strong>Rang 1 seit Beginn der monatlichen Aufzeichnungen im Jahr 1968</strong>. Weniger erwähnt wurde die zweite Zahl aus demselben Bericht: 2.891.198 Übernachtungen. Im historischen Vergleich belegt dieser Wert nur Rang 50. Zwischen beiden Zahlen entsteht die eigentliche Information dieser Saison – und mit ihr der Punkt, an dem die Rechnung für 2027 anders aussieht als in den Jahren davor.</p>
+
+<p>Die Lücke zwischen diesen beiden Rängen ist der Kern dessen, was 2026 strukturell passiert ist. Kärnten ist voller als je zuvor – aber die Gäste bleiben kürzer.</p>
+
+<h2 id="die-luecke">Die Lücke zwischen Ankunft und Nächtigung</h2>
+
+<p>Beide Werte wachsen gegenüber dem Vorjahr, nur nicht im gleichen Tempo. Die Ankünfte legen im August um <strong>plus 4,0 Prozent</strong> zu, die Nächtigungen nur um <strong>plus 0,8 Prozent</strong>. Rechnerisch heißt das: Die durchschnittliche Aufenthaltsdauer sinkt von rund 4,46 auf 4,32 Nächte.</p>
+
+<p>Im Juli war die Verschiebung noch deutlicher. Dort stiegen die Ankünfte um 12,9 Prozent, die Nächtigungen aber nur um 3,8 Prozent. Die durchschnittliche Aufenthaltsdauer fiel gegenüber dem Vorjahresniveau um <em>rund acht Prozent</em> auf 4,18 Nächte.</p>
+
+<p>Für sich genommen wirken 0,14 oder 0,37 Nächte wie eine Marginalie. Als strukturelle Verschiebung einer gesamten Hauptsaison ist der Effekt deutlich. Er bedeutet, dass der Markt am Wörthersee 2026 mehr Übergaben, mehr Reinigungen und mehr An- und Abreise-Verkehr abgewickelt hat – bei einem Zuwachs der verkauften Nächte, der kaum über der statistischen Normalstreuung liegt.</p>
+
+<h2 id="rechnung">Was eine halbe Nacht pro Aufenthalt rechnerisch kostet</h2>
+
+<p>Für ein durchschnittliches Wörthersee-Objekt mit zwei Schlafzimmern und einer Hauptsaisonrate von 220 Euro pro Nacht bedeutet die Verschiebung Folgendes.</p>
+
+<p>Ein Aufenthalt von 4,55 Nächten erzeugt rund 1.001 Euro Umsatz. Ein Aufenthalt von 4,18 Nächten liegt bei rund 920 Euro. Die Differenz pro Buchung: knapp <strong>81 Euro</strong>.</p>
+
+<p>Diese 81 Euro sind der sichtbare Teil der Rechnung. Der weniger sichtbare liegt bei der Kostenseite. Eine Hauptsaison-Reinigung mit Übergabe schlägt am Wörthersee zwischen 85 und 110 Euro pro Durchgang zu Buche. Wer bei gleicher Jahresauslastung einen zusätzlichen Übergabezyklus bekommt, verliert diese Summe noch zusätzlich – ohne eine einzige zusätzliche verkaufte Nacht.</p>
+
+<p>Rechnerisch verliert ein Objekt mit zwölf Hauptsaisonbuchungen pro Jahr bei konstantem Nachtpreis <strong>900 bis 1.300 Euro</strong> allein über den Aufenthaltsdauer-Effekt. Verteilt über zwei bis vier Objekte verändert sich damit die Deckungsbeitragslogik eines ganzen Portfolios.</p>
+
+<h2 id="wer-verursacht">Wer die Lücke verursacht</h2>
+
+<p>Drei Nachfrageverschiebungen laufen 2026 parallel – und sie treffen den Wörthersee härter als etwa den Weissensee oder den Millstätter See.</p>
+
+<p>Die erste ist der <em>Mehr-Reisen-Trend</em> aus dem deutschen und niederländischen Herkunftsmarkt. Statt eines vierzehntägigen Hauptsaisonurlaubs werden zwei bis drei kürzere Reisen über das Jahr verteilt. Jede einzelne landet in den Nächtigungsstatistiken, generiert aber nur drei bis fünf Nächte statt zehn bis vierzehn.</p>
+
+<p>Die zweite ist das <em>Städtewochenende mit See-Verlängerung</em>. Gäste kombinieren Klagenfurt oder Villach mit zwei bis drei Nächten am See. Das war 2024 noch eine Nische; 2026 ist es eine der stärksten Buchungslogiken für Objekte mit Lage zwischen Stadt und Wasser.</p>
+
+<p>Die dritte ist das <em>Event-getriebene Kurzaufenthaltsmuster</em>. Der Wörthersee-Marathon, die Lange Nacht der Museen, die kleineren Festivals in Pörtschach und Velden – jedes dieser Fenster erzeugt eine Welle von Zwei- und Drei-Nacht-Buchungen, die 2026 deutlich sichtbarer als in den Jahren davor war.</p>
+
+<p>Was alle drei Stränge teilen: Sie buchen zuverlässig, sie zahlen die laufende Rate, sie hinterlassen gute Bewertungen. Was sie strukturell nicht liefern, ist Länge.</p>
+
+<h2 id="reaktion">Welche Reaktion die Zahlen nicht verlangen</h2>
+
+<p>Die naheliegende Antwort ist, Mindestaufenthalte deutlich zu erhöhen. In vielen Fällen ist das die falsche Reaktion.</p>
+
+<p>Eine Mindestaufenthalts-Erhöhung von drei auf fünf Nächte in der Hauptsaison 2027 würde am Wörthersee rund 30 bis 40 Prozent der Buchungsnachfrage ausblenden – und zwar in den profitabelsten Fenstern. Die ersetzende Nachfrage bei fünf Nächten wächst nicht automatisch nach. Was wächst, ist der Leerstand zwischen den langen Buchungen.</p>
+
+<p>Die rechnerisch stabilere Reaktion liegt woanders. Erstens: ein <strong>differenzierter Mindestaufenthalt</strong> – zwei Nächte an Werktagen, drei bis vier an Wochenenden, längere Blöcke in der Kernhauptsaison Kalenderwoche 29 bis 33. Zweitens: eine <strong>Reinigungspauschale</strong>, die den tatsächlichen Übergabeaufwand abbildet, nicht einen symbolischen Pauschalbetrag. Drittens: eine <strong>Preisdifferenz zwischen Kurz- und Langbuchung</strong>, die den höheren Übergabeanteil in den Kurzbuchungen fair umlegt.</p>
+
+<h2 id="operativ-2027">Was 2027 operativ anders sitzen muss</h2>
+
+<p>Für die Hauptsaisonkalender 2027, die zwischen jetzt und November gesetzt werden, ergibt sich daraus eine knappe Checkliste.</p>
+
+<p>Die <strong>Reinigungslogistik</strong> muss auf eine höhere Übergabefrequenz ausgelegt sein. Reinigungskräfte, die 2025 noch zwei Objekte pro Hauptsaisonwoche abgedeckt haben, mussten 2026 bereits 2,2 bis 2,4 Durchgänge pro Objekt schaffen – 2027 wahrscheinlich mehr.</p>
+
+<p>Die <strong>Gästekommunikation</strong> verschiebt sich mit. Kürzere Aufenthalte bedeuten einen höheren Kommunikationsanteil pro verkaufter Nacht. Pre-Arrival-Nachrichten, Check-in-Instruktionen, Review-Anfragen – alle drei fallen bei gleicher Jahresauslastung häufiger an, nicht gleich oft.</p>
+
+<p>Die <strong>Preisstruktur</strong> muss das abbilden. Eine Reinigungspauschale, die 2024 ausreichend war, deckt 2027 bei kürzeren Aufenthalten weniger. Die Pauschale muss ehrlich kalkuliert sein, nicht marketingorientiert niedriggehalten – sonst findet die Differenz im Nachtpreis statt und sinkt dort auf Werte, die in der Preisfilter-Suche falsch einsortieren.</p>
+
+<p>Für Objekte, die über ein strukturiertes <a href="/leistungen">Full-Service-Management</a> geführt werden, läuft diese Umstellung ohnehin im laufenden Betrieb. Für selbst gemanagte Objekte stellt sich die Frage, ob die eigenen Prozesse auf die neue Übergabefrequenz vorbereitet sind.</p>
+
+<h2 id="oktober-2026">Was im Oktober 2026 am Wörthersee konkret entschieden wird</h2>
+
+<p>Die vorläufige Augustzahl der Landesstelle für Statistik Kärnten ist der letzte belastbare Datenpunkt, bevor die Sommerbuchungen 2027 in nennenswertem Umfang einlaufen. Vorbuchungen für Juli und August 2027 beginnen am Wörthersee traditionell zwischen Mitte Oktober und Mitte November.</p>
+
+<p>Wer die Hauptsaisonrate 2027 jetzt setzt, ohne die Aufenthaltsdauer-Verschiebung einzubeziehen, bepreist die kommende Saison strukturell zu niedrig. Nicht pro Nacht – sondern pro Buchungszyklus, über die Pauschalen, die Mindestaufenthalte und die Übergabefrequenz.</p>
+
+<p>Eine objektbezogene <a href="/analyse">Potenzialanalyse</a> zeigt für den Jahrgang 2026 im Detail, wo die Aufenthaltsdauer tatsächlich gelandet ist, wie sich die Reinigungslast gegenüber 2024 verschoben hat und welche Rate- und Pauschalkombination für 2027 rechnerisch stabil bleibt.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>Eine Rekordzahl bei Ankünften und Rang 50 bei Nächtigungen sind kein Widerspruch. Sie sind die zwei Seiten derselben Marktverschiebung – mehr Buchungen, kürzere Buchungen, höhere Übergabedichte.</p>
+
+<p>Für die Hauptsaison 2026 war der Effekt in den meisten Objekten bereits sichtbar, nur selten explizit benannt. Für 2027 wird er zur Normalform. Wer die Rate- und Pauschalstruktur noch an der Logik der Vier-bis-fünf-Nächte-Aufenthalte orientiert, bepreist einen Markt, den es in dieser Form nicht mehr gibt.</p>
+
+<p>Die Augustzahlen sind in der ersten Oktoberwoche gekommen. Die Entscheidungen, die sie nahelegen, fallen in den letzten.</p>
+    `,
+    tableOfContents: [
+      { id: 'die-luecke', text: 'Die Lücke zwischen Ankunft und Nächtigung', level: 2 },
+      { id: 'rechnung', text: 'Was eine halbe Nacht pro Aufenthalt rechnerisch kostet', level: 2 },
+      { id: 'wer-verursacht', text: 'Wer die Lücke verursacht', level: 2 },
+      { id: 'reaktion', text: 'Welche Reaktion die Zahlen nicht verlangen', level: 2 },
+      { id: 'operativ-2027', text: 'Was 2027 operativ anders sitzen muss', level: 2 },
+      { id: 'oktober-2026', text: 'Was im Oktober 2026 am Wörthersee konkret entschieden wird', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-10-21',
+    category: 'Saisonalität & Markt',
+    tags: ['Kärnten', 'Wörthersee', 'Nächtigungsstatistik', 'Aufenthaltsdauer', 'Sommerbilanz 2026', 'Hauptsaison 2027', 'Übergabefrequenz', 'Pricing'],
+    featuredImage: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Alpenpanorama im Herbstlicht – Symbolbild für die Sommerbilanz 2026 in Kärnten und ihre Konsequenzen für die Wörthersee-Planung 2027',
+    readingTime: 6,
+  },
+  {
     slug: 'smart-pricing-woerthersee-nachsaison-2026-2027',
     title: 'Smart Pricing in der Nachsaison: Warum Airbnbs Empfehlung am Wörthersee strukturell zu tief liegt',
     description: 'Airbnbs Smart Pricing optimiert auf Kalenderfüllung, nicht auf Erlös. Zwischen Oktober und März führt das am Wörthersee zu Preisempfehlungen, die systematisch unter der realen Zahlungsbereitschaft liegen.',
