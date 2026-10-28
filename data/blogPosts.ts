@@ -3,6 +3,108 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'dpmg-plattformmeldung-vermieter-kaernten-2026-2027',
+    title: 'DPMG 2026: Was Kärntner Vermieter vor dem 31. Jänner 2027 prüfen sollten',
+    description: 'Am 31. Jänner 2027 übermitteln Airbnb, Booking und Co. die Umsatzdaten 2026 ans Finanzamt. Was Vermieter in Kärnten jetzt noch korrigieren können.',
+    excerpt: 'Die Plattformmeldung nach dem DPMG läuft 2027 in ihre dritte Runde. Für Vermieter am Wörthersee ist das weniger eine Steuerfrage als eine Datenqualitätsfrage – mit einem engen Zeitfenster bis Jahresende.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Zwischen Mitte und Ende Jänner 2027 übermitteln Airbnb Ireland, Booking.com B.V. und die weiteren meldenden Plattformbetreiber ihre Jahresmeldungen nach dem österreichischen Digitale-Plattformen-Meldepflichtgesetz. Pro Vermieter geht ein Datensatz mit Name, Adresse, Steueridentifikationsnummer, Objektanschrift, Umsatz und Buchungsanzahl an die ausländische Steuerbehörde – und von dort über den automatischen EU-Datenaustausch an das österreichische BMF. Für die Hauptsaison 2026 am Wörthersee ist das die dritte Runde dieser Meldung. Und sie läuft, nach den ersten beiden Zyklen, qualitativ anders ab als 2024 und 2025.</p>
+
+<p>Die Mechanik des Verfahrens ist bei vielen Vermietern noch mit der ersten Jahresmeldung 2024 verknüpft. Dort war das DPMG neu, die Datenbestände unvollständig, die Plattformen in der Lernphase. 2026 ist das anders. Die Daten gleichen sich zwischen Herkunftsstaat, Belegenheitsstaat und Finanzamt deutlich besser ab – und was bis Ende November nicht in Ordnung ist, läuft im Januar in die Meldung.</p>
+
+<h2 id="was-das-dpmg-wirklich-macht">Was das DPMG wirklich tut</h2>
+
+<p>Das Digitale-Plattformen-Meldepflichtgesetz setzt die EU-Richtlinie DAC7 in österreichisches Recht um. Meldepflichtig ist nicht der Vermieter, sondern der Plattformbetreiber. Nach <strong>§ 14 Abs. 3 DPMG</strong> hat jeder meldende Betreiber bis zum <strong>31. Jänner</strong> eines Kalenderjahres die Daten des Vorjahres elektronisch zu übermitteln – für den Meldezeitraum 2026 somit bis 31. Jänner 2027.</p>
+
+<p>Die Übermittlung läuft über das <em>Portal für Digitale Plattformen</em> in FinanzOnline. Bei Airbnb geht die Meldung über die irische Steuerbehörde, bei Booking.com über die niederländische Belastingdienst. Beide leiten die Daten über den automatischen Informationsaustausch an das BMF weiter, das sie den zuständigen Finanzämtern zuspielt.</p>
+
+<p>Das heißt: Was in der Jahresmeldung steht, liegt dem zuständigen Finanzamt in Villach, Klagenfurt oder Spittal spätestens im Frühjahr 2027 vor – unabhängig davon, ob und wie der Vermieter die Einkünfte in seiner Steuererklärung ausweist.</p>
+
+<h2 id="welche-daten">Was tatsächlich übermittelt wird</h2>
+
+<p>Pro Vermieter und Objekt enthält die Meldung eine klar definierte Felderliste.</p>
+
+<p>Zum Vermieter: <strong>Vor- und Nachname oder Firma, Hauptwohnsitz, Steueridentifikationsnummer</strong> und – falls erfasst – weitere TINs aus anderen EU-Staaten, Geburtsdatum, UID-Nummer. Zum Objekt: <strong>Anschrift der Immobilie, Katastralgemeinde oder Grundstücksbezeichnung</strong>, Anzahl der Vermietungstage, Anzahl der Buchungen. Zum Umsatz: <strong>Vergütungen pro Quartal in Euro</strong>, abgeführte Gebühren, Steuern oder Abgaben, die über die Plattform einbehalten wurden.</p>
+
+<p>Zwei Punkte werden regelmäßig übersehen. Erstens: Die Nächtigungsabgabe (Ortstaxe), die über die Plattform mitkassiert und direkt an die Gemeinde abgeführt wird, taucht in der Meldung getrennt vom Nettomietumsatz auf. Zweitens: Die Plattform meldet auch, wenn im Berichtsjahr kein Umsatz erzielt wurde, der Account aber aktiv geschaltet war – inklusive Objektdaten.</p>
+
+<h2 id="dritte-runde">Warum die dritte Runde strenger wirkt</h2>
+
+<p>Für den Meldezeitraum 2023 (Erstmeldung Jänner 2024) waren die Daten in vielen Fällen unvollständig: fehlende TINs, falsch zugeordnete Adressen, uneindeutige Zuordnung bei mehreren Objekten pro Vermieter. Die Finanzverwaltungen reagierten darauf mit Nachbesserungsfristen und – im österreichischen Fall – mit einer insgesamt zurückhaltenden ersten Auswertung.</p>
+
+<p>Dieses Fenster schließt sich. Nach <em>§ 10 DPMG</em> werden Plattformbetreiber bei verspäteter oder unvollständiger Meldung zweimal gemahnt; die Mahnungen gehen in die Datenbestände ein. Die Plattformen reichen diese Mahnungen operativ an die betroffenen Vermieter weiter – über Account-Hinweise, Auszahlungsverzögerungen oder die Aufforderung, fehlende Daten im Backend nachzutragen.</p>
+
+<p>In der dritten Runde läuft die Datenqualität auf einem anderen Niveau. Mehrfacherfassungen über Airbnb und Booking.com werden auf der Finanz-Seite inzwischen zusammengeführt. Wer 2024 noch mit Bruchteilen in der Zahl erschien, erscheint 2027 mit einem konsolidierten Wert pro Objekt.</p>
+
+<h2 id="was-noch-korrigierbar">Was im Oktober und November 2026 noch korrigierbar ist</h2>
+
+<p>Die Felder, die in die Meldung Jänner 2027 einfließen, werden im Dezember 2026 eingefroren. Danach ist nur noch eine spätere Korrektur über das Finanzamt oder die Plattform möglich – mit zusätzlichem Aufwand.</p>
+
+<p>Vier Punkte lohnen eine Prüfung im Account-Backend von Airbnb und Booking.com, bevor der Dezember kommt.</p>
+
+<p>Erstens: Die <strong>Steueridentifikationsnummer</strong>. Für natürliche Personen ist das die österreichische Steuernummer oder die vom Finanzamt vergebene TIN; für Gesellschaften die Firmenbuchnummer plus UID. Fehlt sie oder ist sie falsch, meldet die Plattform mit Platzhalterwert – und die Zuordnung zum Finanzkonto erfolgt manuell. Das löst in der Praxis Rückfragen aus.</p>
+
+<p>Zweitens: Die <strong>Objektadresse</strong>. Steht im Inserat eine andere Straße als im Grundbuch, divergieren Finanzmeldung und Katasteranzeige. Besonders bei Zweitwohnsitzen in Pörtschach, Velden oder Krumpendorf, wo Objekte oft über Zustelldienstleister oder Hausverwaltungen laufen, finden sich diese Abweichungen regelmäßig.</p>
+
+<p>Drittens: Die <strong>Bankverbindung</strong>. Wird der Auszahlungsempfänger zwischen Berichtsjahren gewechselt, zum Beispiel von Privatkonto auf das Konto einer vermögensverwaltenden GmbH, erscheint der Umsatz möglicherweise bei zwei Steuerpflichtigen gleichzeitig. Die Trennlinie liegt im Datum der Auszahlung, nicht im Buchungsdatum.</p>
+
+<p>Viertens: Die <strong>Objektzuordnung bei Mehrfacheinheiten</strong>. Wer zwei Wohnungen im selben Haus über denselben Account vermietet, bekommt bei beiden Plattformen manchmal eine Zusammenfassung, manchmal zwei getrennte Datensätze. Für die Finanzmeldung macht das einen Unterschied – gerade bei der Frage, ob die Umsatzsteuergrenze erreicht wird.</p>
+
+<h2 id="zweiteffekt">Der stille Zweiteffekt – Ortstaxe, Umsatzsteuer, Gewerbe</h2>
+
+<p>Die Plattformmeldung ist formal nur eine Übermittlung an die Einkommensteuer. In der Praxis wirkt sie als Grunddatenbestand für drei weitere Prüffelder.</p>
+
+<p>Die <strong>Nächtigungsabgabe</strong>: Gemeinden gleichen die bei ihnen eingegangenen Beträge mit den Nächtigungszahlen aus der Plattformmeldung ab. Seit der landeseinheitlichen Umstellung der Kärntner Aufenthaltsabgabe im November 2026 läuft dieser Abgleich automatisiert.</p>
+
+<p>Die <strong>Umsatzsteuer</strong>: Übersteigt der Jahresumsatz 55.000 Euro netto, entfällt die Kleinunternehmerregelung. Die Finanz erfährt dies 2027 aus der Meldung, nicht aus einer Umsatzsteuervoranmeldung – was Nachforderungen auslöst, wenn die Grenze unbemerkt überschritten wurde.</p>
+
+<p>Die <strong>Gewerbeberechtigung</strong>: Bei anhaltend hohen Buchungszahlen pro Objekt und zusätzlichen Leistungen (Reinigung, Verpflegung, Verleih) prüft die Bezirkshauptmannschaft, ob die Vermietung noch in den Rahmen der Raumvermietung fällt oder bereits das Beherbergungsgewerbe berührt. Die Buchungsanzahl aus der Plattformmeldung ist dafür ein ausgangsfähiger Datenpunkt.</p>
+
+<h2 id="was-nicht-ausloest">Was die Meldung nicht auslöst</h2>
+
+<p>Es lohnt sich, den Umfang nüchtern zu sehen. Die Plattformmeldung ist keine automatische Steuernachveranlagung. Das Finanzamt erhält Daten, keine Bescheide. Was aus diesen Daten wird, hängt davon ab, ob die eigene Steuererklärung die gleichen Zahlen enthält.</p>
+
+<p>Wer seine Einkünfte vollständig und korrekt deklariert, ist durch die Meldung nicht schlechter gestellt. Wer die Deklaration bisher ausgelassen hat oder unterschiedliche Beträge auswies, hat jetzt einen Abgleich im System.</p>
+
+<p>Der Unterschied zu früher ist nicht die Prüfpraxis, sondern die Dateninfrastruktur. Für ein strukturiertes <a href="/airbnb-management">Airbnb Management in Kärnten</a> ist der Jahresabschluss ohnehin Teil des operativen Zyklus; selbst gemanagte Objekte brauchen den gleichen Vorlauf.</p>
+
+<h2 id="dezember-eingefroren">Was im Dezember eingefroren wird</h2>
+
+<p>Zwischen heute und Ende November liegt das realistische Fenster, in dem Accountdaten, Objektadressen und Steuernummern noch stressfrei korrigiert werden können. Die Plattformen beginnen in der zweiten Dezemberhälfte mit der Konsolidierung ihrer Datenbestände; danach läuft die Meldung automatisch.</p>
+
+<p>Für die meisten Wörthersee-Objekte sind die relevanten Felder in zwanzig bis dreißig Minuten geprüft. Das Zeitbudget ist asymmetrisch – was jetzt nicht abgeglichen ist, kostet im Frühjahr 2027 ein Vielfaches an Rückfragen beim Steuerberater.</p>
+
+<p>Eine objektbezogene <a href="/analyse">Potenzialanalyse</a> umfasst ohnehin die steuerlichen Grunddaten; wer sie zwischen Oktober und November einholt, hat den Datenbestand für die Jänner-Meldung mitgeprüft.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>Die DPMG-Meldung wird 2027 keine Welle, sondern Routine. Was den dritten Zyklus auszeichnet, ist nicht die Novität des Verfahrens, sondern die Datenqualität dahinter. Fehler, die 2024 noch im Grundrauschen untergingen, erscheinen 2027 als sichtbare Abweichung.</p>
+
+<p>Entscheidend bleibt der Zeitpunkt. Zwischen dem 31. Oktober und dem 15. Dezember 2026 liegt das Fenster, in dem sich der Datenbestand für die Jänner-Meldung noch mit vertretbarem Aufwand bereinigen lässt. Danach läuft, was im Account steht – unverändert in die Datenübermittlung.</p>
+    `,
+    tableOfContents: [
+      { id: 'was-das-dpmg-wirklich-macht', text: 'Was das DPMG wirklich tut', level: 2 },
+      { id: 'welche-daten', text: 'Was tatsächlich übermittelt wird', level: 2 },
+      { id: 'dritte-runde', text: 'Warum die dritte Runde strenger wirkt', level: 2 },
+      { id: 'was-noch-korrigierbar', text: 'Was im Oktober und November 2026 noch korrigierbar ist', level: 2 },
+      { id: 'zweiteffekt', text: 'Der stille Zweiteffekt – Ortstaxe, Umsatzsteuer, Gewerbe', level: 2 },
+      { id: 'was-nicht-ausloest', text: 'Was die Meldung nicht auslöst', level: 2 },
+      { id: 'dezember-eingefroren', text: 'Was im Dezember eingefroren wird', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-10-28',
+    category: 'Recht & Steuern',
+    tags: ['DPMG', 'DAC7', 'Plattformmeldung', 'Airbnb Steuer', 'Finanzamt', 'Kärnten', 'Wörthersee', 'Jahresabschluss 2026'],
+    featuredImage: 'https://images.unsplash.com/photo-1554224154-26032fced8bd?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Jahresabschluss-Unterlagen und Laptop auf einem Schreibtisch – Symbolbild für die automatische Plattformmeldung nach dem DPMG und die Jänner-Deadline 2027',
+    readingTime: 6,
+  },
+  {
     slug: 'kaernten-sommerbilanz-2026-aufenthaltsdauer-woerthersee',
     title: 'Kärnten-Sommer 2026: Rekord-Ankünfte, kürzere Aufenthalte am See',
     description: 'Kärntens August 2026 brachte Rang 1 bei Ankünften seit 1968, aber nur Rang 50 bei Nächtigungen. Was die kürzeren Aufenthalte für die Wörthersee-Planung 2027 bedeuten.',
