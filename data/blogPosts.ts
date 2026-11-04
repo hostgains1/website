@@ -3,6 +3,97 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'winter-energiepreise-ferienwohnung-woerthersee-2026-2027',
+    title: 'Winterbetrieb am Wörthersee: Was Energiepreise 2026/27 verändern',
+    description: 'Strom bei 25 Cent/kWh, höhere Netzentgelte, Strompreisbremse weg: Wie die Energiepreise 2026/27 die Kalkulation für Winterbuchungen am Wörthersee verschieben.',
+    excerpt: 'Winter am See bedeutet niedrige Nachfrage – aber Energiekosten bleiben. Was die aktuellen Zahlen für die Preiskalkulation einer Ferienwohnung in Kärnten konkret verändern.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">November am Wörthersee: Thermometer unter null, Kalender weitgehend leer, Nebenkosten unverändert. Für die Wintersaison 2026/27 ist das kein Nebensatz. Nach dem Auslaufen der Strompreisbremse und zwei Jahren Netzentgelt-Erhöhungen liegen Strom- und Gaskosten in Österreich auf einem Niveau, das die Kalkulation einer Kurzzeitvermietung messbar verschiebt – besonders dort, wo die Auslastung im Winter unter 40 Prozent fällt.</p>
+
+<p>Im Sommer fallen Energiekosten im Rauschen der Vollauslastung nicht weiter auf. Im Winter sind sie der entscheidende Faktor zwischen Ertragsmonat und Zuzahlmonat. Wer die Zahlen 2026 nicht sauber im Preis unterbringt, trägt sie aus dem Netto.</p>
+
+<h2 id="zahlen-2026">Was die Zahlen 2026 tatsächlich sagen</h2>
+
+<p>Der durchschnittliche Haushaltsstrompreis in Österreich liegt zum Stichtag 1. Jänner 2026 bei rund <strong>25,5 Cent pro Kilowattstunde</strong>. Gas liegt bei etwa <strong>10,3 Cent/kWh</strong>, Pellets bei rund <strong>40,6 Cent/kg</strong> – das entspricht bei einem Heizwert von 4,8 kWh/kg umgerechnet rund 8,5 Cent/kWh thermischer Energie.</p>
+
+<p>Entscheidend ist nicht nur das Preisniveau, sondern die Richtung. Die <strong>Strompreisbremse</strong> ist zum 31. Dezember 2024 ausgelaufen und wurde nicht verlängert. Die <strong>Netzentgelte Strom</strong> stiegen 2025 bundesweit um über zwanzig Prozent; für 2026 fällt der Anstieg mit etwa einem Prozent im Schnitt moderat aus, weil die Regulierungsbehörde Mittel aus dem Regulierungskonto zur Dämpfung einsetzt. Bei <strong>Gas</strong> steigen die Netzentgelte 2026 erneut deutlich. Eine erste Entspannung wird frühestens 2027 erwartet.</p>
+
+<p>Das heißt praktisch: Das Energiekostenniveau des Winters 2026/27 ist der strukturelle Standard für die nächsten zwei Saisonen. Es wird nicht durch staatliche Maßnahmen wegpoliert.</p>
+
+<h2 id="konkreter-verbrauch">Was eine Wörthersee-Wohnung im Winter verbraucht</h2>
+
+<p>Ein 70-Quadratmeter-Apartment nach Baustandard 2010 oder später, elektrisch beheizt über eine Luft-Wasser-Wärmepumpe, verbraucht in Kärnten zwischen Dezember und Februar bei durchgehender Belegung etwa <strong>20 bis 30 kWh Strom pro Tag</strong> – Heizung, Warmwasser und allgemeiner Haushaltsstrom zusammengerechnet.</p>
+
+<p>Bei 25,5 Cent/kWh entspricht das <em>Energiekosten von rund 5 bis 7,50 Euro pro Übernachtung</em>, nur auf die variable Komponente gerechnet. Rechnet man die anteiligen Grundgebühren und die Standby-Verbräuche in der Zwischenzeit mit ein, liegen die realistischen <strong>Energiekosten pro Winternacht bei acht bis zwölf Euro</strong>.</p>
+
+<p>Zum Vergleich: Dasselbe Objekt verursacht im Juli, mit einfacher Klimatisierung statt Heizung, etwa drei bis fünf Euro pro Nacht. Die Differenz von rund sieben Euro pro Übernachtung mal einem Winter mit 40 Buchungsnächten ergibt eine Position von knapp 300 Euro, die in der Jahresrechnung gewöhnlich nicht gesondert ausgewiesen ist.</p>
+
+<p>Objekte mit älterer Gastherme oder direktelektrischer Beheizung liegen deutlich höher – im Einzelfall bei 15 bis 20 Euro pro Nacht reiner Energiekosten.</p>
+
+<h2 id="drei-wege">Drei Wege, die Kosten unterzubringen</h2>
+
+<p>Für die Platzierung dieser Position im Preisgefüge haben sich drei Varianten etabliert.</p>
+
+<p><strong>Eingepreist im Übernachtungspreis.</strong> Der ausgewiesene Preis steigt im Winter um zwölf bis zwanzig Euro pro Nacht; Energie bleibt unsichtbar. Vorteil: eine Zahl, keine Rückfrage, keine separate Zeile im Listing. Nachteil: Der Preisvergleich in der Plattform-Suche wird schwieriger, weil Mitbewerber mit niedrigem Übernachtungspreis plus hoher Reinigungsgebühr vorne stehen.</p>
+
+<p><strong>Separate Heizkostenpauschale.</strong> Fünf bis zwölf Euro pro Nacht, ausgewiesen als Nebenkostenposition, aktiv zwischen 15. November und 15. März. Vorteil: Saisonal flexibel, sichtbar fair, erlaubt einen niedrigeren Basispreis in der Suche. Nachteil: Operativ ein zusätzlicher Posten in der Kalenderpflege; auf Booking.com muss die Pauschale unter „Zusätzliche Gebühren" korrekt gepflegt werden, sonst taucht sie erst im letzten Buchungsschritt auf.</p>
+
+<p><strong>Verbrauchsabhängig per Zwischenzähler.</strong> Nur in wenigen Objekten umgesetzt, meist in größeren Einheiten mit Langzeit-Wintergästen. Fair, aber operativ aufwendig und am Ende selten die paar Euro wert, die sich gegenüber einer Pauschale sparen lassen.</p>
+
+<p>Für den Standard-Wörthersee-Winter – 2 bis 5 Nächte, Preis zwischen 80 und 180 Euro Grundrate – funktioniert die Pauschale in der Praxis am verlässlichsten. Sie verändert den Suchpreis nicht, und sie landet in der Rechnung dort, wo Gäste sie erwarten: zwischen Reinigung und Aufenthaltsabgabe.</p>
+
+<h2 id="rezension">Wie Gäste darauf reagieren</h2>
+
+<p>Beide Plattformen bewerten „Preisgenauigkeit" als eigene Dimension. Airbnb liest sie direkt in die Platzierung ein; Booking.com indirekt über die „Value for money"-Bewertung. Eine Heizkostenpauschale, die vor der Buchung ausgewiesen ist, wirkt neutral. Dieselbe Pauschale, die erst im Check-in-Prozess oder im Begrüßungsschreiben auftaucht, zieht in zwei bis drei Prozent der Fälle eine sichtbar niedrigere Preiswertung nach sich.</p>
+
+<p>Der Unterschied liegt nicht in der Höhe der Kosten. Er liegt in der Reihenfolge der Information. Wer eine Winterpauschale aktiv vor der Buchung kommuniziert – in der Listing-Beschreibung und als Gebührenposition – bekommt sie nicht als Kritikpunkt zurück. Wer sie nachreicht, verliert die „accurate pricing"-Dimension unabhängig vom absoluten Preis.</p>
+
+<p>Bei strukturierter <a href="/airbnb-management">Airbnb Management in Kärnten</a> ist die Pauschale ohnehin Teil der Winter-Preiskonfiguration; selbst gemanagte Objekte brauchen die gleiche Vorbereitung mit etwa zwei Stunden Backend-Zeit pro Plattform.</p>
+
+<h2 id="mindestaufenthalt">Der stille Zweiteffekt auf den Mindestaufenthalt</h2>
+
+<p>Energiekosten haben eine fixe und eine variable Komponente. Die Wärmepumpe läuft nicht nur in der Belegungsnacht, sie läuft auch 24 Stunden davor zum Aufheizen und 12 Stunden danach zum Auskühlen. Ein ähnliches Muster gilt für Direktelektrik und für Warmwasser.</p>
+
+<p>Das verändert das Verhältnis zwischen Fixkosten und Buchungsdauer. Eine 2-Nächte-Buchung im Winter trägt die gleichen Anwärm-Kosten wie eine 7-Nächte-Buchung – aber nur 28 Prozent der Nächtigungen. Rechnet man die Reinigung dazu, liegt der Anteil fixer Kosten am Umsatz bei einer Winter-Kurzbuchung schnell bei 30 bis 40 Prozent.</p>
+
+<p>Der operative Hebel ist die <a href="/blog/mindestaufenthalt-woerthersee-hauptsaison-2026">Mindestaufenthaltslogik</a>, die in der Hauptsaison aus anderen Gründen gilt. Im Winter funktioniert sie anders: Drei Nächte statt zwei als Minimum verschieben den Fixkostenanteil pro Nacht um einen zweistelligen Prozentsatz – und senken gleichzeitig den Reinigungs- und Kommunikationsaufwand.</p>
+
+<h2 id="was-dezember-bringt">Was Dezember und Jänner realistisch bringen</h2>
+
+<p>Für die Monate mit dem höchsten Energiebedarf gilt das Preisniveau 2026 als stabil. Regulierte Netzentgelte und Marktpreise beim Strom bleiben bis März im Rahmen. Was sich mit dem Gang in den Winter verschiebt, ist der tatsächliche Verbrauch – er steigt gegenüber Oktober bei durchgehender Belegung um rund 30 bis 50 Prozent.</p>
+
+<p>Für die meisten Wörthersee-Objekte liegt die Nachfrage im Dezember außerhalb der Weihnachts- und Silvesterwochen bei einem Drittel der Sommerwerte. Eine Winterpauschale rechnet sich also nicht an den Belegten Nächten im November und Dezember, sondern an den ohnehin stattfindenden Buchungen – und sie macht den Unterschied zwischen einem leicht defizitären und einem leicht positiven Nebensaisonmonat.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>Energie ist 2026/27 keine Hintergrundposition mehr. Das Preisniveau ist stabil, aber dauerhaft höher als bis 2023, und staatliche Dämpfung gibt es nicht mehr. Für eine Kärntner Ferienwohnung mit 60 bis 80 Quadratmetern bedeutet das im Winter zusätzliche Energiekosten in der Größenordnung von acht bis zwölf Euro pro Nacht.</p>
+
+<p>Wer diese Position im Herbst in die Preis- und Listing-Struktur einarbeitet, trägt sie nicht aus dem Netto. Wer sie als Betriebskostenrauschen behandelt, trägt sie trotzdem – nur stiller, in der Jahresrechnung, mit dem Umweg über ein paar schlechter bewertete Preisfelder in den Reviews.</p>
+
+<p>Die eigentliche Frage ist nicht, ob eine Heizkostenpauschale eingezogen wird. Sondern wann sie im Gast-Prozess sichtbar wird.</p>
+    `,
+    tableOfContents: [
+      { id: 'zahlen-2026', text: 'Was die Zahlen 2026 tatsächlich sagen', level: 2 },
+      { id: 'konkreter-verbrauch', text: 'Was eine Wörthersee-Wohnung im Winter verbraucht', level: 2 },
+      { id: 'drei-wege', text: 'Drei Wege, die Kosten unterzubringen', level: 2 },
+      { id: 'rezension', text: 'Wie Gäste darauf reagieren', level: 2 },
+      { id: 'mindestaufenthalt', text: 'Der stille Zweiteffekt auf den Mindestaufenthalt', level: 2 },
+      { id: 'was-dezember-bringt', text: 'Was Dezember und Jänner realistisch bringen', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-11-04',
+    category: 'Betrieb & Organisation',
+    tags: ['Energiekosten', 'Heizkostenpauschale', 'Winter 2026', 'Nebenkosten', 'Betriebskosten', 'Wörthersee', 'Kalkulation', 'Nebensaison'],
+    featuredImage: 'https://images.unsplash.com/photo-1483921020237-2ff51e8e4b22?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Verschneite Hütte im Winterwald bei Dämmerung – Symbolbild für die Energie- und Heizkosten einer Ferienwohnung am Wörthersee in der Wintersaison 2026/27',
+    readingTime: 6,
+  },
+  {
     slug: 'dpmg-plattformmeldung-vermieter-kaernten-2026-2027',
     title: 'DPMG 2026: Was Kärntner Vermieter vor dem 31. Jänner 2027 prüfen sollten',
     description: 'Am 31. Jänner 2027 übermitteln Airbnb, Booking und Co. die Umsatzdaten 2026 ans Finanzamt. Was Vermieter in Kärnten jetzt noch korrigieren können.',
