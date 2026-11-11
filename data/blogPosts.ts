@@ -3,6 +3,106 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'gerlitzen-kanzelbahn-winter-2026-2027-woerthersee-vermieter',
+    title: 'Gerlitzen Kanzelbahn 2026/27: Was die neue Gondel am Wörthersee verändert',
+    description: 'Seit 26. Oktober 2026 fährt auf der Gerlitzen die neue 10er-Kabinenbahn Kanzelbahn II. Warum das für Ferienwohnungs-Vermieter am Wörthersee eine Positionierungsfrage ist.',
+    excerpt: 'Die neue Kabinenbahn auf der Gerlitzen ist mehr als ein Infrastrukturprojekt. Sie verschiebt die operative Distanz zwischen Wörthersee und Skiangebot auf ein Niveau, das der See seit Jahren nicht hatte – und macht in den Inseraten vieler Vermieter etwas sichtbar, das vorher keinen Platz hatte.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Am 26. Oktober 2026 ist auf der Gerlitzen die neue 10er-Kabinenbahn Kanzelbahn II in Betrieb gegangen. Sie ersetzt die alte 4er-Sesselbahn Gipfelbahn und bringt Gäste von der Kanzelhöhe in kurzer Zeit auf den Gerlitzen-Gipfel auf 1.911 Metern. Für Ferienwohnungs-Vermieter am Wörthersee wirkt dieses Ereignis zunächst wie eine Notiz auf einer Bergbahn-Pressemitteilung. In der operativen Realität der Wintersaison 2026/27 ist es etwas anderes: der erste Infrastruktur-Schritt seit über einem Jahrzehnt, der die skitouristische Positionierung des Wörthersees überhaupt wieder in den Bereich des Rechenbaren rückt.</p>
+
+<p>Die alte Sesselbahn hatte eine Förderkapazität und einen Komfort, die nur Tagesausflügler aus dem direkten Umkreis bedienten. Die neue Kabinenbahn hebt beide Werte auf ein Niveau, das ein Mixed-Use-Winter überhaupt erst buchbar macht.</p>
+
+<h2 id="neue-infrastruktur">Was Ende Oktober technisch gestartet ist</h2>
+
+<p>Die Kanzelbahn II ist eine klassische 10-Personen-Einseilumlaufbahn. Die Kabinen absolvieren den Aufstieg von der Mittelstation auf den Gipfel in deutlich unter zehn Minuten; die alte 4er-Sesselbahn ist zur Saisonvorbereitung demontiert worden. Die neue Bahn läuft seit dem 23. Oktober im Herbstbetrieb und – Schneelage vorausgesetzt – durchgehend bis Ostern 2027.</p>
+
+<p>Entscheidend ist nicht die technische Spezifikation, sondern der <strong>strukturelle Unterschied in der Förderkapazität</strong>. Eine 4er-Sesselbahn alten Baujahrs bewegt bei voller Taktung rund 1.800 Personen pro Stunde. Eine moderne 10er-Kabinenbahn liegt – je nach Fahrgeschwindigkeit und Umlaufzeit – deutlich darüber.</p>
+
+<p>Für das Skigebiet selbst bedeutet das vor allem eine Entlastung der Gipfel-Zufahrt an Hauptwochenenden. Für die Umfeldregion – darunter der Wörthersee – bedeutet es, dass ein Tagesausflug zum Gipfel erstmals wieder in einem Zeitfenster buchbar ist, das mit Ferienwohnungs-Rhythmen kompatibel ist.</p>
+
+<h2 id="woerthersee-skiposition">Warum der Wörthersee nie als Skiregion gelesen wurde</h2>
+
+<p>Das klassische Winterangebot am Wörthersee bewegt sich seit zwanzig Jahren in derselben Positionierung: Advent in Velden, Silvester-Feuerwerk, dazu Winterwandern und Thermennähe. Skitourismus taucht in dieser Erzählung bestenfalls als Fußnote auf.</p>
+
+<p>Der Grund ist nicht die Distanz zu den Skigebieten – die war immer unter einer Stunde Fahrzeit. Der Grund war die <em>Qualität der Erreichbarkeit</em>. Die Gerlitzen war mit alter Sesselbahn außerhalb von Schönwetter-Wochenenden kaum sinnvoll anfahrbar. Katschberg und Turrach lagen bei 60 bis 90 Minuten und damit außerhalb des Tagespendler-Radius vieler Gäste.</p>
+
+<p>In den Buchungsprofilen professionell geführter Objekte am Wörthersee ist die Konsequenz sichtbar: Der Anteil von Gästen, die im Winter Ski als Reisegrund angeben, bewegt sich im einstelligen Prozentbereich. Am Ossiacher See, der den direkten Zugang zur Gerlitzen über Annenheim hat, liegt derselbe Wert bei einem Vielfachen.</p>
+
+<h2 id="distanz">Die 25-Minuten-Grenze – und warum sie neu wirkt</h2>
+
+<p>Vom mittleren Wörthersee – Pörtschach, Krumpendorf, Reifnitz – zum Talstationsparkplatz der Kanzelbahn in Annenheim sind es <strong>25 bis 30 Minuten Fahrzeit</strong>, je nach Tageszeit. Das entspricht in der Reisezeitlogik eines mitteleuropäischen Skifahrers derselben Kategorie wie "Hotel vor Ort": akzeptabel, nicht ideal.</p>
+
+<p>Mit der alten Sesselbahn war diese Rechnung operativ unbuchbar. Taktverluste am Lift zogen den effektiven Pistentag auf unter vier Stunden. Mit der neuen Kabinenbahn verschiebt sich dieses Verhältnis.</p>
+
+<p>Wer um 9:00 am Wörthersee losfährt, steht um 9:35 am Lift, um 9:50 am Gipfel – und hat bis zur letzten Bergfahrt am späten Nachmittag ein <em>Nutzfenster von fünfeinhalb bis sechs Stunden</em>. Das entspricht einem Hotelgast in Treffen oder Villach fast exakt.</p>
+
+<p>Der Wörthersee ist damit zum ersten Mal seit Anfang der 2010er-Jahre in der operativen Reichweite der Gerlitzen angekommen. Nicht marketingrelevant – rechnerisch.</p>
+
+<h2 id="zielgruppe">Wer in dieser Konfiguration tatsächlich bucht</h2>
+
+<p>Die Zielgruppe, die jetzt neu erreichbar wird, ist nicht der klassische Skiurlaub-Gast mit Wochenbuchung und Ski-in/Ski-out-Anspruch. Dieses Segment bucht weiter direkt im Skigebiet, in Hotellerie am Katschberg oder Nassfeld.</p>
+
+<p>Was sich öffnet, ist ein schmaleres, präziseres Segment. <strong>Paare und Kleingruppen zwischen 35 und 60</strong>, die einen Urlaub mit <em>gemischter Verwendung</em> suchen: zwei bis drei Skitage, dazu Thermenbesuch, Adventmarkt in Villach oder Klagenfurt, ein Tag am See. Für diese Gruppe ist eine Ferienwohnung am Wörthersee die rechnerisch bessere Option als das Hotel direkt im Skigebiet – weil sie den Skitag nicht zum einzigen Programmpunkt macht.</p>
+
+<p>Die zweite Gruppe sind <strong>Familien mit Kindern zwischen 8 und 14</strong>, die kein Vollgas-Skifahrer-Programm suchen. Zwei Skitage in der Woche, Rest-Programm außerhalb. Diese Konfiguration entspricht dem operativen Profil vieler Wörthersee-Objekte – vier Schlafplätze, Küche, Nähe zu einer Therme, erreichbare Städte – deutlich besser als dem eines klassischen Ski-Resorts.</p>
+
+<h2 id="positionierung">Was im Inserat jetzt sichtbar wird</h2>
+
+<p>Für Objekte, die diese Nachfrage abholen wollen, verschiebt sich weniger der Preis als das Inserat.</p>
+
+<p>Die Standard-Winter-Bebilderung am Wörthersee zeigt Kaminecken, Adventmärkte, winterliches Seeufer. Was in vielen Beschreibungstexten fehlt, ist der <em>zweite Programmpunkt</em>. Ein Satz, der die Gerlitzen in 25 Minuten Fahrzeit nennt und auf die neue Bahn verweist, wirkt in der Suche eines Mixed-Use-Gastes ähnlich wie der Satz "zwei Minuten zum See" im Sommer.</p>
+
+<p>Der zweite Punkt ist die <strong>Ausstattung für Skimontage</strong>. Nicht der Skiraum – den haben Hotels, nicht Apartments. Sondern ein trockener Platz für zwei Paar Schuhe, eine Abtropfmatte, ein Garagenstellplatz mit Direktzugang. Diese Details rutschen im Sommer durch; in dieser Winter-Konfiguration werden sie zum Filter.</p>
+
+<p>Und drittens: der <strong>Mindestaufenthalt</strong>. Zwei Nächte sind für den Advent-Besucher richtig, für den Ski-Mixed-Gast zu kurz. Vier bis fünf Nächte treffen das realistische Profil – zwei Skitage, zwei Thermen- oder Stadttage, ein An- oder Abreisetag.</p>
+
+<h2 id="fehler">Der häufigste Positionierungsfehler</h2>
+
+<p>Nicht das Fehlen von Ski-Bezug ist das eigentliche Problem der kommenden Saison. Sondern die Übertreibung.</p>
+
+<p>Wer sein Wörthersee-Objekt ab November 2026 als "Skiunterkunft in Kärnten" positioniert, verliert die Gäste, für die die Konfiguration gebaut ist. Diese Gäste suchen nicht nach einer Ski-Adresse. Sie suchen nach einem Ort, der <em>auch</em> Ski ermöglicht – und viel mehr davon drumherum.</p>
+
+<p>Die richtige Platzierung in der Inseratssprache ist leise: ein Absatz, eine Zeit-Angabe, ein Satz zur neuen Gondel. Nicht das Titelbild, nicht die Headline. Für ein strukturiertes <a href="/airbnb-management">Airbnb Management in Kärnten</a> ist das Teil der jährlichen Winter-Rekonfiguration; selbst gemanagte Objekte brauchen etwa eine halbe Stunde Backend-Zeit, um den Hinweis korrekt zu platzieren.</p>
+
+<h2 id="zusammenspiel-advent">Das Zusammenspiel mit dem Adventfenster</h2>
+
+<p>Die neue Konfiguration steht nicht im Gegensatz zum bisherigen Nachfragestrang, sondern neben ihm. Der <a href="/blog/advent-woerthersee-november-dezember-nachfragefenster-2026">Adventblock zwischen Mitte November und Mitte Dezember</a> bleibt die stärkere der beiden Winter-Nachfragequellen am See.</p>
+
+<p>Das Ski-Mixed-Segment wird nicht zum Haupttreiber der Wintersaison, sondern zu einer dritten Buchungsschicht: zwischen Advent und Weihnachten für Paare, zwischen den Weihnachtsferien und Februar für Familien, im März als Verlängerung der Semesterferien. Jede dieser drei Schichten belegt ein eigenes Preis- und Aufenthaltsprofil.</p>
+
+<p>Entscheidend ist, dass diese Schichten nicht in dieselbe Spalte wie das Adventgeschäft laufen. Zwei verschiedene Zielgruppen, zwei verschiedene Mindestaufenthalte, zwei verschiedene Preisfenster – auf demselben Kalender, in derselben Saison.</p>
+
+<h2 id="bleibt">Was bleibt</h2>
+
+<p>Die Gerlitzen-Modernisierung ist kein Wendepunkt für den Wörthersee. Sie ist ein stilles Infrastruktur-Signal, das den Markt für ein kleines, aber ertragreiches Zusatzsegment öffnet.</p>
+
+<p>Die Zahl, die zählt, ist nicht die Förderkapazität der Bahn. Sie ist der <strong>effektive Skitag in der Reichweite einer Wörthersee-Ferienwohnung</strong> – und der ist zum ersten Mal seit Jahren wieder vollständig buchbar.</p>
+
+<p>Für Vermieter, die diese Verschiebung in den Wintermonaten 2026/27 in zwei Zeilen Beschreibung übernehmen, kommt sie als neue Gästegruppe. Für alle anderen bleibt sie eine Fußnote auf einer Pressemitteilung aus dem Oktober – die im nächsten Oktober in den Belegungs-Reports einer Jahresanalyse wieder auftaucht.</p>
+    \`,
+    tableOfContents: [
+      { id: 'neue-infrastruktur', text: 'Was Ende Oktober technisch gestartet ist', level: 2 },
+      { id: 'woerthersee-skiposition', text: 'Warum der Wörthersee nie als Skiregion gelesen wurde', level: 2 },
+      { id: 'distanz', text: 'Die 25-Minuten-Grenze – und warum sie neu wirkt', level: 2 },
+      { id: 'zielgruppe', text: 'Wer in dieser Konfiguration tatsächlich bucht', level: 2 },
+      { id: 'positionierung', text: 'Was im Inserat jetzt sichtbar wird', level: 2 },
+      { id: 'fehler', text: 'Der häufigste Positionierungsfehler', level: 2 },
+      { id: 'zusammenspiel-advent', text: 'Das Zusammenspiel mit dem Adventfenster', level: 2 },
+      { id: 'bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Julian Ograjensek',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Julian.webp',
+    },
+    publishedAt: '2026-11-11',
+    category: 'Saisonalität & Markt',
+    tags: ['Gerlitzen', 'Kanzelbahn', 'Winter 2026/27', 'Skitourismus', 'Wörthersee', 'Positionierung', 'Nebensaison', 'Kärnten'],
+    featuredImage: 'https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Moderne Kabinenbahn vor verschneiter Bergkulisse – Symbolbild für die neue Gerlitzen Kanzelbahn II und ihre Bedeutung für Ferienwohnungen am Wörthersee in der Saison 2026/27',
+    readingTime: 7,
+  },
+  {
     slug: 'winter-energiepreise-ferienwohnung-woerthersee-2026-2027',
     title: 'Winterbetrieb am Wörthersee: Was Energiepreise 2026/27 verändern',
     description: 'Strom bei 25 Cent/kWh, höhere Netzentgelte, Strompreisbremse weg: Wie die Energiepreise 2026/27 die Kalkulation für Winterbuchungen am Wörthersee verschieben.',
