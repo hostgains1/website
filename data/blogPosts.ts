@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
 <p>Die Zahl, die zählt, ist nicht die Förderkapazität der Bahn. Sie ist der <strong>effektive Skitag in der Reichweite einer Wörthersee-Ferienwohnung</strong> – und der ist zum ersten Mal seit Jahren wieder vollständig buchbar.</p>
 
 <p>Für Vermieter, die diese Verschiebung in den Wintermonaten 2026/27 in zwei Zeilen Beschreibung übernehmen, kommt sie als neue Gästegruppe. Für alle anderen bleibt sie eine Fußnote auf einer Pressemitteilung aus dem Oktober – die im nächsten Oktober in den Belegungs-Reports einer Jahresanalyse wieder auftaucht.</p>
-    \`,
+    `,
     tableOfContents: [
       { id: 'neue-infrastruktur', text: 'Was Ende Oktober technisch gestartet ist', level: 2 },
       { id: 'woerthersee-skiposition', text: 'Warum der Wörthersee nie als Skiregion gelesen wurde', level: 2 },
