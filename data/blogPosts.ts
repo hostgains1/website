@@ -3,6 +3,95 @@ import { BlogPost } from '../types/blog';
 // Blog posts data - Add new articles here
 export const blogPosts: BlogPost[] = [
   {
+    slug: 'airbnb-jetzt-buchen-spaeter-bezahlen-woerthersee-2026',
+    title: 'Airbnb: Jetzt buchen, später bezahlen – was das am Wörthersee ändert',
+    description: 'Airbnb hat „Reserve Now, Pay Later" weltweit ausgerollt. Für Vermieter am Wörthersee verschiebt das nicht den Umsatz, sondern die Belastbarkeit des Kalenders.',
+    excerpt: 'Seit Februar 2026 läuft „Reserve Now, Pay Later" weltweit. Was in der Gästekommunikation wie reine Zahlungsflexibilität klingt, ist für Vermieter eine neue Kalender-Realität – mit messbaren Folgen für Winter- und Vorsaisonbuchungen.',
+    content: `
+<p class="text-lg text-gray-600 mb-8 leading-relaxed">Airbnb hat im Februar 2026 die Zahlungsoption „Reserve Now, Pay Later" weltweit eingeführt, nachdem sie seit August 2025 im US-Markt getestet worden war. In der deutschsprachigen Gästeansicht erscheint sie als „Jetzt buchen, später bezahlen". Für Vermieter am Wörthersee verschiebt sich durch diese Option weder der Umsatz noch die Auszahlungsmechanik. Was sich verschiebt, ist die operative Kategorie, in der Buchungen im Kalender wirken – besonders in den Vorlauffenstern Winter und Frühling.</p>
+
+<p>Die Funktion ist eine klassische Buy-Now-Pay-Later-Implementierung im Reisekontext. Der Gast bestätigt eine Buchung, hinterlegt eine Karte, zahlt aber zum Zeitpunkt der Bestätigung nichts. Die Abbuchung erfolgt später – in vielen Fällen vor Ablauf der kostenlosen Stornofrist, in anderen 24 Stunden vor Check-in. Für Vermieter wirkt diese Verschiebung in zwei Richtungen: früher erreichbare Buchungen, aber auch früher auflösbare.</p>
+
+<h2 id="mechanik">Wie die Funktion technisch läuft</h2>
+
+<p>Voraussetzung ist eine kompatible Stornierungsrichtlinie. „Jetzt buchen, später bezahlen" ist nach aktueller Airbnb-Konfiguration nur bei Inseraten mit <strong>flexibler oder moderater Stornierung</strong> verfügbar. Objekte mit strikter Richtlinie oder mit Super-Strict-Varianten erscheinen in der Gästeansicht ohne diese Option.</p>
+
+<p>Der Gast sieht bei der Buchung zwei Felder: den Normalpreis, sofort fällig, und den Alternativpreis mit späterer Belastung. In beiden Fällen wird die Buchung im Kalender des Vermieters sofort gesperrt. Der Unterschied liegt in der Zahlungszustandsanzeige im Host-Backend: statt „bezahlt" steht dort bis zum Abbuchungszeitpunkt „ausstehend".</p>
+
+<p>Technisch handelt es sich nicht um eine Ratenzahlung – diese läuft bei Airbnb weiterhin über Klarna oder Affirm und ist ein eigener Fluss. „Jetzt buchen, später bezahlen" ist eine reine Terminverschiebung einer einmaligen Belastung.</p>
+
+<h2 id="kalender">Was das für den Kalender bedeutet</h2>
+
+<p>Für Vermieter wirkt die Option auf zwei Ebenen. <strong>Positiv</strong>: Buchungen, die unter normalen Bedingungen aus Liquiditätsgründen nicht zustande gekommen wären – weil die Karte zum Buchungszeitpunkt leer war, weil der Gast den Monatsabschluss abwartet, weil der Reisepartner später einzahlt – landen trotzdem im System. Das verlängert das Vorlauffenster nach vorn, besonders für hochpreisige Perioden wie Silvester und Osterferien, bei denen der Gesamtbetrag höher ist.</p>
+
+<p><strong>Negativ</strong>: Zwischen Buchungsbestätigung und tatsächlicher Belastung bleibt die Reservierung bei flexibler Stornierung kostenlos auflösbar. Das Kalenderfeld ist belegt, der Umsatz aber nicht abgesichert. Für Vermieter, die bisher aus der eingegangenen Zahlung Rückschlüsse auf die Verbindlichkeit einer Buchung gezogen haben, verschiebt sich die Lesart.</p>
+
+<p>Besonders deutlich wird das am Buchungsverhalten in den Wochen vor einer Nachfragespitze. Wer im November eine Silvesterwoche am See bucht und nichts bezahlt, bindet die Woche im Kalender eines Vermieters mit sechs Wochen Vorlauf. Fällt die Buchung in der dritten Novemberwoche – weil der Gast kurzfristig anders plant – ist das Zeitfenster für eine Nachbuchung schmaler als bei einer sofort bezahlten Reservierung mit Standard-Stornofrist.</p>
+
+<h2 id="stornierung">Die Rolle der Stornierungsrichtlinie</h2>
+
+<p>Die eigentliche Schaltstelle ist nicht die Zahlungsoption selbst, sondern die hinterlegte Stornierungsrichtlinie.</p>
+
+<p>Bei <strong>flexibler Stornierung</strong> kann der Gast bis 24 Stunden vor Check-in kostenlos stornieren. „Jetzt buchen, später bezahlen" verstärkt in dieser Konfiguration das Muster eines spätbuchenden Gastes, der die Reservierung bis zum letzten Moment offenhält. In Winter- und Nebensaison-Kalendern wirkt das kumulativ.</p>
+
+<p>Bei <strong>moderater Stornierung</strong> endet die kostenlose Frist fünf Tage vor Check-in. Das bedeutet in der Praxis: Die Belastung findet spätestens am sechsten Tag vor Check-in statt, und erst ab diesem Zeitpunkt ist die Buchung finanziell gesichert. Alles davor bleibt ein belegter, aber nicht verbindlicher Kalenderplatz.</p>
+
+<p>Für Objekte am Wörthersee, die bisher zwischen moderat und strikt geschwankt haben, verschiebt sich die Entscheidung. Wer bei strikter Richtlinie bleibt, verliert einen Teil der zusätzlichen Reichweite, die „Jetzt buchen, später bezahlen" dem Inserat bringt. Wer auf moderat wechselt, bekommt mehr Buchungen, aber mit höherer Fluktuation in der Vorlaufphase.</p>
+
+<h2 id="payout">Was im Payout erscheint und was nicht</h2>
+
+<p>Die Auszahlung an Vermieter bleibt an den Check-in gekoppelt. Airbnb veranlasst sie weiterhin 24 Stunden nach dem vorgesehenen Anreisezeitpunkt des Gastes. Daran ändert „Jetzt buchen, später bezahlen" nichts – weil die Zahlung des Gastes zu diesem Zeitpunkt entweder bereits eingegangen oder die Buchung längst aufgelöst ist.</p>
+
+<p>Was sich verschiebt, sind zwei weniger offensichtliche Positionen. Erstens: Die <em>Buchungsliste im Dashboard</em> zeigt Reservierungen mit „ausstehender" Zahlung. Die dort angezeigten Beträge sind noch keine Verbindlichkeiten des Gastes im Zahlungssinne, sondern reine Reservierungen. Zweitens: Wenn die Karte am Abbuchungstag nicht gedeckt ist, löst Airbnb die Buchung automatisch auf. Die Benachrichtigung erreicht Vermieter in der Regel innerhalb weniger Stunden – was ein neues Zeitfenster für Nachbuchungen schafft, aber eines mit sehr kurzer Vorlaufzeit.</p>
+
+<p>Für ein strukturiertes <a href="/airbnb-management">Airbnb Management in Kärnten</a> bedeutet das eine neue Dashboard-Routine: Ausstehende Zahlungen werden getrennt von bestätigten Buchungen geführt und in der Umsatzprognose mit einem Faktor diskontiert. Selbst gemanagte Objekte brauchen die gleiche Trennung – auch wenn sie manuell geführt wird.</p>
+
+<h2 id="winter">Warum die Option im Winter stärker wirkt als im Sommer</h2>
+
+<p>Die Hauptsaison am Wörthersee – Juli und August – läuft mit kurzer Lead-Time und hoher Konkurrenz um verfügbare Wochen. Buchungen kommen meist spät, oft innerhalb von vier bis sechs Wochen vor Anreise. „Jetzt buchen, später bezahlen" bringt in diesem Fenster eine geringe Zusatzreichweite, weil die Abbuchung ohnehin bald anliegt.</p>
+
+<p>In Nebensaison, Winter und Vorsaison sieht die Rechnung anders aus. Hier buchen Gäste mit größerem Vorlauf – Silvesterwoche im Oktober, Osterferien im Januar, lange Feiertags-Wochenenden im März. In diesen Lead-Times liegen zwei bis fünf Monate zwischen Buchungsbestätigung und Check-in. Die Zahlungsverschiebung ist in diesem Zeitraum ein echter Hebel für den Gast – und damit ein Faktor, der die Reichweite des Inserats messbar erhöht, aber die Belastbarkeit des Kalenders senkt.</p>
+
+<p>Praktisch heißt das: In den klassischen Vorlauffenstern des Wörthersee-Winters ist mit erhöhter Storno-Aktivität zu rechnen. Keine dramatische Verschiebung – aber eine, die in der Wochen- und Monatsplanung sichtbar wird.</p>
+
+<h2 id="anpassung">Operative Antworten, die sich bewährt haben</h2>
+
+<p>Drei Anpassungen haben in der Praxis gezeigt, dass sie funktionieren.</p>
+
+<p>Die erste ist eine <strong>saubere Trennung im Dashboard</strong>: Buchungen mit ausstehender Zahlung werden farblich oder per Marker von bestätigten Reservierungen unterschieden. Das verhindert Fehlentscheidungen bei der Kalender-Pflege – etwa das verfrühte Zusagen auf eine überlappende Anfrage, weil die erste Buchung noch nicht als vollständig gelesen wird.</p>
+
+<p>Die zweite ist eine <strong>engere Überprüfung der Stornierungsrichtlinie</strong>. Für Hochnachfrage-Fenster wie Silvester oder <a href="/blog/advent-woerthersee-november-dezember-nachfragefenster-2026">Adventwochen am Wörthersee</a> rechnet sich häufig eine strikte Richtlinie, weil der Umsatz pro Nacht hoch ist und die Nachbuchung bei Ausfall schwer zu organisieren. In Nebensaison-Fenstern bleibt moderat sinnvoll, um die zusätzliche Reichweite mitzunehmen.</p>
+
+<p>Die dritte ist die <strong>Preiskonfiguration für ausstehende Buchungen</strong>. Einige Vermieter arbeiten mit einem leichten Aufschlag für flexible Richtlinien, der die statistisch höhere Storno-Rate einpreist. Das ist keine neue Praxis – aber mit „Jetzt buchen, später bezahlen" wird die Grundlage dafür belastbarer, weil sich die Fluktuation sauberer von normalen Buchungsmustern trennen lässt.</p>
+
+<h2 id="was-bleibt">Was bleibt</h2>
+
+<p>„Jetzt buchen, später bezahlen" ist keine Umwälzung des Airbnb-Ökosystems. Es ist ein Werkzeug, das die Plattform einem bestimmten Gästetyp zur Verfügung stellt – dem Frühbucher mit Liquiditätsrücksicht. Für Vermieter am Wörthersee bedeutet das zusätzliche Reichweite, aber auch eine neue Kategorie im Kalender: Buchungen, die zwar belegen, aber noch nicht binden.</p>
+
+<p>Die eigentliche Arbeit liegt nicht in der Reaktion auf die Zahlungsoption, sondern in der Pflege der Stornierungsrichtlinie und der Dashboard-Hygiene. Beide waren schon vor Februar 2026 Grundhandwerk. Seit der globalen Einführung sind sie Teil jeder ernsthaften Kalender-Konfiguration.</p>
+    `,
+    tableOfContents: [
+      { id: 'mechanik', text: 'Wie die Funktion technisch läuft', level: 2 },
+      { id: 'kalender', text: 'Was das für den Kalender bedeutet', level: 2 },
+      { id: 'stornierung', text: 'Die Rolle der Stornierungsrichtlinie', level: 2 },
+      { id: 'payout', text: 'Was im Payout erscheint und was nicht', level: 2 },
+      { id: 'winter', text: 'Warum die Option im Winter stärker wirkt als im Sommer', level: 2 },
+      { id: 'anpassung', text: 'Operative Antworten, die sich bewährt haben', level: 2 },
+      { id: 'was-bleibt', text: 'Was bleibt', level: 2 },
+    ],
+    author: {
+      name: 'Mario Brenner',
+      role: 'Mitgründer & Geschäftsführer',
+      avatar: '/Mario.webp',
+    },
+    publishedAt: '2026-11-18',
+    category: 'Betrieb & Organisation',
+    tags: ['Airbnb', 'Reserve Now Pay Later', 'Jetzt buchen später bezahlen', 'Zahlungsoption', 'Stornierung', 'Kalender-Management', 'Wörthersee', 'Winter 2026'],
+    featuredImage: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80',
+    featuredImageAlt: 'Smartphone und Kreditkarte auf einem hellen Tisch – Symbolbild für Airbnbs Zahlungsoption „Jetzt buchen, später bezahlen" und ihre Auswirkung auf das Kalender-Management einer Ferienwohnung am Wörthersee',
+    readingTime: 7,
+  },
+  {
     slug: 'gerlitzen-kanzelbahn-winter-2026-2027-woerthersee-vermieter',
     title: 'Gerlitzen Kanzelbahn 2026/27: Was die neue Gondel am Wörthersee verändert',
     description: 'Seit 26. Oktober 2026 fährt auf der Gerlitzen die neue 10er-Kabinenbahn Kanzelbahn II. Warum das für Ferienwohnungs-Vermieter am Wörthersee eine Positionierungsfrage ist.',
